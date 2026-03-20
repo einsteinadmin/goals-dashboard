@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Goals Dashboard — Einstein Moving Company</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  /* ─── Dark Theme (default) ─── */
+  :root, [data-theme="dark"] {
+    --einstein-orange: #EF8B22;
+    --einstein-dark: #27343D;
+    --einstein-darker: #1e2a32;
+    --einstein-gray: #53575A;
+    --einstein-blue: #0979C3;
+    --einstein-light: #F6F6F6;
+    --success: #69995d;
+    --error: #CC0100;
+    --body-bg: #151a1e;
+    --card-bg: rgba(255,255,255,0.05);
+    --card-border: rgba(255,255,255,0.08);
+    --card-hover-border: rgba(255,255,255,0.15);
+    --header-bg-start: #27343D;
+    --header-bg-end: #1e2a32;
+    --header-glow: rgba(239,139,34,0.06);
+    --text-primary: #ffffff;
+    --text-secondary: rgba(255,255,255,0.7);
+    --text-muted: rgba(255,255,255,0.4);
+    --supergreen: #69995d;
+    --green: #5a8a4e;
+    --red: #CC0100;
+    --unknown: rgba(255,255,255,0.2);
+    --status-sg-bg: rgba(105,153,93,0.2);
+    --status-sg-text: #8fc47f;
+    --status-g-bg: rgba(90,138,78,0.2);
+    --status-g-text: #7ab36d;
+    --status-r-bg: rgba(204,1,0,0.2);
+    --status-r-text: #ff5555;
+    --status-u-bg: rgba(255,255,255,0.08);
+    --divider: rgba(255,255,255,0.06);
+    --leader-divider: rgba(255,255,255,0.04);
+    --track-bg: rgba(255,255,255,0.08);
+    --badge-text: #fff;
+    --toggle-bg: rgba(255,255,255,0.1);
+    --toggle-hover: rgba(255,255,255,0.18);
+    --criteria-sg: #8fc47f;
+    --criteria-g: #7ab36d;
+  }
+
+  /* ─── Light Theme ─── */
+  [data-theme="light"] {
+    --body-bg: #f2f3f5;
+    --card-bg: #ffffff;
+    --card-border: #e2e4e8;
+    --card-hover-border: #cdd0d5;
+    --header-bg-start: #27343D;
+    --header-bg-end: #1e2a32;
+    --header-glow: rgba(239,139,34,0.08);
+    --text-primary: #1a1a1a;
+    --text-secondary: #53575A;
+    --text-muted: #8a8f95;
+    --unknown: #c8ccd0;
+    --status-sg-bg: rgba(105,153,93,0.12);
+    --status-sg-text: #4a7a3e;
+    --status-g-bg: rgba(90,138,78,0.12);
+    --status-g-text: #4a7a3e;
+    --status-r-bg: rgba(204,1,0,0.1);
+    --status-r-text: #b30000;
+    --status-u-bg: #eceef0;
+    --divider: #e2e4e8;
+    --leader-divider: #f0f1f3;
+    --track-bg: #dfe1e5;
+    --badge-text: #fff;
+    --toggle-bg: rgba(0,0,0,0.06);
+    --toggle-hover: rgba(0,0,0,0.1);
+    --criteria-sg: #4a7a3e;
+    --criteria-g: #4a7a3e;
+  }
+
+  body {
+    background: var(--body-bg);
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-primary);
+    line-height: 1.5;
+    min-height: 100vh;
+  }
+
+  .dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px 24px 64px;
+  }
+
+  /* ─── Header ─── */
+  .dash-header {
+    background: linear-gradient(135deg, var(--header-bg-start) 0%, var(--header-bg-end) 100%);
+    color: #fff;
+    border-radius: 16px;
+    padding: 40px 48px 32px;
+    margin-bottom: 32px;
+    border-bottom: 4px solid var(--einstein-orange);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .dash-header::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -10%;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, var(--header-glow) 0%, transparent 70%);
+    border-radius: 50%;
+  }
+
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 12px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .header-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 42px;
+    letter-spacing: 2px;
+    line-height: 1.1;
+  }
+
+  .header-title span { color: var(--einstein-orange); }
+
+  .header-badge {
+    background: var(--einstein-orange);
+    color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 6px 14px;
+    border-radius: 6px;
+    white-space: nowrap;
+  }
+
+  .header-subtitle {
+    font-size: 15px;
+    color: rgba(255,255,255,0.5);
+    position: relative;
+    z-index: 1;
+  }
+
+  /* ─── Quarter Progress ─── */
+  .quarter-progress {
+    margin-top: 24px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .progress-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .progress-bar-track {
+    height: 8px;
+    background: var(--track-bg);
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .progress-bar-fill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.6s ease;
+  }
+
+  .progress-bar-fill.on-track { background: linear-gradient(90deg, var(--success), #7ab36d); }
+  .progress-bar-fill.behind { background: linear-gradient(90deg, var(--einstein-orange), #f5a623); }
+  .progress-bar-fill.critical { background: linear-gradient(90deg, var(--error), #e04040); }
+
+  .progress-stats {
+    display: flex;
+    gap: 24px;
+    margin-top: 12px;
+    font-size: 13px;
+    color: var(--text-secondary);
+  }
+
+  .progress-stats strong {
+    color: var(--text-primary);
+    font-weight: 700;
+  }
+
+  /* ─── Section Headers ─── */
+  .section {
+    margin-bottom: 40px;
+  }
+
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .section-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    letter-spacing: 1.5px;
+    color: var(--text-primary);
+  }
+
+  .section-count {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--einstein-orange);
+    background: rgba(239,139,34,0.15);
+    padding: 3px 10px;
+    border-radius: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  /* ─── Status Indicators ─── */
+  .status-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 6px;
+    flex-shrink: 0;
+  }
+
+  .status-dot.supergreen { background: var(--supergreen); box-shadow: 0 0 6px rgba(105,153,93,0.5); }
+  .status-dot.green { background: var(--green); }
+  .status-dot.red { background: var(--red); box-shadow: 0 0 6px rgba(204,1,0,0.4); }
+  .status-dot.unknown { background: var(--unknown); }
+
+  .status-label {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 3px 10px;
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    white-space: nowrap;
+  }
+
+  .status-label.supergreen { background: var(--status-sg-bg); color: var(--status-sg-text); }
+  .status-label.green { background: var(--status-g-bg); color: var(--status-g-text); }
+  .status-label.red { background: var(--status-r-bg); color: var(--status-r-text); }
+  .status-label.unknown { background: var(--status-u-bg); color: var(--text-muted); }
+
+  /* ─── Cameron's KPIs ─── */
+  .kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+
+  .kpi-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    padding: 28px 24px;
+    text-align: center;
+  }
+
+  .kpi-name {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: var(--text-muted);
+    margin-bottom: 16px;
+  }
+
+  .kpi-target {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+
+  .kpi-actual {
+    font-size: 14px;
+    color: var(--text-secondary);
+  }
+
+  .kpi-actual.has-value { font-weight: 500; }
+  .kpi-actual.no-data { font-style: italic; color: var(--text-muted); }
+
+  /* ─── Cameron's Rocks ─── */
+  .rocks-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .rock-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    padding: 24px;
+    transition: border-color 180ms ease;
+  }
+
+  .rock-card:hover {
+    border-color: var(--card-hover-border);
+  }
+
+  .rock-card.critical-number {
+    border-left: 3px solid var(--einstein-orange);
+  }
+
+  .rock-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 12px;
+    gap: 12px;
+  }
+
+  .rock-number {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    color: var(--einstein-orange);
+    margin-right: 8px;
+    flex-shrink: 0;
+    line-height: 1.2;
+  }
+
+  .rock-name {
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--text-primary);
+    line-height: 1.3;
+    flex: 1;
+  }
+
+  .rock-name-row {
+    display: flex;
+    align-items: flex-start;
+    flex: 1;
+  }
+
+  .critical-badge {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: var(--einstein-orange);
+    background: rgba(239,139,34,0.15);
+    padding: 2px 8px;
+    border-radius: 3px;
+    white-space: nowrap;
+    margin-left: 8px;
+    flex-shrink: 0;
+    line-height: 1.6;
+  }
+
+  .rock-assessment {
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin-bottom: 12px;
+  }
+
+  .rock-criteria {
+    display: none;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--divider);
+  }
+
+  .rock-card.expanded .rock-criteria {
+    display: block;
+  }
+
+  .criteria-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 6px;
+    font-size: 12px;
+    align-items: flex-start;
+  }
+
+  .criteria-label {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    flex-shrink: 0;
+    width: 85px;
+  }
+
+  .criteria-label.sg { color: var(--criteria-sg); }
+  .criteria-label.g { color: var(--criteria-g); }
+
+  .criteria-text {
+    color: var(--text-muted);
+    line-height: 1.4;
+  }
+
+  .rock-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .rock-updated {
+    font-size: 11px;
+    color: var(--text-muted);
+  }
+
+  .rock-expand {
+    font-size: 11px;
+    color: var(--einstein-blue);
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+  }
+
+  .rock-expand:hover { text-decoration: underline; }
+
+  /* ─── Company Critical Numbers ─── */
+  .cn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .cn-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    padding: 20px 24px;
+  }
+
+  .cn-dept {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: var(--einstein-orange);
+    margin-bottom: 16px;
+  }
+
+  .cn-item {
+    margin-bottom: 14px;
+  }
+
+  .cn-item:last-child { margin-bottom: 0; }
+
+  .cn-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+  }
+
+  .cn-item-name {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--text-primary);
+  }
+
+  .cn-item-details {
+    font-size: 12px;
+    color: var(--text-muted);
+    line-height: 1.4;
+  }
+
+  .cn-target {
+    color: var(--text-secondary);
+    font-size: 12px;
+  }
+
+  /* ─── Leadership Section ─── */
+  .leader-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .leader-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    padding: 24px;
+  }
+
+  .leader-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+
+  .leader-name {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--text-primary);
+  }
+
+  .leader-title {
+    font-size: 12px;
+    color: var(--text-muted);
+    font-weight: 400;
+  }
+
+  .leader-summary {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-secondary);
+  }
+
+  .leader-goals {
+    list-style: none;
+  }
+
+  .leader-goal {
+    padding: 8px 0;
+    border-bottom: 1px solid var(--leader-divider);
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 13px;
+  }
+
+  .leader-goal:last-child { border-bottom: none; }
+
+  .leader-goal-name {
+    color: var(--text-secondary);
+    flex: 1;
+  }
+
+  .leader-goal-name .critical-flag {
+    color: var(--einstein-orange);
+    font-weight: 700;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .leader-goal-assessment {
+    display: none;
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-top: 4px;
+    line-height: 1.4;
+  }
+
+  .leader-card.expanded .leader-goal-assessment {
+    display: block;
+  }
+
+  .leader-expand {
+    font-size: 11px;
+    color: var(--einstein-blue);
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-top: 8px;
+  }
+
+  .leader-expand:hover { text-decoration: underline; }
+
+  /* ─── Footer ─── */
+  .dash-footer {
+    text-align: center;
+    padding: 32px 0 16px;
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+
+  .dash-footer a {
+    color: var(--einstein-blue);
+    text-decoration: none;
+  }
+
+  /* ─── Theme Toggle ─── */
+  .theme-toggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--toggle-bg);
+    border: none;
+    border-radius: 20px;
+    padding: 6px 14px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-secondary);
+    transition: background 120ms ease;
+  }
+
+  .theme-toggle:hover {
+    background: var(--toggle-hover);
+  }
+
+  .theme-toggle-icon {
+    font-size: 14px;
+    line-height: 1;
+  }
+
+  /* Header always stays dark — force white text inside */
+  .dash-header .header-title { color: #fff; }
+  .dash-header .header-subtitle { color: rgba(255,255,255,0.5); }
+  .dash-header .progress-labels { color: rgba(255,255,255,0.4); }
+  .dash-header .progress-stats { color: rgba(255,255,255,0.7); }
+  .dash-header .progress-stats strong { color: #fff; }
+  .dash-header .theme-toggle { color: rgba(255,255,255,0.7); background: rgba(255,255,255,0.1); }
+  .dash-header .theme-toggle:hover { background: rgba(255,255,255,0.18); }
+
+  /* Light mode card shadow */
+  [data-theme="light"] .kpi-card,
+  [data-theme="light"] .rock-card,
+  [data-theme="light"] .cn-card,
+  [data-theme="light"] .leader-card {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  }
+
+  /* ─── Responsive ─── */
+  @media (max-width: 768px) {
+    .dashboard { padding: 16px; }
+    .dash-header { padding: 24px; }
+    .header-title { font-size: 32px; }
+    .kpi-grid { grid-template-columns: 1fr; }
+    .rocks-grid { grid-template-columns: 1fr; }
+    .cn-grid { grid-template-columns: 1fr; }
+    .leader-grid { grid-template-columns: 1fr; }
+  }
+
+  /* ─── Reduced Motion ─── */
+  @media (prefers-reduced-motion: reduce) {
+    .progress-bar-fill { transition: none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="dashboard" id="dashboard">
+  <!-- Rendered by JS from dashboard-data.json -->
+  <div style="text-align:center; padding:100px 0; color:var(--text-muted);">Loading dashboard data...</div>
+</div>
+
+<script src="dashboard-data.js"></script>
+<script>
+(function() {
+  function loadDashboard() {
+    if (typeof DASHBOARD_DATA === 'undefined') {
+      document.getElementById('dashboard').innerHTML =
+        '<div style="text-align:center;padding:100px 0;color:#CC0100;">' +
+        'Error: dashboard-data.js not found or DASHBOARD_DATA not defined.' +
+        '<br><br><span style="color:rgba(255,255,255,0.4);font-size:13px;">Make sure dashboard-data.js is in the same directory as this file.</span></div>';
+      return;
+    }
+    render(DASHBOARD_DATA);
+  }
+
+  function getQuarterProgress(start, end) {
+    const now = new Date();
+    const s = new Date(start);
+    const e = new Date(end);
+    const total = e - s;
+    const elapsed = now - s;
+    const pct = Math.min(100, Math.max(0, (elapsed / total) * 100));
+    const daysLeft = Math.max(0, Math.ceil((e - now) / (1000 * 60 * 60 * 24)));
+    const daysTotal = Math.ceil(total / (1000 * 60 * 60 * 24));
+    const daysElapsed = daysTotal - daysLeft;
+    return { pct: Math.round(pct), daysLeft, daysTotal, daysElapsed };
+  }
+
+  function statusDot(status) {
+    return '<span class="status-dot ' + status + '"></span>';
+  }
+
+  function statusLabel(status) {
+    const labels = {
+      supergreen: 'Super Green',
+      green: 'Green',
+      red: 'Red',
+      unknown: 'No Data'
+    };
+    return '<span class="status-label ' + status + '">' + statusDot(status) + (labels[status] || 'Unknown') + '</span>';
+  }
+
+  function formatDate(dateStr) {
+    if (!dateStr) return '';
+    const d = new Date(dateStr);
+    return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+  }
+
+  function formatRefreshTime(dateStr) {
+    const d = new Date(dateStr);
+    return d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' }) +
+      ' at ' + d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+  }
+
+  function countStatuses(items) {
+    const counts = { supergreen: 0, green: 0, red: 0, unknown: 0 };
+    items.forEach(function(i) { counts[i.status] = (counts[i.status] || 0) + 1; });
+    return counts;
+  }
+
+  function leaderSummary(goals) {
+    const c = countStatuses(goals);
+    const total = goals.length;
+    const onTrack = c.supergreen + c.green;
+    return onTrack + '/' + total + ' on track';
+  }
+
+  function render(data) {
+    const qp = getQuarterProgress(data.meta.quarterStart, data.meta.quarterEnd);
+    const progressClass = qp.pct > 80 ? 'critical' : qp.pct > 60 ? 'behind' : 'on-track';
+
+    // Rocks summary
+    const rockCounts = countStatuses(data.cameronRocks);
+    const rockSummary = [];
+    if (rockCounts.supergreen) rockSummary.push(rockCounts.supergreen + ' Super Green');
+    if (rockCounts.green) rockSummary.push(rockCounts.green + ' Green');
+    if (rockCounts.red) rockSummary.push(rockCounts.red + ' Red');
+    if (rockCounts.unknown) rockSummary.push(rockCounts.unknown + ' No Data');
+
+    let html = '';
+
+    // ── Header ──
+    html += '<div class="dash-header">';
+    html += '  <div class="header-top">';
+    html += '    <div>';
+    html += '      <div class="header-title">GOALS <span>DASHBOARD</span></div>';
+    html += '      <div class="header-subtitle">Einstein Moving Company &mdash; ' + data.meta.quarter + '</div>';
+    html += '    </div>';
+    html += '    <div style="display:flex;align-items:center;gap:10px;">';
+    html += '      <button class="theme-toggle" onclick="toggleTheme()" title="Switch theme">';
+    html += '        <span class="theme-toggle-icon" id="themeIcon">&#9790;</span>';
+    html += '        <span id="themeLabel">Light</span>';
+    html += '      </button>';
+    html += '      <span class="header-badge">' + data.meta.quarter + '</span>';
+    html += '    </div>';
+    html += '  </div>';
+    html += '  <div class="quarter-progress">';
+    html += '    <div class="progress-labels"><span>Quarter Start</span><span>Deadline: Apr 19</span></div>';
+    html += '    <div class="progress-bar-track"><div class="progress-bar-fill ' + progressClass + '" style="width:' + qp.pct + '%"></div></div>';
+    html += '    <div class="progress-stats">';
+    html += '      <span><strong>' + qp.daysLeft + '</strong> days remaining</span>';
+    html += '      <span><strong>' + qp.pct + '%</strong> of quarter elapsed</span>';
+    html += '      <span>Day <strong>' + qp.daysElapsed + '</strong> of ' + qp.daysTotal + '</span>';
+    html += '    </div>';
+    html += '  </div>';
+    html += '</div>';
+
+    // ── Cameron's KPIs ──
+    html += '<div class="section">';
+    html += '  <div class="section-header">';
+    html += '    <div class="section-title">CAMERON\'S KPIs</div>';
+    html += '  </div>';
+    html += '  <div class="kpi-grid">';
+    data.cameronKPIs.forEach(function(kpi) {
+      const color = kpi.status === 'supergreen' ? 'var(--supergreen)' :
+                    kpi.status === 'green' ? 'var(--green)' :
+                    kpi.status === 'red' ? 'var(--error)' : 'var(--text-muted)';
+      html += '<div class="kpi-card">';
+      html += '  <div class="kpi-name">' + kpi.name + '</div>';
+      html += '  <div class="kpi-target" style="color:' + color + '">' + kpi.target + '</div>';
+      html += '  <div class="kpi-actual ' + (kpi.actual ? 'has-value' : 'no-data') + '">' +
+              (kpi.actual ? 'Actual: ' + kpi.actual : kpi.note || 'Awaiting data') + '</div>';
+      html += '</div>';
+    });
+    html += '  </div>';
+    html += '</div>';
+
+    // ── Cameron's Rocks ──
+    html += '<div class="section">';
+    html += '  <div class="section-header">';
+    html += '    <div class="section-title">CAMERON\'S ROCKS</div>';
+    html += '    <span class="section-count">' + rockSummary.join(' &middot; ') + '</span>';
+    html += '  </div>';
+    html += '  <div class="rocks-grid">';
+    data.cameronRocks.forEach(function(rock) {
+      html += '<div class="rock-card' + (rock.critical ? ' critical-number' : '') + '" data-expandable>';
+      html += '  <div class="rock-header">';
+      html += '    <div class="rock-name-row">';
+      html += '      <span class="rock-number">' + rock.number + '</span>';
+      html += '      <span class="rock-name">' + rock.name + '</span>';
+      if (rock.critical) html += '      <span class="critical-badge">Critical #</span>';
+      html += '    </div>';
+      html += '    ' + statusLabel(rock.status);
+      html += '  </div>';
+      html += '  <div class="rock-assessment">' + rock.assessment + '</div>';
+      html += '  <div class="rock-criteria">';
+      html += '    <div class="criteria-row"><span class="criteria-label sg">Super Green</span><span class="criteria-text">' + rock.superGreen + '</span></div>';
+      html += '    <div class="criteria-row"><span class="criteria-label g">Green</span><span class="criteria-text">' + rock.green + '</span></div>';
+      html += '  </div>';
+      html += '  <div class="rock-footer">';
+      html += '    <span class="rock-updated">Updated ' + formatDate(rock.lastUpdated) + '</span>';
+      html += '    <button class="rock-expand" onclick="toggleExpand(this)">Show criteria</button>';
+      html += '  </div>';
+      html += '</div>';
+    });
+    html += '  </div>';
+    html += '</div>';
+
+    // ── Company Critical Numbers ──
+    html += '<div class="section">';
+    html += '  <div class="section-header">';
+    html += '    <div class="section-title">COMPANY CRITICAL NUMBERS</div>';
+    html += '    <span class="section-count">6 Departments</span>';
+    html += '  </div>';
+    html += '  <div class="cn-grid">';
+    data.companyCriticalNumbers.forEach(function(dept) {
+      html += '<div class="cn-card">';
+      html += '  <div class="cn-dept">' + dept.department + '</div>';
+      dept.numbers.forEach(function(cn) {
+        html += '<div class="cn-item">';
+        html += '  <div class="cn-item-header">';
+        html += '    <span class="cn-item-name">' + cn.name + '</span>';
+        html += '    ' + statusLabel(cn.status);
+        html += '  </div>';
+        html += '  <div class="cn-target">Target: ' + cn.target + '</div>';
+        html += '  <div class="cn-item-details">' + cn.note + '</div>';
+        html += '</div>';
+      });
+      html += '</div>';
+    });
+    html += '  </div>';
+    html += '</div>';
+
+    // ── Leadership Goals ──
+    html += '<div class="section">';
+    html += '  <div class="section-header">';
+    html += '    <div class="section-title">LEADERSHIP GOALS</div>';
+    html += '    <span class="section-count">' + data.leadership.length + ' Leaders</span>';
+    html += '  </div>';
+    html += '  <div class="leader-grid">';
+    data.leadership.forEach(function(leader) {
+      html += '<div class="leader-card" data-expandable>';
+      html += '  <div class="leader-header">';
+      html += '    <div>';
+      html += '      <div class="leader-name">' + leader.name + '</div>';
+      html += '      <div class="leader-title">' + leader.title + '</div>';
+      html += '    </div>';
+      html += '    <span class="leader-summary">' + leaderSummary(leader.goals) + '</span>';
+      html += '  </div>';
+      html += '  <ul class="leader-goals">';
+      leader.goals.forEach(function(goal) {
+        html += '<li class="leader-goal">';
+        html += '  ' + statusDot(goal.status);
+        html += '  <div class="leader-goal-name">';
+        html += goal.name;
+        if (goal.critical) html += ' <span class="critical-flag">Critical #</span>';
+        html += '    <div class="leader-goal-assessment">' + goal.assessment + '</div>';
+        html += '  </div>';
+        html += '</li>';
+      });
+      html += '  </ul>';
+      html += '  <button class="leader-expand" onclick="toggleExpand(this)">Show details</button>';
+      html += '</div>';
+    });
+    html += '  </div>';
+    html += '</div>';
+
+    // ── Footer ──
+    html += '<div class="dash-footer">';
+    html += '  Last refreshed: ' + formatRefreshTime(data.meta.lastRefreshed);
+    html += '  &mdash; ' + data.meta.refreshedBy;
+    html += '  <br>Run <code>/dashboard</code> to refresh &middot; Einstein Moving Company';
+    html += '</div>';
+
+    document.getElementById('dashboard').innerHTML = html;
+  }
+
+  // Theme toggle
+  function applyTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('dashboard-theme', theme);
+    var icon = document.getElementById('themeIcon');
+    var label = document.getElementById('themeLabel');
+    if (icon && label) {
+      if (theme === 'light') {
+        icon.innerHTML = '&#9728;';
+        label.textContent = 'Dark';
+      } else {
+        icon.innerHTML = '&#9790;';
+        label.textContent = 'Light';
+      }
+    }
+  }
+
+  window.toggleTheme = function() {
+    var current = document.documentElement.getAttribute('data-theme') || 'dark';
+    applyTheme(current === 'dark' ? 'light' : 'dark');
+  };
+
+  // Apply saved theme on load
+  var savedTheme = localStorage.getItem('dashboard-theme') || 'dark';
+  document.documentElement.setAttribute('data-theme', savedTheme);
+
+  // Update icon/label after render
+  var origRender = render;
+  render = function(data) {
+    origRender(data);
+    applyTheme(localStorage.getItem('dashboard-theme') || 'dark');
+  };
+
+  // Toggle expand/collapse
+  window.toggleExpand = function(btn) {
+    const card = btn.closest('[data-expandable]');
+    const isExpanded = card.classList.toggle('expanded');
+    if (card.querySelector('.rock-expand')) {
+      btn.textContent = isExpanded ? 'Hide criteria' : 'Show criteria';
+    } else {
+      btn.textContent = isExpanded ? 'Hide details' : 'Show details';
+    }
+  };
+
+  loadDashboard();
+})();
+</script>
+
+</body>
+</html>
