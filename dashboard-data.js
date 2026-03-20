@@ -224,10 +224,10 @@ const DASHBOARD_DATA = {
       "title": "CTXH Regional Mgr",
       "goals": [
         { "name": "Fleet Safety (BBE)", "critical": true, "status": "supergreen", "assessment": "Training complete, accountability strong. CTXH results extraordinary. Weekly dashboard updates consistent." },
-        { "name": "Scrum Accountability Pt 3", "critical": true, "status": "red", "assessment": "60% through quarter with no evidence of grading scorecard, certification, or branch scores being built. This is a Critical # — needs attention at Friday O3." },
+        { "name": "Scrum Accountability Pt 3", "critical": true, "status": "red", "assessment": "Pushed to Brian's back burner. He's tagging Cameron with what he's gathered so far. Dependency on Cameron + Albert to help organize and accelerate. Still Red — Critical # needs momentum." },
         { "name": "Branch Visits/Audits", "critical": false, "status": "green", "assessment": "Brian has been visiting branches for BBE accountability. Likely on track for Green (3 locations) but need specific count." },
-        { "name": "Legends Book Pt 2", "critical": false, "status": "red", "assessment": "No evidence of redesign progress, improved legends collection, or print prep in any meeting or board activity this quarter." },
-        { "name": "Swag/Training Day Calendar", "critical": false, "status": "unknown", "assessment": "Low priority goal. No visibility. Not worth chasing unless Brian raises it." }
+        { "name": "Legends Book Pt 2", "critical": false, "status": "green", "assessment": "Online Legends app created (basic version hosted). Now working on print mock-up design. Won't be printed for conference (April 2-4) but hoping to have online version + mock-up ready to show at conference, print shortly after." },
+        { "name": "Swag/Training Day Calendar", "critical": false, "status": "red", "assessment": "Swag side done — ordered Driver's Ed sweatshirts, lightweight hoodies, branded tees, patched hats, Nike hats. All delivered. But no progress on training day calendar. Red for the calendar half." }
       ]
     },
     {
@@ -238,7 +238,7 @@ const DASHBOARD_DATA = {
         { "name": "Mover Training Catalog/App", "critical": true, "status": "green", "assessment": "Digital handbook reviewed. Full blueprint posted with Gerald (2/25). Scaffold progressing. On track for Green." },
         { "name": "Regional Growth (Tampa/Garland OMs)", "critical": false, "status": "green", "assessment": "Shane is primary Tampa OM candidate. Dallas has ~30 applicants. New policy: external hires do 6 weeks as movers first. Progress happening." },
         { "name": "Branch Visits/Audits", "critical": false, "status": "green", "assessment": "Mike travels between DFWT branches regularly. Likely on track but need specific audit count." },
-        { "name": "Sell 3 Older Trucks", "critical": false, "status": "green", "assessment": "1 of 3 selling today. Other 2 not getting traction at current pricing — reducing price and reposting. Progress happening, Green trajectory." }
+        { "name": "Sell 3 Older Trucks", "critical": false, "status": "red", "assessment": "1 of 3 selling today. Other 2 not getting traction at current pricing — reducing price and reposting. Only 1 of 3 with less than half the quarter left. Trending Red." }
       ]
     },
     {
