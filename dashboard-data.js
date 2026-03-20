@@ -3,8 +3,8 @@ const DASHBOARD_DATA = {
     "quarter": "Q1 2026",
     "quarterStart": "2026-02-01",
     "quarterEnd": "2026-04-19",
-    "lastRefreshed": "2026-03-20T13:30:00-05:00",
-    "refreshedBy": "Albert (digest — Friday huddle + Tampa OM meeting)"
+    "lastRefreshed": "2026-03-20T17:30:00-05:00",
+    "refreshedBy": "Albert (digest — Mike/Anne Tampa sync + Matisen sync)"
   },
   "companyCriticalNumbers": [
     {
@@ -236,7 +236,7 @@ const DASHBOARD_DATA = {
       "goals": [
         { "name": "Fleet Safety", "critical": true, "status": "supergreen", "assessment": "DFWT branches crushing it (Dallas 96, Tampa 100). Training complete. Weekly accountability strong.", "superGreen": "80+ avg, <10% at-risk, weekly dashboard, monthly BM meetings, accountability during sync ups", "green": "All trained by March 31, 75+ avg, <20% below 70" },
         { "name": "Mover Training Catalog/App", "critical": true, "status": "green", "assessment": "Digital handbook reviewed. Full blueprint posted with Gerald (2/25). Scaffold progressing. On track for Green.", "superGreen": "Functional MVP completed and reviewed by leadership team", "green": "Scaffold fully built with mock ups and planned KPI integration" },
-        { "name": "Regional Growth (Tampa/Garland OMs)", "critical": false, "status": "green", "assessment": "Tampa OM: 4 finalists (Shane + 3 external). Digital interviews next week (Tue 3/25). Projects graded, blind evaluation complete. Hiring for 1 role (was 2). Dallas: ~30 applicants. New policy: external hires do 6 weeks as movers.", "superGreen": "OM hired and trained for Tampa AND Garland", "green": "OM hired and trained for Tampa" },
+        { "name": "Regional Growth (Tampa/Garland OMs)", "critical": false, "status": "green", "assessment": "Tampa OM: 4 finalists (Shane, Zachary, Stephen, Andra). Digital interviews Tue 3/25 (after 2:30 PM). Mike + Anne conducting, Cameron/Paul/Brandon listening in. Hiring 1 role (not 2 — can't afford 3 managers until Brandon's lease ends Feb 2027). Top projects: Zachary and Stephen. May fly to Tampa mid-week for in-person with final candidate(s). Dallas: ~30 applicants. External hires do 6 weeks as movers.", "superGreen": "OM hired and trained for Tampa AND Garland", "green": "OM hired and trained for Tampa" },
         { "name": "Branch Visits/Audits", "critical": false, "status": "green", "assessment": "Mike travels between DFWT branches regularly. Likely on track but need specific audit count.", "superGreen": "5 locations, branch scores avg 4.5+, audits + circle-up/huddle audits complete", "green": "3 locations, branch scores avg 4.0+, audits complete" },
         { "name": "Sell 3 Older Trucks", "critical": false, "status": "red", "assessment": "1 of 3 selling today. Other 2 not getting traction at current pricing — reducing price and reposting. Only 1 of 3 with less than half the quarter left. Trending Red.", "superGreen": "3 trucks sold", "green": "2 trucks sold" }
       ]
@@ -246,7 +246,7 @@ const DASHBOARD_DATA = {
       "title": "Dir. of IT",
       "goals": [
         { "name": "Variable Pricing", "critical": true, "status": "green", "assessment": "QA underway. Launch target 3/30. Kickpoint integration this week. On track.", "superGreen": "Launch within timeline budget, one sprint push allowed", "green": "Launch within timeline budget, two sprint pushes allowed" },
-        { "name": "Dashboard/KPIs in EMMA", "critical": true, "status": "green", "assessment": "Einstein Games migration from Glide: all code written by Matisen, passed to Fabian for final code review after some QA failures. Hoping for deployment today (3/20). On pace for Green or Super Green.", "superGreen": "Branch KPI Scorecards, Einstein Games migrated from Glide + download and chat feature", "green": "Branch KPI Scorecards, Einstein Games migrated from Glide + download" },
+        { "name": "Dashboard/KPIs in EMMA", "critical": true, "status": "green", "assessment": "Marketing dashboard MVP built (branch capacity, availability, crew capacity, rolling 7-day lookback). Branch KPIs, move maps, heat maps scaffolded — awaiting QA. Sharing marketing dashboard with Brittany (Kickpoint) next week. Einstein Games migration code complete. TUR/conversion/NPS gaps identified — need canonical data sources. Strong Super Green trajectory.", "superGreen": "Branch KPI Scorecards, Einstein Games migrated from Glide + download and chat feature", "green": "Branch KPI Scorecards, Einstein Games migrated from Glide + download" },
         { "name": "EMMA QoL Sprints", "critical": false, "status": "green", "assessment": "QoL projects identified. Held off while Variable Pricing and Dashboard KPIs ship first. Should be able to hit Green by EOQ once those deploy.", "superGreen": "2 QoL feature sprints including design improvements", "green": "1 QoL feature sprint" },
         { "name": "Mobile App", "critical": false, "status": "green", "assessment": "UX rework and E2E testing in progress per Playbook V2 review. Working through it.", "superGreen": "UX rework, E2E testing setup, mobile app in UAT", "green": "UX rework, working through E2E coverage" },
         { "name": "Mongo Schema Roadmap", "critical": false, "status": "green", "assessment": "Playbook V2 reviewed with Cameron. Next-gen architecture defined. Customer/Move schema key blocker. Claude issues paused process map work (3/20 huddle) — Matisen troubleshooting.", "superGreen": "Next-gen architecture defined with systems, system IDs, service calls + roadmap for next steps", "green": "Next-gen architecture defined with system IDs, still scoping service calls" }
