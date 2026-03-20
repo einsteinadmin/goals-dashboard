@@ -3,8 +3,8 @@ const DASHBOARD_DATA = {
     "quarter": "Q1 2026",
     "quarterStart": "2026-02-01",
     "quarterEnd": "2026-04-19",
-    "lastRefreshed": "2026-03-19T19:30:00-05:00",
-    "refreshedBy": "Albert (honest reassessment)"
+    "lastRefreshed": "2026-03-20T10:15:00-05:00",
+    "refreshedBy": "Albert (/gm + huddle updates)"
   },
   "companyCriticalNumbers": [
     {
@@ -271,6 +271,17 @@ const DASHBOARD_DATA = {
         { "name": "Sales Class Level 1", "critical": false, "status": "green", "assessment": "Training happening but Level 1 comp structure in flux after Ralph retention risk. Amanda + Nhel developing options. May not hit 40% conversion target." },
         { "name": "Manager Accountability", "critical": false, "status": "green", "assessment": "Nhel reporting to RMs. BM check-in process being established. On track for Green." },
         { "name": "Training Tet", "critical": false, "status": "green", "assessment": "Tet doing call quality audits and sales enablement work. Independence growing. On track for Green (can conduct training for new hires independently)." }
+      ]
+    },
+    {
+      "name": "Carly",
+      "title": "Claims Manager (CET)",
+      "goals": [
+        { "name": "Magic Moments Rollout", "critical": true, "status": "unknown", "assessment": "Process approval + rollout to team. Target: managers conduct 2+ Magic Moments for Green, 3+ for Super Green. No status surfaced — ask Amanda or Carly." },
+        { "name": "Damage Accountability & Coaching", "critical": true, "status": "unknown", "assessment": "Coaching standards for BMs on damages. Green = system in place + beta testing. No visibility on progress." },
+        { "name": "Hire & Train Maternity Replacement", "critical": false, "status": "unknown", "assessment": "Need replacement hired and trained before maternity leave. No status surfaced." },
+        { "name": "Claims Time to Close", "critical": false, "status": "unknown", "assessment": "Target: avg 6-8 business days (Green), 5 or less (Super Green). No baseline or current metric has surfaced." },
+        { "name": "Take Over Remote Operators", "critical": false, "status": "unknown", "assessment": "Transition RO responsibilities to Carly's team. No visibility on progress." }
       ]
     },
     {
