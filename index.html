@@ -663,9 +663,20 @@
   <div style="text-align:center; padding:100px 0; color:var(--text-muted);">Loading dashboard data...</div>
 </div>
 
-<script src="dashboard-data.js"></script>
 <script>
 (function() {
+  // Load data file with cache-busting timestamp so it always pulls fresh data
+  var script = document.createElement('script');
+  script.src = 'dashboard-data.js?v=' + Date.now();
+  script.onload = function() { loadDashboard(); };
+  script.onerror = function() {
+    document.getElementById('dashboard').innerHTML =
+      '<div style="text-align:center;padding:100px 0;color:#CC0100;">' +
+      'Error: dashboard-data.js not found.' +
+      '<br><br><span style="color:rgba(255,255,255,0.4);font-size:13px;">Make sure dashboard-data.js is in the same directory as this file.</span></div>';
+  };
+  document.head.appendChild(script);
+
   function loadDashboard() {
     if (typeof DASHBOARD_DATA === 'undefined') {
       document.getElementById('dashboard').innerHTML =
