@@ -879,7 +879,14 @@
         html += '  <div class="leader-goal-name">';
         html += goal.name;
         if (goal.critical) html += ' <span class="critical-flag">Critical #</span>';
-        html += '    <div class="leader-goal-assessment">' + goal.assessment + '</div>';
+        html += '    <div class="leader-goal-assessment">' + goal.assessment;
+        if (goal.superGreen || goal.green) {
+          html += '<div style="margin-top:8px;padding-top:8px;border-top:1px solid var(--divider);">';
+          if (goal.superGreen) html += '<div class="criteria-row"><span class="criteria-label sg">Super Green</span><span class="criteria-text">' + goal.superGreen + '</span></div>';
+          if (goal.green) html += '<div class="criteria-row"><span class="criteria-label g">Green</span><span class="criteria-text">' + goal.green + '</span></div>';
+          html += '</div>';
+        }
+        html += '</div>';
         html += '  </div>';
         html += '</li>';
       });

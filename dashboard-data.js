@@ -212,86 +212,86 @@ const DASHBOARD_DATA = {
       "name": "Amanda Ware",
       "title": "Dir. of CX",
       "goals": [
-        { "name": "Smart Move System Rollout", "critical": true, "status": "green", "assessment": "3/4 components on track. Var Pricing launching 3/30. Lead form 3/30. Scripts still need drafting for Q2 training." },
-        { "name": "Omni Channel Marketing", "critical": true, "status": "green", "assessment": "Billboards April 6. Mailers in Austin. Remaining city swaps and ROAS mapping are the open items." },
-        { "name": "Claims/Sales QT Management", "critical": false, "status": "green", "assessment": "CET team active. Nhel coaching, Tet auditing. No red flags raised in huddles. Assume Green unless QT scores say otherwise." },
-        { "name": "Concierge Research (MBA)", "critical": false, "status": "supergreen", "assessment": "Capstone reviewed and exceeded expectations. Scope expanded to acquisition option (Austin Home Transitions). Clear actionable next steps." },
-        { "name": "Lead Triage (Low Priority)", "critical": false, "status": "green", "assessment": "AI phone agent research doc completed and shared. Caltrain demo pending. Process mocked up." }
+        { "name": "Smart Move System Rollout", "critical": true, "status": "green", "assessment": "3/4 components on track. Var Pricing launching 3/30. Lead form 3/30. Scripts still need drafting for Q2 training.", "superGreen": "All 4 components: landing pages, pricing page, emails, scripts drafted for Q2", "green": "3 out of 4 completed" },
+        { "name": "Omni Channel Marketing", "critical": true, "status": "green", "assessment": "Billboards April 6. Mailers in Austin. Remaining city swaps and ROAS mapping are the open items.", "superGreen": "Mailers + billboards in 1+ market each, ROAS identified", "green": "1 of 2 in place, ROAS fuzzy OK if both in place" },
+        { "name": "Claims/Sales QT Management", "critical": false, "status": "green", "assessment": "CET team active. Nhel coaching, Tet auditing. No red flags raised in huddles. Assume Green unless QT scores say otherwise.", "superGreen": "Sales, Claims, ROs average Super Green", "green": "Sales, Claims, ROs average Green" },
+        { "name": "Concierge Research (MBA)", "critical": false, "status": "supergreen", "assessment": "Capstone reviewed and exceeded expectations. Scope expanded to acquisition option (Austin Home Transitions). Clear actionable next steps.", "superGreen": "A on project with clear actionable insights and next steps for Q2", "green": "B on project" },
+        { "name": "Lead Triage (Low Priority)", "critical": false, "status": "green", "assessment": "AI phone agent research doc completed and shared. Caltrain demo pending. Process mocked up.", "superGreen": "Process mocked up + training ready for rollout", "green": "Process outlined + training materials started" }
       ]
     },
     {
       "name": "Brian Herzig",
       "title": "CTXH Regional Mgr",
       "goals": [
-        { "name": "Fleet Safety (BBE)", "critical": true, "status": "supergreen", "assessment": "Training complete, accountability strong. CTXH results extraordinary. Weekly dashboard updates consistent." },
-        { "name": "Scrum Accountability Pt 3", "critical": true, "status": "red", "assessment": "Pushed to Brian's back burner. He's tagging Cameron with what he's gathered so far. Dependency on Cameron + Albert to help organize and accelerate. Still Red — Critical # needs momentum." },
-        { "name": "Branch Visits/Audits", "critical": false, "status": "green", "assessment": "Brian has been visiting branches for BBE accountability. Likely on track for Green (3 locations) but need specific count." },
-        { "name": "Legends Book Pt 2", "critical": false, "status": "green", "assessment": "Online Legends app created (basic version hosted). Now working on print mock-up design. Won't be printed for conference (April 2-4) but hoping to have online version + mock-up ready to show at conference, print shortly after." },
-        { "name": "Swag/Training Day Calendar", "critical": false, "status": "red", "assessment": "Swag side done — ordered Driver's Ed sweatshirts, lightweight hoodies, branded tees, patched hats, Nike hats. All delivered. But no progress on training day calendar. Red for the calendar half." }
+        { "name": "Fleet Safety (BBE)", "critical": true, "status": "supergreen", "assessment": "Training complete, accountability strong. CTXH results extraordinary. Weekly dashboard updates consistent.", "superGreen": "80+ avg, <10% at-risk, weekly dashboard, monthly BM meetings, accountability during sync ups + 1:1 if in red", "green": "All trained by March 31, 75+ avg, <20% below 70" },
+        { "name": "Scrum Accountability Pt 3", "critical": true, "status": "red", "assessment": "Pushed to Brian's back burner. He's tagging Cameron with what he's gathered so far. Dependency on Cameron + Albert to help organize and accelerate. Still Red — Critical # needs momentum.", "superGreen": "Sync-up grading scorecard developed, cert developed, grade for all locations + OB training module built", "green": "Grading scorecard for SCRUM/Monday org, basic certification built, all managers/branches have a score" },
+        { "name": "Branch Visits/Audits", "critical": false, "status": "green", "assessment": "Brian has been visiting branches for BBE accountability. Likely on track for Green (3 locations) but need specific count.", "superGreen": "5 locations, scores avg 4.5+, 1 audit/branch + follow-up, 3 circle-up audits, 3 huddle audits", "green": "3 locations, scores avg 4.0+, 1 audit/branch + follow-up, 3 circle-up audits, 3 huddle audits" },
+        { "name": "Legends Book Pt 2", "critical": false, "status": "green", "assessment": "Online Legends app created (basic version hosted). Now working on print mock-up design. Won't be printed for conference (April 2-4) but hoping to have online version + mock-up ready to show at conference, print shortly after.", "superGreen": "Redesign completed, approved, printed and in branch hands by EOQ (Legends, Events, Dream Team, HQ Pics)", "green": "Template drafted with pics/org ready for print. Improved legends collection process in place." },
+        { "name": "Swag/Training Day Calendar", "critical": false, "status": "red", "assessment": "Swag side done — ordered Driver's Ed sweatshirts, lightweight hoodies, branded tees, patched hats, Nike hats. All delivered. But no progress on training day calendar. Red for the calendar half.", "superGreen": "Dashboard app formatted, designed and live for rest of year company-wide, TD slides + stations linked", "green": "Dashboard app formatted, designed and live for next 6 months company-wide" }
       ]
     },
     {
       "name": "Mike Vandenbroader",
       "title": "DFWT Regional Mgr",
       "goals": [
-        { "name": "Fleet Safety", "critical": true, "status": "supergreen", "assessment": "DFWT branches crushing it (Dallas 96, Tampa 100). Training complete. Weekly accountability strong." },
-        { "name": "Mover Training Catalog/App", "critical": true, "status": "green", "assessment": "Digital handbook reviewed. Full blueprint posted with Gerald (2/25). Scaffold progressing. On track for Green." },
-        { "name": "Regional Growth (Tampa/Garland OMs)", "critical": false, "status": "green", "assessment": "Tampa OM: 4 finalists (Shane + 3 external). Digital interviews next week (Tue 3/25). Projects graded, blind evaluation complete. Hiring for 1 role (was 2). Dallas: ~30 applicants. New policy: external hires do 6 weeks as movers." },
-        { "name": "Branch Visits/Audits", "critical": false, "status": "green", "assessment": "Mike travels between DFWT branches regularly. Likely on track but need specific audit count." },
-        { "name": "Sell 3 Older Trucks", "critical": false, "status": "red", "assessment": "1 of 3 selling today. Other 2 not getting traction at current pricing — reducing price and reposting. Only 1 of 3 with less than half the quarter left. Trending Red." }
+        { "name": "Fleet Safety", "critical": true, "status": "supergreen", "assessment": "DFWT branches crushing it (Dallas 96, Tampa 100). Training complete. Weekly accountability strong.", "superGreen": "80+ avg, <10% at-risk, weekly dashboard, monthly BM meetings, accountability during sync ups", "green": "All trained by March 31, 75+ avg, <20% below 70" },
+        { "name": "Mover Training Catalog/App", "critical": true, "status": "green", "assessment": "Digital handbook reviewed. Full blueprint posted with Gerald (2/25). Scaffold progressing. On track for Green.", "superGreen": "Functional MVP completed and reviewed by leadership team", "green": "Scaffold fully built with mock ups and planned KPI integration" },
+        { "name": "Regional Growth (Tampa/Garland OMs)", "critical": false, "status": "green", "assessment": "Tampa OM: 4 finalists (Shane + 3 external). Digital interviews next week (Tue 3/25). Projects graded, blind evaluation complete. Hiring for 1 role (was 2). Dallas: ~30 applicants. New policy: external hires do 6 weeks as movers.", "superGreen": "OM hired and trained for Tampa AND Garland", "green": "OM hired and trained for Tampa" },
+        { "name": "Branch Visits/Audits", "critical": false, "status": "green", "assessment": "Mike travels between DFWT branches regularly. Likely on track but need specific audit count.", "superGreen": "5 locations, branch scores avg 4.5+, audits + circle-up/huddle audits complete", "green": "3 locations, branch scores avg 4.0+, audits complete" },
+        { "name": "Sell 3 Older Trucks", "critical": false, "status": "red", "assessment": "1 of 3 selling today. Other 2 not getting traction at current pricing — reducing price and reposting. Only 1 of 3 with less than half the quarter left. Trending Red.", "superGreen": "3 trucks sold", "green": "2 trucks sold" }
       ]
     },
     {
       "name": "Matisen Harper",
       "title": "Dir. of IT",
       "goals": [
-        { "name": "Variable Pricing", "critical": true, "status": "green", "assessment": "QA underway. Launch target 3/30. Kickpoint integration this week. On track." },
-        { "name": "Dashboard/KPIs in EMMA", "critical": true, "status": "green", "assessment": "Einstein Games migration from Glide: all code written by Matisen, passed to Fabian for final code review after some QA failures. Hoping for deployment today (3/20). On pace for Green or Super Green." },
-        { "name": "EMMA QoL Sprints", "critical": false, "status": "green", "assessment": "QoL projects identified. Held off while Variable Pricing and Dashboard KPIs ship first. Should be able to hit Green by EOQ once those deploy." },
-        { "name": "Mobile App", "critical": false, "status": "green", "assessment": "UX rework and E2E testing in progress per Playbook V2 review. Working through it." },
-        { "name": "Mongo Schema Roadmap", "critical": false, "status": "green", "assessment": "Playbook V2 reviewed with Cameron. Next-gen architecture defined. Customer/Move schema key blocker. Claude issues paused process map work (3/20 huddle) — Matisen troubleshooting." }
+        { "name": "Variable Pricing", "critical": true, "status": "green", "assessment": "QA underway. Launch target 3/30. Kickpoint integration this week. On track.", "superGreen": "Launch within timeline budget, one sprint push allowed", "green": "Launch within timeline budget, two sprint pushes allowed" },
+        { "name": "Dashboard/KPIs in EMMA", "critical": true, "status": "green", "assessment": "Einstein Games migration from Glide: all code written by Matisen, passed to Fabian for final code review after some QA failures. Hoping for deployment today (3/20). On pace for Green or Super Green.", "superGreen": "Branch KPI Scorecards, Einstein Games migrated from Glide + download and chat feature", "green": "Branch KPI Scorecards, Einstein Games migrated from Glide + download" },
+        { "name": "EMMA QoL Sprints", "critical": false, "status": "green", "assessment": "QoL projects identified. Held off while Variable Pricing and Dashboard KPIs ship first. Should be able to hit Green by EOQ once those deploy.", "superGreen": "2 QoL feature sprints including design improvements", "green": "1 QoL feature sprint" },
+        { "name": "Mobile App", "critical": false, "status": "green", "assessment": "UX rework and E2E testing in progress per Playbook V2 review. Working through it.", "superGreen": "UX rework, E2E testing setup, mobile app in UAT", "green": "UX rework, working through E2E coverage" },
+        { "name": "Mongo Schema Roadmap", "critical": false, "status": "green", "assessment": "Playbook V2 reviewed with Cameron. Next-gen architecture defined. Customer/Move schema key blocker. Claude issues paused process map work (3/20 huddle) — Matisen troubleshooting.", "superGreen": "Next-gen architecture defined with systems, system IDs, service calls + roadmap for next steps", "green": "Next-gen architecture defined with system IDs, still scoping service calls" }
       ]
     },
     {
       "name": "Anne Bosse",
       "title": "Dir. of Employee Experience",
       "goals": [
-        { "name": "ClearCo Audits / Hiring Funnel", "critical": true, "status": "green", "assessment": "ClearCo recertification process underway. Hiring funnel visualization (cost per hire, time to fill) is the stretch for Super Green. Ask at Friday O3." },
-        { "name": "Hiring Targets (105% budget)", "critical": true, "status": "green", "assessment": "No periods below budget flagged in recent syncs. Anne actively managing hiring pipeline. Indeed V2 draft ready." },
-        { "name": "Onboarding Video Development", "critical": false, "status": "red", "assessment": "5 video priorities (EMC history, values, comp/benefits, perf mgmt, QG metrics). Austin L is producing content but no completed onboarding videos confirmed. Needs 3/5 for Green." },
-        { "name": "Culture Add Hiring Beta", "critical": false, "status": "red", "assessment": "Beta requires new process in 3 branches + at least 1 new hire. No evidence of beta launch. 4 weeks left." },
-        { "name": "Annual Comp Review", "critical": false, "status": "green", "assessment": "Tied to Paul's comp review. Promotion metrics discussion happening. Level 1 sales comp under active review (Ralph situation accelerated this)." }
+        { "name": "ClearCo Audits / Hiring Funnel", "critical": true, "status": "green", "assessment": "ClearCo recertification process underway. Hiring funnel visualization (cost per hire, time to fill) is the stretch for Super Green. Ask at Friday O3.", "superGreen": "Green + hiring funnel visualized (cost per hire, time to fill, stage %) + all hired candidates have completed scorecards", "green": "100% of managers recertified on ClearCo recruiting basics" },
+        { "name": "Hiring Targets (105% budget)", "critical": true, "status": "green", "assessment": "No periods below budget flagged in recent syncs. Anne actively managing hiring pipeline. Indeed V2 draft ready.", "superGreen": "≤1 period below 105% hiring budget", "green": "≤1 period below 100% hiring budget" },
+        { "name": "Onboarding Video Development", "critical": false, "status": "red", "assessment": "5 video priorities (EMC history, values, comp/benefits, perf mgmt, QG metrics). Austin L is producing content but no completed onboarding videos confirmed. Needs 3/5 for Green.", "superGreen": "4 out of 5 video priorities completed", "green": "3 out of 5 video priorities completed" },
+        { "name": "Culture Add Hiring Beta", "critical": false, "status": "red", "assessment": "Beta requires new process in 3 branches + at least 1 new hire. No evidence of beta launch. 4 weeks left.", "superGreen": "Green + 1 new hire per branch by EOQ", "green": "100% managers recertified + new process + at least 1 new hire with new process" },
+        { "name": "Annual Comp Review", "critical": false, "status": "green", "assessment": "Tied to Paul's comp review. Promotion metrics discussion happening. Level 1 sales comp under active review (Ralph situation accelerated this).", "superGreen": "Green + promo process video recorded and part of onboarding", "green": "Promotion metrics identified and communicated to movers" }
       ]
     },
     {
       "name": "Nhel",
       "title": "Sales Team Lead",
       "goals": [
-        { "name": "Sales Coaching - Conversions", "critical": false, "status": "green", "assessment": "Call quality audits underway. Nhel actively coaching. Reviewing individual bookings. Need company-wide accuracy number to confirm." },
-        { "name": "Sales Class Level 1", "critical": false, "status": "green", "assessment": "Training happening but Level 1 comp structure in flux after Ralph retention risk. Amanda + Nhel developing options. May not hit 40% conversion target." },
-        { "name": "Manager Accountability", "critical": false, "status": "green", "assessment": "Nhel reporting to RMs. BM check-in process being established. On track for Green." },
-        { "name": "Training Tet", "critical": false, "status": "green", "assessment": "Tet doing call quality audits and sales enablement work. Independence growing. On track for Green (can conduct training for new hires independently)." }
+        { "name": "Sales Coaching - Conversions", "critical": true, "status": "green", "assessment": "Call quality audits underway. Nhel actively coaching. Reviewing individual bookings. Need company-wide accuracy number to confirm.", "superGreen": "Above 62.5% within 20% variance companywide", "green": "60% within 20% variance companywide" },
+        { "name": "Sales Class Level 1", "critical": true, "status": "green", "assessment": "Training happening but Level 1 comp structure in flux after Ralph retention risk. Amanda + Nhel developing options. May not hit 40% conversion target.", "superGreen": "New Level 1 CERs/Managers trained meeting sales target with 40% conversion $", "green": "New Level 1 CERs/Managers with 40% conversion $" },
+        { "name": "Manager Accountability", "critical": false, "status": "green", "assessment": "Nhel reporting to RMs. BM check-in process being established. On track for Green.", "superGreen": "Reporting progress to RMs weekly + established regular BM check-ins", "green": "Reporting progress to RMs weekly + plan for BM check-in process" },
+        { "name": "Training Tet", "critical": false, "status": "green", "assessment": "Tet doing call quality audits and sales enablement work. Independence growing. On track for Green (can conduct training for new hires independently).", "superGreen": "Tet can independently conduct training for new hires AND FMs + 1 call quality audit for everyone", "green": "Tet can independently conduct training for new hires AND FMs + audits for half the team" }
       ]
     },
     {
       "name": "Carly",
       "title": "Claims Manager (CET)",
       "goals": [
-        { "name": "Magic Moments Rollout", "critical": true, "status": "supergreen", "assessment": "Crushing it. Process approved, rolled out to team. Members actively surfacing Magic Moments and posting to Slack. On track for target count per manager. Super Green." },
-        { "name": "Damage Accountability & Coaching", "critical": true, "status": "green", "assessment": "Team-based damage accountability per job is live (3/20 huddle). Individual accountability blocked by Monday.com limitations — Phase 3 TBD. Team approach encourages ownership. Current system is an improvement over company-wide scoring." },
-        { "name": "Hire & Train Maternity Replacement", "critical": false, "status": "green", "assessment": "Found a couple great options for additional CET hire. Tracking Green — need to get hired and trained before Carly's maternity leave." },
-        { "name": "Claims Time to Close", "critical": false, "status": "supergreen", "assessment": "Tracking Super Green on updated metrics. Carly posts weekly metrics to Monday notifications — use those to stay current." },
-        { "name": "Take Over Remote Operators", "critical": false, "status": "unknown", "assessment": "No updates yet. Ask Amanda about RO transition in next sync." }
+        { "name": "Magic Moments Rollout", "critical": true, "status": "supergreen", "assessment": "Crushing it. Process approved, rolled out to team. Members actively surfacing Magic Moments and posting to Slack. On track for target count per manager. Super Green.", "superGreen": "1 MM for manager + 5 standard MMs set", "green": "85% MM for managers + 3 standard MMs set" },
+        { "name": "Damage Accountability & Coaching", "critical": true, "status": "green", "assessment": "Team-based damage accountability per job is live (3/20 huddle). Individual accountability blocked by Monday.com limitations — Phase 3 TBD. Team approach encourages ownership. Current system is an improvement over company-wide scoring.", "superGreen": "System in place and rolled out to all branches", "green": "System in place and beta testing" },
+        { "name": "Hire & Train Maternity Replacement", "critical": false, "status": "green", "assessment": "Found a couple great options for additional CET hire. Tracking Green — need to get hired and trained before Carly's maternity leave.", "superGreen": "New hire fully trained and ready", "green": "New hire, semi trained" },
+        { "name": "Claims Time to Close", "critical": false, "status": "supergreen", "assessment": "Tracking Super Green on updated metrics. Carly posts weekly metrics to Monday notifications — use those to stay current.", "superGreen": "Average of 5 business days or less", "green": "Average of 6-8 business days" },
+        { "name": "Take Over Remote Operators", "critical": false, "status": "unknown", "assessment": "No updates yet. Ask Amanda about RO transition in next sync.", "superGreen": "ROs fully taken over", "green": "RO responsibilities semi taken over" }
       ]
     },
     {
       "name": "Paul Morin",
       "title": "CFO/COO (Co-Owner)",
       "goals": [
-        { "name": "N. Austin Office / Leander Lease", "critical": true, "status": "green", "assessment": "Leander lease completed and set. N. Austin office construction moving along — slated for April or early May. Waiting on city of Austin comments (hopefully resolved this week or early next). Green trajectory." },
-        { "name": "Branch Visits", "critical": false, "status": "red", "assessment": "Only 1 visit done (Philippines). Needs 2 for Green. Less than half the quarter left. Red." },
-        { "name": "Acquisition Case Study vs. Houston Branch", "critical": false, "status": "red", "assessment": "No case studies started. Red." },
-        { "name": "Annual Manager Comp Review", "critical": true, "status": "red", "assessment": "Not started yet. Needs to get underway — manager comp review needs to be done by EOQ. Unlikely to get to tying mover promotions to performance this quarter. Red." },
+        { "name": "N. Austin Office / Leander Lease", "critical": true, "status": "green", "assessment": "Leander lease completed and set. N. Austin office construction moving along — slated for April or early May. Waiting on city of Austin comments (hopefully resolved this week or early next). Green trajectory.", "superGreen": "Construction a week or less behind schedule", "green": "Construction less than two weeks behind schedule. New lease signed for Leander." },
+        { "name": "Branch Visits", "critical": false, "status": "red", "assessment": "Only 1 visit done (Philippines). Needs 2 for Green. Less than half the quarter left. Red.", "superGreen": "Visit 3, listen and learn lunch at all 3 w/ managers, 3 onsite eval ride alongs", "green": "Visit 2, do 2 ride alongs" },
+        { "name": "Acquisition Case Study vs. Houston Branch", "critical": false, "status": "red", "assessment": "No case studies started. Red.", "superGreen": "Complete both by end of March", "green": "Complete both" },
+        { "name": "Annual Manager Comp Review", "critical": true, "status": "red", "assessment": "Not started yet. Needs to get underway — manager comp review needs to be done by EOQ. Unlikely to get to tying mover promotions to performance this quarter. Red.", "superGreen": "Messaging complete and out to team to start in action for next quarter", "green": "Hiring/pay docs updated, individual scorecards created, performance targets set" },
         { "name": "Evaluate CFO Needs/Budget", "critical": false, "status": "green", "assessment": "Multiple conversations in flight. Several meetings scheduled next week. Targeting fractional CFO identified by end of next week or early the following week. Green." }
       ]
     }
