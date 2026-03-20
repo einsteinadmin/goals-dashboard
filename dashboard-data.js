@@ -277,22 +277,22 @@ const DASHBOARD_DATA = {
       "name": "Carly",
       "title": "Claims Manager (CET)",
       "goals": [
-        { "name": "Magic Moments Rollout", "critical": true, "status": "unknown", "assessment": "Process approval + rollout to team. Target: managers conduct 2+ Magic Moments for Green, 3+ for Super Green. No status surfaced — ask Amanda or Carly." },
-        { "name": "Damage Accountability & Coaching", "critical": true, "status": "unknown", "assessment": "Coaching standards for BMs on damages. Green = system in place + beta testing. No visibility on progress." },
-        { "name": "Hire & Train Maternity Replacement", "critical": false, "status": "unknown", "assessment": "Need replacement hired and trained before maternity leave. No status surfaced." },
-        { "name": "Claims Time to Close", "critical": false, "status": "unknown", "assessment": "Target: avg 6-8 business days (Green), 5 or less (Super Green). No baseline or current metric has surfaced." },
-        { "name": "Take Over Remote Operators", "critical": false, "status": "unknown", "assessment": "Transition RO responsibilities to Carly's team. No visibility on progress." }
+        { "name": "Magic Moments Rollout", "critical": true, "status": "supergreen", "assessment": "Crushing it. Process approved, rolled out to team. Members actively surfacing Magic Moments and posting to Slack. On track for target count per manager. Super Green." },
+        { "name": "Damage Accountability & Coaching", "critical": true, "status": "unknown", "assessment": "Coaching standards for BMs on damages. Green = system in place + beta testing. No visibility on progress — check with Amanda." },
+        { "name": "Hire & Train Maternity Replacement", "critical": false, "status": "green", "assessment": "Found a couple great options for additional CET hire. Tracking Green — need to get hired and trained before Carly's maternity leave." },
+        { "name": "Claims Time to Close", "critical": false, "status": "supergreen", "assessment": "Tracking Super Green on updated metrics. Carly posts weekly metrics to Monday notifications — use those to stay current." },
+        { "name": "Take Over Remote Operators", "critical": false, "status": "unknown", "assessment": "No updates yet. Ask Amanda about RO transition in next sync." }
       ]
     },
     {
       "name": "Paul Morin",
       "title": "CFO/COO (Co-Owner)",
       "goals": [
-        { "name": "N. Austin Office / Leander Lease", "critical": true, "status": "unknown", "assessment": "Lease up 3/31. Need status on construction progress and Leander lease renewal. No recent updates surfaced." },
-        { "name": "Branch Visits", "critical": false, "status": "unknown", "assessment": "Visit 2-3 branches, hold listening sessions, onsite eval ride alongs. No visibility on Paul's visit count this quarter." },
-        { "name": "Acquisition Case Study vs. Houston Branch", "critical": false, "status": "unknown", "assessment": "Case study comparing acquisition vs. opening Houston branch. No progress surfaced in meetings." },
-        { "name": "Annual Manager Comp Review", "critical": true, "status": "green", "assessment": "Comp review active — Level 1 sales comp under review (Ralph situation). Promotion metrics discussion happening. Tying mover promotions to performance and moving from margin to profit bonus." },
-        { "name": "Evaluate CFO Needs/Budget", "critical": false, "status": "green", "assessment": "Actively evaluating options: Prosper CFO ($23K/mo), VCFO (intro done with Donna Zinsmeyer), Simple Numbers (Rob Lynch intro 3/17). Multiple conversations in flight." }
+        { "name": "N. Austin Office / Leander Lease", "critical": true, "status": "green", "assessment": "Leander lease completed and set. N. Austin office construction moving along — slated for April or early May. Waiting on city of Austin comments (hopefully resolved this week or early next). Green trajectory." },
+        { "name": "Branch Visits", "critical": false, "status": "red", "assessment": "Only 1 visit done (Philippines). Needs 2 for Green. Less than half the quarter left. Red." },
+        { "name": "Acquisition Case Study vs. Houston Branch", "critical": false, "status": "red", "assessment": "No case studies started. Red." },
+        { "name": "Annual Manager Comp Review", "critical": true, "status": "red", "assessment": "Not started yet. Needs to get underway — manager comp review needs to be done by EOQ. Unlikely to get to tying mover promotions to performance this quarter. Red." },
+        { "name": "Evaluate CFO Needs/Budget", "critical": false, "status": "green", "assessment": "Multiple conversations in flight. Several meetings scheduled next week. Targeting fractional CFO identified by end of next week or early the following week. Green." }
       ]
     }
   ]
