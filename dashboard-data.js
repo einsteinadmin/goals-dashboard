@@ -108,16 +108,16 @@ const DASHBOARD_DATA = {
         {
           "name": "3 Critical Projects",
           "target": "Variable Pricing + Dashboard/KPIs + EMMA QoL",
-          "actual": "1 of 3 near done, 2 in progress",
+          "actual": "Einstein Games deploying today, Var Pricing 3/30, QoL identified",
           "status": "green",
-          "note": "Variable Pricing near launch. Dashboard/KPIs and QoL sprints in progress but not shipped. Tight but achievable if Var Pricing ships on time."
+          "note": "Einstein Games code complete, in Fabian's code review, deployment today. Variable Pricing launch 3/30. QoL projects identified, sequenced after other deployments. All 3 on track for Green."
         },
         {
           "name": "EMMA Bug Count",
           "target": "Reduce sprints/bug backlog",
-          "actual": "Caching fix in review, dev bottleneck flagged",
-          "status": "red",
-          "note": "Matisen is solo on PR reviews — dev bottleneck. Caching fix stuck in review pipeline. Bug count reduction likely stalled. This is a structural issue, not effort."
+          "actual": "QoL projects identified, sequenced after major deploys",
+          "status": "green",
+          "note": "Dev bottleneck easing — Fabian now doing code reviews (Einstein Games). QoL sprints identified and will ship after Variable Pricing and Dashboard KPIs deploy. Green trajectory by EOQ."
         }
       ]
     }
@@ -238,7 +238,7 @@ const DASHBOARD_DATA = {
         { "name": "Mover Training Catalog/App", "critical": true, "status": "green", "assessment": "Digital handbook reviewed. Full blueprint posted with Gerald (2/25). Scaffold progressing. On track for Green." },
         { "name": "Regional Growth (Tampa/Garland OMs)", "critical": false, "status": "green", "assessment": "Shane is primary Tampa OM candidate. Dallas has ~30 applicants. New policy: external hires do 6 weeks as movers first. Progress happening." },
         { "name": "Branch Visits/Audits", "critical": false, "status": "green", "assessment": "Mike travels between DFWT branches regularly. Likely on track but need specific audit count." },
-        { "name": "Sell 3 Older Trucks", "critical": false, "status": "unknown", "assessment": "No truck sales mentioned in any recent sync. Need update — used truck market is terrible (noted in strategy)." }
+        { "name": "Sell 3 Older Trucks", "critical": false, "status": "green", "assessment": "1 of 3 selling today. Other 2 not getting traction at current pricing — reducing price and reposting. Progress happening, Green trajectory." }
       ]
     },
     {
@@ -246,8 +246,8 @@ const DASHBOARD_DATA = {
       "title": "Dir. of IT",
       "goals": [
         { "name": "Variable Pricing", "critical": true, "status": "green", "assessment": "QA underway. Launch target 3/30. Kickpoint integration this week. On track." },
-        { "name": "Dashboard/KPIs in EMMA", "critical": true, "status": "red", "assessment": "Branch scorecards not yet visible in EMMA. Einstein Games migration from Glide hasn't started. This is a Critical # with no evidence of delivery progress. Tight timeline." },
-        { "name": "EMMA QoL Sprints", "critical": false, "status": "red", "assessment": "No QoL sprints shipped yet. Dev bottleneck (Matisen solo on PR reviews) is structural blocker. Caching fix still in review." },
+        { "name": "Dashboard/KPIs in EMMA", "critical": true, "status": "green", "assessment": "Einstein Games migration from Glide: all code written by Matisen, passed to Fabian for final code review after some QA failures. Hoping for deployment today (3/20). On pace for Green or Super Green." },
+        { "name": "EMMA QoL Sprints", "critical": false, "status": "green", "assessment": "QoL projects identified. Held off while Variable Pricing and Dashboard KPIs ship first. Should be able to hit Green by EOQ once those deploy." },
         { "name": "Mobile App", "critical": false, "status": "green", "assessment": "UX rework and E2E testing in progress per Playbook V2 review. Working through it." },
         { "name": "Mongo Schema Roadmap", "critical": false, "status": "green", "assessment": "Playbook V2 reviewed with Cameron. Next-gen architecture defined. Customer/Move schema key blocker but roadmap is solid." }
       ]
