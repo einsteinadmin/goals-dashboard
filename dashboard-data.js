@@ -272,6 +272,17 @@ const DASHBOARD_DATA = {
         { "name": "Manager Accountability", "critical": false, "status": "green", "assessment": "Nhel reporting to RMs. BM check-in process being established. On track for Green." },
         { "name": "Training Tet", "critical": false, "status": "green", "assessment": "Tet doing call quality audits and sales enablement work. Independence growing. On track for Green (can conduct training for new hires independently)." }
       ]
+    },
+    {
+      "name": "Paul Morin",
+      "title": "CFO/COO (Co-Owner)",
+      "goals": [
+        { "name": "N. Austin Office / Leander Lease", "critical": true, "status": "unknown", "assessment": "Lease up 3/31. Need status on construction progress and Leander lease renewal. No recent updates surfaced." },
+        { "name": "Branch Visits", "critical": false, "status": "unknown", "assessment": "Visit 2-3 branches, hold listening sessions, onsite eval ride alongs. No visibility on Paul's visit count this quarter." },
+        { "name": "Acquisition Case Study vs. Houston Branch", "critical": false, "status": "unknown", "assessment": "Case study comparing acquisition vs. opening Houston branch. No progress surfaced in meetings." },
+        { "name": "Annual Manager Comp Review", "critical": true, "status": "green", "assessment": "Comp review active — Level 1 sales comp under review (Ralph situation). Promotion metrics discussion happening. Tying mover promotions to performance and moving from margin to profit bonus." },
+        { "name": "Evaluate CFO Needs/Budget", "critical": false, "status": "green", "assessment": "Actively evaluating options: Prosper CFO ($23K/mo), VCFO (intro done with Donna Zinsmeyer), Simple Numbers (Rob Lynch intro 3/17). Multiple conversations in flight." }
+      ]
     }
   ]
 };
