@@ -57,10 +57,10 @@ const DASHBOARD_DATA = {
         },
         {
           "name": "Claim Time to Close",
-          "target": "Improve from baseline",
-          "actual": "No baseline or current data",
-          "status": "unknown",
-          "note": "Neither baseline nor current metric has surfaced. This may not be actively tracked yet. Flag for Amanda."
+          "target": "5 days (Super Green), 6-8 days (Green)",
+          "actual": "Stephanie avg 3.6 days, Jaci avg 2.5 days (wk 3/19)",
+          "status": "supergreen",
+          "note": "CET Tracker (3/23): Stephanie weekly avg 3.6 days, Jaci 2.5 days (week of 3/19). Both well under the 5-day Super Green threshold. Trending down consistently since February. Source: CET Quarterly Tracker Google Sheet."
         }
       ]
     },
@@ -277,10 +277,10 @@ const DASHBOARD_DATA = {
       "name": "Carly",
       "title": "Claims Manager (CET)",
       "goals": [
-        { "name": "Magic Moments Rollout", "critical": true, "status": "supergreen", "assessment": "Crushing it. Process approved, rolled out to team. Members actively surfacing Magic Moments and posting to Slack. On track for target count per manager. Super Green.", "superGreen": "1 MM for manager + 5 standard MMs set", "green": "85% MM for managers + 3 standard MMs set" },
-        { "name": "Damage Accountability & Coaching", "critical": true, "status": "green", "assessment": "Team-based damage accountability per job is live (3/20 huddle). Individual accountability blocked by Monday.com limitations — Phase 3 TBD. Team approach encourages ownership. Current system is an improvement over company-wide scoring.", "superGreen": "System in place and rolled out to all branches", "green": "System in place and beta testing" },
-        { "name": "Hire & Train Maternity Replacement", "critical": false, "status": "green", "assessment": "Found a couple great options for additional CET hire. Tracking Green — need to get hired and trained before Carly's maternity leave.", "superGreen": "New hire fully trained and ready", "green": "New hire, semi trained" },
-        { "name": "Claims Time to Close", "critical": false, "status": "supergreen", "assessment": "Tracking Super Green on updated metrics. Carly posts weekly metrics to Monday notifications — use those to stay current.", "superGreen": "Average of 5 business days or less", "green": "Average of 6-8 business days" },
+        { "name": "Magic Moments Rollout", "critical": true, "status": "supergreen", "assessment": "Crushing it. Carly 3/3, Jaci 2/3, Stephanie 2/3 on Magic Moments goal (3 each). Weekly roundups active — flowers for grieving customer, cookies for referral, welcome baskets. CET Praise Count: 105 total (Zhang 15 Super Green, June 24). Super Green.", "superGreen": "1 MM for manager + 5 standard MMs set", "green": "85% MM for managers + 3 standard MMs set" },
+        { "name": "Damage Accountability & Coaching", "critical": true, "status": "green", "assessment": "Team-based damage accountability per job is live. A&D Scorecard audits: Stephanie 7/14 done (avg ~97%), Jaci 7/14 done (avg 100%). Wall damages: 25 current vs 41 goal to beat — on pace. Accuracy & Documentation: Stephanie 97%, Jaci 100% (both Super Green on 95% target).", "superGreen": "System in place and rolled out to all branches", "green": "System in place and beta testing" },
+        { "name": "Hire & Train Maternity Replacement", "critical": false, "status": "green", "assessment": "Final interviews for third claims team member (3/23 roundtable). Decision expected soon, coordinating with Anne's schedule. Carly's maternity leave expected ~April. Need to get hired and trained before then.", "superGreen": "New hire fully trained and ready", "green": "New hire, semi trained" },
+        { "name": "Claims Time to Close", "critical": false, "status": "supergreen", "assessment": "CET Tracker confirms Super Green: Stephanie avg 3.6 days, Jaci avg 2.5 days (week of 3/19). Both well under 5-day target. Trending down consistently since February.", "superGreen": "Average of 5 business days or less", "green": "Average of 6-8 business days" },
         { "name": "Take Over Remote Operators", "critical": false, "status": "green", "assessment": "Confirmed (3/23): ROs (currently Nhel's directs, including Mel) will transition to report to Carly. Not started yet but transition planned soon. Planning around Carly's maternity leave (~April).", "superGreen": "ROs fully taken over", "green": "RO responsibilities semi taken over" }
       ]
     },
