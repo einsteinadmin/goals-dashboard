@@ -3,8 +3,8 @@
     "quarter": "Q1 2026",
     "quarterStart": "2026-02-01",
     "quarterEnd": "2026-04-19",
-    "lastRefreshed": "2026-03-24T10:00:00-05:00",
-    "refreshedBy": "Albert (/gm)"
+    "lastRefreshed": "2026-03-24T15:20:00-05:00",
+    "refreshedBy": "Albert (digest)"
   },
   "companyCriticalNumbers": [
     {
@@ -288,7 +288,7 @@
       "name": "Paul Morin",
       "title": "CFO/COO (Co-Owner)",
       "goals": [
-        { "name": "N. Austin Office / Leander Lease", "critical": true, "status": "green", "assessment": "Leander lease completed and set. N. Austin office construction moving along — slated for April or early May. Waiting on city of Austin comments (hopefully resolved this week or early next). Green trajectory.", "superGreen": "Construction a week or less behind schedule", "green": "Construction less than two weeks behind schedule. New lease signed for Leander." },
+        { "name": "N. Austin Office / Leander Lease", "critical": true, "status": "green", "assessment": "Leander lease done. N. Austin: final permit resubmission tomorrow (3/25, last comment addressed). Interiors start immediately after approval — 4-6 weeks, subcontractors have materials on hand. Targeting May occupancy. Infrastructure (cables, pipes) installed. Detail decisions locked: corner guards, window shades, fan controller, water spigot. Still open: cab lights (2-3 wks to decide), property line verification for dog boxes, security vendor, insurance policy renewal (expires 3/27). Green — on track for early May move-in.", "superGreen": "Construction a week or less behind schedule", "green": "Construction less than two weeks behind schedule. New lease signed for Leander." },
         { "name": "Branch Visits", "critical": false, "status": "red", "assessment": "Only 1 visit done (Philippines). Needs 2 for Green. Less than half the quarter left. Red.", "superGreen": "Visit 3, listen and learn lunch at all 3 w/ managers, 3 onsite eval ride alongs", "green": "Visit 2, do 2 ride alongs" },
         { "name": "Acquisition Case Study vs. Houston Branch", "critical": false, "status": "red", "assessment": "No case studies started. Red.", "superGreen": "Complete both by end of March", "green": "Complete both" },
         { "name": "Annual Manager Comp Review", "critical": true, "status": "red", "assessment": "Not started yet. Needs to get underway — manager comp review needs to be done by EOQ. Unlikely to get to tying mover promotions to performance this quarter. Red.", "superGreen": "Messaging complete and out to team to start in action for next quarter", "green": "Hiring/pay docs updated, individual scorecards created, performance targets set" },
