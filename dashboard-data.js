@@ -3,7 +3,7 @@ const DASHBOARD_DATA = {
     "quarter": "Q1 2026",
     "quarterStart": "2026-02-01",
     "quarterEnd": "2026-04-19",
-    "lastRefreshed": "2026-03-24T15:20:00-05:00",
+    "lastRefreshed": "2026-03-25T12:30:00-05:00",
     "refreshedBy": "Albert (digest)"
   },
   "companyCriticalNumbers": [
@@ -15,7 +15,7 @@ const DASHBOARD_DATA = {
           "target": "80+ avg, <10% at-risk",
           "actual": "WK6: Zero claims, high-risk 44→8, phone -80%, braking -56%",
           "status": "supergreen",
-          "note": "82% reduction in high-risk drivers. Zero insurance claims in 6 weeks. Safety automations live (3/23): micro-retrainings tied to Samsara alerts auto-enroll drivers. Consolidating Samsara to single account with branch tags. 'Understanding Samsara' module planned. Moving toward road cutoff time + hotel requirements."
+          "note": "82% reduction in high-risk drivers. Zero insurance claims in 6 weeks. Safety automations live (3/23). Mike (3/25): ensuring all current drivers through driver training including new adds. Samsara consolidation to single account with branch tags in progress + engine immobilizers discussion. Device inventory audit (iPads, cameras, dash cams) underway."
         },
         {
           "name": "Hiring Budgets",
@@ -72,7 +72,7 @@ const DASHBOARD_DATA = {
           "target": "4 components rolled out",
           "actual": "Var Pricing backend QA wrapping, launch 3/30",
           "status": "green",
-          "note": "Variable Pricing backend QA wrapping (3/23). Dev meeting with Jeff/Fabian/Elias to finalize. Frontend QA includes Kick Point. Higher weekends + lower weekdays. Defer broader price increases until conversion improves. Lead form target 3/30."
+          "note": "Variable Pricing: Jeff finishing email button (green confirm, stays on page). Fabian fixing broken availabilities from rental truck addition. CMS backend access shared (3/25). Staging site reviewable for copy — team doing review pass. Contact form has 2 checkboxes + referred-by. 60% drop-off at rent-a-truck page, 40% abandon InstaMove form — now have stage-by-stage tracking from API side. Launch 3/30."
         },
         {
           "name": "Omni Channel Marketing",
@@ -236,7 +236,7 @@ const DASHBOARD_DATA = {
       "goals": [
         { "name": "Fleet Safety", "critical": true, "status": "supergreen", "assessment": "DFWT branches crushing it (Dallas 96, Tampa 100). Training complete. Weekly accountability strong.", "superGreen": "80+ avg, <10% at-risk, weekly dashboard, monthly BM meetings, accountability during sync ups", "green": "All trained by March 31, 75+ avg, <20% below 70" },
         { "name": "Mover Training Catalog/App", "critical": true, "status": "green", "assessment": "Digital handbook reviewed. Full blueprint posted with Gerald (2/25). Scaffold progressing. On track for Green.", "superGreen": "Functional MVP completed and reviewed by leadership team", "green": "Scaffold fully built with mock ups and planned KPI integration" },
-        { "name": "Regional Growth (Tampa/Garland OMs)", "critical": false, "status": "green", "assessment": "Tampa OM interviews in progress: Stephen Anderson interviewed 3/23 (#1 candidate, Strong Yes). Shane Heaberlin today (3/24) 3:30 PM, Zachary Stockell tomorrow 11:30 AM. Decision before Anne's vacation Thu 3/26. Tampa first priority. Garland reassess post-summer.", "superGreen": "OM hired and trained for Tampa AND Garland", "green": "OM hired and trained for Tampa" },
+        { "name": "Regional Growth (Tampa/Garland OMs)", "critical": false, "status": "green", "assessment": "Tampa OM: 4 candidates total. Stephen Anderson (#1, Strong Yes). Shane solid but not frontrunner. Zachary Stockell + Andra McRae interviewing 3/25. Mike + Cameron making decision after today's interviews. Anne on vacation Thu 3/26 — decision by then. Tampa first priority. Garland reassess post-summer.", "superGreen": "OM hired and trained for Tampa AND Garland", "green": "OM hired and trained for Tampa" },
         { "name": "Branch Visits/Audits", "critical": false, "status": "green", "assessment": "Mike travels between DFWT branches regularly. Likely on track but need specific audit count.", "superGreen": "5 locations, branch scores avg 4.5+, audits + circle-up/huddle audits complete", "green": "3 locations, branch scores avg 4.0+, audits complete" },
         { "name": "Sell 3 Older Trucks", "critical": false, "status": "red", "assessment": "1 of 3 selling today. Other 2 not getting traction at current pricing — reducing price and reposting. Only 1 of 3 with less than half the quarter left. Trending Red.", "superGreen": "3 trucks sold", "green": "2 trucks sold" }
       ]
@@ -245,8 +245,8 @@ const DASHBOARD_DATA = {
       "name": "Matisen Harper",
       "title": "Dir. of IT",
       "goals": [
-        { "name": "Variable Pricing", "critical": true, "status": "green", "assessment": "Backend QA wrapping (3/23). Launch target Monday 3/30. Dev meeting with Jeff/Fabian/Elias to finalize. Frontend QA includes Kick Point. Higher weekends + lower weekdays.", "superGreen": "Launch within timeline budget, one sprint push allowed", "green": "Launch within timeline budget, two sprint pushes allowed" },
-        { "name": "Dashboard/KPIs in EMMA", "critical": true, "status": "green", "assessment": "Marketing dashboard MVP built. Games in production not pulling driver scores (exclusion flag) — fix deploying tonight (3/23), announce on TV board. Event-based driver scores in Unsung/Emma live and accurate. Strong Super Green trajectory.", "superGreen": "Branch KPI Scorecards, Einstein Games migrated from Glide + download and chat feature", "green": "Branch KPI Scorecards, Einstein Games migrated from Glide + download" },
+        { "name": "Variable Pricing", "critical": true, "status": "green", "assessment": "Jeff finishing email button (3/25). Fabian fixing rental truck availability bug. CMS backend access shared. Staging site reviewable for copy. Frontend ready for team review; backend still wiring up. Launch target 3/30.", "superGreen": "Launch within timeline budget, one sprint push allowed", "green": "Launch within timeline budget, two sprint pushes allowed" },
+        { "name": "Dashboard/KPIs in EMMA", "critical": true, "status": "green", "assessment": "Marketing dashboard close but not ready (3/25) — has capacity/availability/TUR, branch truck snapshots. Games delayed on data schema mismatch with production. PL migration to Rippling queued post-conference. Strong Super Green trajectory once deploys land.", "superGreen": "Branch KPI Scorecards, Einstein Games migrated from Glide + download and chat feature", "green": "Branch KPI Scorecards, Einstein Games migrated from Glide + download" },
         { "name": "EMMA QoL Sprints", "critical": false, "status": "green", "assessment": "QoL projects identified. Held off while Variable Pricing and Dashboard KPIs ship first. Should be able to hit Green by EOQ once those deploy.", "superGreen": "2 QoL feature sprints including design improvements", "green": "1 QoL feature sprint" },
         { "name": "Mobile App", "critical": false, "status": "green", "assessment": "UX rework and E2E testing in progress per Playbook V2 review. Working through it.", "superGreen": "UX rework, E2E testing setup, mobile app in UAT", "green": "UX rework, working through E2E coverage" },
         { "name": "Mongo Schema Roadmap", "critical": false, "status": "green", "assessment": "Service separation planned (3/23). Matisen confirmed Gabriel + Fabian meeting Wednesday (3/26) to scope pulling services from EMMA. Phase 2/cron management falls under Q1. Pub/sub + Mongo→Postgres connectors discussed. RBAC changes + new endpoints needed.", "superGreen": "Next-gen architecture defined with systems, system IDs, service calls + roadmap for next steps", "green": "Next-gen architecture defined with system IDs, still scoping service calls" }
