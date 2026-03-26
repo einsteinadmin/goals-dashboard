@@ -3,8 +3,8 @@
     "quarter": "Q1 2026",
     "quarterStart": "2026-02-01",
     "quarterEnd": "2026-04-19",
-    "lastRefreshed": "2026-03-25T12:30:00-05:00",
-    "refreshedBy": "Albert (digest)"
+    "lastRefreshed": "2026-03-26T09:25:00-05:00",
+    "refreshedBy": "Albert (/gm)"
   },
   "companyCriticalNumbers": [
     {
@@ -201,7 +201,7 @@
       "name": "AI Education - Workshop Hosting",
       "critical": false,
       "status": "green",
-      "assessment": "Evolved to full conference keynote. 29-slide deck + speaker outline + AI comparison doc ready. Conference in 9 days (April 2-4). Zuckerberg WSJ article + Jensen Huang quotes added to source material (3/24). Needs Cameron review + polish + Act 4 live build prep. On track for Green.",
+      "assessment": "Evolved to full conference keynote. 38-slide deck (4 cut, 1 added session 40). Conference in 7 days (April 2-4). Slido live + QR embedded. 'Where We're Headed' AI COS network slide added. Visual assets still needed. Act 4 live build prep still unscoped (45 min Replit session). On track for Green.",
       "superGreen": "5 workshops with BMs (2-hr live builds)",
       "green": "3 workshops with BMs",
       "lastUpdated": "2026-03-19"
@@ -224,7 +224,7 @@
       "title": "CTXH Regional Mgr",
       "goals": [
         { "name": "Fleet Safety (BBE)", "critical": true, "status": "supergreen", "assessment": "Training complete, accountability strong. CTXH results extraordinary. Weekly dashboard updates consistent.", "superGreen": "80+ avg, <10% at-risk, weekly dashboard, monthly BM meetings, accountability during sync ups + 1:1 if in red", "green": "All trained by March 31, 75+ avg, <20% below 70" },
-        { "name": "Scrum Accountability Pt 3", "critical": true, "status": "red", "assessment": "Pushed to Brian's back burner. He's tagging Cameron with what he's gathered so far. Dependency on Cameron + Albert to help organize and accelerate. Still Red — Critical # needs momentum.", "superGreen": "Sync-up grading scorecard developed, cert developed, grade for all locations + OB training module built", "green": "Grading scorecard for SCRUM/Monday org, basic certification built, all managers/branches have a score" },
+        { "name": "Scrum Accountability Pt 3", "critical": true, "status": "green", "assessment": "Brian confirmed framework 'looks great, not over-engineered' (3/25). Cameron sharing Monday workflow playbook with Brian this week. Has momentum now. Dependency on Cameron + Albert to organize materials.", "superGreen": "Sync-up grading scorecard developed, cert developed, grade for all locations + OB training module built", "green": "Grading scorecard for SCRUM/Monday org, basic certification built, all managers/branches have a score" },
         { "name": "Branch Visits/Audits", "critical": false, "status": "green", "assessment": "Brian has been visiting branches for BBE accountability. Likely on track for Green (3 locations) but need specific count.", "superGreen": "5 locations, scores avg 4.5+, 1 audit/branch + follow-up, 3 circle-up audits, 3 huddle audits", "green": "3 locations, scores avg 4.0+, 1 audit/branch + follow-up, 3 circle-up audits, 3 huddle audits" },
         { "name": "Legends Book Pt 2", "critical": false, "status": "green", "assessment": "Online Legends app created (basic version hosted). Now working on print mock-up design. Won't be printed for conference (April 2-4) but hoping to have online version + mock-up ready to show at conference, print shortly after.", "superGreen": "Redesign completed, approved, printed and in branch hands by EOQ (Legends, Events, Dream Team, HQ Pics)", "green": "Template drafted with pics/org ready for print. Improved legends collection process in place." },
         { "name": "Swag/Training Day Calendar", "critical": false, "status": "red", "assessment": "Swag side done — ordered Driver's Ed sweatshirts, lightweight hoodies, branded tees, patched hats, Nike hats. All delivered. But no progress on training day calendar. Red for the calendar half.", "superGreen": "Dashboard app formatted, designed and live for rest of year company-wide, TD slides + stations linked", "green": "Dashboard app formatted, designed and live for next 6 months company-wide" }
@@ -236,7 +236,7 @@
       "goals": [
         { "name": "Fleet Safety", "critical": true, "status": "supergreen", "assessment": "DFWT branches crushing it (Dallas 96, Tampa 100). Training complete. Weekly accountability strong.", "superGreen": "80+ avg, <10% at-risk, weekly dashboard, monthly BM meetings, accountability during sync ups", "green": "All trained by March 31, 75+ avg, <20% below 70" },
         { "name": "Mover Training Catalog/App", "critical": true, "status": "green", "assessment": "Digital handbook reviewed. Full blueprint posted with Gerald (2/25). Scaffold progressing. On track for Green.", "superGreen": "Functional MVP completed and reviewed by leadership team", "green": "Scaffold fully built with mock ups and planned KPI integration" },
-        { "name": "Regional Growth (Tampa/Garland OMs)", "critical": false, "status": "green", "assessment": "Tampa OM: 4 candidates total. Stephen Anderson (#1, Strong Yes). Shane solid but not frontrunner. Zachary Stockell + Andra McRae interviewing 3/25. Mike + Cameron making decision after today's interviews. Anne on vacation Thu 3/26 — decision by then. Tampa first priority. Garland reassess post-summer.", "superGreen": "OM hired and trained for Tampa AND Garland", "green": "OM hired and trained for Tampa" },
+        { "name": "Regional Growth (Tampa/Garland OMs)", "critical": false, "status": "green", "assessment": "Tampa OM: Stephen Anderson selected. Zachary OUT (session 36), Andra OUT (session 38). Mike flying to Tampa for in-person — office tour, meet Brandon + crew, lunch. Offer same day if vibes check out. Anne confirmed availability. Tampa first priority, Garland reassess post-summer.", "superGreen": "OM hired and trained for Tampa AND Garland", "green": "OM hired and trained for Tampa" },
         { "name": "Branch Visits/Audits", "critical": false, "status": "green", "assessment": "Mike travels between DFWT branches regularly. Likely on track but need specific audit count.", "superGreen": "5 locations, branch scores avg 4.5+, audits + circle-up/huddle audits complete", "green": "3 locations, branch scores avg 4.0+, audits complete" },
         { "name": "Sell 3 Older Trucks", "critical": false, "status": "red", "assessment": "1 of 3 selling today. Other 2 not getting traction at current pricing — reducing price and reposting. Only 1 of 3 with less than half the quarter left. Trending Red.", "superGreen": "3 trucks sold", "green": "2 trucks sold" }
       ]
@@ -249,7 +249,7 @@
         { "name": "Dashboard/KPIs in EMMA", "critical": true, "status": "green", "assessment": "Marketing dashboard close but not ready (3/25) — has capacity/availability/TUR, branch truck snapshots. Games delayed on data schema mismatch with production. PL migration to Rippling queued post-conference. Strong Super Green trajectory once deploys land.", "superGreen": "Branch KPI Scorecards, Einstein Games migrated from Glide + download and chat feature", "green": "Branch KPI Scorecards, Einstein Games migrated from Glide + download" },
         { "name": "EMMA QoL Sprints", "critical": false, "status": "green", "assessment": "QoL projects identified. Held off while Variable Pricing and Dashboard KPIs ship first. Should be able to hit Green by EOQ once those deploy.", "superGreen": "2 QoL feature sprints including design improvements", "green": "1 QoL feature sprint" },
         { "name": "Mobile App", "critical": false, "status": "green", "assessment": "UX rework and E2E testing in progress per Playbook V2 review. Working through it.", "superGreen": "UX rework, E2E testing setup, mobile app in UAT", "green": "UX rework, working through E2E coverage" },
-        { "name": "Mongo Schema Roadmap", "critical": false, "status": "green", "assessment": "Service separation planned (3/23). Matisen confirmed Gabriel + Fabian meeting Wednesday (3/26) to scope pulling services from EMMA. Phase 2/cron management falls under Q1. Pub/sub + Mongo→Postgres connectors discussed. RBAC changes + new endpoints needed.", "superGreen": "Next-gen architecture defined with systems, system IDs, service calls + roadmap for next steps", "green": "Next-gen architecture defined with system IDs, still scoping service calls" }
+        { "name": "Mongo Schema Roadmap", "critical": false, "status": "green", "assessment": "Service separation: Gabriel + Fabian meeting happened Wed 3/26 to scope pulling services from EMMA. Phase 2/cron management falls under Q1. Pub/sub + Mongo→Postgres connectors discussed. RBAC changes + new endpoints needed. Updated timeline expected soon.", "superGreen": "Next-gen architecture defined with systems, system IDs, service calls + roadmap for next steps", "green": "Next-gen architecture defined with system IDs, still scoping service calls" }
       ]
     },
     {
