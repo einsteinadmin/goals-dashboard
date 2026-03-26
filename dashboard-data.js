@@ -72,7 +72,7 @@ const DASHBOARD_DATA = {
           "target": "4 components rolled out",
           "actual": "Var Pricing backend QA wrapping, launch 3/30",
           "status": "green",
-          "note": "Variable Pricing: Jeff finishing email button (green confirm, stays on page). Fabian fixing broken availabilities from rental truck addition. CMS backend access shared (3/25). Staging site reviewable for copy — team doing review pass. Contact form has 2 checkboxes + referred-by. 60% drop-off at rent-a-truck page, 40% abandon InstaMove form — now have stage-by-stage tracking from API side. Launch 3/30."
+          "note": "CRITICAL NEW ISSUE (3/26 huddle): Form creates CRM record on contact entry — floods New Leads with 50-60% abandoned sessions. Team decided on flagging system + 'recapture queue' to separate abandoned from real leads. Profiles expire after 1 day. This is launch-critical and likely pushes the 3/30 timeline. Cameron checking with Matisen 3/27. Prior status: Jeff finishing email button, Fabian fixing rental truck availabilities, CMS backend shared, staging reviewable."
         },
         {
           "name": "Omni Channel Marketing",
@@ -161,7 +161,7 @@ const DASHBOARD_DATA = {
       "name": "Smart Move System - Phase 1",
       "critical": true,
       "status": "green",
-      "assessment": "Variable Pricing in QA, launching 3/30. Lead form target 3/30. Kickpoint integration this week. Packing supply price update needed. 3 of 4 components on track — tight but achievable.",
+      "assessment": "Variable Pricing: critical recapture queue issue surfaced 3/26 huddle — form floods CRM with abandoned sessions. Flagging system needed before launch. 3/30 timeline at risk. Other components on track but VP is the linchpin.",
       "superGreen": "All 4 components: landing pages, pricing page, emails, scripts",
       "green": "3 out of 4 completed",
       "lastUpdated": "2026-03-19"
@@ -245,10 +245,10 @@ const DASHBOARD_DATA = {
       "name": "Matisen Harper",
       "title": "Dir. of IT",
       "goals": [
-        { "name": "Variable Pricing", "critical": true, "status": "green", "assessment": "Jeff finishing email button (3/25). Fabian fixing rental truck availability bug. CMS backend access shared. Staging site reviewable for copy. Frontend ready for team review; backend still wiring up. Launch target 3/30.", "superGreen": "Launch within timeline budget, one sprint push allowed", "green": "Launch within timeline budget, two sprint pushes allowed" },
-        { "name": "Dashboard/KPIs in EMMA", "critical": true, "status": "green", "assessment": "Marketing dashboard close but not ready (3/25) — has capacity/availability/TUR, branch truck snapshots. Games delayed on data schema mismatch with production. PL migration to Rippling queued post-conference. Strong Super Green trajectory once deploys land.", "superGreen": "Branch KPI Scorecards, Einstein Games migrated from Glide + download and chat feature", "green": "Branch KPI Scorecards, Einstein Games migrated from Glide + download" },
+        { "name": "Variable Pricing", "critical": true, "status": "green", "assessment": "CRITICAL: Recapture queue flagging system needed before launch (3/26 huddle). Form creates CRM records on contact entry, flooding New Leads with abandoned sessions. Flagging + expiration system is launch-critical. 3/30 timeline at risk. Cameron following up with Matisen 3/27.", "superGreen": "Launch within timeline budget, one sprint push allowed", "green": "Launch within timeline budget, two sprint pushes allowed" },
+        { "name": "Dashboard/KPIs in EMMA", "critical": true, "status": "green", "assessment": "Marketing dashboard close but not ready. Games: Cameron stressed need for 2-3 weeks of reliable data before Q2 rollout to build team trust (3/26 huddle). Data accuracy concerns flagged by team. PL migration to Rippling queued post-conference.", "superGreen": "Branch KPI Scorecards, Einstein Games migrated from Glide + download and chat feature", "green": "Branch KPI Scorecards, Einstein Games migrated from Glide + download" },
         { "name": "EMMA QoL Sprints", "critical": false, "status": "green", "assessment": "QoL projects identified. Held off while Variable Pricing and Dashboard KPIs ship first. Should be able to hit Green by EOQ once those deploy.", "superGreen": "2 QoL feature sprints including design improvements", "green": "1 QoL feature sprint" },
-        { "name": "Mobile App", "critical": false, "status": "green", "assessment": "UX rework and E2E testing in progress per Playbook V2 review. Working through it.", "superGreen": "UX rework, E2E testing setup, mobile app in UAT", "green": "UX rework, working through E2E coverage" },
+        { "name": "Mobile App", "critical": false, "status": "red", "assessment": "Matisen confirmed (3/26 huddle) mobile app UX rework is lowest priority — behind var pricing, dashboards, and schema roadmap. Initial UX concept exists but full audit and dev work haven't begun. At risk for Green.", "superGreen": "UX rework, E2E testing setup, mobile app in UAT", "green": "UX rework, working through E2E coverage" },
         { "name": "Mongo Schema Roadmap", "critical": false, "status": "green", "assessment": "Service separation: Gabriel + Fabian meeting happened Wed 3/26 to scope pulling services from EMMA. Phase 2/cron management falls under Q1. Pub/sub + Mongo→Postgres connectors discussed. RBAC changes + new endpoints needed. Updated timeline expected soon.", "superGreen": "Next-gen architecture defined with systems, system IDs, service calls + roadmap for next steps", "green": "Next-gen architecture defined with system IDs, still scoping service calls" }
       ]
     },
