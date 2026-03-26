@@ -3,8 +3,8 @@
     "quarter": "Q1 2026",
     "quarterStart": "2026-02-01",
     "quarterEnd": "2026-04-19",
-    "lastRefreshed": "2026-03-26T09:25:00-05:00",
-    "refreshedBy": "Albert (/gm)"
+    "lastRefreshed": "2026-03-26T14:15:00-05:00",
+    "refreshedBy": "Albert (digest — Austin L sync)"
   },
   "companyCriticalNumbers": [
     {
@@ -293,6 +293,17 @@
         { "name": "Acquisition Case Study vs. Houston Branch", "critical": false, "status": "red", "assessment": "No case studies started. Red.", "superGreen": "Complete both by end of March", "green": "Complete both" },
         { "name": "Annual Manager Comp Review", "critical": true, "status": "red", "assessment": "Not started yet. Needs to get underway — manager comp review needs to be done by EOQ. Unlikely to get to tying mover promotions to performance this quarter. Red.", "superGreen": "Messaging complete and out to team to start in action for next quarter", "green": "Hiring/pay docs updated, individual scorecards created, performance targets set" },
         { "name": "Evaluate CFO Needs/Budget", "critical": false, "status": "green", "assessment": "Multiple conversations in flight. Several meetings scheduled next week. Targeting fractional CFO identified by end of next week or early the following week. Green." }
+      ]
+    },
+    {
+      "name": "Austin LeLievre",
+      "title": "Videographer/Content",
+      "goals": [
+        { "name": "Mover Training Video Catalog", "critical": true, "status": "green", "assessment": "6 training categories in progress (walkthrough, contract, driving, truck check, dispatch com, equipment). Bed, packing, washer training videos targeting final drafts EOW (3/28). Multiple near completion but none fully shipped to YouTube Courses yet. Solid pipeline, needs to start finishing and uploading.", "superGreen": "25 training videos finalized and uploaded to YouTube Courses", "green": "12 training videos finalized and uploaded to YouTube Courses" },
+        { "name": "3 Core Quarterly Videos", "critical": true, "status": "green", "assessment": "Core Values/Culture: approved and done (3/26), uploading to training modules. Price Comparison: all 1st drafts done (15/30/60/90-sec), graphics by 3/31, 2nd drafts with full graphics by 4/6. CET Claims Intro: on board as Critical but no visible progress yet. 1 of 3 done, 2nd in progress. Green — needs Claims Intro momentum for Super Green.", "superGreen": "All 3 videos complete (Core Values, Price Comparison, Claims Intro)", "green": "2 of 3 videos complete" },
+        { "name": "New Hire Onboarding Videos", "critical": false, "status": "green", "assessment": "Culture video done (3/10) — primary deliverable for this goal. 'Other videos with Anne' sub-item has no status. Anne's bandwidth consumed by hiring, so realistically only culture video ships this quarter. Green.", "superGreen": "Culture video + 1 additional onboarding video with Anne completed", "green": "Culture video completed and uploaded to training modules" },
+        { "name": "SEO Videos", "critical": false, "status": "red", "assessment": "No sub-items, no activity, not discussed in 3/26 sync. No visible progress. Red.", "superGreen": "3+ SEO videos published to YouTube", "green": "1 SEO video published to YouTube" },
+        { "name": "Short Form / Content Cadence", "critical": false, "status": "green", "assessment": "Two short form videos in progress ('How to Set Up Your Place', 'Interstellar' Booking). Client testimonial with Shawna Hickman being scheduled. GMB photo cadence being established with Kickpoint (starting Garland). Overall charter: 1 long form biweekly + 1 short form weekly.", "superGreen": "1 short form video per week published consistently + 1 client testimonial filmed", "green": "Biweekly short form content published" }
       ]
     }
   ]
