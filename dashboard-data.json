@@ -3,8 +3,8 @@
     "quarter": "Q1 2026",
     "quarterStart": "2026-02-01",
     "quarterEnd": "2026-04-19",
-    "lastRefreshed": "2026-03-26T14:15:00-05:00",
-    "refreshedBy": "Albert (digest — Austin L sync)"
+    "lastRefreshed": "2026-03-30T16:30:00-05:00",
+    "refreshedBy": "Albert (digest — Variable Pricing rollout meeting)"
   },
   "companyCriticalNumbers": [
     {
@@ -70,9 +70,9 @@
         {
           "name": "Smart Move System Rollout",
           "target": "4 components rolled out",
-          "actual": "Var Pricing backend QA wrapping, launch 3/30",
+          "actual": "Quote form live 3/30, Phase 1 pricing post-conference",
           "status": "green",
-          "note": "CRITICAL NEW ISSUE (3/26 huddle): Form creates CRM record on contact entry — floods New Leads with 50-60% abandoned sessions. Team decided on flagging system + 'recapture queue' to separate abandoned from real leads. Profiles expire after 1 day. This is launch-critical and likely pushes the 3/30 timeline. Cameron checking with Matisen 3/27. Prior status: Jeff finishing email button, Fabian fixing rental truck availabilities, CMS backend shared, staging reviewable."
+          "note": "Variable pricing quote form launched 3/30. Recapture queue resolved — abandoned leads hidden behind super admin (Phase 2 future work). EMMA pricing tool confirmed working: per-branch, per-day pricing with rules stacking. Phase 1 (day-of-week ±$5) goes live post-conference. Phase 2 (May 1 base rate increases) under Roundtable review — Option A vs B not yet decided. Rate card + full analysis shared with managers for comment. #variable-pricing Slack channel being created. Pricing tool being locked to super admin."
         },
         {
           "name": "Omni Channel Marketing",
@@ -108,9 +108,9 @@
         {
           "name": "3 Critical Projects",
           "target": "Variable Pricing + Dashboard/KPIs + EMMA QoL",
-          "actual": "Games fix deploying tonight, Var Pricing 3/30, QoL identified",
+          "actual": "Var Pricing form live 3/30, Phase 1 post-conference, QoL identified",
           "status": "green",
-          "note": "Games in production not pulling driver scores due to exclusion flag — fix identified, deploying tonight (3/23). Announce on TV board after verification. Event-based driver scores in Unsung/Emma live and accurate. Variable Pricing 3/30. QoL sequenced after."
+          "note": "Variable Pricing quote form launched 3/30. Phase 1 pricing post-conference. EMMA pricing tool confirmed working. Games fix deployed. QoL sequenced after VP + dashboards."
         },
         {
           "name": "EMMA Bug Count",
@@ -161,10 +161,10 @@
       "name": "Smart Move System - Phase 1",
       "critical": true,
       "status": "green",
-      "assessment": "Variable Pricing: critical recapture queue issue surfaced 3/26 huddle — form floods CRM with abandoned sessions. Flagging system needed before launch. 3/30 timeline at risk. Other components on track but VP is the linchpin.",
+      "assessment": "Variable Pricing quote form live 3/30. Recapture queue resolved. Phase 1 pricing post-conference, Phase 2 (May 1) under Roundtable review. Rate card + analysis shared with managers. Other components on track — scripts drafted, pricing page with Kickpoint, emails pending Matisen QoL sprint.",
       "superGreen": "All 4 components: landing pages, pricing page, emails, scripts",
       "green": "3 out of 4 completed",
-      "lastUpdated": "2026-03-19"
+      "lastUpdated": "2026-03-30"
     },
     {
       "number": 3,
@@ -236,7 +236,7 @@
       "goals": [
         { "name": "Fleet Safety", "critical": true, "status": "supergreen", "assessment": "DFWT branches crushing it (Dallas 96, Tampa 100). Training complete. Weekly accountability strong.", "superGreen": "80+ avg, <10% at-risk, weekly dashboard, monthly BM meetings, accountability during sync ups", "green": "All trained by March 31, 75+ avg, <20% below 70" },
         { "name": "Mover Training Catalog/App", "critical": true, "status": "green", "assessment": "Digital handbook reviewed. Full blueprint posted with Gerald (2/25). Scaffold progressing. On track for Green.", "superGreen": "Functional MVP completed and reviewed by leadership team", "green": "Scaffold fully built with mock ups and planned KPI integration" },
-        { "name": "Regional Growth (Tampa/Garland OMs)", "critical": false, "status": "green", "assessment": "Tampa OM: Stephen Anderson selected. Zachary OUT (session 36), Andra OUT (session 38). Mike flying to Tampa for in-person — office tour, meet Brandon + crew, lunch. Offer same day if vibes check out. Anne confirmed availability. Tampa first priority, Garland reassess post-summer.", "superGreen": "OM hired and trained for Tampa AND Garland", "green": "OM hired and trained for Tampa" },
+        { "name": "Regional Growth (Tampa/Garland OMs)", "critical": false, "status": "green", "assessment": "Tampa OM: Stephen Anderson informally accepted. Formal Rippling offer pending Anne (out 3/30, back 3/31). Background check running across 5 states (NY, FL, MN, CT). Coming to conference — tickets purchased. No announcement until formal offer accepted. Tampa first priority, Garland reassess post-summer.", "superGreen": "OM hired and trained for Tampa AND Garland", "green": "OM hired and trained for Tampa" },
         { "name": "Branch Visits/Audits", "critical": false, "status": "green", "assessment": "Mike travels between DFWT branches regularly. Likely on track but need specific audit count.", "superGreen": "5 locations, branch scores avg 4.5+, audits + circle-up/huddle audits complete", "green": "3 locations, branch scores avg 4.0+, audits complete" },
         { "name": "Sell 3 Older Trucks", "critical": false, "status": "red", "assessment": "1 of 3 selling today. Other 2 not getting traction at current pricing — reducing price and reposting. Only 1 of 3 with less than half the quarter left. Trending Red.", "superGreen": "3 trucks sold", "green": "2 trucks sold" }
       ]
@@ -245,7 +245,7 @@
       "name": "Matisen Harper",
       "title": "Dir. of IT",
       "goals": [
-        { "name": "Variable Pricing", "critical": true, "status": "green", "assessment": "CRITICAL: Recapture queue flagging system needed before launch (3/26 huddle). Form creates CRM records on contact entry, flooding New Leads with abandoned sessions. Flagging + expiration system is launch-critical. 3/30 timeline at risk. Cameron following up with Matisen 3/27.", "superGreen": "Launch within timeline budget, one sprint push allowed", "green": "Launch within timeline budget, two sprint pushes allowed" },
+        { "name": "Variable Pricing", "critical": true, "status": "green", "assessment": "Quote form launched 3/30. Recapture queue resolved (hidden behind super admin). EMMA pricing tool confirmed working — per-branch/per-day pricing with rules stacking. Phase 1 goes live post-conference. Pricing being locked to super admin (feature request). ProKeys broken (Chrome update) — Matisen finding replacement post-rollout. Wrapping up a few bugs + FAQ copy updates.", "superGreen": "Launch within timeline budget, one sprint push allowed", "green": "Launch within timeline budget, two sprint pushes allowed" },
         { "name": "Dashboard/KPIs in EMMA", "critical": true, "status": "green", "assessment": "Marketing dashboard close but not ready. Games: Cameron stressed need for 2-3 weeks of reliable data before Q2 rollout to build team trust (3/26 huddle). Data accuracy concerns flagged by team. PL migration to Rippling queued post-conference.", "superGreen": "Branch KPI Scorecards, Einstein Games migrated from Glide + download and chat feature", "green": "Branch KPI Scorecards, Einstein Games migrated from Glide + download" },
         { "name": "EMMA QoL Sprints", "critical": false, "status": "green", "assessment": "QoL projects identified. Held off while Variable Pricing and Dashboard KPIs ship first. Should be able to hit Green by EOQ once those deploy.", "superGreen": "2 QoL feature sprints including design improvements", "green": "1 QoL feature sprint" },
         { "name": "Mobile App", "critical": false, "status": "red", "assessment": "Matisen confirmed (3/26 huddle) mobile app UX rework is lowest priority — behind var pricing, dashboards, and schema roadmap. Initial UX concept exists but full audit and dev work haven't begun. At risk for Green.", "superGreen": "UX rework, E2E testing setup, mobile app in UAT", "green": "UX rework, working through E2E coverage" },
