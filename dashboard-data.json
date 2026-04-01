@@ -3,8 +3,8 @@
     "quarter": "Q1 2026",
     "quarterStart": "2026-02-01",
     "quarterEnd": "2026-04-19",
-    "lastRefreshed": "2026-04-01T10:00:00-05:00",
-    "refreshedBy": "Albert (/gm)"
+    "lastRefreshed": "2026-04-01T11:15:00-05:00",
+    "refreshedBy": "Albert (digest — 4/1 huddle)"
   },
   "companyCriticalNumbers": [
     {
@@ -39,9 +39,9 @@
         {
           "name": "$ Conversions",
           "target": "40% conversion $",
-          "actual": "Team +6%, Daniel 65% conversion",
+          "actual": "March: 37% conv, 107% to goal",
           "status": "green",
-          "note": "Roundtable (3/23): Team +6%. Daniel at 240% with 65% conversion (spot bonus). Garrison at 16% with vacation/backlog. Script optimization underway."
+          "note": "March: 107% to goal, $37% conversion. Daniel ~200%, Zach 123%. Branch: SA 138%, MCK 135%, FW 123%, GAR 115%, NA 101%, S. Austin 97%, Leander lagging. April budgets confirmed."
         }
       ]
     },
