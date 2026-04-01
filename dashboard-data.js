@@ -3,8 +3,8 @@ const DASHBOARD_DATA = {
     "quarter": "Q1 2026",
     "quarterStart": "2026-02-01",
     "quarterEnd": "2026-04-19",
-    "lastRefreshed": "2026-03-30T16:30:00-05:00",
-    "refreshedBy": "Albert (digest — Variable Pricing rollout meeting)"
+    "lastRefreshed": "2026-04-01T10:00:00-05:00",
+    "refreshedBy": "Albert (/gm)"
   },
   "companyCriticalNumbers": [
     {
@@ -22,7 +22,7 @@ const DASHBOARD_DATA = {
           "target": "105% budget all periods",
           "actual": "Brian hired 19 in 2 weeks, 7 more pending",
           "status": "green",
-          "note": "Brian's region hired 19 people in 2 weeks with 7 more offers pending (3/20 huddle). Anne tracking across all regions. I-9/E-verify training completed, Clear Company templates being updated."
+          "note": "Brian's region hired 19 people in 2 weeks with 7 more offers pending (3/20 huddle). Anne tracking across all regions. I-9/E-verify training completed, Clear Company templates being updated. Mike (4/1): Samsara consolidation on hold until EOQ — data integrity issue (safety data wouldn't transfer in merge)."
         }
       ]
     },
@@ -110,7 +110,7 @@ const DASHBOARD_DATA = {
           "target": "Variable Pricing + Dashboard/KPIs + EMMA QoL",
           "actual": "Var Pricing form live 3/30, Phase 1 post-conference, QoL identified",
           "status": "green",
-          "note": "Variable Pricing quote form launched 3/30. Phase 1 pricing post-conference. EMMA pricing tool confirmed working. Games fix deployed. QoL sequenced after VP + dashboards."
+          "note": "Variable Pricing quote form launched 3/30. FIRST AUTOBOOKING 3/31 — variable pricing live in production. Phase 1 pricing post-conference. EMMA pricing tool confirmed working. Games fix deployed. QoL sequenced after VP + dashboards."
         },
         {
           "name": "EMMA Bug Count",
@@ -161,7 +161,7 @@ const DASHBOARD_DATA = {
       "name": "Smart Move System - Phase 1",
       "critical": true,
       "status": "green",
-      "assessment": "Variable Pricing quote form live 3/30. Recapture queue resolved. Phase 1 pricing post-conference, Phase 2 (May 1) under Roundtable review. Rate card + analysis shared with managers. Other components on track — scripts drafted, pricing page with Kickpoint, emails pending Matisen QoL sprint.",
+      "assessment": "Variable Pricing quote form live 3/30. FIRST AUTOBOOKING through new system 3/31. Recapture queue resolved. Phase 1 pricing post-conference, Phase 2 (May 1) under Roundtable review. Rate card + analysis shared with managers. Other components on track — scripts drafted, pricing page with Kickpoint, emails pending Matisen QoL sprint.",
       "superGreen": "All 4 components: landing pages, pricing page, emails, scripts",
       "green": "3 out of 4 completed",
       "lastUpdated": "2026-03-30"
@@ -201,7 +201,7 @@ const DASHBOARD_DATA = {
       "name": "AI Education - Workshop Hosting",
       "critical": false,
       "status": "green",
-      "assessment": "Evolved to full conference keynote. 38-slide deck (4 cut, 1 added session 40). Conference in 7 days (April 2-4). Slido live + QR embedded. 'Where We're Headed' AI COS network slide added. Visual assets still needed. Act 4 live build prep still unscoped (45 min Replit session). On track for Green.",
+      "assessment": "Evolved to full conference keynote. ~35-slide deck fully restructured, 4 review batches complete. Conference TOMORROW (April 2-3). 3 Slido polls, 5 engagement moments, 5 ChatGPT mascots, real screenshots + videos embedded. Still needed: /gm screen recording, network diagram review, Praise Tracker dry run. On track for Green.",
       "superGreen": "5 workshops with BMs (2-hr live builds)",
       "green": "3 workshops with BMs",
       "lastUpdated": "2026-03-19"
@@ -245,7 +245,7 @@ const DASHBOARD_DATA = {
       "name": "Matisen Harper",
       "title": "Dir. of IT",
       "goals": [
-        { "name": "Variable Pricing", "critical": true, "status": "green", "assessment": "Quote form launched 3/30. Recapture queue resolved (hidden behind super admin). EMMA pricing tool confirmed working — per-branch/per-day pricing with rules stacking. Phase 1 goes live post-conference. Pricing being locked to super admin (feature request). ProKeys broken (Chrome update) — Matisen finding replacement post-rollout. Wrapping up a few bugs + FAQ copy updates.", "superGreen": "Launch within timeline budget, one sprint push allowed", "green": "Launch within timeline budget, two sprint pushes allowed" },
+        { "name": "Variable Pricing", "critical": true, "status": "green", "assessment": "Quote form launched 3/30. FIRST AUTOBOOKING through variable pricing 3/31 — system confirmed working in production. Recapture queue resolved. Phase 1 pricing post-conference. Pricing locked to super admin. ProKeys broken — replacement post-rollout.", "superGreen": "Launch within timeline budget, one sprint push allowed", "green": "Launch within timeline budget, two sprint pushes allowed" },
         { "name": "Dashboard/KPIs in EMMA", "critical": true, "status": "green", "assessment": "Marketing dashboard close but not ready. Games: Cameron stressed need for 2-3 weeks of reliable data before Q2 rollout to build team trust (3/26 huddle). Data accuracy concerns flagged by team. PL migration to Rippling queued post-conference.", "superGreen": "Branch KPI Scorecards, Einstein Games migrated from Glide + download and chat feature", "green": "Branch KPI Scorecards, Einstein Games migrated from Glide + download" },
         { "name": "EMMA QoL Sprints", "critical": false, "status": "green", "assessment": "QoL projects identified. Held off while Variable Pricing and Dashboard KPIs ship first. Should be able to hit Green by EOQ once those deploy.", "superGreen": "2 QoL feature sprints including design improvements", "green": "1 QoL feature sprint" },
         { "name": "Mobile App", "critical": false, "status": "red", "assessment": "Matisen confirmed (3/26 huddle) mobile app UX rework is lowest priority — behind var pricing, dashboards, and schema roadmap. Initial UX concept exists but full audit and dev work haven't begun. At risk for Green.", "superGreen": "UX rework, E2E testing setup, mobile app in UAT", "green": "UX rework, working through E2E coverage" },
