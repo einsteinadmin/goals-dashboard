@@ -3,8 +3,8 @@
     "quarter": "Q1 2026",
     "quarterStart": "2026-02-01",
     "quarterEnd": "2026-04-19",
-    "lastRefreshed": "2026-04-01T11:15:00-05:00",
-    "refreshedBy": "Albert (digest — 4/1 huddle)"
+    "lastRefreshed": "2026-04-01T12:00:00-05:00",
+    "refreshedBy": "Albert (digest — 4/1 KP sync)"
   },
   "companyCriticalNumbers": [
     {
@@ -70,16 +70,16 @@
         {
           "name": "Smart Move System Rollout",
           "target": "4 components rolled out",
-          "actual": "Quote form live 3/30, Phase 1 pricing post-conference",
+          "actual": "Quote form live 3/30, first autobooking 3/31, running clean",
           "status": "green",
-          "note": "Variable pricing quote form launched 3/30. Recapture queue resolved — abandoned leads hidden behind super admin (Phase 2 future work). EMMA pricing tool confirmed working: per-branch, per-day pricing with rules stacking. Phase 1 (day-of-week ±$5) goes live post-conference. Phase 2 (May 1 base rate increases) under Roundtable review — Option A vs B not yet decided. Rate card + full analysis shared with managers for comment. #variable-pricing Slack channel being created. Pricing tool being locked to super admin."
+          "note": "Variable pricing quote form launched 3/30. FIRST AUTOBOOKING 3/31. Running clean (4/1 huddle). Amanda's team announcement sent. Mike+Brian mover comms ASAP. RFQ email bug being fixed, lead scan planned. KP sync (4/1): booked moves down 23% YoY but lead value up ~$800K, revenue up ~$40-50K. Phase 2 adjustments Mon/Tue next week. Location landing pages: content doc approved, staging by EOW."
         },
         {
           "name": "Omni Channel Marketing",
           "target": "Mailers + billboards in 1+ market, ROAS identified",
-          "actual": "Billboards launching 4/6, mailers in Austin",
+          "actual": "Awards page LIVE, mailers DONE all cities, billboards 4/6",
           "status": "green",
-          "note": "Billboards confirmed for April 6. Austin mailers done. Remaining cities need logo/URL swaps. ROAS mapping underway but not finalized."
+          "note": "Awards page LIVE on site (4/1). Mailers DONE all cities — QR codes + tracking URLs live. Billboards launching April 6, on target. Marketing dashboard DONE with walkthrough + FAQ. Design system proposal from Laura coming EOD/EOW. BBB listings: Elizabeth finalizing pricing. Apple Maps: team handling directly (external partner can't help). ROAS mapping still needed for Super Green."
         }
       ]
     },
@@ -181,7 +181,7 @@
       "name": "Omni Channel Marketing",
       "critical": false,
       "status": "green",
-      "assessment": "Billboards launching April 6 (payment confirmed). Austin mailers done, remaining cities need swaps. ROAS mapping underway but not finalized \u2014 that's the Super Green blocker.",
+      "assessment": "Awards page LIVE. Mailers DONE all cities (QR + tracking live). Billboards April 6. Marketing dashboard DONE with walkthrough + FAQ. Design system proposal coming EOD/EOW from Laura. ROAS mapping still the Super Green blocker.",
       "superGreen": "Mailers + billboards in 1+ market each, ROAS identified",
       "green": "1 of 2 in place, ROAS fuzzy OK if both in place",
       "lastUpdated": "2026-03-19"
