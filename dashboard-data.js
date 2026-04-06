@@ -3,8 +3,8 @@ const DASHBOARD_DATA = {
     "quarter": "Q1 2026",
     "quarterStart": "2026-02-01",
     "quarterEnd": "2026-04-19",
-    "lastRefreshed": "2026-04-01T12:00:00-05:00",
-    "refreshedBy": "Albert (digest — 4/1 KP sync)"
+    "lastRefreshed": "2026-04-06T15:00:00-05:00",
+    "refreshedBy": "Albert (digest — 4/6 Brian sync)"
   },
   "companyCriticalNumbers": [
     {
@@ -223,11 +223,11 @@ const DASHBOARD_DATA = {
       "name": "Brian Herzig",
       "title": "CTXH Regional Mgr",
       "goals": [
-        { "name": "Fleet Safety (BBE)", "critical": true, "status": "supergreen", "assessment": "Training complete, accountability strong. CTXH results extraordinary. Weekly dashboard updates consistent.", "superGreen": "80+ avg, <10% at-risk, weekly dashboard, monthly BM meetings, accountability during sync ups + 1:1 if in red", "green": "All trained by March 31, 75+ avg, <20% below 70" },
-        { "name": "Scrum Accountability Pt 3", "critical": true, "status": "green", "assessment": "Brian confirmed framework 'looks great, not over-engineered' (3/25). Cameron sharing Monday workflow playbook with Brian this week. Has momentum now. Dependency on Cameron + Albert to organize materials.", "superGreen": "Sync-up grading scorecard developed, cert developed, grade for all locations + OB training module built", "green": "Grading scorecard for SCRUM/Monday org, basic certification built, all managers/branches have a score" },
-        { "name": "Branch Visits/Audits", "critical": false, "status": "green", "assessment": "Brian has been visiting branches for BBE accountability. Likely on track for Green (3 locations) but need specific count.", "superGreen": "5 locations, scores avg 4.5+, 1 audit/branch + follow-up, 3 circle-up audits, 3 huddle audits", "green": "3 locations, scores avg 4.0+, 1 audit/branch + follow-up, 3 circle-up audits, 3 huddle audits" },
-        { "name": "Legends Book Pt 2", "critical": false, "status": "green", "assessment": "Online Legends app created (basic version hosted). Now working on print mock-up design. Won't be printed for conference (April 2-4) but hoping to have online version + mock-up ready to show at conference, print shortly after.", "superGreen": "Redesign completed, approved, printed and in branch hands by EOQ (Legends, Events, Dream Team, HQ Pics)", "green": "Template drafted with pics/org ready for print. Improved legends collection process in place." },
-        { "name": "Swag/Training Day Calendar", "critical": false, "status": "red", "assessment": "Swag side done — ordered Driver's Ed sweatshirts, lightweight hoodies, branded tees, patched hats, Nike hats. All delivered. But no progress on training day calendar. Red for the calendar half.", "superGreen": "Dashboard app formatted, designed and live for rest of year company-wide, TD slides + stations linked", "green": "Dashboard app formatted, designed and live for next 6 months company-wide" }
+        { "name": "Fleet Safety (BBE)", "critical": true, "status": "green", "assessment": "Training complete but CTXH branches slipping in Week 10: N. Austin 0, Leander 16, S. Austin 39, San Antonio 91, Houston 66. Cameron told Brian to stay on coaching (4/6 sync). Likely recoverable — may be Games Score submission issue, not actual safety regression. Verify next week.", "superGreen": "80+ avg, <10% at-risk, weekly dashboard, monthly BM meetings, accountability during sync ups + 1:1 if in red", "green": "All trained by March 31, 75+ avg, <20% below 70" },
+        { "name": "Scrum Accountability Pt 3", "critical": true, "status": "green", "assessment": "Scorecard app built and ready (4/6 sync). No dependency on Cameron — Brian testing and tweaking independently. Will start using for sync-ups. On track for Green.", "superGreen": "Sync-up grading scorecard developed, cert developed, grade for all locations + OB training module built", "green": "Grading scorecard for SCRUM/Monday org, basic certification built, all managers/branches have a score" },
+        { "name": "Branch Visits/Audits", "critical": false, "status": "green", "assessment": "Confirmed 3 visits including conference (4/6 sync). Austin visit scheduled for the 24th. Green locked.", "superGreen": "5 locations, scores avg 4.5+, 1 audit/branch + follow-up, 3 circle-up audits, 3 huddle audits", "green": "3 locations, scores avg 4.0+, 1 audit/branch + follow-up, 3 circle-up audits, 3 huddle audits" },
+        { "name": "Legends Book Pt 2", "critical": false, "status": "green", "assessment": "Online version exists. Print version NOT done yet — in Brian's This Week (4/6 sync). Still Green but needs to get printed before EOQ.", "superGreen": "Redesign completed, approved, printed and in branch hands by EOQ (Legends, Events, Dream Team, HQ Pics)", "green": "Template drafted with pics/org ready for print. Improved legends collection process in place." },
+        { "name": "Swag/Training Day Calendar", "critical": false, "status": "red", "assessment": "Swag done. Training Day Calendar still no progress — Brian will check the Replit app this week but marked as low priority (4/6 sync). Red with 13 days left.", "superGreen": "Dashboard app formatted, designed and live for rest of year company-wide, TD slides + stations linked", "green": "Dashboard app formatted, designed and live for next 6 months company-wide" }
       ]
     },
     {
