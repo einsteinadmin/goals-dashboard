@@ -3,8 +3,8 @@ const DASHBOARD_DATA = {
     "quarter": "Q1 2026",
     "quarterStart": "2026-02-01",
     "quarterEnd": "2026-04-19",
-    "lastRefreshed": "2026-04-06T20:30:00-05:00",
-    "refreshedBy": "Albert (digest — 4/6 Matisen sync)"
+    "lastRefreshed": "2026-04-07T11:00:00-05:00",
+    "refreshedBy": "Albert (/gm)"
   },
   "companyCriticalNumbers": [
     {
@@ -70,9 +70,9 @@ const DASHBOARD_DATA = {
         {
           "name": "Smart Move System Rollout",
           "target": "4 components rolled out",
-          "actual": "Quote form live 3/30, first autobooking 3/31, running clean",
+          "actual": "Phase 1 live, Option A confirmed 4/7, $5 May increase queued",
           "status": "green",
-          "note": "Variable pricing quote form launched 3/30. FIRST AUTOBOOKING 3/31. Running clean (4/1 huddle). Amanda's team announcement sent. Mike+Brian mover comms ASAP. RFQ email bug being fixed, lead scan planned. KP sync (4/1): booked moves down 23% YoY but lead value up ~$800K, revenue up ~$40-50K. Phase 2 adjustments Mon/Tue next week. Location landing pages: content doc approved, staging by EOW."
+          "note": "VP meeting 4/7: Option A confirmed. $5 blanket May base rate increase (Matisen pushing tonight). Terminology locked: Standard/Value/Best Value. Day-of-week rollout gated on Amanda training videos. Manager + mover announcements drafted. EMMA auto-adjusts on date change. Phase 2: location-specific tuning + weekly review cadence."
         },
         {
           "name": "Omni Channel Marketing",
@@ -108,9 +108,9 @@ const DASHBOARD_DATA = {
         {
           "name": "3 Critical Projects",
           "target": "Variable Pricing + Dashboard/KPIs + EMMA QoL",
-          "actual": "Var Pricing form live 3/30, Phase 1 post-conference, QoL identified",
+          "actual": "VP Phase 1 live, Option A confirmed 4/7, QoL in QA",
           "status": "green",
-          "note": "Variable Pricing quote form launched 3/30. FIRST AUTOBOOKING 3/31 — variable pricing live in production. Phase 1 pricing post-conference. EMMA pricing tool confirmed working. Games fix deployed. QoL sequenced after VP + dashboards."
+          "note": "VP meeting 4/7: Option A confirmed. $5 May blanket increase queued. EMMA pricing tool confirmed working + auto-adjusts on date change. Games fix deployed. QoL email templates in QA, mobile-friendly pages rolling. VP After Action Review end of week."
         },
         {
           "name": "EMMA Bug Count",
@@ -161,7 +161,7 @@ const DASHBOARD_DATA = {
       "name": "Smart Move System - Phase 1",
       "critical": true,
       "status": "green",
-      "assessment": "Variable Pricing quote form live 3/30. FIRST AUTOBOOKING through new system 3/31. Recapture queue resolved. Phase 1 pricing post-conference, Phase 2 (May 1) under Roundtable review. Rate card + analysis shared with managers. Other components on track — scripts drafted, pricing page with Kickpoint, emails pending Matisen QoL sprint.",
+      "assessment": "Variable Pricing Phase 1 LIVE (3/30). 4/7 VP meeting: Option A confirmed. $5 blanket May base rate increase (Matisen pushing tonight). Terminology locked: Standard/Value/Best Value. Day-of-week rollout gated on Amanda training videos (2-3 short + sales script). Manager + mover announcements drafted. Location landing pages: staging from KP. Scripts still need drafting for Q2.",
       "superGreen": "All 4 components: landing pages, pricing page, emails, scripts",
       "green": "3 out of 4 completed",
       "lastUpdated": "2026-03-30"
@@ -201,10 +201,10 @@ const DASHBOARD_DATA = {
       "name": "AI Education - Workshop Hosting",
       "critical": false,
       "status": "green",
-      "assessment": "Evolved to full conference keynote. ~35-slide deck fully restructured, 4 review batches complete. Conference TOMORROW (April 2-3). 3 Slido polls, 5 engagement moments, 5 ChatGPT mascots, real screenshots + videos embedded. Still needed: /gm screen recording, network diagram review, Praise Tracker dry run. On track for Green.",
+      "assessment": "CONFERENCE DELIVERED (April 2-4). Full keynote + AI build race completed at All Manager Conference in Waco. Post-conference TLDR still needs drafting and sending. Super Green — exceeded original workshop scope with full conference keynote.",
       "superGreen": "5 workshops with BMs (2-hr live builds)",
       "green": "3 workshops with BMs",
-      "lastUpdated": "2026-03-19"
+      "lastUpdated": "2026-04-07"
     }
   ],
   "leadership": [
@@ -238,14 +238,14 @@ const DASHBOARD_DATA = {
         { "name": "Mover Training Catalog/App", "critical": true, "status": "green", "assessment": "Digital handbook reviewed. Full blueprint posted with Gerald (2/25). Scaffold progressing. On track for Green.", "superGreen": "Functional MVP completed and reviewed by leadership team", "green": "Scaffold fully built with mock ups and planned KPI integration" },
         { "name": "Regional Growth (Tampa/Garland OMs)", "critical": false, "status": "green", "assessment": "Tampa OM: Stephen Anderson informally accepted. Formal Rippling offer pending Anne (out 3/30, back 3/31). Background check running across 5 states (NY, FL, MN, CT). Coming to conference — tickets purchased. No announcement until formal offer accepted. Tampa first priority, Garland reassess post-summer.", "superGreen": "OM hired and trained for Tampa AND Garland", "green": "OM hired and trained for Tampa" },
         { "name": "Branch Visits/Audits", "critical": false, "status": "green", "assessment": "Mike travels between DFWT branches regularly. Likely on track but need specific audit count.", "superGreen": "5 locations, branch scores avg 4.5+, audits + circle-up/huddle audits complete", "green": "3 locations, branch scores avg 4.0+, audits complete" },
-        { "name": "Sell 3 Older Trucks", "critical": false, "status": "red", "assessment": "1 of 3 selling today. Other 2 not getting traction at current pricing — reducing price and reposting. Only 1 of 3 with less than half the quarter left. Trending Red.", "superGreen": "3 trucks sold", "green": "2 trucks sold" }
+        { "name": "Sell 3 Older Trucks", "critical": false, "status": "red", "assessment": "Mike sync 4/7: still RED. 1 of 3 sold, others not getting traction. Reducing price and reposting.", "superGreen": "3 trucks sold", "green": "2 trucks sold" }
       ]
     },
     {
       "name": "Matisen Harper",
       "title": "Dir. of IT",
       "goals": [
-        { "name": "Variable Pricing", "critical": true, "status": "green", "assessment": "Phase 1 live. Phase 2 decided (4/6 sync with Paul): Option P (aggressive). Austin Fri/Sat/Sun = peak. Leander $90 value / $98 peak. Extend through August. Tuesday 4/7 huddle to confirm with Mike/Brian/Amanda before going live. ProKeys broken — Matisen finding replacement.", "superGreen": "Launch within timeline budget, one sprint push allowed", "green": "Launch within timeline budget, two sprint pushes allowed" },
+        { "name": "Variable Pricing", "critical": true, "status": "green", "assessment": "Phase 1 live. 4/7 VP meeting: Option A confirmed. $5 blanket May base rate increase (Matisen pushing tonight). Terminology: Standard (Fri/Sat), Value (Sun/Mon), Best Value (Tue-Thu). Day-of-week rollout gated on Amanda training. ProKeys broken — not a blocker. EMMA auto-adjusts on date change.", "superGreen": "Launch within timeline budget, one sprint push allowed", "green": "Launch within timeline budget, two sprint pushes allowed" },
         { "name": "Dashboard/KPIs in EMMA", "critical": true, "status": "green", "assessment": "Einstein Games validation + rollout with Bobby this week (4/6 sync). Dashboard data validation this week. Revenue dashboard in QA. Need 2-3 weeks reliable Games data before Q2 rollout. PL migration: Denis has script for Google Sheets → Rippling, checking with Anne and dev.", "superGreen": "Branch KPI Scorecards, Einstein Games migrated from Glide + download and chat feature", "green": "Branch KPI Scorecards, Einstein Games migrated from Glide + download" },
         { "name": "EMMA QoL Sprints", "critical": false, "status": "green", "assessment": "Email templates in QA. Mobile-friendly Move Manager + customer pages rolling (4/6 sync). Easier than VP. VP After Action Review end of this week. On track for Green.", "superGreen": "2 QoL feature sprints including design improvements", "green": "1 QoL feature sprint" },
         { "name": "Mobile App", "critical": false, "status": "red", "assessment": "Accepted Red (4/6 sync). Too many higher priorities. Gathering limited UX feedback and latest version to start minimal UX work. No path to Green this quarter.", "superGreen": "UX rework, E2E testing setup, mobile app in UAT", "green": "UX rework, working through E2E coverage" },
