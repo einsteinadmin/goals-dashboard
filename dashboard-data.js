@@ -3,8 +3,8 @@ const DASHBOARD_DATA = {
     "quarter": "Q1 2026",
     "quarterStart": "2026-02-01",
     "quarterEnd": "2026-04-19",
-    "lastRefreshed": "2026-04-06T15:00:00-05:00",
-    "refreshedBy": "Albert (digest — 4/6 Brian sync)"
+    "lastRefreshed": "2026-04-06T20:30:00-05:00",
+    "refreshedBy": "Albert (digest — 4/6 Matisen sync)"
   },
   "companyCriticalNumbers": [
     {
@@ -245,11 +245,11 @@ const DASHBOARD_DATA = {
       "name": "Matisen Harper",
       "title": "Dir. of IT",
       "goals": [
-        { "name": "Variable Pricing", "critical": true, "status": "green", "assessment": "Quote form launched 3/30. FIRST AUTOBOOKING through variable pricing 3/31 — system confirmed working in production. Recapture queue resolved. Phase 1 pricing post-conference. Pricing locked to super admin. ProKeys broken — replacement post-rollout.", "superGreen": "Launch within timeline budget, one sprint push allowed", "green": "Launch within timeline budget, two sprint pushes allowed" },
-        { "name": "Dashboard/KPIs in EMMA", "critical": true, "status": "green", "assessment": "Marketing dashboard close but not ready. Games: Cameron stressed need for 2-3 weeks of reliable data before Q2 rollout to build team trust (3/26 huddle). Data accuracy concerns flagged by team. PL migration to Rippling queued post-conference.", "superGreen": "Branch KPI Scorecards, Einstein Games migrated from Glide + download and chat feature", "green": "Branch KPI Scorecards, Einstein Games migrated from Glide + download" },
-        { "name": "EMMA QoL Sprints", "critical": false, "status": "green", "assessment": "QoL projects identified. Held off while Variable Pricing and Dashboard KPIs ship first. Should be able to hit Green by EOQ once those deploy.", "superGreen": "2 QoL feature sprints including design improvements", "green": "1 QoL feature sprint" },
-        { "name": "Mobile App", "critical": false, "status": "red", "assessment": "Matisen confirmed (3/26 huddle) mobile app UX rework is lowest priority — behind var pricing, dashboards, and schema roadmap. Initial UX concept exists but full audit and dev work haven't begun. At risk for Green.", "superGreen": "UX rework, E2E testing setup, mobile app in UAT", "green": "UX rework, working through E2E coverage" },
-        { "name": "Mongo Schema Roadmap", "critical": false, "status": "green", "assessment": "Service separation: Gabriel + Fabian meeting happened Wed 3/26 to scope pulling services from EMMA. Phase 2/cron management falls under Q1. Pub/sub + Mongo→Postgres connectors discussed. RBAC changes + new endpoints needed. Updated timeline expected soon.", "superGreen": "Next-gen architecture defined with systems, system IDs, service calls + roadmap for next steps", "green": "Next-gen architecture defined with system IDs, still scoping service calls" }
+        { "name": "Variable Pricing", "critical": true, "status": "green", "assessment": "Phase 1 live. Phase 2 decided (4/6 sync with Paul): Option P (aggressive). Austin Fri/Sat/Sun = peak. Leander $90 value / $98 peak. Extend through August. Tuesday 4/7 huddle to confirm with Mike/Brian/Amanda before going live. ProKeys broken — Matisen finding replacement.", "superGreen": "Launch within timeline budget, one sprint push allowed", "green": "Launch within timeline budget, two sprint pushes allowed" },
+        { "name": "Dashboard/KPIs in EMMA", "critical": true, "status": "green", "assessment": "Einstein Games validation + rollout with Bobby this week (4/6 sync). Dashboard data validation this week. Revenue dashboard in QA. Need 2-3 weeks reliable Games data before Q2 rollout. PL migration: Denis has script for Google Sheets → Rippling, checking with Anne and dev.", "superGreen": "Branch KPI Scorecards, Einstein Games migrated from Glide + download and chat feature", "green": "Branch KPI Scorecards, Einstein Games migrated from Glide + download" },
+        { "name": "EMMA QoL Sprints", "critical": false, "status": "green", "assessment": "Email templates in QA. Mobile-friendly Move Manager + customer pages rolling (4/6 sync). Easier than VP. VP After Action Review end of this week. On track for Green.", "superGreen": "2 QoL feature sprints including design improvements", "green": "1 QoL feature sprint" },
+        { "name": "Mobile App", "critical": false, "status": "red", "assessment": "Accepted Red (4/6 sync). Too many higher priorities. Gathering limited UX feedback and latest version to start minimal UX work. No path to Green this quarter.", "superGreen": "UX rework, E2E testing setup, mobile app in UAT", "green": "UX rework, working through E2E coverage" },
+        { "name": "Mongo Schema Roadmap", "critical": false, "status": "green", "assessment": "Renamed to C4 + BPMN Architecture Maps (4/6 sync). Week LOW 21 — big scope. Building structural (C4) and behavioral (BPMN) models for agent comprehension. Definition of done: maps ready to share with Daniel. Ties into World Model and AI-native architecture.", "superGreen": "Next-gen architecture defined with systems, system IDs, service calls + roadmap for next steps", "green": "Next-gen architecture defined with system IDs, still scoping service calls" }
       ]
     },
     {
