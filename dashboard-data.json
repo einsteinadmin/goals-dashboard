@@ -3,8 +3,8 @@
     "quarter": "Q1 2026",
     "quarterStart": "2026-02-01",
     "quarterEnd": "2026-04-19",
-    "lastRefreshed": "2026-04-08T09:00:00-05:00",
-    "refreshedBy": "Albert (/gm)"
+    "lastRefreshed": "2026-04-08T12:00:00-05:00",
+    "refreshedBy": "Albert (digest)"
   },
   "companyCriticalNumbers": [
     {
@@ -72,7 +72,7 @@
           "target": "4 components rolled out",
           "actual": "Phase 1 live, Option A confirmed 4/7, $5 May increase queued",
           "status": "green",
-          "note": "VP meeting 4/7: Option A confirmed. $5 blanket May base rate increase pushed by Matisen. Terminology locked: Standard/Value/Best Value. Day-of-week rollout gated on Amanda training videos (this week). Manager + mover announcements drafted. EMMA auto-adjusts on date change. EMMA wild quotes issue flagged (Khevan: 6.75 hrs small move, 4 guys 2 trucks for 1-bedroom) — surface to Matisen. Phase 2: location-specific tuning + weekly review cadence."
+          "note": "Option A confirmed (4/7). EMMA wild quotes RESOLVED — per-floor multiplier issue, temp fix 1.5x in place. VP training: Amanda working on it 4/8 with Nhel, hoping EOD, target readiness Monday. Mike sent mover announcement prematurely — redirected. Day-of-week rollout still gated on Amanda training. Amanda out 4/11-4/17. Site-wide static pricing audit in progress (KP). Email quote redesign underway (Amanda mockups, Matisen tech, KP design). Quote form Google Ads tracking broken — Matisen + Jeff fixing. Phase 2: location-specific tuning + weekly review cadence."
         },
         {
           "name": "Omni Channel Marketing",
@@ -98,7 +98,7 @@
           "target": "Numbers 3 days before margin meeting",
           "actual": "Joselle/Mike S tracking",
           "status": "green",
-          "note": "No complaints about late numbers in recent syncs. Controller monthly rankings launching April 1. Assume on track unless flagged."
+          "note": "No complaints about late numbers in recent syncs. Controller monthly rankings launching April 1. ROAS review pushed to next week — controllers verifying revenue numbers. Paul out April 15-17 (brother's surgery). Assume on track unless flagged."
         }
       ]
     },
@@ -110,7 +110,7 @@
           "target": "Variable Pricing + Dashboard/KPIs + EMMA QoL",
           "actual": "VP Phase 1 live, Option A confirmed 4/7, QoL in QA",
           "status": "green",
-          "note": "VP meeting 4/7: Option A confirmed. $5 May blanket increase pushed by Matisen. EMMA pricing tool confirmed working + auto-adjusts on date change. EMMA wild quotes issue flagged (Khevan) — needs investigation. Games fix deployed. QoL email templates in QA, mobile-friendly pages rolling. VP After Action Review end of week."
+          "note": "Option A confirmed (4/7). EMMA wild quotes RESOLVED — per-floor multiplier issue, temp fix 1.5x in place. Quote form Google Ads tracking broken — Matisen + Jeff fixing (critical). CI/CD investigation ongoing. Domain purchased. MongoDB 4 days remaining. Games fix deployed. QoL email templates in QA, mobile-friendly pages rolling."
         },
         {
           "name": "EMMA Bug Count",
@@ -161,7 +161,7 @@
       "name": "Smart Move System - Phase 1",
       "critical": true,
       "status": "green",
-      "assessment": "Variable Pricing Phase 1 LIVE (3/30). 4/7 VP meeting: Option A confirmed. $5 blanket May base rate increase pushed by Matisen. Terminology locked: Standard/Value/Best Value. Day-of-week rollout gated on Amanda training videos (this week — she's out Friday). Manager + mover announcements drafted. Location landing pages: staging from KP. EMMA wild quotes issue flagged (Khevan: 6.75 hrs for small move, 4 guys 2 trucks for 1-bedroom) — needs investigation with Matisen.",
+      "assessment": "Variable Pricing Phase 1 LIVE (3/30). Option A confirmed (4/7). EMMA wild quotes RESOLVED — per-floor multiplier issue, temp fix 1.5x in place. VP training: Amanda working on it today (4/8) with Nhel, hoping EOD, target readiness Monday. Mike sent mover announcement prematurely — Cameron redirected, gated on Amanda training completion. Amanda out Friday 4/11 through potentially Thursday 4/17. Site-wide static pricing audit in progress (KP). Email quote redesign underway — Amanda mockups done, Matisen building tech, KP finalizing design. Quote form Google Ads tracking broken — Matisen + Jeff fixing.",
       "superGreen": "All 4 components: landing pages, pricing page, emails, scripts",
       "green": "3 out of 4 completed",
       "lastUpdated": "2026-04-08"
@@ -212,8 +212,8 @@
       "name": "Amanda Ware",
       "title": "Dir. of CX",
       "goals": [
-        { "name": "Smart Move System Rollout", "critical": true, "status": "green", "assessment": "3/4 components on track. Var Pricing launching 3/30. Lead form 3/30. Scripts still need drafting for Q2 training.", "superGreen": "All 4 components: landing pages, pricing page, emails, scripts drafted for Q2", "green": "3 out of 4 completed" },
-        { "name": "Omni Channel Marketing", "critical": true, "status": "green", "assessment": "Billboards April 6. Mailers in Austin. Remaining city swaps and ROAS mapping are the open items.", "superGreen": "Mailers + billboards in 1+ market each, ROAS identified", "green": "1 of 2 in place, ROAS fuzzy OK if both in place" },
+        { "name": "Smart Move System Rollout", "critical": true, "status": "green", "assessment": "VP training is Amanda's #1 priority — working on it 4/8 with Nhel, hoping EOD, target readiness Monday. Email quote redesign underway (Amanda mockups done, Matisen tech, KP design). Out Friday 4/11 through potentially Thursday 4/17 (Harlowe surgery). Must get training videos + sales script to team before she leaves.", "superGreen": "All 4 components: landing pages, pricing page, emails, scripts drafted for Q2", "green": "3 out of 4 completed" },
+        { "name": "Omni Channel Marketing", "critical": true, "status": "green", "assessment": "Billboards April 6. Mailers in Austin. Remaining city swaps and ROAS mapping are the open items. ROAS review pushed to next week — controllers verifying revenue numbers.", "superGreen": "Mailers + billboards in 1+ market each, ROAS identified", "green": "1 of 2 in place, ROAS fuzzy OK if both in place" },
         { "name": "Claims/Sales QT Management", "critical": false, "status": "green", "assessment": "CET team active. Nhel coaching, Tet auditing. No red flags raised in huddles. Assume Green unless QT scores say otherwise.", "superGreen": "Sales, Claims, ROs average Super Green", "green": "Sales, Claims, ROs average Green" },
         { "name": "Concierge Research (MBA)", "critical": false, "status": "supergreen", "assessment": "Capstone reviewed and exceeded expectations. Scope expanded to acquisition option (Austin Home Transitions). Clear actionable next steps.", "superGreen": "A on project with clear actionable insights and next steps for Q2", "green": "B on project" },
         { "name": "Lead Triage (Low Priority)", "critical": false, "status": "green", "assessment": "AI phone agent research doc completed and shared. Caltrain demo pending. Process mocked up.", "superGreen": "Process mocked up + training ready for rollout", "green": "Process outlined + training materials started" }
@@ -234,9 +234,9 @@
       "name": "Mike Vandenbroader",
       "title": "DFWT Regional Mgr",
       "goals": [
-        { "name": "Fleet Safety", "critical": true, "status": "supergreen", "assessment": "DFWT branches crushing it (Dallas 96, Tampa 100). Training complete. Weekly accountability strong.", "superGreen": "80+ avg, <10% at-risk, weekly dashboard, monthly BM meetings, accountability during sync ups", "green": "All trained by March 31, 75+ avg, <20% below 70" },
+        { "name": "Fleet Safety", "critical": true, "status": "supergreen", "assessment": "DFWT branches crushing it (Dallas 96, Tampa 100). Training complete. Weekly accountability strong. Idling reduction rollout starting.", "superGreen": "80+ avg, <10% at-risk, weekly dashboard, monthly BM meetings, accountability during sync ups", "green": "All trained by March 31, 75+ avg, <20% below 70" },
         { "name": "Mover Training Catalog/App", "critical": true, "status": "green", "assessment": "Digital handbook reviewed. Full blueprint posted with Gerald (2/25). Scaffold progressing. On track for Green.", "superGreen": "Functional MVP completed and reviewed by leadership team", "green": "Scaffold fully built with mock ups and planned KPI integration" },
-        { "name": "Regional Growth (Tampa/Garland OMs)", "critical": false, "status": "green", "assessment": "Tampa OM: Stephen Anderson informally accepted. Formal Rippling offer pending Anne (out 3/30, back 3/31). Background check running across 5 states (NY, FL, MN, CT). Coming to conference — tickets purchased. No announcement until formal offer accepted. Tampa first priority, Garland reassess post-summer.", "superGreen": "OM hired and trained for Tampa AND Garland", "green": "OM hired and trained for Tampa" },
+        { "name": "Regional Growth (Tampa/Garland OMs)", "critical": false, "status": "green", "assessment": "Tampa OM: Stephen Anderson onboarding in progress. Garland manager hiring opening — posting internally + externally. Dom incident being processed. Grant morning sales block initiative.", "superGreen": "OM hired and trained for Tampa AND Garland", "green": "OM hired and trained for Tampa" },
         { "name": "Branch Visits/Audits", "critical": false, "status": "green", "assessment": "Mike travels between DFWT branches regularly. Likely on track but need specific audit count.", "superGreen": "5 locations, branch scores avg 4.5+, audits + circle-up/huddle audits complete", "green": "3 locations, branch scores avg 4.0+, audits complete" },
         { "name": "Sell 3 Older Trucks", "critical": false, "status": "red", "assessment": "Mike sync 4/7: still RED. 1 of 3 sold, others not getting traction. Reducing price and reposting.", "superGreen": "3 trucks sold", "green": "2 trucks sold" }
       ]
@@ -245,11 +245,11 @@
       "name": "Matisen Harper",
       "title": "Dir. of IT",
       "goals": [
-        { "name": "Variable Pricing", "critical": true, "status": "green", "assessment": "Phase 1 live. 4/7 VP meeting: Option A confirmed. $5 blanket May base rate increase pushed. Terminology: Standard (Fri/Sat), Value (Sun/Mon), Best Value (Tue-Thu). Day-of-week rollout gated on Amanda training (this week). EMMA wild quotes issue flagged (Khevan) — needs investigation. ProKeys broken — not a blocker. EMMA auto-adjusts on date change.", "superGreen": "Launch within timeline budget, one sprint push allowed", "green": "Launch within timeline budget, two sprint pushes allowed" },
+        { "name": "Variable Pricing", "critical": true, "status": "green", "assessment": "Phase 1 live. Option A confirmed (4/7). EMMA wild quotes RESOLVED — per-floor multiplier (algorithm) issue, temp fix 1.5x in place. Day-of-week rollout gated on Amanda training. Quote form Google Ads tracking broken — critical fix, Matisen + Jeff on it. Domain purchased. CI/CD investigation ongoing.", "superGreen": "Launch within timeline budget, one sprint push allowed", "green": "Launch within timeline budget, two sprint pushes allowed" },
         { "name": "Dashboard/KPIs in EMMA", "critical": true, "status": "green", "assessment": "Einstein Games validation + rollout with Bobby this week (4/6 sync). Dashboard data validation this week. Revenue dashboard in QA. Need 2-3 weeks reliable Games data before Q2 rollout. PL migration: Denis has script for Google Sheets → Rippling, checking with Anne and dev.", "superGreen": "Branch KPI Scorecards, Einstein Games migrated from Glide + download and chat feature", "green": "Branch KPI Scorecards, Einstein Games migrated from Glide + download" },
         { "name": "EMMA QoL Sprints", "critical": false, "status": "green", "assessment": "Email templates in QA. Mobile-friendly Move Manager + customer pages rolling (4/6 sync). Easier than VP. VP After Action Review end of this week. On track for Green.", "superGreen": "2 QoL feature sprints including design improvements", "green": "1 QoL feature sprint" },
         { "name": "Mobile App", "critical": false, "status": "red", "assessment": "Accepted Red (4/6 sync). Too many higher priorities. Gathering limited UX feedback and latest version to start minimal UX work. No path to Green this quarter.", "superGreen": "UX rework, E2E testing setup, mobile app in UAT", "green": "UX rework, working through E2E coverage" },
-        { "name": "Mongo Schema Roadmap", "critical": false, "status": "green", "assessment": "Renamed to C4 + BPMN Architecture Maps (4/6 sync). Week LOW 21 — big scope. Building structural (C4) and behavioral (BPMN) models for agent comprehension. Definition of done: maps ready to share with Daniel. Ties into World Model and AI-native architecture.", "superGreen": "Next-gen architecture defined with systems, system IDs, service calls + roadmap for next steps", "green": "Next-gen architecture defined with system IDs, still scoping service calls" }
+        { "name": "Mongo Schema Roadmap", "critical": false, "status": "green", "assessment": "Renamed to C4 + BPMN Architecture Maps (4/6 sync). Week LOW 21 — big scope. Building structural (C4) and behavioral (BPMN) models for agent comprehension. MongoDB 4 days remaining. Definition of done: maps ready to share with Daniel. Ties into World Model and AI-native architecture.", "superGreen": "Next-gen architecture defined with systems, system IDs, service calls + roadmap for next steps", "green": "Next-gen architecture defined with system IDs, still scoping service calls" }
       ]
     },
     {
@@ -292,7 +292,7 @@
         { "name": "Branch Visits", "critical": false, "status": "red", "assessment": "Only 1 visit done (Philippines). Needs 2 for Green. Less than half the quarter left. Red.", "superGreen": "Visit 3, listen and learn lunch at all 3 w/ managers, 3 onsite eval ride alongs", "green": "Visit 2, do 2 ride alongs" },
         { "name": "Acquisition Case Study vs. Houston Branch", "critical": false, "status": "red", "assessment": "No case studies started. Red.", "superGreen": "Complete both by end of March", "green": "Complete both" },
         { "name": "Annual Manager Comp Review", "critical": true, "status": "red", "assessment": "Not started yet. Needs to get underway — manager comp review needs to be done by EOQ. Unlikely to get to tying mover promotions to performance this quarter. Red.", "superGreen": "Messaging complete and out to team to start in action for next quarter", "green": "Hiring/pay docs updated, individual scorecards created, performance targets set" },
-        { "name": "Evaluate CFO Needs/Budget", "critical": false, "status": "green", "assessment": "Prosper VCFO confirmed. Joselle + Mike S finance transition Friday 4/11. Green — decision made, execution underway." }
+        { "name": "Evaluate CFO Needs/Budget", "critical": false, "status": "green", "assessment": "Prosper VCFO confirmed. Joselle + Mike S finance transition Friday 4/11. Paul out April 15-17 (brother's surgery). ROAS review pushed to next week — controllers verifying revenue numbers. Green — decision made, execution underway." }
       ]
     },
     {
