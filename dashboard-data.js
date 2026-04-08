@@ -3,8 +3,8 @@ const DASHBOARD_DATA = {
     "quarter": "Q1 2026",
     "quarterStart": "2026-02-01",
     "quarterEnd": "2026-04-19",
-    "lastRefreshed": "2026-04-08T12:00:00-05:00",
-    "refreshedBy": "Albert (digest)"
+    "lastRefreshed": "2026-04-08T15:30:00-05:00",
+    "refreshedBy": "Albert (digest — Anne sync)"
   },
   "companyCriticalNumbers": [
     {
@@ -256,11 +256,11 @@ const DASHBOARD_DATA = {
       "name": "Anne Bosse",
       "title": "Dir. of Employee Experience",
       "goals": [
-        { "name": "ClearCo Audits / Hiring Funnel", "critical": true, "status": "green", "assessment": "ClearCo recertification process underway. Hiring funnel visualization (cost per hire, time to fill) is the stretch for Super Green. Ask at Friday O3.", "superGreen": "Green + hiring funnel visualized (cost per hire, time to fill, stage %) + all hired candidates have completed scorecards", "green": "100% of managers recertified on ClearCo recruiting basics" },
-        { "name": "Hiring Targets (105% budget)", "critical": true, "status": "green", "assessment": "No periods below budget flagged in recent syncs. Anne actively managing hiring pipeline. Indeed V2 draft ready.", "superGreen": "≤1 period below 105% hiring budget", "green": "≤1 period below 100% hiring budget" },
-        { "name": "Onboarding Video Development", "critical": false, "status": "red", "assessment": "Realistically only the culture video (filmed by Cameron) will ship this quarter. Anne's bandwidth is consumed by hiring management. 1/5 won't hit Green threshold. Red.", "superGreen": "4 out of 5 video priorities completed", "green": "3 out of 5 video priorities completed" },
-        { "name": "Culture Add Hiring Beta", "critical": false, "status": "red", "assessment": "Beta requires new process in 3 branches + at least 1 new hire. No evidence of beta launch. 4 weeks left.", "superGreen": "Green + 1 new hire per branch by EOQ", "green": "100% managers recertified + new process + at least 1 new hire with new process" },
-        { "name": "Annual Comp Review", "critical": false, "status": "green", "assessment": "Tied to Paul's comp review. Promotion metrics discussion happening. Level 1 sales comp under active review (Ralph situation accelerated this).", "superGreen": "Green + promo process video recorded and part of onboarding", "green": "Promotion metrics identified and communicated to movers" }
+        { "name": "ClearCo Audits / Hiring Funnel", "critical": true, "status": "green", "assessment": "All managers recertified via conference training (4/2-4/4). Anne now confident they can evaluate data through the funnel. Reporting starts next week. ClearCo API pricing being negotiated ($3K/yr — Anne pushed back, leveraging Rippling ATS). Hiring funnel visualization still needed for Super Green. Sergio had 80 candidates unscreened — coached. Houston 600+ applicants, 2% hire rate. HR Generalist hire green-lit to handle volume.", "superGreen": "Green + hiring funnel visualized (cost per hire, time to fill, stage %) + all hired candidates have completed scorecards", "green": "100% of managers recertified on ClearCo recruiting basics" },
+        { "name": "Hiring Targets (105% budget)", "critical": true, "status": "green", "assessment": "Anne admitted (4/8) she hasn't had bandwidth to track budgets-to-actuals. Getting Brian + Mike to tag her on bi-weekly hiring pulse updates for pipeline visibility. No periods below budget flagged but visibility gap is a concern. HR Generalist hire will free up Anne's time for tracking.", "superGreen": "≤1 period below 105% hiring budget", "green": "≤1 period below 100% hiring budget" },
+        { "name": "Onboarding Video Development", "critical": false, "status": "red", "assessment": "Anne delivered feedback — Cameron confirmed her QG contribution is successful. But module wiring is Cameron's bottleneck. Austin reworking Video 3 (core values + B-roll). Cameron targeting end of week to finish modules. Hold on Rippling integration until done. 11 days left — tight but possible for Green if Cameron delivers.", "superGreen": "4 out of 5 video priorities completed", "green": "3 out of 5 video priorities completed" },
+        { "name": "Culture Add Hiring Beta", "critical": false, "status": "red", "assessment": "Beta tested with Tampa managers (4/8 confirmed) but NOT tested at branch level for movers yet. Video pre-screener agreed upon (3-4 questions). Pausing mover-level culture-add rollout until HR Generalist is hired — branch managers aren't recruiters. 11 days left, no mover-level beta. Red.", "superGreen": "Green + 1 new hire per branch by EOQ", "green": "100% managers recertified + new process + at least 1 new hire with new process" },
+        { "name": "Annual Comp Review", "critical": false, "status": "green", "assessment": "Anne + Paul meeting Thu 4/10 and Fri 4/11 to finalize manager promotions this month. Including spot bonus budgeting for exceptional performers. Sticking to last year's process. Jack Davis comp/career development conversation this week. On track for Green.", "superGreen": "Green + promo process video recorded and part of onboarding", "green": "Promotion metrics identified and communicated to movers" }
       ]
     },
     {
