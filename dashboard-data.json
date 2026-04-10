@@ -3,8 +3,8 @@
     "quarter": "Q1 2026",
     "quarterStart": "2026-02-01",
     "quarterEnd": "2026-04-19",
-    "lastRefreshed": "2026-04-08T15:30:00-05:00",
-    "refreshedBy": "Albert (digest — Anne sync)"
+    "lastRefreshed": "2026-04-10T10:30:00-05:00",
+    "refreshedBy": "Albert (digest — 4/10 huddle)"
   },
   "companyCriticalNumbers": [
     {
@@ -39,9 +39,9 @@
         {
           "name": "$ Conversions",
           "target": "40% conversion $",
-          "actual": "March: 37% conv, 107% to goal",
-          "status": "green",
-          "note": "March: 107% to goal, $37% conversion. Daniel ~200%, Zach 123%. Branch: SA 138%, MCK 135%, FW 123%, GAR 115%, NA 101%, S. Austin 97%, Leander lagging. April budgets confirmed."
+          "actual": "Baseline broken — not apples-to-apples post-VP rollout",
+          "status": "unknown",
+          "note": "4/10 huddle: VP rollout pushed contact-capture earlier in funnel. Leads up 58% (1,387 vs 876), bookings flat — company-wide conversion drop is explained by denominator growth. BUT team-level conversion rates ALSO dropped ~10% (was 38%, now Leander at 6.98%, Daniel at 15%) which the denominator theory doesn't explain. Matisen flagged a possible filtering/attribution bug on top of the baseline change — Fort Worth creation-date filter not matching company-wide filter when searching by Leander. Matisen owns the investigation. Cameron: need apples-to-apples before scoring anyone on conversion (including variable pay). Pulse 11712899643 tracks."
         }
       ]
     },
@@ -70,9 +70,9 @@
         {
           "name": "Smart Move System Rollout",
           "target": "4 components rolled out",
-          "actual": "Phase 1 live, Option A confirmed 4/7, $5 May increase queued",
+          "actual": "Phase 1 live, full day-of-week rollout training 4/9, go-live Tuesday 4/14 — VP bug red flag",
           "status": "green",
-          "note": "Option A confirmed (4/7). EMMA wild quotes RESOLVED — per-floor multiplier issue, temp fix 1.5x in place. VP training: Amanda working on it 4/8 with Nhel, hoping EOD, target readiness Monday. Mike sent mover announcement prematurely — redirected. Day-of-week rollout still gated on Amanda training. Amanda out 4/11-4/17. Site-wide static pricing audit in progress (KP). Email quote redesign underway (Amanda mockups, Matisen tech, KP design). Quote form Google Ads tracking broken — Matisen + Jeff fixing. Phase 2: location-specific tuning + weekly review cadence."
+          "note": "⚠️ RED FLAG 4/10: Multi-day VP features have REGRESSED in production after being QA-verified at rollout. Active price variable was deleted from code — customers got auto-updated to May pricing. Bobby pushing fix 4/10. Matisen investigating git tree root cause on Bobby's local machine. Revert list ready for affected customers. Could pressure Tuesday 4/14 go-live if not resolved. 3-month auto-booking bug patched (window extended to 365 days, not root fix). Day-of-week rollout training launched 4/9 — all BMs walked through, everyone trained by Monday. Pricing changes push Monday night → live Tuesday. Price sheet finalized (Brian). Quote form Google Ads tracking broken (Matisen + Jeff fixing Monday)."
         },
         {
           "name": "Omni Channel Marketing",
