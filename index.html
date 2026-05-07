@@ -556,19 +556,6 @@
     display: block;
   }
 
-  .leader-goal-toggle-icon {
-    color: var(--text-muted);
-    font-size: 10px;
-    margin-left: 4px;
-    transition: transform 150ms ease;
-    flex-shrink: 0;
-    margin-top: 4px;
-  }
-
-  .leader-goal.expanded .leader-goal-toggle-icon {
-    transform: rotate(90deg);
-  }
-
   .leader-goal:last-child { border-bottom: none; }
 
   .leader-goal-name {
@@ -930,7 +917,6 @@
         }
         html += '</div>';
         html += '  </div>';
-        html += '  <span class="leader-goal-toggle-icon">▶</span>';
         html += '</li>';
       });
       html += '  </ul>';
