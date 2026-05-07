@@ -13,13 +13,11 @@
       "note": "Q1 final state with self-grades, AAR notes, and divergence summary preserved for reference."
     },
     "pendingFinalization": [
-      "Nhel — pending CX Q2 theme decision (rock #1)",
-      "Tet — sales class + estimate accuracy rocks pending CX theme alignment",
-      "Carly — only Maternity Transition rock confirmed (other 3 moved to Alternates per 4/14 — she's on leave 80% of Q2)",
-      "Stephanie/Jaci/Maria (Claims team) — rock topics named, Super Green/Green/Red criteria not filled",
-      "ROs (June/Nessa/Donna) — rock topics named, criteria not filled"
+      "Carly \u2014 only Maternity Transition rock confirmed (other 3 moved to Alternates per 4/14 \u2014 she's on leave 80% of Q2)",
+      "Amanda's CX Q2 Theme rock \u2014 pending decision (gates Nhel + Carly's theme rocks too, tracked off-dashboard)"
     ],
-    "criticalNumbersTBD": "Cameron's Q2 Critical # designations not yet locked — likely Rock #1 (VP Rollout) + Rock #3 (Dojo/COS) but pending confirmation."
+    "criticalNumbersConfirmed": "Cameron Rocks #1 (Einstein Dojo + COS scaling) and #2 (AI Wedge Audit + QG Support) confirmed as Critical Numbers per 5/7.",
+    "scopeNote": "Dashboard tracks Cameron's directs only. Non-direct contributors (Nhel, Tet, Fabian, LiftUp, Claims team, ROs) are kept in line on the Cascading Goals spreadsheet for visibility but cascade through their managers \u2014 Cameron doesn't meet with them regularly enough to keep dashboard status fresh."
   },
   "companyCriticalNumbers": [
     {
@@ -37,7 +35,7 @@
           "target": "100%+ staffing all branches, eNPS cleared by end of May (SG) or June (G)",
           "actual": "Anne running HR Generalist hire (4-5 candidates this week). Brian + Mike Critical Rocks paired with Anne pipeline.",
           "status": "green",
-          "note": "Brian + Mike both have this as Critical #. Anne R1 (HR Generalist hire) is the unblocker — bandwidth for Anne to clean eNPS + 100-point system + culture interview rollout."
+          "note": "Brian + Mike both have this as Critical #. Anne R1 (HR Generalist hire) is the unblocker \u2014 bandwidth for Anne to clean eNPS + 100-point system + culture interview rollout."
         }
       ]
     },
@@ -54,7 +52,7 @@
         {
           "name": "$ Conversions",
           "target": "40%+ Green / 42%+ Super Green",
-          "actual": "Q1 baseline broken — VP rollout pushed contact-capture earlier in funnel. Apples-to-apples investigation owned by Matisen.",
+          "actual": "Q1 baseline broken \u2014 VP rollout pushed contact-capture earlier in funnel. Apples-to-apples investigation owned by Matisen.",
           "status": "unknown",
           "note": "Need apples-to-apples baseline before scoring. Matisen flagged possible filtering/attribution bug on top of denominator change. Pulse 11712899643. Performance matrix updates pending."
         }
@@ -65,7 +63,7 @@
       "numbers": [
         {
           "name": "Magic Moments / Damage Accountability",
-          "target": "Phase 2 rollout deferred — Carly maternity 80% Q2",
+          "target": "Phase 2 rollout deferred \u2014 Carly maternity 80% Q2",
           "actual": "Maintenance only during Carly's leave. JC + Stephanie hold the line.",
           "status": "unknown",
           "note": "Carly's Magic Moments + Damage Accountability rocks moved to Alternates per 4/14. Amanda Rock 6 (Claims Oversight) covers maintenance. Phase 2 rollout pushed to Q3."
@@ -85,16 +83,16 @@
         {
           "name": "Smart Move System Phase 2 / Website Redesign",
           "target": "New site live, copy refreshed for Smart Move + VP, KP design system implemented",
-          "actual": "Cameron Rock 4 (Cameron owns since Amanda's plate is full). KP design system proposal pending review.",
+          "actual": "Cameron Rock #5 (Cameron owns since Amanda's plate is full). KP design system proposal pending review.",
           "status": "green",
           "note": "Phase 1 (VP) shipped Q1. Q2 = freshen the site to sell Smart Move + VP. Kickpoint dependency on design system proposal."
         },
         {
           "name": "Marketing ROAS Measurement",
           "target": "ROAS dashboard live by channel, budget reallocation decisions",
-          "actual": "Kickpoint Rock 1 — currently DEFER (Hold for Rob).",
+          "actual": "Kickpoint Rock 1 \u2014 currently DEFER (Hold for Rob).",
           "status": "unknown",
-          "note": "Rob Lynch input dependency. Recommend move to Amanda (per sheet note). Rob's 2027 roadmap puts ROAS as priority — Q2 may stay scoping-only."
+          "note": "Rob Lynch input dependency. Recommend move to Amanda (per sheet note). Rob's 2027 roadmap puts ROAS as priority \u2014 Q2 may stay scoping-only."
         }
       ]
     },
@@ -125,10 +123,10 @@
           "target": "First build kicked off by 5/30 (SG) or EOQ (G), 3 MVPs scoped",
           "actual": "NEW 4/30. Audit validates 3 pre-selected builds + scopes MVPs + surfaces 4-6 additional wedges.",
           "status": "green",
-          "note": "Matisen Critical # Rock 1 (audit) + Rock 3 (Build #1 = Call Grading + Claims RAG, paired with Nhel/Carly). Cameron Rock 5 oversees + audits 7+ supporting QGs go Green."
+          "note": "Matisen Critical # Rock 1 (audit) + Rock 3 (Build #1 = Call Grading + Claims RAG, paired with Nhel/Carly). Cameron Rock #2 oversees + audits 7+ supporting QGs go Green."
         },
         {
-          "name": "EMMA v3 → v4 Unification + Mobile App",
+          "name": "EMMA v3 \u2192 v4 Unification + Mobile App",
           "target": "Automailer/Mobile/Cron migrated to v4, mobile app launched within timeline budget",
           "actual": "Fabian Rock 1 + Rock 2. LiftUp Rock 1 (Mobile build + QA). Tight timeline.",
           "status": "green",
@@ -150,7 +148,7 @@
       "target": "40%",
       "actual": null,
       "status": "unknown",
-      "note": "Baseline still broken from VP rollout — Matisen owns apples-to-apples investigation before scoring."
+      "note": "Baseline still broken from VP rollout \u2014 Matisen owns apples-to-apples investigation before scoring."
     },
     {
       "name": "eNPS",
@@ -163,26 +161,6 @@
   "cameronRocks": [
     {
       "number": 1,
-      "name": "Variable Pricing Full Rollout + Weekly Review Cadence",
-      "critical": false,
-      "status": "green",
-      "assessment": "Carry from Q1. Phase 1 LIVE. Q2 = full day-of-week VP live, no regression, weekly conversion/TUR review cadence + baseline reset, VP 2.0 scoped. CEO audit flagged this as 'first to drop' — consider folding to Amanda or Website Redesign rock.",
-      "superGreen": "Full day-of-week VP live + weekly review cadence running",
-      "green": "Day-of-week VP live + cadence in place",
-      "lastUpdated": "2026-05-07"
-    },
-    {
-      "number": 2,
-      "name": "Branch Visits + O3s",
-      "critical": false,
-      "status": "green",
-      "assessment": "Carry from Q1. Cameron's time only — no external dependencies. Quarter just kicking off.",
-      "superGreen": "5 branch visits + 5 listen-and-learns + 5 O3s with all directs",
-      "green": "3 branch visits + 3 listen-and-learns + quarterly O3s",
-      "lastUpdated": "2026-05-07"
-    },
-    {
-      "number": 3,
       "name": "Build Einstein Dojo + Scale AI COS to All Roundtable",
       "critical": true,
       "status": "green",
@@ -192,23 +170,43 @@
       "lastUpdated": "2026-05-07"
     },
     {
-      "number": 4,
-      "name": "Oversee Website Redesign — Smart Move System Part 2",
-      "critical": false,
-      "status": "green",
-      "assessment": "Cameron owns since Amanda's plate is full. Copy already written — Q2 about freshening the site to sell Smart Move System + VP better. KP design system proposal pending.",
-      "superGreen": "New site live, copy updated for Smart Move System, KP design system implemented, mobile-optimized",
-      "green": "Site redesign scoped, KP design system decided, copy refreshed for Smart Move narrative",
-      "lastUpdated": "2026-05-07"
-    },
-    {
-      "number": 5,
+      "number": 2,
       "name": "AI Wedge Audit and QG Support",
       "critical": true,
       "status": "green",
       "assessment": "Co-owned with Matisen R1. Cameron oversight; Matisen execution. Audit complete by 5/15 (SG) or 5/30 (G). 7+ supporting QG dependencies go Green by EOQ for SG, 5+ for G.",
       "superGreen": "Audit complete by 5/15; all 10 supporting QG dependencies mapped; 7+ supporting QGs Green by EOQ; AI Wedge requirements documented + approved",
       "green": "Audit complete by 5/30; supporting QG dependencies mapped; 5+ supporting QGs Green by EOQ; requirements drafted",
+      "lastUpdated": "2026-05-07"
+    },
+    {
+      "number": 3,
+      "name": "Variable Pricing Full Rollout + Weekly Review Cadence",
+      "critical": false,
+      "status": "green",
+      "assessment": "Carry from Q1. Phase 1 LIVE. Q2 = full day-of-week VP live, no regression, weekly conversion/TUR review cadence + baseline reset, VP 2.0 scoped. CEO audit flagged this as 'first to drop' \u2014 consider folding to Amanda or Website Redesign rock.",
+      "superGreen": "Full day-of-week VP live + weekly review cadence running",
+      "green": "Day-of-week VP live + cadence in place",
+      "lastUpdated": "2026-05-07"
+    },
+    {
+      "number": 4,
+      "name": "Branch Visits + O3s",
+      "critical": false,
+      "status": "green",
+      "assessment": "Carry from Q1. Cameron's time only \u2014 no external dependencies. Quarter just kicking off.",
+      "superGreen": "5 branch visits + 5 listen-and-learns + 5 O3s with all directs",
+      "green": "3 branch visits + 3 listen-and-learns + quarterly O3s",
+      "lastUpdated": "2026-05-07"
+    },
+    {
+      "number": 5,
+      "name": "Oversee Website Redesign \u2014 Smart Move System Part 2",
+      "critical": false,
+      "status": "green",
+      "assessment": "Cameron owns since Amanda's plate is full. Copy already written \u2014 Q2 about freshening the site to sell Smart Move System + VP better. KP design system proposal pending.",
+      "superGreen": "New site live, copy updated for Smart Move System, KP design system implemented, mobile-optimized",
+      "green": "Site redesign scoped, KP design system decided, copy refreshed for Smart Move narrative",
       "lastUpdated": "2026-05-07"
     },
     {
@@ -231,7 +229,7 @@
           "name": "Annual Mover Comp Review",
           "critical": true,
           "status": "green",
-          "assessment": "Red Q1 carry — renamed 4/14. Manager comp wrapping up, pivot to mover comp structure. Anne co-owns. V2 Compensation Philosophy in flight (Paul completed pressure-test 5/3 via Clark, Cameron+Paul collab meeting today 2pm).",
+          "assessment": "Red Q1 carry \u2014 renamed 4/14. Manager comp wrapping up, pivot to mover comp structure. Anne co-owns. V2 Compensation Philosophy in flight (Paul completed pressure-test 5/3 via Clark, Cameron+Paul collab meeting today 2pm).",
           "superGreen": "Pay bands updated, promotions tied to performance, promo process video, communicated",
           "green": "Updated pay finalized, pay docs updated, scorecards created, targets set + communicated"
         },
@@ -247,7 +245,7 @@
           "name": "Branch Visits",
           "critical": false,
           "status": "green",
-          "assessment": "Red Q1 carry. Q2 quarter just starting — Paul's time only.",
+          "assessment": "Red Q1 carry. Q2 quarter just starting \u2014 Paul's time only.",
           "superGreen": "3 visits + 3 ride-alongs + listen-and-learn lunches",
           "green": "2 visits + 2 ride-alongs"
         },
@@ -293,12 +291,12 @@
           "name": "Capital Plan / Growth Financing",
           "critical": true,
           "status": "green",
-          "assessment": "Hold-for-Rob. Prosper-owned delivery — Paul oversees. Rob Lynch framework dependency.",
+          "assessment": "Hold-for-Rob. Prosper-owned delivery \u2014 Paul oversees. Rob Lynch framework dependency.",
           "superGreen": "3-5 year capital plan (path to 150 trucks), debt capacity, reinvestment model, PE readiness",
           "green": "Capital plan framework drafted with Rob Lynch input"
         },
         {
-          "name": "Geographic Expansion — Acquisition Models + LOI",
+          "name": "Geographic Expansion \u2014 Acquisition Models + LOI",
           "critical": false,
           "status": "green",
           "assessment": "4/14 Cameron + Rob: aligned with Paul R4. Pivot from hypothetical to active eval.",
@@ -309,7 +307,7 @@
           "name": "Tying Financing and Marketing Together (Bonus)",
           "critical": false,
           "status": "green",
-          "assessment": "Bonus rock — definition pending."
+          "assessment": "Bonus rock \u2014 definition pending."
         }
       ]
     },
@@ -334,7 +332,7 @@
           "green": "All CTXH 100%+ staffing, PA reviewed, C plans, eNPS cleared by end of June"
         },
         {
-          "name": "Scrum Accountability Pt 4 — Manager Certification",
+          "name": "Scrum Accountability Pt 4 \u2014 Manager Certification",
           "critical": false,
           "status": "green",
           "assessment": "Scorecard app built Q1.",
@@ -371,7 +369,7 @@
       "title": "DFWT Regional Mgr",
       "goals": [
         {
-          "name": "Personnel Mgmt — Manager Hiring + New Manager Development (Garland + Tampa)",
+          "name": "Personnel Mgmt \u2014 Manager Hiring + New Manager Development (Garland + Tampa)",
           "critical": true,
           "status": "green",
           "assessment": "Garland BM transition (Jack/Landon/Terrel). Tampa OM (Stephen) onboarding. 4/14 Cameron: scope includes supporting Anne's culture interview + extended trial + 100-point system rollout at DFWT.",
@@ -387,7 +385,7 @@
           "green": "DFWT at 7+, all DFWT above 6"
         },
         {
-          "name": "Fleet Safety Pt 2 — Resolidifying Habits, Training, Reweighting, Sample Sizes",
+          "name": "Fleet Safety Pt 2 \u2014 Resolidifying Habits, Training, Reweighting, Sample Sizes",
           "critical": false,
           "status": "green",
           "assessment": "4/14 Cameron: promoted from note to formal rock. Mike's focus stays on making Q1 BBE stick, not new programs. Brian paired. Samsara consolidation EOQ.",
@@ -410,7 +408,7 @@
           "green": "Read by 5/30"
         },
         {
-          "name": "Fleet Damage Tracking App — Beta (Bonus)",
+          "name": "Fleet Damage Tracking App \u2014 Beta (Bonus)",
           "critical": false,
           "status": "green",
           "assessment": "Mike's Replit build.",
@@ -448,7 +446,7 @@
           "green": "80%+ sales calls auto-graded weekly, RAG live for claims, coaching loop established"
         },
         {
-          "name": "ClearCo + Rippling API → Anne's Hiring Funnel Dashboard (Wedge Build #2)",
+          "name": "ClearCo + Rippling API \u2192 Anne's Hiring Funnel Dashboard (Wedge Build #2)",
           "critical": false,
           "status": "green",
           "assessment": "NEW 4/30. Replaces 'Anne asks Matisen for a pull' pattern. Pairs with Anne R1 HR Generalist hire.",
@@ -456,7 +454,7 @@
           "green": "Both APIs hooked up, dashboard live with core funnel metrics, manual refresh OK"
         },
         {
-          "name": "Production Line Cleanup — 8 Loose Threads",
+          "name": "Production Line Cleanup \u2014 8 Loose Threads",
           "critical": false,
           "status": "green",
           "assessment": "NEW 4/30. Reframed from Critical # to non-critical. Bulletproofs existing dashboards. Threads: Sales Review, Branch KPIs, Einstein Games, Scorecards, Marketing Dashboard, Zip Zone Map, Relocation Trend Data, Documentation/Handbook.",
@@ -473,79 +471,6 @@
       ]
     },
     {
-      "name": "Fabian",
-      "title": "Sr. Developer (NEW)",
-      "goals": [
-        {
-          "name": "EMMA v3 → v4 Unification",
-          "critical": true,
-          "status": "green",
-          "assessment": "Mongo upgrade may slip to Q3 acceptable for Green.",
-          "superGreen": "Automailer + Mobile App + Cron Service migrated to v4, returned to app.einsteinmoving.com, Mongo upgraded to 8.27, zero v3 artifacts",
-          "green": "Automailer + Mobile App + Cron migrated to v4 (Mongo upgrade may slip)"
-        },
-        {
-          "name": "Mobile App UX Rework + Build",
-          "critical": true,
-          "status": "green",
-          "assessment": "Required for Database + EMMA upgrades. Launch identified by 5/2.",
-          "superGreen": "Launch within timeline budget, one sprint push allowed",
-          "green": "Launch within timeline budget, two sprint pushes allowed"
-        },
-        {
-          "name": "EMMA Lead Scoring + Lead Triage",
-          "critical": false,
-          "status": "green",
-          "superGreen": "Launch within timeline budget, one sprint push allowed",
-          "green": "Launch within timeline budget, two sprint pushes allowed"
-        },
-        {
-          "name": "EMMA Email Templates Updated on Production",
-          "critical": false,
-          "status": "green",
-          "superGreen": "All updated email templates live by 5/2, ≤1 sprint push",
-          "green": "Updated email templates live by EOQ, ≤2 sprint pushes"
-        },
-        {
-          "name": "Sage + Rippling Support",
-          "critical": false,
-          "status": "green",
-          "superGreen": "PL, Schedule, Jobs migrated to Rippling, support scoping integrations",
-          "green": "PL migrated to Rippling, support scoping integrations"
-        }
-      ]
-    },
-    {
-      "name": "LiftUp (Software/QA Team)",
-      "title": "Dev / Dev Ops / QA (NEW)",
-      "goals": [
-        {
-          "name": "Mobile App Build + QA",
-          "critical": true,
-          "status": "green",
-          "assessment": "Considering rollout without UX rework. Required for Database + EMMA upgrades.",
-          "superGreen": "Launch within timeline budget (5/2), one sprint push",
-          "green": "Launch within timeline budget, two sprint pushes"
-        },
-        {
-          "name": "EMMA API Support for COS",
-          "critical": true,
-          "status": "green",
-          "assessment": "Supporting COS + Dashboard/Skill migrations.",
-          "superGreen": "Branches connect Claude to Games, Sales dash by end of June + each loose-thread dashboard gets MCP/data connector",
-          "green": "Branches connect Claude to Games, Sales dash by end of July + each loose-thread dashboard gets MCP/data connector"
-        },
-        {
-          "name": "Clean Up Loose Threads (Production Line)",
-          "critical": false,
-          "status": "green",
-          "assessment": "NEW 4/27. Bulletproofs existing dashboards/features.",
-          "superGreen": "All 8 listed loose threads shipped or formally archived by EOQ",
-          "green": "5+ of 8 shipped or archived, remaining 3 have clear ship dates"
-        }
-      ]
-    },
-    {
       "name": "Anne Bosse",
       "title": "Dir. of Employee Experience",
       "goals": [
@@ -553,7 +478,7 @@
           "name": "Hire HR Generalist",
           "critical": true,
           "status": "green",
-          "assessment": "Anne's #1 — unblocks bandwidth. 4-5 candidates in consideration as of 5/7. Final interviews pending Amanda input.",
+          "assessment": "Anne's #1 \u2014 unblocks bandwidth. 4-5 candidates in consideration as of 5/7. Final interviews pending Amanda input.",
           "superGreen": "Hired by end of May, fully onboarded + ramped, taking recruiting volume off Anne",
           "green": "Hired + onboarding started by EOQ"
         },
@@ -561,7 +486,7 @@
           "name": "Hiring for Culture / Extended Trial Period + 100-Point Behavioral System",
           "critical": true,
           "status": "green",
-          "assessment": "Depends on Matisen R5 (PL → Rippling). 4/14 Cameron: split from original Mover Performance Mgmt rock. Paired with Culture Interview + Extended Trial Day work. Cameron to introduce 100-point system to Anne in person (target 2-3 weeks).",
+          "assessment": "Depends on Matisen R5 (PL \u2192 Rippling). 4/14 Cameron: split from original Mover Performance Mgmt rock. Paired with Culture Interview + Extended Trial Day work. Cameron to introduce 100-point system to Anne in person (target 2-3 weeks).",
           "superGreen": "100-point system live across all branches, interview process updated to hire for culture, extended trial in beta one region, Rippling Performance Module live",
           "green": "Interview process updated to hire for culture + Rippling Performance Module live"
         },
@@ -585,8 +510,8 @@
           "critical": false,
           "status": "green",
           "assessment": "CHOICES app v2 shipped Q1. Q2: get into onboarding pipeline so every new hire goes through it.",
-          "superGreen": "CHOICES + Comp/Benefits + Performance Mgmt modules integrated into onboarding via Rippling, ≥90% completion in first 30 days",
-          "green": "CHOICES live in onboarding, ≥75% completion in first 30 days"
+          "superGreen": "CHOICES + Comp/Benefits + Performance Mgmt modules integrated into onboarding via Rippling, \u226590% completion in first 30 days",
+          "green": "CHOICES live in onboarding, \u226575% completion in first 30 days"
         },
         {
           "name": "Ideal Team Player Reading (Bonus)",
@@ -629,7 +554,7 @@
           "name": "CX Q2 Theme Rollout",
           "critical": false,
           "status": "unknown",
-          "assessment": "Decision pending — see CX Themes tab. Decide with Nhel + Carly.",
+          "assessment": "Decision pending \u2014 see CX Themes tab. Decide with Nhel + Carly.",
           "superGreen": "Theme fully rolled out with measurable outcomes + weekly rhythm",
           "green": "Theme launched and adopted with defined metrics"
         },
@@ -643,174 +568,18 @@
       ]
     },
     {
-      "name": "Nhel",
-      "title": "Sales Team Lead",
-      "pendingFinalization": true,
-      "pendingNote": "Rocks drafted/confirmed in sheet. Pending CX Q2 theme decision (Rock #1) which gates several others.",
-      "goals": [
-        {
-          "name": "CX Q2 Theme Rollout",
-          "critical": true,
-          "status": "unknown",
-          "assessment": "Decision pending — see CX Themes tab. Decide with Amanda + Carly.",
-          "superGreen": "Theme fully rolled out with measurable outcomes + weekly rhythm",
-          "green": "Theme launched and adopted with defined metrics"
-        },
-        {
-          "name": "Sales Class Level (1 or 2 New Classes)",
-          "critical": true,
-          "status": "green",
-          "assessment": "Level 1 shipped Q1.",
-          "superGreen": "New Level 1 cohort certified + meeting individual sales targets AND at/above company avg $-conversion within 60 days of cert",
-          "green": "New Level 1 cohort certified + meeting individual sales targets within 60 days"
-        },
-        {
-          "name": "Sales Coaching — Estimate Accuracy + Sales",
-          "critical": false,
-          "status": "green",
-          "assessment": "Aligned with Amanda Rock 1.",
-          "superGreen": "30+ documented coaching incidents (call review or live ride-along), each with measurable estimate-accuracy or conversion follow-up",
-          "green": "20+ documented coaching incidents with measurable follow-up"
-        },
-        {
-          "name": "Primary: Sales Block Management + Accountability",
-          "critical": false,
-          "status": "green",
-          "assessment": "Carry from Q1.",
-          "superGreen": "Over 90% participation",
-          "green": "80% participation"
-        },
-        {
-          "name": "Liveswitch Improvements + Implementation",
-          "critical": false,
-          "status": "green",
-          "superGreen": "Request Content + Sparky AI + Projects rolled out to team",
-          "green": "Request Content + Sparky AI rolled out to team"
-        }
-      ]
-    },
-    {
-      "name": "Tet",
-      "title": "Sales Trainer (NEW)",
-      "pendingFinalization": true,
-      "pendingNote": "Rocks drafted/confirmed in sheet. Tied to Nhel + CX theme decision.",
-      "goals": [
-        {
-          "name": "Sales Training Materials Refresh",
-          "critical": true,
-          "status": "green",
-          "assessment": "Collect feedback from past 3 sales classes + GM input on main complaints for new sales reps. Make meaningful changes.",
-          "superGreen": "4 meaningful changes shipped to address gaps",
-          "green": "3 meaningful changes shipped"
-        },
-        {
-          "name": "Sales Class Level 2 + New Class",
-          "critical": true,
-          "status": "green",
-          "superGreen": "New Level 1 CERs/Managers trained meeting sales target + within company avg conversion $",
-          "green": "New Level 1 CERs/Managers within company avg conversion $"
-        },
-        {
-          "name": "Sales Goal",
-          "critical": false,
-          "status": "green",
-          "superGreen": "110% Sales",
-          "green": "100% Sales"
-        },
-        {
-          "name": "Support: Sales Block Management + Accountability",
-          "critical": false,
-          "status": "green",
-          "superGreen": "Over 90% participation",
-          "green": "80% participation"
-        },
-        {
-          "name": "Focused Estimate Accuracy — Bottom 4 Performers",
-          "critical": false,
-          "status": "green",
-          "assessment": "Identify 4 bottom performers, weekly missed estimate analysis + 1:1 follow-up coaching. 8% estimate-accuracy improvement on said reps.",
-          "superGreen": "8% improvement on 4 of 4 reps",
-          "green": "8% improvement on 3 of 4 reps"
-        }
-      ]
-    },
-    {
       "name": "Carly",
       "title": "Claims Manager",
       "pendingFinalization": true,
-      "pendingNote": "On maternity leave 80% of Q2. Per 4/14: only Maternity Transition rock (#1) is active. Other 3 rocks (CX Theme, Damage Accountability, Magic Moments Phase 2) moved to Alternates — directs + Amanda cover maintenance.",
+      "pendingNote": "On maternity leave 80% of Q2. Per 4/14: only Maternity Transition rock (#1) is active. Other 3 rocks (CX Theme, Damage Accountability, Magic Moments Phase 2) moved to Alternates \u2014 directs + Amanda cover maintenance.",
       "goals": [
         {
-          "name": "Maternity Leave Transition — Clean Handoff + Return Plan",
+          "name": "Maternity Leave Transition \u2014 Clean Handoff + Return Plan",
           "critical": true,
           "status": "green",
           "assessment": "ONLY active rock per 4/14. Q1 Super Green momentum carries. Carly due mid-May.",
           "superGreen": "New hire fully trained + independent, handoff documented, ready for leave",
           "green": "Semi-trained, handoff in progress"
-        }
-      ]
-    },
-    {
-      "name": "Stephanie / Jaci / Maria",
-      "title": "Claims Team (Pending)",
-      "pendingFinalization": true,
-      "pendingNote": "Rock topics named (Magic Moments, Improve TTC + Claims/Rep, Praise, Accuracy & Documentation) but Super Green/Green/Red criteria NOT filled in yet.",
-      "goals": [
-        {
-          "name": "Magic Moments",
-          "critical": true,
-          "status": "unknown",
-          "assessment": "Criteria pending"
-        },
-        {
-          "name": "Improve Claims Time to Close + Claims Per Rep",
-          "critical": true,
-          "status": "unknown",
-          "assessment": "Criteria pending"
-        },
-        {
-          "name": "Praise",
-          "critical": false,
-          "status": "unknown",
-          "assessment": "Criteria pending"
-        },
-        {
-          "name": "Accuracy + Documentation",
-          "critical": false,
-          "status": "unknown",
-          "assessment": "Criteria pending"
-        }
-      ]
-    },
-    {
-      "name": "Remote Operators (June, Nessa, Donna)",
-      "title": "ROs (Pending)",
-      "pendingFinalization": true,
-      "pendingNote": "Rock topics named but criteria NOT filled in.",
-      "goals": [
-        {
-          "name": "Payroll Accuracy + Efficiency",
-          "critical": true,
-          "status": "unknown",
-          "assessment": "Criteria pending"
-        },
-        {
-          "name": "Plotting EMMA Schedules",
-          "critical": true,
-          "status": "unknown",
-          "assessment": "Criteria pending"
-        },
-        {
-          "name": "ClearCo — Screen applicants with CAT scores within 24 hrs",
-          "critical": false,
-          "status": "unknown",
-          "assessment": "Criteria pending"
-        },
-        {
-          "name": "Submit 12 Quick Praise forms (1/week)",
-          "critical": false,
-          "status": "unknown",
-          "assessment": "Criteria pending"
         }
       ]
     },
@@ -822,15 +591,15 @@
           "name": "Marketing ROI / ROAS Measurement",
           "critical": true,
           "status": "unknown",
-          "assessment": "DEFER — Hold for Rob. Recommend move to Amanda. Rob's 2027 roadmap puts ROAS as priority.",
+          "assessment": "DEFER \u2014 Hold for Rob. Recommend move to Amanda. Rob's 2027 roadmap puts ROAS as priority.",
           "superGreen": "ROAS dashboard live by channel, budget reallocation decided, KP design system decided, Phase 2 Smart Move kicked off",
           "green": "First real ROAS dashboard + KP design system decision"
         },
         {
-          "name": "Oversee Website Redesign — Smart Move Part 2",
+          "name": "Oversee Website Redesign \u2014 Smart Move Part 2",
           "critical": true,
           "status": "green",
-          "assessment": "Cameron Rock 4 — KP delivers design system. Cameron owns since Amanda's plate is full.",
+          "assessment": "Cameron Rock 4 \u2014 KP delivers design system. Cameron owns since Amanda's plate is full.",
           "superGreen": "New site live, copy updated for Smart Move System, design system from KP implemented, mobile-optimized",
           "green": "Site redesign scoped, KP design system decided, copy refreshed for Smart Move narrative"
         },
@@ -846,7 +615,7 @@
           "name": "Branded Boxes (Bonus)",
           "critical": false,
           "status": "green",
-          "assessment": "Bonus rock — definition pending."
+          "assessment": "Bonus rock \u2014 definition pending."
         }
       ]
     },
@@ -855,15 +624,15 @@
       "title": "Videographer/Content",
       "goals": [
         {
-          "name": "YouTube Training Course — 16+ Videos",
+          "name": "YouTube Training Course \u2014 16+ Videos",
           "critical": true,
           "status": "green",
-          "assessment": "Red Q1 carry — summer push.",
+          "assessment": "Red Q1 carry \u2014 summer push.",
           "superGreen": "25+ videos uploaded, avg 70+ views per video",
           "green": "16+ uploaded, avg 30+ views"
         },
         {
-          "name": "Price Comparison Video — Final Version",
+          "name": "Price Comparison Video \u2014 Final Version",
           "critical": true,
           "status": "green",
           "assessment": "Drafts done Q1.",
