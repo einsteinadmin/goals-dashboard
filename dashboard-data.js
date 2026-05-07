@@ -21,59 +21,59 @@ const DASHBOARD_DATA = {
   },
   "companyCriticalNumbers": [
     {
-      "department": "Movers/Managers",
+      "department": "Movers / Frontline Managers",
       "numbers": [
         {
-          "name": "Fleet Safety (BBE Pt 2)",
-          "target": "<10% at-risk SG / <15% G, 95% retraining SG / 90% G",
-          "actual": "Q1 closed at 19.8% at-risk (Green threshold). Q2 baseline reset.",
+          "name": "Einstein Games \u2014 Season 3 Scorecards",
+          "target": "Company score 8+ SG / 7+ G, all branches above floor",
+          "actual": "Season 3 launches 5/23. 8-week structure (6 regular + 2 playoffs), national champ 7/11. Brief deployed with Rewards & Recognition section.",
           "status": "green",
-          "note": "Mike's Q2 Critical Rock. Reweighting Samsara + retraining + Understanding Samsara + Common Scenario modules. Q1 BBE wins to make stick. Branch-level miles-driven normalization in flight (Gerald query open on SCB pulse 11895901210)."
+          "note": "Brian Critical Rock #1 (CTXH 8+ SG / 7+ G) + Mike Critical Rock #2 (DFWT 8+ SG / 7+ G). Per-branch scorecards live (Q1 packet shipped). Weekly games scoreboard depends on Robert's MCP + OpenSearch DB cutover (replaces Glide app)."
         },
         {
-          "name": "Hiring + Personnel Budgets + People Analyzer",
-          "target": "100%+ staffing all branches, eNPS cleared by end of May (SG) or June (G)",
-          "actual": "Anne running HR Generalist hire (4-5 candidates this week). Brian + Mike Critical Rocks paired with Anne pipeline.",
+          "name": "Personnel Budget %",
+          "target": "All branches avg 100%+ staffing for quarter (G+SG threshold), eNPS cleared by end of May (SG) or end of June (G)",
+          "actual": "Anne running HR Generalist hire (4-5 candidates this week). Brian + Mike both have personnel budget as Critical # in their rocks.",
           "status": "green",
-          "note": "Brian + Mike both have this as Critical #. Anne R1 (HR Generalist hire) is the unblocker \u2014 bandwidth for Anne to clean eNPS + 100-point system + culture interview rollout."
+          "note": "Brian Critical Rock #2 (CTXH) + Mike Critical Rock #1 (DFWT) + Anne Critical Rock #1 (HR Generalist unlocks bandwidth). All BMs also carry Hiring Targets in their branch rocks. Cascade is fully wired."
         }
       ]
     },
     {
-      "department": "CET Sales",
+      "department": "Claims",
       "numbers": [
         {
-          "name": "Estimate Accuracy",
-          "target": "54%+ Green / 56%+ Super Green (within 20% variance)",
-          "actual": "Q2 baseline reset post VP rollout. Conversion baseline still under investigation.",
-          "status": "green",
-          "note": "Amanda Rock 1 (AI Call Grading) + Tet Rock 5 (focused estimate accuracy coaching on bottom 4 performers). Aligned with Nhel R3 sales coaching (30+ documented incidents SG / 20+ G)."
+          "name": "CX Q2 Theme + Objectives \u2014 Claims",
+          "target": "TBD \u2014 pending Amanda + Carly working session post Carly's maternity return",
+          "actual": "Placeholder. Theme decision gates Carly's CX Theme rock + maintenance plan during her leave.",
+          "status": "unknown",
+          "note": "Carly on maternity leave 80% of Q2. Amanda Rock #6 covers maintenance. Theme + objectives flesh-out is the missing piece."
         },
         {
-          "name": "$ Conversions",
-          "target": "40%+ Green / 42%+ Super Green",
-          "actual": "Q1 baseline broken \u2014 VP rollout pushed contact-capture earlier in funnel. Apples-to-apples investigation owned by Matisen.",
+          "name": "Magic Moments Delivered (counter)",
+          "target": "TBD \u2014 Q2 baseline pending",
+          "actual": "Placeholder \u2014 auto-pull from Carly's MM tracker spreadsheet pending. Spreadsheet ID TBD (Cameron to confirm during /gm dashboard refresh).",
           "status": "unknown",
-          "note": "Need apples-to-apples baseline before scoring. Matisen flagged possible filtering/attribution bug on top of denominator change. Pulse 11712899643. Performance matrix updates pending."
+          "note": "Cumulative counter. /gm dashboard refresh should pull MM count from Carly's tracker once URL is confirmed. Q1 carry-over momentum: MM program active company-wide."
         }
       ]
     },
     {
-      "department": "CET Claims",
+      "department": "Sales",
       "numbers": [
         {
-          "name": "Magic Moments / Damage Accountability",
-          "target": "Phase 2 rollout deferred \u2014 Carly maternity 80% Q2",
-          "actual": "Maintenance only during Carly's leave. JC + Stephanie hold the line.",
+          "name": "CX Q2 Theme + Objectives \u2014 Sales",
+          "target": "TBD \u2014 pending Amanda + Nhel working session",
+          "actual": "Placeholder. Theme decision gates Nhel Rock #1 + Amanda Rock #4 + Tet's training alignment.",
           "status": "unknown",
-          "note": "Carly's Magic Moments + Damage Accountability rocks moved to Alternates per 4/14. Amanda Rock 6 (Claims Oversight) covers maintenance. Phase 2 rollout pushed to Q3."
+          "note": "CX Q2 theme is the unifying frame for sales + claims + reviews. Decision pending. Tracked off-dashboard until locked, then tile populates with theme metrics."
         },
         {
-          "name": "Claims Time to Close",
-          "target": "5 days SG / 6-8 days Green",
-          "actual": "Q1 closed Super Green: Stephanie 3.6d, Jaci 2.5d, team avg 4.7d.",
-          "status": "supergreen",
-          "note": "Carry-over momentum. Source: CET Quarterly Tracker Sheet 1b_GYrrot60fZivVTjLjKXoE7-ru0zGTN2wLEuEjqnuY."
+          "name": "Estimate Accuracy / $ Conversions",
+          "target": "54%+ accuracy G / 56%+ SG \u00b7 40%+ $ conv G / 42%+ SG",
+          "actual": "Conversion baseline broken from VP rollout \u2014 Matisen owns apples-to-apples investigation before scoring resumes.",
+          "status": "unknown",
+          "note": "Amanda Rock #1 (AI Call Grading) + Nhel R3 (30+ documented coaching incidents SG / 20+ G) + Tet R5 (focused estimate-accuracy coaching on bottom 4 performers). Pulse 11712899643."
         }
       ]
     },

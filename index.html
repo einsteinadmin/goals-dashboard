@@ -541,6 +541,32 @@
     align-items: flex-start;
     gap: 8px;
     font-size: 13px;
+    cursor: pointer;
+    transition: background 100ms ease;
+  }
+
+  .leader-goal:hover {
+    background: var(--toggle-bg);
+    margin: 0 -12px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .leader-goal.expanded .leader-goal-assessment {
+    display: block;
+  }
+
+  .leader-goal-toggle-icon {
+    color: var(--text-muted);
+    font-size: 10px;
+    margin-left: 4px;
+    transition: transform 150ms ease;
+    flex-shrink: 0;
+    margin-top: 4px;
+  }
+
+  .leader-goal.expanded .leader-goal-toggle-icon {
+    transform: rotate(90deg);
   }
 
   .leader-goal:last-child { border-bottom: none; }
@@ -566,9 +592,6 @@
     line-height: 1.4;
   }
 
-  .leader-card.expanded .leader-goal-assessment {
-    display: block;
-  }
 
   .leader-expand {
     font-size: 11px;
@@ -893,12 +916,12 @@
       html += '  </div>';
       html += '  <ul class="leader-goals">';
       leader.goals.forEach(function(goal) {
-        html += '<li class="leader-goal">';
+        html += '<li class="leader-goal" onclick="toggleGoal(this)">';
         html += '  ' + statusDot(goal.status);
         html += '  <div class="leader-goal-name">';
         html += goal.name;
         if (goal.critical) html += ' <span class="critical-flag">Critical #</span>';
-        html += '    <div class="leader-goal-assessment">' + goal.assessment;
+        html += '    <div class="leader-goal-assessment">' + (goal.assessment || '<em style="color:var(--text-muted);">No assessment yet.</em>');
         if (goal.superGreen || goal.green) {
           html += '<div style="margin-top:8px;padding-top:8px;border-top:1px solid var(--divider);">';
           if (goal.superGreen) html += '<div class="criteria-row"><span class="criteria-label sg">Super Green</span><span class="criteria-text">' + goal.superGreen + '</span></div>';
@@ -907,10 +930,11 @@
         }
         html += '</div>';
         html += '  </div>';
+        html += '  <span class="leader-goal-toggle-icon">▶</span>';
         html += '</li>';
       });
       html += '  </ul>';
-      html += '  <button class="leader-expand" onclick="toggleExpand(this)">Show details</button>';
+      html += '  <button class="leader-expand" onclick="toggleAllGoals(this)">Expand all</button>';
       html += '</div>';
     });
     html += '  </div>';
@@ -970,15 +994,28 @@
     applyTheme(localStorage.getItem('dashboard-theme') || 'dark');
   };
 
-  // Toggle expand/collapse
+  // Toggle expand/collapse for rock cards
   window.toggleExpand = function(btn) {
     const card = btn.closest('[data-expandable]');
     const isExpanded = card.classList.toggle('expanded');
-    if (card.querySelector('.rock-expand')) {
-      btn.textContent = isExpanded ? 'Hide criteria' : 'Show criteria';
-    } else {
-      btn.textContent = isExpanded ? 'Hide details' : 'Show details';
-    }
+    btn.textContent = isExpanded ? 'Hide criteria' : 'Show criteria';
+  };
+
+  // Toggle a single leader goal row
+  window.toggleGoal = function(li) {
+    li.classList.toggle('expanded');
+  };
+
+  // Expand or collapse all goals within a single leader card
+  window.toggleAllGoals = function(btn) {
+    const card = btn.closest('[data-expandable]');
+    const goals = card.querySelectorAll('.leader-goal');
+    const anyCollapsed = Array.from(goals).some(function(g) { return !g.classList.contains('expanded'); });
+    goals.forEach(function(g) {
+      if (anyCollapsed) g.classList.add('expanded');
+      else g.classList.remove('expanded');
+    });
+    btn.textContent = anyCollapsed ? 'Collapse all' : 'Expand all';
   };
 
   loadDashboard();
