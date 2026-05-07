@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="robots" content="noindex, nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Goals Dashboard — Einstein Moving Company</title>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Bebas+Neue&display=swap" rel="stylesheet">
@@ -666,6 +665,12 @@
 
 <script>
 (function() {
+  // Load EMMA API integration layer (optional — graceful if missing)
+  var apiScript = document.createElement('script');
+  apiScript.src = 'emma-api.js?v=' + Date.now();
+  apiScript.onerror = function() { /* No EMMA API file — that's fine, proceed without */ };
+  document.head.appendChild(apiScript);
+
   // Load data file with cache-busting timestamp so it always pulls fresh data
   var script = document.createElement('script');
   script.src = 'dashboard-data.js?v=' + Date.now();
@@ -686,7 +691,15 @@
         '<br><br><span style="color:rgba(255,255,255,0.4);font-size:13px;">Make sure dashboard-data.js is in the same directory as this file.</span></div>';
       return;
     }
-    render(DASHBOARD_DATA);
+
+    // If EMMA API is loaded and configured, enhance data with live KPIs
+    if (typeof EMMA_API !== 'undefined' && EMMA_API.isConfigured()) {
+      EMMA_API.enhanceDashboard(DASHBOARD_DATA).then(function(enhancedData) {
+        render(enhancedData);
+      });
+    } else {
+      render(DASHBOARD_DATA);
+    }
   }
 
   function getQuarterProgress(start, end) {
@@ -771,7 +784,7 @@
     html += '    </div>';
     html += '  </div>';
     html += '  <div class="quarter-progress">';
-    html += '    <div class="progress-labels"><span>Quarter Start</span><span>Deadline: Apr 19</span></div>';
+    html += '    <div class="progress-labels"><span>Quarter Start</span><span>' + (data.meta.themeDeadlineLabel || 'Quarter End') + '</span></div>';
     html += '    <div class="progress-bar-track"><div class="progress-bar-fill ' + progressClass + '" style="width:' + qp.pct + '%"></div></div>';
     html += '    <div class="progress-stats">';
     html += '      <span><strong>' + qp.daysLeft + '</strong> days remaining</span>';
@@ -792,10 +805,15 @@
                     kpi.status === 'green' ? 'var(--green)' :
                     kpi.status === 'red' ? 'var(--error)' : 'var(--text-muted)';
       html += '<div class="kpi-card">';
-      html += '  <div class="kpi-name">' + kpi.name + '</div>';
+      html += '  <div class="kpi-name">' + kpi.name;
+      if (kpi._live) html += ' <span style="font-size:9px;color:var(--einstein-blue);letter-spacing:0.5px;margin-left:6px;vertical-align:middle;">LIVE</span>';
+      html += '</div>';
       html += '  <div class="kpi-target" style="color:' + color + '">' + kpi.target + '</div>';
-      html += '  <div class="kpi-actual ' + (kpi.actual ? 'has-value' : 'no-data') + '">' +
-              (kpi.actual ? 'Actual: ' + kpi.actual : kpi.note || 'Awaiting data') + '</div>';
+      if (kpi.actual) {
+        html += '  <div class="kpi-actual has-value">Actual: ' + kpi.actual + '</div>';
+      } else {
+        html += '  <div class="kpi-actual no-data">' + (kpi.note || 'Awaiting data') + '</div>';
+      }
       html += '</div>';
     });
     html += '  </div>';
@@ -902,6 +920,17 @@
     html += '<div class="dash-footer">';
     html += '  Last refreshed: ' + formatRefreshTime(data.meta.lastRefreshed);
     html += '  &mdash; ' + data.meta.refreshedBy;
+    if (data.meta.emmaAPI) {
+      html += '  <br><span style="color:var(--einstein-blue);">EMMA API connected</span>';
+      if (data.meta.emmaAPI.errors && data.meta.emmaAPI.errors.length > 0) {
+        html += ' <span style="color:var(--text-muted);">(' + data.meta.emmaAPI.errors.length + ' endpoint(s) unavailable)</span>';
+      }
+    } else if (typeof EMMA_API !== 'undefined' && !EMMA_API.isConfigured()) {
+      html += '  <br><span style="color:var(--text-muted);">EMMA API not configured &mdash; KPIs showing cached data</span>';
+    }
+    if (data.meta.archive) {
+      html += '  <br><a href="' + data.meta.archive.file + '" style="color:var(--text-muted);">View ' + data.meta.archive.quarter + ' archive</a>';
+    }
     html += '  <br>Run <code>/dashboard</code> to refresh &middot; Einstein Moving Company';
     html += '</div>';
 
