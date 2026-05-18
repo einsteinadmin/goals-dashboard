@@ -5,8 +5,8 @@
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-05-18T09:30:00-05:00",
-    "refreshedBy": "Albert (Monday /retro refresh)",
+    "lastRefreshed": "2026-05-18T15:30:00-05:00",
+    "refreshedBy": "Albert (digest \u2014 Roundtable group sync 5/18)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -327,7 +327,7 @@
           "name": "Hiring + Personnel Budgets + People Analyzer",
           "critical": true,
           "status": "green",
-          "assessment": "Recurring regional. Pairs with Anne hiring pipeline. 4/14 Cameron: scope includes supporting Anne's culture interview + extended trial + 100-point system rollout at CTXH.",
+          "assessment": "5/18: Hiring sprint active \u2014 target 20 new offers by EOD Fri 5/22 (20% bump on last week's 16). Jesper flexed full-time to phone interviews. FM accountability for first-day onboarding locked. Trial days \u2192 1 day immediately, sunset 6/1. 100+ screened applicants 6+ days old in CTXH = risk (Anne flagged). SCTX 5 branches still under target.",
           "superGreen": "All CTXH branches avg 100%+ staffing, People Analyzer reviewed, C players cleared/action plans, eNPS cleared by end of May",
           "green": "All CTXH 100%+ staffing, PA reviewed, C plans, eNPS cleared by end of June"
         },
@@ -372,7 +372,7 @@
           "name": "Personnel Mgmt \u2014 Manager Hiring + New Manager Development (Garland + Tampa)",
           "critical": true,
           "status": "green",
-          "assessment": "Jack Davis Garland BM (transition complete). Landon → N. Dallas Ops Mgr under Beattie. Terrel staying under Mike, expanded flex/ops scope. Stephen Anderson onboarding at Tampa as OM. Stephen+Shane bounced back to 110% hiring goal in 1 week after losing 2 leads. Scaling Tampa to 5 trucks.",
+          "assessment": "5/18: 9 FM candidates in DFW pipeline, last screener Wed 5/20. Terrel flexed full-time to phone interviews. DFW hiring aggressive \u2014 pushing 10+ hires this week. Mike + Anne touch base Wed on FM go-forwards. Tampa OM Stephen Anderson continuing ramp.",
           "superGreen": "All DFWT 100%+ staffing, all 4 new-in-role managers at B+ rating by EOQ, monthly PA, 100% C-player action plans or replaced",
           "green": "DFWT 95%+ staffing, all 4 new managers at B rating by EOQ, monthly PA + check-ins documented, C-player action plans drafted"
         },
@@ -388,7 +388,7 @@
           "name": "Fleet Safety Pt 2 \u2014 Resolidifying Habits, Training, Reweighting, Sample Sizes",
           "critical": false,
           "status": "green",
-          "assessment": "Dallas safety training validated 5/14 — Samsara score 11 vs high 80s/90s elsewhere via Mike's revised 1-hr deep-dive with video review + alerts breakdown. Framework working. Garland next. Samsara consolidation EOQ.",
+          "assessment": "5/18: Refining scoring + negating model with Gerald this week. Coaching model rollout needs team alignment first (won't affect Games scoring). Pattern of backup incidents continues \u2014 most recent N. Austin (camera working, no ground guide); backup sensor evaluation owner not yet assigned.",
           "superGreen": "95% retraining completion, Samsara reweighted with validated samples, at-risk <10%, Understanding Samsara + Common Scenario modules in place",
           "green": "90% retraining, Samsara reweighted with validated samples, at-risk <15%, Common Scenario module in place"
         },
@@ -478,7 +478,7 @@
           "name": "Hire HR Generalist",
           "critical": true,
           "status": "green",
-          "assessment": "Anne's #1 \u2014 unblocks bandwidth. 4-5 candidates in consideration as of 5/7. Final interviews pending Amanda input.",
+          "assessment": "5/18: 4 candidates being scheduled this week. Cameron + others sitting in on interviews based on availability.",
           "superGreen": "Hired by end of May, fully onboarded + ramped, taking recruiting volume off Anne",
           "green": "Hired + onboarding started by EOQ"
         },
@@ -486,7 +486,7 @@
           "name": "Hiring for Culture / Extended Trial Period + 100-Point Behavioral System",
           "critical": true,
           "status": "green",
-          "assessment": "Depends on Matisen R5 (PL \u2192 Rippling). 4/14 Cameron: split from original Mover Performance Mgmt rock. Paired with Culture Interview + Extended Trial Day work. Cameron to introduce 100-point system to Anne in person (target 2-3 weeks).",
+          "assessment": "5/18: Trial days reduced to 1 day immediately, sunset 6/1 when HPEs roll out. HPE materials in active build this week. Concentra response loop in progress \u2014 Anne escalates to VP if no response in 2 days. 100-Point system still parked until Cameron in-person intro.",
           "superGreen": "100-point system live across all branches, interview process updated to hire for culture, extended trial in beta one region, Rippling Performance Module live",
           "green": "Interview process updated to hire for culture + Rippling Performance Module live"
         },
@@ -509,7 +509,7 @@
           "name": "Einstein Onboarding Experience (CHOICES + Comp/Benefits + Performance Mgmt)",
           "critical": false,
           "status": "green",
-          "assessment": "CHOICES app v2 shipped Q1. Q2: get into onboarding pipeline so every new hire goes through it.",
+          "assessment": "5/18: Offer letter expiration cut from 7 days to 48 hours this week. Physical + drug screen language added to offer letter, ClearCo e-passport 48-hr request going out. COBRA filing reference removing from new handbook. Copilot \u2192 Lead in Training cleanup across ClearCo + handbook + offer letters in progress.",
           "superGreen": "CHOICES + Comp/Benefits + Performance Mgmt modules integrated into onboarding via Rippling, \u226590% completion in first 30 days",
           "green": "CHOICES live in onboarding, \u226575% completion in first 30 days"
         },
