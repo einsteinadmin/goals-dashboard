@@ -5,8 +5,8 @@
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-05-07T10:45:00-05:00",
-    "refreshedBy": "Albert (Q2 rebuild from Cascading Goals + Q2 Roundtable Rocks tab)",
+    "lastRefreshed": "2026-05-18T09:30:00-05:00",
+    "refreshedBy": "Albert (Monday /retro refresh)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -204,10 +204,10 @@
       "name": "Oversee Website Redesign \u2014 Smart Move System Part 2",
       "critical": false,
       "status": "green",
-      "assessment": "Cameron owns since Amanda's plate is full. Copy already written \u2014 Q2 about freshening the site to sell Smart Move System + VP better. KP design system proposal pending.",
+      "assessment": "Cameron owns since Amanda's plate is full. CMS decision LOCKED 5/11 \u2014 staying on WordPress, building new FSE block theme. Albert via WP REST API as editor-AI layer. KP proposal/SOW pending. Brand-story HTML review with Albert this week.",
       "superGreen": "New site live, copy updated for Smart Move System, KP design system implemented, mobile-optimized",
       "green": "Site redesign scoped, KP design system decided, copy refreshed for Smart Move narrative",
-      "lastUpdated": "2026-05-07"
+      "lastUpdated": "2026-05-18"
     },
     {
       "number": 6,
@@ -229,7 +229,7 @@
           "name": "Annual Mover Comp Review",
           "critical": true,
           "status": "green",
-          "assessment": "Red Q1 carry \u2014 renamed 4/14. Manager comp wrapping up, pivot to mover comp structure. Anne co-owns. V2 Compensation Philosophy in flight (Paul completed pressure-test 5/3 via Clark, Cameron+Paul collab meeting today 2pm).",
+          "assessment": "Mover comp LOCKED 5/14 (Ben validated 5/13). $20 flat Lead in Training + Lead $1.50 base/$0.50 var. Co-Pilot retired. HOF retired as paid position. ~$600K annual increase, under 40% mover/rev ceiling. Anne reposted all postings same-day 5/15. Rippling rates updated 5/16. Announcement ships Mon AM 5/18. Manager comp May 20 cycle on Paul's v3 model with above-band raises layered.",
           "superGreen": "Pay bands updated, promotions tied to performance, promo process video, communicated",
           "green": "Updated pay finalized, pay docs updated, scorecards created, targets set + communicated"
         },
@@ -372,7 +372,7 @@
           "name": "Personnel Mgmt \u2014 Manager Hiring + New Manager Development (Garland + Tampa)",
           "critical": true,
           "status": "green",
-          "assessment": "Garland BM transition (Jack/Landon/Terrel). Tampa OM (Stephen) onboarding. 4/14 Cameron: scope includes supporting Anne's culture interview + extended trial + 100-point system rollout at DFWT.",
+          "assessment": "Jack Davis Garland BM (transition complete). Landon → N. Dallas Ops Mgr under Beattie. Terrel staying under Mike, expanded flex/ops scope. Stephen Anderson onboarding at Tampa as OM. Stephen+Shane bounced back to 110% hiring goal in 1 week after losing 2 leads. Scaling Tampa to 5 trucks.",
           "superGreen": "All DFWT 100%+ staffing, all 4 new-in-role managers at B+ rating by EOQ, monthly PA, 100% C-player action plans or replaced",
           "green": "DFWT 95%+ staffing, all 4 new managers at B rating by EOQ, monthly PA + check-ins documented, C-player action plans drafted"
         },
@@ -388,7 +388,7 @@
           "name": "Fleet Safety Pt 2 \u2014 Resolidifying Habits, Training, Reweighting, Sample Sizes",
           "critical": false,
           "status": "green",
-          "assessment": "4/14 Cameron: promoted from note to formal rock. Mike's focus stays on making Q1 BBE stick, not new programs. Brian paired. Samsara consolidation EOQ.",
+          "assessment": "Dallas safety training validated 5/14 — Samsara score 11 vs high 80s/90s elsewhere via Mike's revised 1-hr deep-dive with video review + alerts breakdown. Framework working. Garland next. Samsara consolidation EOQ.",
           "superGreen": "95% retraining completion, Samsara reweighted with validated samples, at-risk <10%, Understanding Samsara + Common Scenario modules in place",
           "green": "90% retraining, Samsara reweighted with validated samples, at-risk <15%, Common Scenario module in place"
         },
