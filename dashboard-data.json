@@ -5,8 +5,8 @@
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-05-18T15:30:00-05:00",
-    "refreshedBy": "Albert (digest \u2014 Roundtable group sync 5/18)",
+    "lastRefreshed": "2026-05-18T19:55:00-05:00",
+    "refreshedBy": "Albert (digest \u2014 Brian+Mike hiring working session 5/18 PM)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -327,7 +327,7 @@
           "name": "Hiring + Personnel Budgets + People Analyzer",
           "critical": true,
           "status": "green",
-          "assessment": "5/18: Hiring sprint active \u2014 target 20 new offers by EOD Fri 5/22 (20% bump on last week's 16). Jesper flexed full-time to phone interviews. FM accountability for first-day onboarding locked. Trial days \u2192 1 day immediately, sunset 6/1. 100+ screened applicants 6+ days old in CTXH = risk (Anne flagged). SCTX 5 branches still under target.",
+          "assessment": "5/18 PM: Tonight's working session reframed the gap. Mike pushed 110-115% target (plan for attrition); Cameron's pushback: target inflation is Goodhart \u2014 every level adds buffer and the number stops meaning anything. Real fix = attrition-aware pipeline sizing behind a stable 105% net target. New disciplines locked: 3:30 PM applicant/lead cutoff doctrine (queue clears before EOD), EOD sign-off concept (BMs publicly confirm clear queues), pause Tampa + Garland sourcing (146 + 64 applicants stalled with no open seats). Bandwidth-model framework pending (combined sales + hiring capacity per role).",
           "superGreen": "All CTXH branches avg 100%+ staffing, People Analyzer reviewed, C players cleared/action plans, eNPS cleared by end of May",
           "green": "All CTXH 100%+ staffing, PA reviewed, C plans, eNPS cleared by end of June"
         },
@@ -372,7 +372,7 @@
           "name": "Personnel Mgmt \u2014 Manager Hiring + New Manager Development (Garland + Tampa)",
           "critical": true,
           "status": "green",
-          "assessment": "5/18: 9 FM candidates in DFW pipeline, last screener Wed 5/20. Terrel flexed full-time to phone interviews. DFW hiring aggressive \u2014 pushing 10+ hires this week. Mike + Anne touch base Wed on FM go-forwards. Tampa OM Stephen Anderson continuing ramp.",
+          "assessment": "5/18 PM: Pause Tampa hiring sourcing (Stephen + Shane staffed up; 64 applicants stalled). Same for Garland (146 applicants, no open seats). Mike researching Texas contingent hiring legality \u2014 confirmed legal; pair with 4-panel drug test (no marijuana) to drop 5-day waiting period. 9 FM candidates in DFW pipeline, last screener Wed 5/20. Beatty needed to run more trial days per Mike's coaching ('you need 10 in pipeline, not 3'). Combined sales + hiring bandwidth model in design.",
           "superGreen": "All DFWT 100%+ staffing, all 4 new-in-role managers at B+ rating by EOQ, monthly PA, 100% C-player action plans or replaced",
           "green": "DFWT 95%+ staffing, all 4 new managers at B rating by EOQ, monthly PA + check-ins documented, C-player action plans drafted"
         },
@@ -478,7 +478,7 @@
           "name": "Hire HR Generalist",
           "critical": true,
           "status": "green",
-          "assessment": "5/18: 4 candidates being scheduled this week. Cameron + others sitting in on interviews based on availability.",
+          "assessment": "5/18 PM: 4 candidates being scheduled this week. Cameron sitting in on interviews based on availability.",
           "superGreen": "Hired by end of May, fully onboarded + ramped, taking recruiting volume off Anne",
           "green": "Hired + onboarding started by EOQ"
         },
@@ -494,7 +494,7 @@
           "name": "ClearCo Hiring Funnel Visualization",
           "critical": false,
           "status": "green",
-          "assessment": "Carry from Q1. Pairs with Matisen Wedge Build #2.",
+          "assessment": "5/18 PM: Tension flag \u2014 Brian/Mike want BMs to screen directly (R&O&S as support, not gatekeeper); Anne's read is that loose screening creates downstream HR problems with people who shouldn't have made it through. Both positions valid. Cameron talks to Anne Tue 5/19 to land a new policy. Also: combined sales + hiring bandwidth model in early design \u2014 Anne owns the funnel-conversion + attrition data we need to size pipelines properly. ClearCo API access still pending Anne \u2014 biggest unlock for funnel visualization.",
           "superGreen": "Full funnel dashboard (cost per hire, time to fill, stage % per branch) + all hired candidates have scorecards",
           "green": "Funnel visualized with cost per hire + time to fill + stage %"
         },
