@@ -5,8 +5,8 @@
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-05-18T19:55:00-05:00",
-    "refreshedBy": "Albert (digest \u2014 Brian+Mike hiring working session 5/18 PM)",
+    "lastRefreshed": "2026-05-20T13:00:00-05:00",
+    "refreshedBy": "Albert (digest \u2014 5/20 huddle + Paul stay-on: HOF grandfathered LOCKED + manager comp final + cubicle design LOCKED)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -229,7 +229,7 @@
           "name": "Annual Mover Comp Review",
           "critical": true,
           "status": "green",
-          "assessment": "Mover comp LOCKED 5/14 (Ben validated 5/13). $20 flat Lead in Training + Lead $1.50 base/$0.50 var. Co-Pilot retired. HOF retired as paid position. ~$600K annual increase, under 40% mover/rev ceiling. Anne reposted all postings same-day 5/15. Rippling rates updated 5/16. Announcement ships Mon AM 5/18. Manager comp May 20 cycle on Paul's v3 model with above-band raises layered.",
+          "assessment": "5/20: Manager comp final review LOCKED — Stephanie 3%, Amanda 10%, Carly 5%, Jespah matched to Terrel at $62K, Joel + Sergio bumped to 5%. Grant pending — Cameron needs justification from Mike before approving above standard. HOF grandfathered group LOCKED at $23 base + $3.75 variable = $26.75 max (Path B, self-sunsetting, no new entrants). Paul owns 10 1:1 calls + manager brief. HOF title decoupled from pay — separate revamp project (metric-based selection). Earlier: Mover comp LOCKED 5/14 (Ben validated 5/13). $20 flat Lead in Training + Lead $1.50 base/$0.50 var. Co-Pilot retired. HOF retired as paid position. ~$600K annual increase, under 40% mover/rev ceiling. Anne reposted all postings 5/15. Rippling rates updated 5/16. Announcement shipped 5/18.",
           "superGreen": "Pay bands updated, promotions tied to performance, promo process video, communicated",
           "green": "Updated pay finalized, pay docs updated, scorecards created, targets set + communicated"
         },
