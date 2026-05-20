@@ -5,8 +5,8 @@ const DASHBOARD_DATA = {
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-05-20T13:00:00-05:00",
-    "refreshedBy": "Albert (digest \u2014 5/20 huddle + Paul stay-on: HOF grandfathered LOCKED + manager comp final + cubicle design LOCKED)",
+    "lastRefreshed": "2026-05-20T13:45:00-05:00",
+    "refreshedBy": "Albert (digest \u2014 5/20 KP weekly sync: VP form analytics gap surfaced + brand story moving under proposal scope)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -71,7 +71,7 @@ const DASHBOARD_DATA = {
         {
           "name": "Estimate Accuracy / $ Conversions",
           "target": "54%+ accuracy G / 56%+ SG \u00b7 40%+ $ conv G / 42%+ SG",
-          "actual": "Conversion baseline broken from VP rollout \u2014 Matisen owns apples-to-apples investigation before scoring resumes.",
+          "actual": "5/20 KP sync: VP form analytics show >100% submission rate on some funnel steps (users navigating back/forward triggering multiple form-submit events; 'Inestimable form submit' deprecated). Jamie + Liz reviewing this week, report 5/27. Likely explains part of the conversion-baseline weirdness. Cameron removed from ownership on the dashboard pulse \u2014 Kick Point owns the analysis.",
           "status": "unknown",
           "note": "Amanda Rock #1 (AI Call Grading) + Nhel R3 (30+ documented coaching incidents SG / 20+ G) + Tet R5 (focused estimate-accuracy coaching on bottom 4 performers). Pulse 11712899643."
         }
