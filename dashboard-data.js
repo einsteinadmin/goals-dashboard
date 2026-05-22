@@ -5,8 +5,8 @@ const DASHBOARD_DATA = {
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-05-22T14:30:00-05:00",
-    "refreshedBy": "Albert (digest — 5/22 huddle)",
+    "lastRefreshed": "2026-05-22T15:55:00-05:00",
+    "refreshedBy": "Albert (/retro — deep refresh)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -18,7 +18,7 @@ const DASHBOARD_DATA = {
     ],
     "criticalNumbersConfirmed": "Cameron Rocks #1 (Einstein Dojo + COS scaling) and #2 (AI Wedge Audit + QG Support) confirmed as Critical Numbers per 5/7.",
     "scopeNote": "Dashboard tracks Cameron's directs only. Non-direct contributors (Nhel, Tet, Fabian, LiftUp, Claims team, ROs) are kept in line on the Cascading Goals spreadsheet for visibility but cascade through their managers \u2014 Cameron doesn't meet with them regularly enough to keep dashboard status fresh.",
-    "lastRefreshNote": "5/22 huddle digest \u2014 Einstein Games S3 launch sequence locked (announce Fri PM, live link Tue 5/26). Public ungated brief page LIVE at einsteinadmin.github.io/einstein-games-s3-0b7da9f84728. Hiring sprint: 16 offers sent + 4 cleared toward 20-hire target by EOD. ClearCo API still blocked (major bottleneck). HOF Path B differentiated: Ian Ives + Mark get conditional offer (no raise unless A-player 2Q), others get basic raise calls (Paul 4/10 done). Q2 sales bonus pivoting to estimate accuracy + sales block participation (conversion paused). Jevec new sales hire starts 6/15 \u2014 second part-time hire being posted to start alongside. Grant raise approved per Mike's justification."
+    "lastRefreshNote": "5/22 /retro deep refresh \u2014 week 5/18-5/22 closed. Velocity ~25 pulses / ~95 LOW / 10 praise / happiness 4. Huddle facilitation jumped one full letter grade from last week (C/3.1 three-day \u2192 B+ this week). HOF Path B initially shipped differentiated (conditional A-player ultimatum) then REVERSED to uniform via Roundtable + 6-author consultant council, all six convergent \u2014 philosophy v2.2 added 'pay corrections are not performance ultimatums' principle. VP rates LIVE clean overnight Wed 5/20. Einstein Games S3 launches Sat 5/23, public brief page live. Lead Triage scoping approved for Fabian Phase 1 (broke 2-week stall). N. Austin onsite visit 5/19 banked (1/3 toward Branch Visits rock). Cameron's COS rollout for Brian decoupled from Anthropic Org setup (Brian first now, Tue 5/26 target \u2014 breaks 3-week slip pattern). HR Generalist hire: Saturday interview added to land by Mon PM. Performance-pay system framed as Anne + Paul Q2 Rock. Friction-remover pattern flagged \u2014 Cameron's rocks underperforming because day fills supporting everyone else."
   },
   "companyCriticalNumbers": [
     {
@@ -165,7 +165,7 @@ const DASHBOARD_DATA = {
       "name": "Build Einstein Dojo + Scale AI COS to All Roundtable",
       "critical": true,
       "status": "green",
-      "assessment": "Cameron's personal Q2 thesis. 4 of 6 COS active (Albert, Gerald-Mike, Matisen's, Clark-Paul). Critical # = 6 active COS instances with weekly usage. Three legs: (1) MCP config generator HTML form, (2) synthesis pipelines as scheduled Claude Code Routines (shipped 4/14), (3) Dojo = renamed skills repo + /dojo recommender skill.",
+      "assessment": "Cameron's personal Q2 thesis. 4 of 6 COS active (Albert, Gerald-Mike, Matisen's, Clark-Paul). Critical # = 6 active COS instances with weekly usage. Three legs: (1) MCP config generator HTML form, (2) synthesis pipelines as scheduled Claude Code Routines (shipped 4/14), (3) Dojo = renamed skills repo + /dojo recommender skill. Week of 5/18: weekend call-out tool shipped to GitHub Pages + suggest-a-change widget integrated. Brian COS onboarding decoupled from Anthropic Org setup — Brian-first sequence now (Tue 5/26), breaks 3-week slip pattern.",
       "superGreen": "50+ Dojo skills, 2+ leaders contributing skills unprompted, 2+ nightly synthesis pipelines, AI-fluency interview question, weekly huddle AI demo 4+ weeks",
       "green": "Dojo with 40+ skills, /dojo recommender + MCP config generator built, all 6 Roundtable members have active COS, 1 nightly synthesis pipeline, skill PR template in repo",
       "lastUpdated": "2026-05-07"
@@ -195,7 +195,7 @@ const DASHBOARD_DATA = {
       "name": "Branch Visits + O3s",
       "critical": false,
       "status": "green",
-      "assessment": "Carry from Q1. Cameron's time only \u2014 no external dependencies. Quarter just kicking off.",
+      "assessment": "Carry from Q1. Cameron's time only \u2014 no external dependencies. 5/19 N. Austin onsite visit with Rance banked (Workstream A FM ride-along + Workstream B app consolidation review). 1/3 visits toward Green threshold.",
       "superGreen": "5 branch visits + 5 listen-and-learns + 5 O3s with all directs",
       "green": "3 branch visits + 3 listen-and-learns + quarterly O3s",
       "lastUpdated": "2026-05-07"
@@ -214,8 +214,8 @@ const DASHBOARD_DATA = {
       "number": 6,
       "name": "Ideal Team Player Reading",
       "critical": false,
-      "status": "green",
-      "assessment": "Bonus rock. Read by 5/30 (G) or EOQ + 1-page reflection on personal Humility/Hunger/Smarts gaps (SG).",
+      "status": "yellow",
+      "assessment": "Bonus rock. Read by 5/30 (G) or EOQ + 1-page reflection on personal Humility/Hunger/Smarts gaps (SG). Behind — no movement in last 2 weeks. 5/30 deadline is 8 days out.",
       "superGreen": "Read by EOQ + 1-page reflection on personal Humility/Hunger/Smarts gaps",
       "green": "Read by 5/30",
       "lastUpdated": "2026-05-07"
@@ -479,7 +479,7 @@ const DASHBOARD_DATA = {
           "name": "Hire HR Generalist",
           "critical": true,
           "status": "green",
-          "assessment": "5/18 PM: 4 candidates being scheduled this week. Cameron sitting in on interviews based on availability.",
+          "assessment": "Fri 5/22 interview day: Claire (Anne solo, no fit), Hayley (closer ✅ — green energy + culture fit, only 1yr post-college), Emery (moved to Mon 5/25 3 PM), JALISSA (4 PM closer pending). Saturday interview added to land hire by Mon PM. Anne running 4-candidate panel + 9 AM Fri auto-cancel candidate-project gate. Hustle-but-don't-rush execution.",
           "superGreen": "Hired by end of May, fully onboarded + ramped, taking recruiting volume off Anne",
           "green": "Hired + onboarding started by EOQ"
         },
