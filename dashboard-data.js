@@ -5,8 +5,8 @@ const DASHBOARD_DATA = {
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-05-22T15:55:00-05:00",
-    "refreshedBy": "Albert (/retro — deep refresh)",
+    "lastRefreshed": "2026-05-26T15:30:00-05:00",
+    "refreshedBy": "Albert (digest)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -478,8 +478,8 @@ const DASHBOARD_DATA = {
         {
           "name": "Hire HR Generalist",
           "critical": true,
-          "status": "green",
-          "assessment": "Fri 5/22 interview day: Claire (Anne solo, no fit), Hayley (closer ✅ — green energy + culture fit, only 1yr post-college), Emery (moved to Mon 5/25 3 PM), JALISSA (4 PM closer pending). Saturday interview added to land hire by Mon PM. Anne running 4-candidate panel + 9 AM Fri auto-cancel candidate-project gate. Hustle-but-don't-rush execution.",
+          "status": "super-green",
+          "assessment": "✅ CLOSED 5/26. Offer letter to Jalissa accepted at $75K. Official start date June 8. ~8 yrs experience including hiring physical laborers, Philippine CORs, ATS implementation, strong cultural fit. Anne ran extended slate (4 Fri 5/22 + Saturday interview + Emery 5/25 + Misty 5/26 no-go) to land the right hire. Super Green track: hire closed BEFORE end of May — well ahead of EOQ Green threshold.",
           "superGreen": "Hired by end of May, fully onboarded + ramped, taking recruiting volume off Anne",
           "green": "Hired + onboarding started by EOQ"
         },
