@@ -5,8 +5,8 @@ const DASHBOARD_DATA = {
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-05-28T10:00:00-05:00",
-    "refreshedBy": "Albert (/gm sweep)",
+    "lastRefreshed": "2026-05-28T11:30:00-05:00",
+    "refreshedBy": "Albert (digest)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -27,7 +27,7 @@ const DASHBOARD_DATA = {
         {
           "name": "Einstein Games \u2014 Season 3 Scorecards",
           "target": "Company score 8+ SG / 7+ G, all branches above floor",
-          "actual": "Season 3 LAUNCHED 5/23 — week 1 in flight. Manual Claude-based scoring running in parallel while Matisen QA's the new Games API (reconciling rounding errors). N. Austin played multiplier card vs Dallas. 8-week structure (6 regular + 2 playoffs), national champ 7/11.",
+          "actual": "Season 3 LAUNCHED 5/23 — week 1 in flight. 5/28: 'Coach's Corner' decision — old Driver's Ed dashboard repurposed into a weekly win/loss + strategic AAR (4 cascading-goals questions) posted per branch on each EMC Games QG pulse to force week-to-week strategy. Mike builds, Brian owns messaging, live Mon 6/1. Reviews backlog: JC on vacation left review URLs unmapped → all DFW showing zero reviews; Matisen building a money.com matching skill to clear before results finalize. 8-week structure, national champ 7/11.",
           "status": "green",
           "note": "Brian Critical Rock #1 (CTXH 8+ SG / 7+ G) + Mike Critical Rock #2 (DFWT 8+ SG / 7+ G). Per-branch scorecards live (Q1 packet shipped). Weekly games scoreboard depends on Robert's MCP + OpenSearch DB cutover (replaces Glide app)."
         },
@@ -487,7 +487,7 @@ const DASHBOARD_DATA = {
           "name": "Hiring for Culture / Extended Trial Period + 100-Point Behavioral System",
           "critical": true,
           "status": "green",
-          "assessment": "5/18: Trial days reduced to 1 day immediately, sunset 6/1 when HPEs roll out. HPE materials in active build this week. Concentra response loop in progress \u2014 Anne escalates to VP if no response in 2 days. 100-Point system still parked until Cameron in-person intro.",
+          "assessment": "5/28: Trial-day elimination NOT launching 6/1 (reversed at huddle). Delayed until after peak hiring season + beta once HR Generalist (Jalissa, starts 6/8), new physical/HPE, 100-point system, and clear 'fire-in-first-2-weeks' scenarios are in place. LOCKED: no new hire enters a customer home before the background check clears (liability \u2014 eliminated as an option). FM-onboarding ownership undecided \u2014 sales targets must flex if FMs own onboarding. BM strategy meeting week of 6/1 (Brian scheduling) is where this gets worked. Open: pin down unemployment-liability day threshold. 100-Point still parked for Cameron's in-person intro w/ Anne. Earlier 5/18: trial reduced to 1 day, HPE materials in build.",
           "superGreen": "100-point system live across all branches, interview process updated to hire for culture, extended trial in beta one region, Rippling Performance Module live",
           "green": "Interview process updated to hire for culture + Rippling Performance Module live"
         },
