@@ -30,6 +30,7 @@
     --text-muted: rgba(255,255,255,0.4);
     --supergreen: #69995d;
     --green: #5a8a4e;
+    --yellow: #d9a441;
     --red: #CC0100;
     --unknown: rgba(255,255,255,0.2);
     --status-sg-bg: rgba(105,153,93,0.2);
@@ -38,6 +39,8 @@
     --status-g-text: #7ab36d;
     --status-r-bg: rgba(204,1,0,0.2);
     --status-r-text: #ff5555;
+    --status-y-bg: rgba(217,164,65,0.2);
+    --status-y-text: #e0b35e;
     --status-u-bg: rgba(255,255,255,0.08);
     --divider: rgba(255,255,255,0.06);
     --leader-divider: rgba(255,255,255,0.04);
@@ -68,6 +71,8 @@
     --status-g-text: #4a7a3e;
     --status-r-bg: rgba(204,1,0,0.1);
     --status-r-text: #b30000;
+    --status-y-bg: rgba(217,164,65,0.14);
+    --status-y-text: #8a5e12;
     --status-u-bg: #eceef0;
     --divider: #e2e4e8;
     --leader-divider: #f0f1f3;
@@ -245,6 +250,7 @@
   .status-dot.supergreen { background: var(--supergreen); box-shadow: 0 0 6px rgba(105,153,93,0.5); }
   .status-dot.green { background: var(--green); }
   .status-dot.red { background: var(--red); box-shadow: 0 0 6px rgba(204,1,0,0.4); }
+  .status-dot.yellow { background: var(--yellow); box-shadow: 0 0 6px rgba(217,164,65,0.45); }
   .status-dot.unknown { background: var(--unknown); }
 
   .status-label {
@@ -263,6 +269,7 @@
   .status-label.supergreen { background: var(--status-sg-bg); color: var(--status-sg-text); }
   .status-label.green { background: var(--status-g-bg); color: var(--status-g-text); }
   .status-label.red { background: var(--status-r-bg); color: var(--status-r-text); }
+  .status-label.yellow { background: var(--status-y-bg); color: var(--status-y-text); }
   .status-label.unknown { background: var(--status-u-bg); color: var(--text-muted); }
 
   /* ─── Cameron's KPIs ─── */
@@ -733,6 +740,7 @@
     const labels = {
       supergreen: 'Super Green',
       green: 'Green',
+      yellow: 'At Risk',
       red: 'Red',
       unknown: 'No Data'
     };
@@ -752,7 +760,7 @@
   }
 
   function countStatuses(items) {
-    const counts = { supergreen: 0, green: 0, red: 0, unknown: 0 };
+    const counts = { supergreen: 0, green: 0, yellow: 0, red: 0, unknown: 0 };
     items.forEach(function(i) { counts[i.status] = (counts[i.status] || 0) + 1; });
     return counts;
   }
@@ -773,6 +781,7 @@
     const rockSummary = [];
     if (rockCounts.supergreen) rockSummary.push(rockCounts.supergreen + ' Super Green');
     if (rockCounts.green) rockSummary.push(rockCounts.green + ' Green');
+    if (rockCounts.yellow) rockSummary.push(rockCounts.yellow + ' At Risk');
     if (rockCounts.red) rockSummary.push(rockCounts.red + ' Red');
     if (rockCounts.unknown) rockSummary.push(rockCounts.unknown + ' No Data');
 
@@ -813,6 +822,7 @@
     data.cameronKPIs.forEach(function(kpi) {
       const color = kpi.status === 'supergreen' ? 'var(--supergreen)' :
                     kpi.status === 'green' ? 'var(--green)' :
+                    kpi.status === 'yellow' ? 'var(--yellow)' :
                     kpi.status === 'red' ? 'var(--error)' : 'var(--text-muted)';
       html += '<div class="kpi-card">';
       html += '  <div class="kpi-name">' + kpi.name;
