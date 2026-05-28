@@ -5,8 +5,8 @@
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-05-26T15:30:00-05:00",
-    "refreshedBy": "Albert (digest)",
+    "lastRefreshed": "2026-05-28T10:00:00-05:00",
+    "refreshedBy": "Albert (/gm sweep)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -18,7 +18,7 @@
     ],
     "criticalNumbersConfirmed": "Cameron Rocks #1 (Einstein Dojo + COS scaling) and #2 (AI Wedge Audit + QG Support) confirmed as Critical Numbers per 5/7.",
     "scopeNote": "Dashboard tracks Cameron's directs only. Non-direct contributors (Nhel, Tet, Fabian, LiftUp, Claims team, ROs) are kept in line on the Cascading Goals spreadsheet for visibility but cascade through their managers \u2014 Cameron doesn't meet with them regularly enough to keep dashboard status fresh.",
-    "lastRefreshNote": "5/22 /retro deep refresh + /wrap velocity correction \u2014 week 5/18-5/22 closed. Velocity 33 pulses / 122 LOW / 10 praise / happiness 4 (corrected at /wrap from earlier ~95 LOW estimate \u2014 Hold for Sync Up + Done 2026 dated this week combined). Roughly tied with last week's 32/121 modeler-sprint frenzy. Huddle facilitation jumped one full letter grade from last week (C/3.1 three-day \u2192 B+ this week). HOF Path B initially shipped differentiated (conditional A-player ultimatum) then REVERSED to uniform via Roundtable + 6-author consultant council, all six convergent \u2014 philosophy v2.2 added 'pay corrections are not performance ultimatums' principle. VP rates LIVE clean overnight Wed 5/20. Einstein Games S3 launches Sat 5/23, public brief page live. Lead Triage scoping approved for Fabian Phase 1 (broke 2-week stall). N. Austin onsite visit 5/19 banked (1/3 toward Branch Visits rock). Cameron's COS rollout for Brian decoupled from Anthropic Org setup (Brian first now, Tue 5/26 target \u2014 breaks 3-week slip pattern). HR Generalist hire: Saturday interview added to land by Mon PM. Performance-pay system framed as Anne + Paul Q2 Rock. Friction-remover pattern flagged \u2014 Cameron's rocks underperforming because day fills supporting everyone else."
+    "lastRefreshNote": "5/28 /gm sweep — Fixed two rendering bugs (status values that produced empty circles): Anne HR Generalist 'super-green' → 'supergreen' (now shows the SG dot); Rock #6 ITP 'yellow' flagged to Cameron (dashboard has no yellow state — SG/G/R only — pending his call to map green vs red). Rock #1 COS refreshed: Vera-Brian live (5 of 6 COS active, Amanda last). Rock #5 + KP + Smart Move tile: website design proposal SIGNED 5/28, Ben looped for payment calendar. Einstein Games tile: S3 launched 5/23, week 1 in flight. PRIOR (5/22 /retro): ", "_archivedRefreshNote": "5/22 /retro deep refresh + /wrap velocity correction \u2014 week 5/18-5/22 closed. Velocity 33 pulses / 122 LOW / 10 praise / happiness 4 (corrected at /wrap from earlier ~95 LOW estimate \u2014 Hold for Sync Up + Done 2026 dated this week combined). Roughly tied with last week's 32/121 modeler-sprint frenzy. Huddle facilitation jumped one full letter grade from last week (C/3.1 three-day \u2192 B+ this week). HOF Path B initially shipped differentiated (conditional A-player ultimatum) then REVERSED to uniform via Roundtable + 6-author consultant council, all six convergent \u2014 philosophy v2.2 added 'pay corrections are not performance ultimatums' principle. VP rates LIVE clean overnight Wed 5/20. Einstein Games S3 launches Sat 5/23, public brief page live. Lead Triage scoping approved for Fabian Phase 1 (broke 2-week stall). N. Austin onsite visit 5/19 banked (1/3 toward Branch Visits rock). Cameron's COS rollout for Brian decoupled from Anthropic Org setup (Brian first now, Tue 5/26 target \u2014 breaks 3-week slip pattern). HR Generalist hire: Saturday interview added to land by Mon PM. Performance-pay system framed as Anne + Paul Q2 Rock. Friction-remover pattern flagged \u2014 Cameron's rocks underperforming because day fills supporting everyone else."
   },
   "companyCriticalNumbers": [
     {
@@ -27,7 +27,7 @@
         {
           "name": "Einstein Games \u2014 Season 3 Scorecards",
           "target": "Company score 8+ SG / 7+ G, all branches above floor",
-          "actual": "Season 3 launches 5/23. 8-week structure (6 regular + 2 playoffs), national champ 7/11. Brief deployed with Rewards & Recognition section.",
+          "actual": "Season 3 LAUNCHED 5/23 — week 1 in flight. Manual Claude-based scoring running in parallel while Matisen QA's the new Games API (reconciling rounding errors). N. Austin played multiplier card vs Dallas. 8-week structure (6 regular + 2 playoffs), national champ 7/11.",
           "status": "green",
           "note": "Brian Critical Rock #1 (CTXH 8+ SG / 7+ G) + Mike Critical Rock #2 (DFWT 8+ SG / 7+ G). Per-branch scorecards live (Q1 packet shipped). Weekly games scoreboard depends on Robert's MCP + OpenSearch DB cutover (replaces Glide app)."
         },
@@ -84,7 +84,7 @@
         {
           "name": "Smart Move System Phase 2 / Website Redesign",
           "target": "New site live, copy refreshed for Smart Move + VP, KP design system implemented",
-          "actual": "Cameron Rock #5 (Cameron owns since Amanda's plate is full). KP design system proposal pending review.",
+          "actual": "Cameron Rock #5 (Cameron owns since Amanda's plate is full). Design proposal SIGNED 5/28 — design process kicking off, Ben Young looped for payment calendar.",
           "status": "green",
           "note": "Phase 1 (VP) shipped Q1. Q2 = freshen the site to sell Smart Move + VP. Kickpoint dependency on design system proposal."
         },
@@ -165,10 +165,10 @@
       "name": "Build Einstein Dojo + Scale AI COS to All Roundtable",
       "critical": true,
       "status": "green",
-      "assessment": "Cameron's personal Q2 thesis. 4 of 6 COS active (Albert, Gerald-Mike, Matisen's, Clark-Paul). Critical # = 6 active COS instances with weekly usage. Three legs: (1) MCP config generator HTML form, (2) synthesis pipelines as scheduled Claude Code Routines (shipped 4/14), (3) Dojo = renamed skills repo + /dojo recommender skill. Week of 5/18: weekend call-out tool shipped to GitHub Pages + suggest-a-change widget integrated. Brian COS onboarding decoupled from Anthropic Org setup — Brian-first sequence now (Tue 5/26), breaks 3-week slip pattern.",
+      "assessment": "Cameron's personal Q2 thesis. 5 of 6 COS active (Albert, Gerald-Mike, Matisen's, Clark-Paul, and now Vera-Brian — onboarded 5/26, day-2 health check 5/27 clean). Critical # = 6 active COS instances with weekly usage; Amanda is the last (onboarding prep underway, target this week). Network governance maturing: repo consolidated to one private template, github-pages-publishing + stub-prompt patterns pushed via SCB and acknowledged by Gerald/Clark/Vera. Three legs: (1) MCP config generator HTML form, (2) synthesis pipelines as scheduled Claude Code Routines (shipped 4/14), (3) Dojo = renamed skills repo + /dojo recommender skill.",
       "superGreen": "50+ Dojo skills, 2+ leaders contributing skills unprompted, 2+ nightly synthesis pipelines, AI-fluency interview question, weekly huddle AI demo 4+ weeks",
       "green": "Dojo with 40+ skills, /dojo recommender + MCP config generator built, all 6 Roundtable members have active COS, 1 nightly synthesis pipeline, skill PR template in repo",
-      "lastUpdated": "2026-05-07"
+      "lastUpdated": "2026-05-28"
     },
     {
       "number": 2,
@@ -205,10 +205,10 @@
       "name": "Oversee Website Redesign \u2014 Smart Move System Part 2",
       "critical": false,
       "status": "green",
-      "assessment": "Cameron owns since Amanda's plate is full. CMS decision LOCKED 5/11 \u2014 staying on WordPress, building new FSE block theme. Albert via WP REST API as editor-AI layer. KP proposal/SOW pending. Brand-story HTML review with Albert this week.",
+      "assessment": "Cameron owns since Amanda's plate is full. CMS decision LOCKED 5/11 \u2014 staying on WordPress, building new FSE block theme. PROPOSAL SIGNED 5/28 \u2014 Cameron + Paul reviewed KP's design proposal, both good to go, Cameron signed. Design process kicking off; Ben Young looped to budget the payment calendar. Albert via WP REST API as editor-AI layer. Next: KP design-system build + Smart Move copy refresh.",
       "superGreen": "New site live, copy updated for Smart Move System, KP design system implemented, mobile-optimized",
       "green": "Site redesign scoped, KP design system decided, copy refreshed for Smart Move narrative",
-      "lastUpdated": "2026-05-18"
+      "lastUpdated": "2026-05-28"
     },
     {
       "number": 6,
@@ -478,7 +478,7 @@
         {
           "name": "Hire HR Generalist",
           "critical": true,
-          "status": "super-green",
+          "status": "supergreen",
           "assessment": "✅ CLOSED 5/26. Offer letter to Jalissa accepted at $75K. Official start date June 8. ~8 yrs experience including hiring physical laborers, Philippine CORs, ATS implementation, strong cultural fit. Anne ran extended slate (4 Fri 5/22 + Saturday interview + Emery 5/25 + Misty 5/26 no-go) to land the right hire. Super Green track: hire closed BEFORE end of May — well ahead of EOQ Green threshold.",
           "superGreen": "Hired by end of May, fully onboarded + ramped, taking recruiting volume off Anne",
           "green": "Hired + onboarding started by EOQ"
@@ -600,7 +600,7 @@
           "name": "Oversee Website Redesign \u2014 Smart Move Part 2",
           "critical": true,
           "status": "green",
-          "assessment": "Cameron Rock 4 \u2014 KP delivers design system. Cameron owns since Amanda's plate is full.",
+          "assessment": "Cameron Rock 5 \u2014 KP delivers design system. Design proposal SIGNED 5/28; KP to kick off design-system build. Cameron owns since Amanda's plate is full.",
           "superGreen": "New site live, copy updated for Smart Move System, design system from KP implemented, mobile-optimized",
           "green": "Site redesign scoped, KP design system decided, copy refreshed for Smart Move narrative"
         },
