@@ -5,28 +5,29 @@ const DASHBOARD_DATA = {
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-06-01T10:05:00-05:00",
-    "refreshedBy": "Albert (/gm)",
+    "lastRefreshed": "2026-06-01T15:50:00-05:00",
+    "refreshedBy": "Albert (digest — 6/1 group sync)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
       "note": "Q1 final state with self-grades, AAR notes, and divergence summary preserved for reference."
     },
     "pendingFinalization": [
-      "Carly \u2014 only Maternity Transition rock confirmed (other 3 moved to Alternates per 4/14 \u2014 she's on leave 80% of Q2)",
-      "Amanda's CX Q2 Theme rock \u2014 pending decision (gates Nhel + Carly's theme rocks too, tracked off-dashboard)"
+      "Carly — only Maternity Transition rock confirmed (other 3 moved to Alternates per 4/14 — she's on leave 80% of Q2)",
+      "Amanda's CX Q2 Theme rock — pending decision (gates Nhel + Carly's theme rocks too, tracked off-dashboard)"
     ],
     "criticalNumbersConfirmed": "Cameron Rocks #1 (Einstein Dojo + COS scaling) and #2 (AI Wedge Audit + QG Support) confirmed as Critical Numbers per 5/7.",
-    "scopeNote": "Dashboard tracks Cameron's directs only. Non-direct contributors (Nhel, Tet, Fabian, LiftUp, Claims team, ROs) are kept in line on the Cascading Goals spreadsheet for visibility but cascade through their managers \u2014 Cameron doesn't meet with them regularly enough to keep dashboard status fresh.",
-    "lastRefreshNote": "5/29 /retro deep refresh — week 5/23-29. ALL 6 ROCKS GREEN/on-track, zero reds. Rock #6 ITP corrected yellow→green (Cameron halfway through book; reading is off-board so prior 'stalled' read was wrong). Rock #4 Branch Visits: Q1'26 O3 rotation COMPLETE (all 5 directs). Rock #1 COS: Vera-Brian live + Amanda/Anne repos pre-built (cos-<principal> standard). Velocity preliminary ~23 pulses / ~92 LOW (holiday-shortened + onboarding-heavy, much in-flight). Wins: COS slip broken, 2 sub-flywheels, RFQ workshop closed, HR Generalist hire (Jalissa) closed, website proposal signed. PRIOR (5/29 huddle digest): Sales/Staffing/QGR. $10K sales-target bump to all 8 Ops Managers DECIDED (covers ~$80K June gap; capacity- not demand-bound; June bookings $1.9M=94%). FM −15% target reallocation still OPEN. Roster: Landon→OM, Jack→Garland BM, Terrel out (budget realloc). Underperformance slate: Frank→PIP (Brian's board), Garrison/Dustin/Eric/Grant/Jesper→coaching. ClearCo API access GRANTED (pay 6/1) but aggregation errors (N.Austin zeros) + Matisen access gatekept by Anne → ClearCo↔Rippling integration. ~100+ hires in 3 mo / 28 offers 5/25-28. Games reported-date scoring locked; Coach's Corner live Mon 6/1; ~half branches have TV gaps. VP: weekly cadence + three-tier/$1 rec. Tenure ~0.86-0.9 yr (verify). July QGR: Rob prep 7/15, QGR 7/29-30. /retro deep-refresh to follow same day. PRIOR (5/28 /gm): Fixed two rendering bugs",
-    "_archivedRefreshNote2": "5/28 /gm sweep — Fixed two rendering bugs (status values that produced empty circles): Anne HR Generalist 'super-green' → 'supergreen' (now shows the SG dot); Rock #6 ITP 'yellow' flagged to Cameron (dashboard has no yellow state — SG/G/R only — pending his call to map green vs red). Rock #1 COS refreshed: Vera-Brian live (5 of 6 COS active, Amanda last). Rock #5 + KP + Smart Move tile: website design proposal SIGNED 5/28, Ben looped for payment calendar. Einstein Games tile: S3 launched 5/23, week 1 in flight. PRIOR (5/22 /retro): ", "_archivedRefreshNote": "5/22 /retro deep refresh + /wrap velocity correction \u2014 week 5/18-5/22 closed. Velocity 33 pulses / 122 LOW / 10 praise / happiness 4 (corrected at /wrap from earlier ~95 LOW estimate \u2014 Hold for Sync Up + Done 2026 dated this week combined). Roughly tied with last week's 32/121 modeler-sprint frenzy. Huddle facilitation jumped one full letter grade from last week (C/3.1 three-day \u2192 B+ this week). HOF Path B initially shipped differentiated (conditional A-player ultimatum) then REVERSED to uniform via Roundtable + 6-author consultant council, all six convergent \u2014 philosophy v2.2 added 'pay corrections are not performance ultimatums' principle. VP rates LIVE clean overnight Wed 5/20. Einstein Games S3 launches Sat 5/23, public brief page live. Lead Triage scoping approved for Fabian Phase 1 (broke 2-week stall). N. Austin onsite visit 5/19 banked (1/3 toward Branch Visits rock). Cameron's COS rollout for Brian decoupled from Anthropic Org setup (Brian first now, Tue 5/26 target \u2014 breaks 3-week slip pattern). HR Generalist hire: Saturday interview added to land by Mon PM. Performance-pay system framed as Anne + Paul Q2 Rock. Friction-remover pattern flagged \u2014 Cameron's rocks underperforming because day fills supporting everyone else."
+    "scopeNote": "Dashboard tracks Cameron's directs only. Non-direct contributors (Nhel, Tet, Fabian, LiftUp, Claims team, ROs) are kept in line on the Cascading Goals spreadsheet for visibility but cascade through their managers — Cameron doesn't meet with them regularly enough to keep dashboard status fresh.",
+    "lastRefreshNote": "6/1 group sync digest: TRIAL DAYS ELIMINATED -> 2-week probationary period (offer on the spot, same-day background/physical/drug screen, PAID training during the pending-check window, first 2 field days as a \"free third\", manager field day wk1, Day-7/12 go/no-go evals via Anne Rippling workflow). Target live EOW if Phase 1 deps met; operationalize at BM Strategy Mtg 6/2 2pm. May sales 99.92% of goal, conversion just under 19%, RECORD >$3M in services (recognized Zachary/Rance/Joel/Hector/Daniel/Landon). Sales-block participation gap -> Nhel+Tet formally track missed blocks + PM agenda; branch-level coverage floated. Branch-level sales targets discussed (if branch hits, no individual coached for personal miss) - not finalized. Jalissa (HR Generalist) starts 6/8. Mike OUT next week (6/8) - rollout coverage open Q. | PRIOR: 5/29 /retro deep refresh — week 5/23-29. ALL 6 ROCKS GREEN/on-track, zero reds. Rock #6 ITP corrected yellow→green (Cameron halfway through book; reading is off-board so prior 'stalled' read was wrong). Rock #4 Branch Visits: Q1'26 O3 rotation COMPLETE (all 5 directs). Rock #1 COS: Vera-Brian live + Amanda/Anne repos pre-built (cos-<principal> standard). Velocity preliminary ~23 pulses / ~92 LOW (holiday-shortened + onboarding-heavy, much in-flight). Wins: COS slip broken, 2 sub-flywheels, RFQ workshop closed, HR Generalist hire (Jalissa) closed, website proposal signed. PRIOR (5/29 huddle digest): Sales/Staffing/QGR. $10K sales-target bump to all 8 Ops Managers DECIDED (covers ~$80K June gap; capacity- not demand-bound; June bookings $1.9M=94%). FM −15% target reallocation still OPEN. Roster: Landon→OM, Jack→Garland BM, Terrel out (budget realloc). Underperformance slate: Frank→PIP (Brian's board), Garrison/Dustin/Eric/Grant/Jesper→coaching. ClearCo API access GRANTED (pay 6/1) but aggregation errors (N.Austin zeros) + Matisen access gatekept by Anne → ClearCo↔Rippling integration. ~100+ hires in 3 mo / 28 offers 5/25-28. Games reported-date scoring locked; Coach's Corner live Mon 6/1; ~half branches have TV gaps. VP: weekly cadence + three-tier/$1 rec. Tenure ~0.86-0.9 yr (verify). July QGR: Rob prep 7/15, QGR 7/29-30. /retro deep-refresh to follow same day. PRIOR (5/28 /gm): Fixed two rendering bugs",
+    "_archivedRefreshNote2": "5/28 /gm sweep — Fixed two rendering bugs (status values that produced empty circles): Anne HR Generalist 'super-green' → 'supergreen' (now shows the SG dot); Rock #6 ITP 'yellow' flagged to Cameron (dashboard has no yellow state — SG/G/R only — pending his call to map green vs red). Rock #1 COS refreshed: Vera-Brian live (5 of 6 COS active, Amanda last). Rock #5 + KP + Smart Move tile: website design proposal SIGNED 5/28, Ben looped for payment calendar. Einstein Games tile: S3 launched 5/23, week 1 in flight. PRIOR (5/22 /retro): ",
+    "_archivedRefreshNote": "5/22 /retro deep refresh + /wrap velocity correction — week 5/18-5/22 closed. Velocity 33 pulses / 122 LOW / 10 praise / happiness 4 (corrected at /wrap from earlier ~95 LOW estimate — Hold for Sync Up + Done 2026 dated this week combined). Roughly tied with last week's 32/121 modeler-sprint frenzy. Huddle facilitation jumped one full letter grade from last week (C/3.1 three-day → B+ this week). HOF Path B initially shipped differentiated (conditional A-player ultimatum) then REVERSED to uniform via Roundtable + 6-author consultant council, all six convergent — philosophy v2.2 added 'pay corrections are not performance ultimatums' principle. VP rates LIVE clean overnight Wed 5/20. Einstein Games S3 launches Sat 5/23, public brief page live. Lead Triage scoping approved for Fabian Phase 1 (broke 2-week stall). N. Austin onsite visit 5/19 banked (1/3 toward Branch Visits rock). Cameron's COS rollout for Brian decoupled from Anthropic Org setup (Brian first now, Tue 5/26 target — breaks 3-week slip pattern). HR Generalist hire: Saturday interview added to land by Mon PM. Performance-pay system framed as Anne + Paul Q2 Rock. Friction-remover pattern flagged — Cameron's rocks underperforming because day fills supporting everyone else."
   },
   "companyCriticalNumbers": [
     {
       "department": "Movers / Frontline Managers",
       "numbers": [
         {
-          "name": "Einstein Games \u2014 Season 3 Scorecards",
+          "name": "Einstein Games — Season 3 Scorecards",
           "target": "Company score 8+ SG / 7+ G, all branches above floor",
           "actual": "Season 3 LAUNCHED 5/23 — week 1 in flight. 5/28: 'Coach's Corner' decision — old Driver's Ed dashboard repurposed into a weekly win/loss + strategic AAR (4 cascading-goals questions) posted per branch on each EMC Games QG pulse to force week-to-week strategy. Mike builds, Brian owns messaging, live Mon 6/1. Reviews backlog: JC on vacation left review URLs unmapped → all DFW showing zero reviews; Matisen building a money.com matching skill to clear before results finalize. 8-week structure, national champ 7/11.",
           "status": "green",
@@ -45,16 +46,16 @@ const DASHBOARD_DATA = {
       "department": "Claims",
       "numbers": [
         {
-          "name": "CX Q2 Theme + Objectives \u2014 Claims",
-          "target": "TBD \u2014 pending Amanda + Carly working session post Carly's maternity return",
+          "name": "CX Q2 Theme + Objectives — Claims",
+          "target": "TBD — pending Amanda + Carly working session post Carly's maternity return",
           "actual": "Placeholder. Theme decision gates Carly's CX Theme rock + maintenance plan during her leave.",
           "status": "unknown",
           "note": "Carly on maternity leave 80% of Q2. Amanda Rock #6 covers maintenance. Theme + objectives flesh-out is the missing piece."
         },
         {
           "name": "Magic Moments Delivered (counter)",
-          "target": "TBD \u2014 Q2 baseline pending",
-          "actual": "Placeholder \u2014 auto-pull from Carly's MM tracker spreadsheet pending. Spreadsheet ID TBD (Cameron to confirm during /gm dashboard refresh).",
+          "target": "TBD — Q2 baseline pending",
+          "actual": "Placeholder — auto-pull from Carly's MM tracker spreadsheet pending. Spreadsheet ID TBD (Cameron to confirm during /gm dashboard refresh).",
           "status": "unknown",
           "note": "Cumulative counter. /gm dashboard refresh should pull MM count from Carly's tracker once URL is confirmed. Q1 carry-over momentum: MM program active company-wide."
         }
@@ -64,16 +65,16 @@ const DASHBOARD_DATA = {
       "department": "Sales",
       "numbers": [
         {
-          "name": "CX Q2 Theme + Objectives \u2014 Sales",
-          "target": "TBD \u2014 pending Amanda + Nhel working session",
+          "name": "CX Q2 Theme + Objectives — Sales",
+          "target": "TBD — pending Amanda + Nhel working session",
           "actual": "Placeholder. Theme decision gates Nhel Rock #1 + Amanda Rock #4 + Tet's training alignment.",
           "status": "unknown",
           "note": "CX Q2 theme is the unifying frame for sales + claims + reviews. Decision pending. Tracked off-dashboard until locked, then tile populates with theme metrics."
         },
         {
           "name": "Estimate Accuracy / $ Conversions",
-          "target": "54%+ accuracy G / 56%+ SG \u00b7 40%+ $ conv G / 42%+ SG",
-          "actual": "5/20 KP sync: VP form analytics show >100% submission rate on some funnel steps (users navigating back/forward triggering multiple form-submit events; 'Inestimable form submit' deprecated). Jamie + Liz reviewing this week, report 5/27. Likely explains part of the conversion-baseline weirdness. Cameron removed from ownership on the dashboard pulse \u2014 Kick Point owns the analysis.",
+          "target": "54%+ accuracy G / 56%+ SG · 40%+ $ conv G / 42%+ SG",
+          "actual": "5/20 KP sync: VP form analytics show >100% submission rate on some funnel steps (users navigating back/forward triggering multiple form-submit events; 'Inestimable form submit' deprecated). Jamie + Liz reviewing this week, report 5/27. Likely explains part of the conversion-baseline weirdness. Cameron removed from ownership on the dashboard pulse — Kick Point owns the analysis.",
           "status": "unknown",
           "note": "Amanda Rock #1 (AI Call Grading) + Nhel R3 (30+ documented coaching incidents SG / 20+ G) + Tet R5 (focused estimate-accuracy coaching on bottom 4 performers). Pulse 11712899643."
         }
@@ -92,9 +93,9 @@ const DASHBOARD_DATA = {
         {
           "name": "Marketing ROAS Measurement",
           "target": "ROAS dashboard live by channel, budget reallocation decisions",
-          "actual": "Kickpoint Rock 1 \u2014 currently DEFER (Hold for Rob).",
+          "actual": "Kickpoint Rock 1 — currently DEFER (Hold for Rob).",
           "status": "unknown",
-          "note": "Rob Lynch input dependency. Recommend move to Amanda (per sheet note). Rob's 2027 roadmap puts ROAS as priority \u2014 Q2 may stay scoping-only."
+          "note": "Rob Lynch input dependency. Recommend move to Amanda (per sheet note). Rob's 2027 roadmap puts ROAS as priority — Q2 may stay scoping-only."
         }
       ]
     },
@@ -128,7 +129,7 @@ const DASHBOARD_DATA = {
           "note": "Matisen Critical # Rock 1 (audit) + Rock 3 (Build #1 = Call Grading + Claims RAG, paired with Nhel/Carly). Cameron Rock #2 oversees + audits 7+ supporting QGs go Green."
         },
         {
-          "name": "EMMA v3 \u2192 v4 Unification + Mobile App",
+          "name": "EMMA v3 → v4 Unification + Mobile App",
           "target": "Automailer/Mobile/Cron migrated to v4, mobile app launched within timeline budget",
           "actual": "Fabian Rock 1 + Rock 2. LiftUp Rock 1 (Mobile build + QA). Tight timeline.",
           "status": "green",
@@ -150,7 +151,7 @@ const DASHBOARD_DATA = {
       "target": "40%",
       "actual": null,
       "status": "unknown",
-      "note": "Baseline still broken from VP rollout \u2014 Matisen owns apples-to-apples investigation before scoring."
+      "note": "Baseline still broken from VP rollout — Matisen owns apples-to-apples investigation before scoring."
     },
     {
       "name": "eNPS",
@@ -186,7 +187,7 @@ const DASHBOARD_DATA = {
       "name": "Variable Pricing Full Rollout + Weekly Review Cadence",
       "critical": false,
       "status": "green",
-      "assessment": "Carry from Q1. Phase 1 LIVE. Q2 = full day-of-week VP live, no regression, weekly conversion/TUR review cadence + baseline reset, VP 2.0 scoped. CEO audit flagged this as 'first to drop' \u2014 consider folding to Amanda or Website Redesign rock.",
+      "assessment": "Carry from Q1. Phase 1 LIVE. Q2 = full day-of-week VP live, no regression, weekly conversion/TUR review cadence + baseline reset, VP 2.0 scoped. CEO audit flagged this as 'first to drop' — consider folding to Amanda or Website Redesign rock.",
       "superGreen": "Full day-of-week VP live + weekly review cadence running",
       "green": "Day-of-week VP live + cadence in place",
       "lastUpdated": "2026-05-07"
@@ -196,17 +197,17 @@ const DASHBOARD_DATA = {
       "name": "Branch Visits + O3s",
       "critical": false,
       "status": "green",
-      "assessment": "Carry from Q1. Cameron's time only \u2014 no external dependencies. 5/19 N. Austin onsite visit with Rance banked (1/3 visits). **Q1'26 O3 rotation COMPLETE 5/29** \u2014 all 5 directs (Brian/Anne/Mike/Amanda/Matisen) done; recaps on their coaching sub-items. O3 leg of Green threshold met; branch visits 1/3.",
+      "assessment": "Carry from Q1. Cameron's time only — no external dependencies. 5/19 N. Austin onsite visit with Rance banked (1/3 visits). **Q1'26 O3 rotation COMPLETE 5/29** — all 5 directs (Brian/Anne/Mike/Amanda/Matisen) done; recaps on their coaching sub-items. O3 leg of Green threshold met; branch visits 1/3.",
       "superGreen": "5 branch visits + 5 listen-and-learns + 5 O3s with all directs",
       "green": "3 branch visits + 3 listen-and-learns + quarterly O3s",
       "lastUpdated": "2026-05-29"
     },
     {
       "number": 5,
-      "name": "Oversee Website Redesign \u2014 Smart Move System Part 2",
+      "name": "Oversee Website Redesign — Smart Move System Part 2",
       "critical": false,
       "status": "green",
-      "assessment": "Cameron owns since Amanda's plate is full. CMS decision LOCKED 5/11 \u2014 staying on WordPress, building new FSE block theme. PROPOSAL SIGNED 5/28 \u2014 Cameron + Paul reviewed KP's design proposal, both good to go, Cameron signed. Design process kicking off; Ben Young looped to budget the payment calendar. Albert via WP REST API as editor-AI layer. Next: KP design-system build + Smart Move copy refresh.",
+      "assessment": "Cameron owns since Amanda's plate is full. CMS decision LOCKED 5/11 — staying on WordPress, building new FSE block theme. PROPOSAL SIGNED 5/28 — Cameron + Paul reviewed KP's design proposal, both good to go, Cameron signed. Design process kicking off; Ben Young looped to budget the payment calendar. Albert via WP REST API as editor-AI layer. Next: KP design-system build + Smart Move copy refresh.",
       "superGreen": "New site live, copy updated for Smart Move System, KP design system implemented, mobile-optimized",
       "green": "Site redesign scoped, KP design system decided, copy refreshed for Smart Move narrative",
       "lastUpdated": "2026-05-28"
@@ -231,7 +232,7 @@ const DASHBOARD_DATA = {
           "name": "Annual Mover Comp Review",
           "critical": true,
           "status": "green",
-          "assessment": "5/20: Manager comp final review LOCKED \u2014 Stephanie 3%, Amanda 10%, Carly 5%, Jespah matched to Terrel at $62K, Joel + Sergio bumped to 5%. Grant pending \u2014 Cameron needs justification from Mike before approving above standard. HOF grandfathered group LOCKED at $23 base + $3.75 variable = $26.75 max (Path B, self-sunsetting, no new entrants). Paul owns 10 1:1 calls + manager brief. HOF title decoupled from pay \u2014 separate revamp project (metric-based selection). Earlier: Mover comp LOCKED 5/14 (Ben validated 5/13). $20 flat Lead in Training + Lead $1.50 base/$0.50 var. Co-Pilot retired. HOF retired as paid position. ~$600K annual increase, under 40% mover/rev ceiling. Anne reposted all postings 5/15. Rippling rates updated 5/16. Announcement shipped 5/18.",
+          "assessment": "5/20: Manager comp final review LOCKED — Stephanie 3%, Amanda 10%, Carly 5%, Jespah matched to Terrel at $62K, Joel + Sergio bumped to 5%. Grant pending — Cameron needs justification from Mike before approving above standard. HOF grandfathered group LOCKED at $23 base + $3.75 variable = $26.75 max (Path B, self-sunsetting, no new entrants). Paul owns 10 1:1 calls + manager brief. HOF title decoupled from pay — separate revamp project (metric-based selection). Earlier: Mover comp LOCKED 5/14 (Ben validated 5/13). $20 flat Lead in Training + Lead $1.50 base/$0.50 var. Co-Pilot retired. HOF retired as paid position. ~$600K annual increase, under 40% mover/rev ceiling. Anne reposted all postings 5/15. Rippling rates updated 5/16. Announcement shipped 5/18.",
           "superGreen": "Pay bands updated, promotions tied to performance, promo process video, communicated",
           "green": "Updated pay finalized, pay docs updated, scorecards created, targets set + communicated"
         },
@@ -247,7 +248,7 @@ const DASHBOARD_DATA = {
           "name": "Branch Visits",
           "critical": false,
           "status": "green",
-          "assessment": "Red Q1 carry. Q2 quarter just starting \u2014 Paul's time only.",
+          "assessment": "Red Q1 carry. Q2 quarter just starting — Paul's time only.",
           "superGreen": "3 visits + 3 ride-alongs + listen-and-learn lunches",
           "green": "2 visits + 2 ride-alongs"
         },
@@ -293,12 +294,12 @@ const DASHBOARD_DATA = {
           "name": "Capital Plan / Growth Financing",
           "critical": true,
           "status": "green",
-          "assessment": "Hold-for-Rob. Prosper-owned delivery \u2014 Paul oversees. Rob Lynch framework dependency.",
+          "assessment": "Hold-for-Rob. Prosper-owned delivery — Paul oversees. Rob Lynch framework dependency.",
           "superGreen": "3-5 year capital plan (path to 150 trucks), debt capacity, reinvestment model, PE readiness",
           "green": "Capital plan framework drafted with Rob Lynch input"
         },
         {
-          "name": "Geographic Expansion \u2014 Acquisition Models + LOI",
+          "name": "Geographic Expansion — Acquisition Models + LOI",
           "critical": false,
           "status": "green",
           "assessment": "4/14 Cameron + Rob: aligned with Paul R4. Pivot from hypothetical to active eval.",
@@ -309,7 +310,7 @@ const DASHBOARD_DATA = {
           "name": "Tying Financing and Marketing Together (Bonus)",
           "critical": false,
           "status": "green",
-          "assessment": "Bonus rock \u2014 definition pending."
+          "assessment": "Bonus rock — definition pending."
         }
       ]
     },
@@ -329,12 +330,12 @@ const DASHBOARD_DATA = {
           "name": "Hiring + Personnel Budgets + People Analyzer",
           "critical": true,
           "status": "green",
-          "assessment": "5/18 PM: Tonight's working session reframed the gap. Mike pushed 110-115% target (plan for attrition); Cameron's pushback: target inflation is Goodhart \u2014 every level adds buffer and the number stops meaning anything. Real fix = attrition-aware pipeline sizing behind a stable 105% net target. New disciplines locked: 3:30 PM applicant/lead cutoff doctrine (queue clears before EOD), EOD sign-off concept (BMs publicly confirm clear queues), pause Tampa + Garland sourcing (146 + 64 applicants stalled with no open seats). Bandwidth-model framework pending (combined sales + hiring capacity per role).",
+          "assessment": "5/18 PM: Tonight's working session reframed the gap. Mike pushed 110-115% target (plan for attrition); Cameron's pushback: target inflation is Goodhart — every level adds buffer and the number stops meaning anything. Real fix = attrition-aware pipeline sizing behind a stable 105% net target. New disciplines locked: 3:30 PM applicant/lead cutoff doctrine (queue clears before EOD), EOD sign-off concept (BMs publicly confirm clear queues), pause Tampa + Garland sourcing (146 + 64 applicants stalled with no open seats). Bandwidth-model framework pending (combined sales + hiring capacity per role).",
           "superGreen": "All CTXH branches avg 100%+ staffing, People Analyzer reviewed, C players cleared/action plans, eNPS cleared by end of May",
           "green": "All CTXH 100%+ staffing, PA reviewed, C plans, eNPS cleared by end of June"
         },
         {
-          "name": "Scrum Accountability Pt 4 \u2014 Manager Certification",
+          "name": "Scrum Accountability Pt 4 — Manager Certification",
           "critical": false,
           "status": "green",
           "assessment": "Scorecard app built Q1.",
@@ -371,10 +372,10 @@ const DASHBOARD_DATA = {
       "title": "DFWT Regional Mgr",
       "goals": [
         {
-          "name": "Personnel Mgmt \u2014 Manager Hiring + New Manager Development (Garland + Tampa)",
+          "name": "Personnel Mgmt — Manager Hiring + New Manager Development (Garland + Tampa)",
           "critical": true,
           "status": "green",
-          "assessment": "5/18 PM: Pause Tampa hiring sourcing (Stephen + Shane staffed up; 64 applicants stalled). Same for Garland (146 applicants, no open seats). Mike researching Texas contingent hiring legality \u2014 confirmed legal; pair with 4-panel drug test (no marijuana) to drop 5-day waiting period. 9 FM candidates in DFW pipeline, last screener Wed 5/20. Beatty needed to run more trial days per Mike's coaching ('you need 10 in pipeline, not 3'). Combined sales + hiring bandwidth model in design.",
+          "assessment": "5/18 PM: Pause Tampa hiring sourcing (Stephen + Shane staffed up; 64 applicants stalled). Same for Garland (146 applicants, no open seats). Mike researching Texas contingent hiring legality — confirmed legal; pair with 4-panel drug test (no marijuana) to drop 5-day waiting period. 9 FM candidates in DFW pipeline, last screener Wed 5/20. Beatty needed to run more trial days per Mike's coaching ('you need 10 in pipeline, not 3'). Combined sales + hiring bandwidth model in design.",
           "superGreen": "All DFWT 100%+ staffing, all 4 new-in-role managers at B+ rating by EOQ, monthly PA, 100% C-player action plans or replaced",
           "green": "DFWT 95%+ staffing, all 4 new managers at B rating by EOQ, monthly PA + check-ins documented, C-player action plans drafted"
         },
@@ -387,10 +388,10 @@ const DASHBOARD_DATA = {
           "green": "DFWT at 7+, all DFWT above 6"
         },
         {
-          "name": "Fleet Safety Pt 2 \u2014 Resolidifying Habits, Training, Reweighting, Sample Sizes",
+          "name": "Fleet Safety Pt 2 — Resolidifying Habits, Training, Reweighting, Sample Sizes",
           "critical": false,
           "status": "green",
-          "assessment": "5/18: Refining scoring + negating model with Gerald this week. Coaching model rollout needs team alignment first (won't affect Games scoring). Pattern of backup incidents continues \u2014 most recent N. Austin (camera working, no ground guide); backup sensor evaluation owner not yet assigned.",
+          "assessment": "5/18: Refining scoring + negating model with Gerald this week. Coaching model rollout needs team alignment first (won't affect Games scoring). Pattern of backup incidents continues — most recent N. Austin (camera working, no ground guide); backup sensor evaluation owner not yet assigned.",
           "superGreen": "95% retraining completion, Samsara reweighted with validated samples, at-risk <10%, Understanding Samsara + Common Scenario modules in place",
           "green": "90% retraining, Samsara reweighted with validated samples, at-risk <15%, Common Scenario module in place"
         },
@@ -410,7 +411,7 @@ const DASHBOARD_DATA = {
           "green": "Read by 5/30"
         },
         {
-          "name": "Fleet Damage Tracking App \u2014 Beta (Bonus)",
+          "name": "Fleet Damage Tracking App — Beta (Bonus)",
           "critical": false,
           "status": "green",
           "assessment": "Mike's Replit build.",
@@ -448,7 +449,7 @@ const DASHBOARD_DATA = {
           "green": "80%+ sales calls auto-graded weekly, RAG live for claims, coaching loop established"
         },
         {
-          "name": "ClearCo + Rippling API \u2192 Anne's Hiring Funnel Dashboard (Wedge Build #2)",
+          "name": "ClearCo + Rippling API → Anne's Hiring Funnel Dashboard (Wedge Build #2)",
           "critical": false,
           "status": "green",
           "assessment": "NEW 4/30. Replaces 'Anne asks Matisen for a pull' pattern. Pairs with Anne R1 HR Generalist hire.",
@@ -456,7 +457,7 @@ const DASHBOARD_DATA = {
           "green": "Both APIs hooked up, dashboard live with core funnel metrics, manual refresh OK"
         },
         {
-          "name": "Production Line Cleanup \u2014 8 Loose Threads",
+          "name": "Production Line Cleanup — 8 Loose Threads",
           "critical": false,
           "status": "green",
           "assessment": "NEW 4/30. Reframed from Critical # to non-critical. Bulletproofs existing dashboards. Threads: Sales Review, Branch KPIs, Einstein Games, Scorecards, Marketing Dashboard, Zip Zone Map, Relocation Trend Data, Documentation/Handbook.",
@@ -488,7 +489,7 @@ const DASHBOARD_DATA = {
           "name": "Hiring for Culture / Extended Trial Period + 100-Point Behavioral System",
           "critical": true,
           "status": "green",
-          "assessment": "5/28: Trial-day elimination NOT launching 6/1 (reversed at huddle). Delayed until after peak hiring season + beta once HR Generalist (Jalissa, starts 6/8), new physical/HPE, 100-point system, and clear 'fire-in-first-2-weeks' scenarios are in place. LOCKED: no new hire enters a customer home before the background check clears (liability \u2014 eliminated as an option). FM-onboarding ownership undecided \u2014 sales targets must flex if FMs own onboarding. BM strategy meeting week of 6/1 (Brian scheduling) is where this gets worked. Open: pin down unemployment-liability day threshold. 100-Point still parked for Cameron's in-person intro w/ Anne. Earlier 5/18: trial reduced to 1 day, HPE materials in build.",
+          "assessment": "5/28: Trial-day elimination NOT launching 6/1 (reversed at huddle). Delayed until after peak hiring season + beta once HR Generalist (Jalissa, starts 6/8), new physical/HPE, 100-point system, and clear 'fire-in-first-2-weeks' scenarios are in place. LOCKED: no new hire enters a customer home before the background check clears (liability — eliminated as an option). FM-onboarding ownership undecided — sales targets must flex if FMs own onboarding. BM strategy meeting week of 6/1 (Brian scheduling) is where this gets worked. Open: pin down unemployment-liability day threshold. 100-Point still parked for Cameron's in-person intro w/ Anne. Earlier 5/18: trial reduced to 1 day, HPE materials in build.",
           "superGreen": "100-point system live across all branches, interview process updated to hire for culture, extended trial in beta one region, Rippling Performance Module live",
           "green": "Interview process updated to hire for culture + Rippling Performance Module live"
         },
@@ -496,7 +497,7 @@ const DASHBOARD_DATA = {
           "name": "ClearCo Hiring Funnel Visualization",
           "critical": false,
           "status": "green",
-          "assessment": "5/18 PM: Tension flag \u2014 Brian/Mike want BMs to screen directly (R&O&S as support, not gatekeeper); Anne's read is that loose screening creates downstream HR problems with people who shouldn't have made it through. Both positions valid. Cameron talks to Anne Tue 5/19 to land a new policy. Also: combined sales + hiring bandwidth model in early design \u2014 Anne owns the funnel-conversion + attrition data we need to size pipelines properly. ClearCo API access still pending Anne \u2014 biggest unlock for funnel visualization.",
+          "assessment": "5/18 PM: Tension flag — Brian/Mike want BMs to screen directly (R&O&S as support, not gatekeeper); Anne's read is that loose screening creates downstream HR problems with people who shouldn't have made it through. Both positions valid. Cameron talks to Anne Tue 5/19 to land a new policy. Also: combined sales + hiring bandwidth model in early design — Anne owns the funnel-conversion + attrition data we need to size pipelines properly. ClearCo API access still pending Anne — biggest unlock for funnel visualization.",
           "superGreen": "Full funnel dashboard (cost per hire, time to fill, stage % per branch) + all hired candidates have scorecards",
           "green": "Funnel visualized with cost per hire + time to fill + stage %"
         },
@@ -511,9 +512,9 @@ const DASHBOARD_DATA = {
           "name": "Einstein Onboarding Experience (CHOICES + Comp/Benefits + Performance Mgmt)",
           "critical": false,
           "status": "green",
-          "assessment": "5/18: Offer letter expiration cut from 7 days to 48 hours this week. Physical + drug screen language added to offer letter, ClearCo e-passport 48-hr request going out. COBRA filing reference removing from new handbook. Copilot \u2192 Lead in Training cleanup across ClearCo + handbook + offer letters in progress.",
-          "superGreen": "CHOICES + Comp/Benefits + Performance Mgmt modules integrated into onboarding via Rippling, \u226590% completion in first 30 days",
-          "green": "CHOICES live in onboarding, \u226575% completion in first 30 days"
+          "assessment": "5/18: Offer letter expiration cut from 7 days to 48 hours this week. Physical + drug screen language added to offer letter, ClearCo e-passport 48-hr request going out. COBRA filing reference removing from new handbook. Copilot → Lead in Training cleanup across ClearCo + handbook + offer letters in progress.",
+          "superGreen": "CHOICES + Comp/Benefits + Performance Mgmt modules integrated into onboarding via Rippling, ≥90% completion in first 30 days",
+          "green": "CHOICES live in onboarding, ≥75% completion in first 30 days"
         },
         {
           "name": "Ideal Team Player Reading (Bonus)",
@@ -556,7 +557,7 @@ const DASHBOARD_DATA = {
           "name": "CX Q2 Theme Rollout",
           "critical": false,
           "status": "unknown",
-          "assessment": "Decision pending \u2014 see CX Themes tab. Decide with Nhel + Carly.",
+          "assessment": "Decision pending — see CX Themes tab. Decide with Nhel + Carly.",
           "superGreen": "Theme fully rolled out with measurable outcomes + weekly rhythm",
           "green": "Theme launched and adopted with defined metrics"
         },
@@ -573,10 +574,10 @@ const DASHBOARD_DATA = {
       "name": "Carly",
       "title": "Claims Manager",
       "pendingFinalization": true,
-      "pendingNote": "On maternity leave 80% of Q2. Per 4/14: only Maternity Transition rock (#1) is active. Other 3 rocks (CX Theme, Damage Accountability, Magic Moments Phase 2) moved to Alternates \u2014 directs + Amanda cover maintenance.",
+      "pendingNote": "On maternity leave 80% of Q2. Per 4/14: only Maternity Transition rock (#1) is active. Other 3 rocks (CX Theme, Damage Accountability, Magic Moments Phase 2) moved to Alternates — directs + Amanda cover maintenance.",
       "goals": [
         {
-          "name": "Maternity Leave Transition \u2014 Clean Handoff + Return Plan",
+          "name": "Maternity Leave Transition — Clean Handoff + Return Plan",
           "critical": true,
           "status": "green",
           "assessment": "ONLY active rock per 4/14. Q1 Super Green momentum carries. Carly due mid-May.",
@@ -593,15 +594,15 @@ const DASHBOARD_DATA = {
           "name": "Marketing ROI / ROAS Measurement",
           "critical": true,
           "status": "unknown",
-          "assessment": "DEFER \u2014 Hold for Rob. Recommend move to Amanda. Rob's 2027 roadmap puts ROAS as priority.",
+          "assessment": "DEFER — Hold for Rob. Recommend move to Amanda. Rob's 2027 roadmap puts ROAS as priority.",
           "superGreen": "ROAS dashboard live by channel, budget reallocation decided, KP design system decided, Phase 2 Smart Move kicked off",
           "green": "First real ROAS dashboard + KP design system decision"
         },
         {
-          "name": "Oversee Website Redesign \u2014 Smart Move Part 2",
+          "name": "Oversee Website Redesign — Smart Move Part 2",
           "critical": true,
           "status": "green",
-          "assessment": "Cameron Rock 5 \u2014 KP delivers design system. Design proposal SIGNED 5/28; KP to kick off design-system build. Cameron owns since Amanda's plate is full.",
+          "assessment": "Cameron Rock 5 — KP delivers design system. Design proposal SIGNED 5/28; KP to kick off design-system build. Cameron owns since Amanda's plate is full.",
           "superGreen": "New site live, copy updated for Smart Move System, design system from KP implemented, mobile-optimized",
           "green": "Site redesign scoped, KP design system decided, copy refreshed for Smart Move narrative"
         },
@@ -617,7 +618,7 @@ const DASHBOARD_DATA = {
           "name": "Branded Boxes (Bonus)",
           "critical": false,
           "status": "green",
-          "assessment": "Bonus rock \u2014 definition pending."
+          "assessment": "Bonus rock — definition pending."
         }
       ]
     },
@@ -626,15 +627,15 @@ const DASHBOARD_DATA = {
       "title": "Videographer/Content",
       "goals": [
         {
-          "name": "YouTube Training Course \u2014 16+ Videos",
+          "name": "YouTube Training Course — 16+ Videos",
           "critical": true,
           "status": "green",
-          "assessment": "Red Q1 carry \u2014 summer push.",
+          "assessment": "Red Q1 carry — summer push.",
           "superGreen": "25+ videos uploaded, avg 70+ views per video",
           "green": "16+ uploaded, avg 30+ views"
         },
         {
-          "name": "Price Comparison Video \u2014 Final Version",
+          "name": "Price Comparison Video — Final Version",
           "critical": true,
           "status": "green",
           "assessment": "Drafts done Q1.",
