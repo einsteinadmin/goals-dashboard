@@ -813,6 +813,41 @@
     html += '  </div>';
     html += '</div>';
 
+    // ── NETWORK HEALTH (COS Network v2 — Phase 0.5) ──
+    if (data.network) {
+      const n = data.network;
+      const adoptVal = (n.adoptionPct == null) ? (n.adoptionLabel || '—') : (n.adoptionPct + '%');
+      const adoptColor = (n.adoptionPct == null) ? 'var(--text-muted)'
+                       : (n.adoptionPct >= 80 ? 'var(--green)'
+                       : (n.adoptionPct >= 50 ? 'var(--yellow)' : 'var(--error)'));
+      const staleColor = n.staleCount > 0 ? 'var(--error)' : 'var(--green)';
+      const pendingColor = n.pendingTotal > 0 ? 'var(--yellow)' : 'var(--green)';
+      const reportingColor = (n.agentsReporting < n.agentsTotal) ? 'var(--yellow)' : 'var(--green)';
+
+      html += '<div class="section">';
+      html += '  <div class="section-header">';
+      html += '    <div class="section-title">NETWORK HEALTH</div>';
+      html += '    <span class="section-count">';
+      if (n.matrixUrl && !/localhost|127\.0\.0\.1/.test(n.matrixUrl)) {
+        html += '      <a href="' + n.matrixUrl + '" target="_blank" style="color:var(--einstein-blue);text-decoration:none;font-weight:600;">Full matrix →</a> &nbsp;&middot;&nbsp; ';
+      } else {
+        html += '      <span style="color:var(--text-muted);font-size:11px;font-style:italic;">Full matrix: local-only during Phase 0.5</span> &nbsp;&middot;&nbsp; ';
+      }
+      html += '      Phase ' + n.phase + ' &middot; ' + (n.phaseLabel || '');
+      html += '    </span>';
+      html += '  </div>';
+      html += '  <div class="kpi-grid">';
+      html += '    <div class="kpi-card"><div class="kpi-name">Agents reporting</div><div class="kpi-target" style="color:' + reportingColor + '">' + n.agentsReporting + ' / ' + n.agentsTotal + '</div><div class="kpi-actual no-data">COS publishing status.json</div></div>';
+      html += '    <div class="kpi-card"><div class="kpi-name">Adoption vs Albert</div><div class="kpi-target" style="color:' + adoptColor + '">' + adoptVal + '</div><div class="kpi-actual no-data">% of expected patterns adopted</div></div>';
+      html += '    <div class="kpi-card"><div class="kpi-name">Stale reports</div><div class="kpi-target" style="color:' + staleColor + '">' + n.staleCount + '</div><div class="kpi-actual no-data">past 2× cadence</div></div>';
+      html += '    <div class="kpi-card"><div class="kpi-name">Pending items</div><div class="kpi-target" style="color:' + pendingColor + '">' + n.pendingTotal + '</div><div class="kpi-actual no-data">patterns + acks behind</div></div>';
+      html += '  </div>';
+      if (n.summary) {
+        html += '  <div style="margin-top:10px;font-size:12px;color:var(--text-muted);font-style:italic;padding:0 4px;">' + n.summary + '</div>';
+      }
+      html += '</div>';
+    }
+
     // ── Cameron's KPIs ──
     html += '<div class="section">';
     html += '  <div class="section-header">';
