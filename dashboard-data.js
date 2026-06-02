@@ -239,6 +239,7 @@ const DASHBOARD_DATA = {
   "leadership": [
     {
       "name": "Paul Morin",
+      "dashboardUrl": "https://einsteinadmin.github.io/einstein-cos-matrix-059563b8c478/clark/",
       "title": "CFO/COO (Co-Owner)",
       "goals": [
         {
@@ -329,6 +330,7 @@ const DASHBOARD_DATA = {
     },
     {
       "name": "Brian Herzig",
+      "dashboardUrl": "https://einsteinadmin.github.io/einstein-cos-matrix-059563b8c478/vera/",
       "title": "CTXH Regional Mgr",
       "goals": [
         {
@@ -382,6 +384,7 @@ const DASHBOARD_DATA = {
     },
     {
       "name": "Mike Vandenbroader",
+      "dashboardUrl": "https://einsteinadmin.github.io/einstein-cos-matrix-059563b8c478/gerald/",
       "title": "DFWT Regional Mgr",
       "goals": [
         {
@@ -435,6 +438,7 @@ const DASHBOARD_DATA = {
     },
     {
       "name": "Matisen Harper",
+      "dashboardUrl": "https://einsteinadmin.github.io/einstein-cos-matrix-059563b8c478/cos-mh1/",
       "title": "Dir. of IT",
       "goals": [
         {
