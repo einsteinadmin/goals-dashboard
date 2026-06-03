@@ -5,8 +5,8 @@ const DASHBOARD_DATA = {
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-06-01T15:50:00-05:00",
-    "refreshedBy": "Albert (digest — 6/1 group sync)",
+    "lastRefreshed": "2026-06-03T12:00:00-05:00",
+    "refreshedBy": "Albert (digest — 6/3 huddle + Ben intro)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -26,7 +26,7 @@ const DASHBOARD_DATA = {
     "phase": "0.5",
     "phaseLabel": "Cameron dogfooding — pilot trio next",
     "lastRefreshed": "2026-06-01T16:00:00-05:00",
-    "matrixUrl": "https://einsteinadmin.github.io/einstein-cos-matrix-059563b8c478/",
+    "matrixUrl": "http://localhost:8117/_shared/cos-network-v2/adoption-matrix/",
     "agentsReporting": 1,
     "agentsTotal": 6,
     "adoptionPct": null,
@@ -239,7 +239,6 @@ const DASHBOARD_DATA = {
   "leadership": [
     {
       "name": "Paul Morin",
-      "dashboardUrl": "https://einsteinadmin.github.io/einstein-cos-matrix-059563b8c478/clark/",
       "title": "CFO/COO (Co-Owner)",
       "goals": [
         {
@@ -330,7 +329,6 @@ const DASHBOARD_DATA = {
     },
     {
       "name": "Brian Herzig",
-      "dashboardUrl": "https://einsteinadmin.github.io/einstein-cos-matrix-059563b8c478/vera/",
       "title": "CTXH Regional Mgr",
       "goals": [
         {
@@ -384,7 +382,6 @@ const DASHBOARD_DATA = {
     },
     {
       "name": "Mike Vandenbroader",
-      "dashboardUrl": "https://einsteinadmin.github.io/einstein-cos-matrix-059563b8c478/gerald/",
       "title": "DFWT Regional Mgr",
       "goals": [
         {
@@ -438,7 +435,6 @@ const DASHBOARD_DATA = {
     },
     {
       "name": "Matisen Harper",
-      "dashboardUrl": "https://einsteinadmin.github.io/einstein-cos-matrix-059563b8c478/cos-mh1/",
       "title": "Dir. of IT",
       "goals": [
         {
