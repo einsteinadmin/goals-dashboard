@@ -5,8 +5,8 @@
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-06-08T11:15:00-05:00",
-    "refreshedBy": "Albert (/gm)",
+    "lastRefreshed": "2026-06-08T13:15:00-05:00",
+    "refreshedBy": "Albert (digest — Amanda 1:1)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -546,7 +546,7 @@
           "name": "AI Call Grading + Regular Reporting (Conversions/Estimate Accuracy)",
           "critical": true,
           "status": "green",
-          "assessment": "Aligned with Nhel + CX theme. Pairs with Matisen Wedge Build #1.",
+          "assessment": "6/8: Gary's grading sheet live 6/5; DoD this week = running + producing, Tet + Amanda validate next. Cost guardrails being defined (~$60/mo; runaway-job risk flagged). Est-accuracy gut-check = sqft-band only; real lever is partial-move de-mix (#23).",
           "superGreen": "56%+ accuracy, $ conversions 42%+, weekly call audit cadence, BM accountability live",
           "green": "54%+ accuracy, $ conversions 40%+, weekly call audit cadence running"
         },
@@ -554,7 +554,7 @@
           "name": "Replace Leadferno with Chatbot (80% deflection)",
           "critical": true,
           "status": "green",
-          "assessment": "Chatbot deflects FAQ, job applications, standard inquiries. Quoting/estimating stays human.",
+          "assessment": "6/8: down to Tidio vs Botpress (leaning Botpress, Dana rec). DoD this week = Matisen approval on EMMA fit; SG = picked. Chatbot deflects FAQ/applications/standard inquiries; quoting stays human.",
           "superGreen": "Replacement chatbot live, deflecting 80%+ of Leadferno volume, Leadferno fully sunset by EOQ",
           "green": "Replacement chatbot selected, contracted, AI configuration in progress"
         },
@@ -569,15 +569,16 @@
         {
           "name": "CX Q2 Theme Rollout",
           "critical": false,
-          "status": "unknown",
-          "assessment": "Decision pending — see CX Themes tab. Decide with Nhel + Carly.",
+          "status": "green",
+          "assessment": "6/8: live — leaderboard updated weekly, announcement Tuesdays; final week of sales-team sprint, then ROs. Amanda self-rates super-green; held at green until an outcome metric (not just leaderboard activity) is shown.",
           "superGreen": "Theme fully rolled out with measurable outcomes + weekly rhythm",
           "green": "Theme launched and adopted with defined metrics"
         },
         {
           "name": "Ideal Team Player Reading",
           "critical": false,
-          "status": "green",
+          "status": "red",
+          "assessment": "6/8: self-rated RED (moved from green) — book unfinished, lowest priority. Says she can move fast on it; targeting next few weeks, done by EOQ.",
           "superGreen": "Read by EOQ + 1-page reflection on personal H/H/S gaps",
           "green": "Read by 5/30"
         }
