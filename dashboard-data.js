@@ -5,8 +5,8 @@ const DASHBOARD_DATA = {
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-06-08T13:15:00-05:00",
-    "refreshedBy": "Albert (digest — Amanda 1:1)",
+    "lastRefreshed": "2026-06-08T16:00:00-05:00",
+    "refreshedBy": "Albert (digest — Brian 1:1)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -334,16 +334,16 @@ const DASHBOARD_DATA = {
         {
           "name": "Einstein Games Season 3 Launch (CTXH)",
           "critical": true,
-          "status": "green",
-          "assessment": "Depends on Matisen EMMA migration. Season 3 launches 5/23, 8-week structure, national champ 7/11. Brief deployed with Rewards & Recognition section.",
+          "status": "yellow",
+          "assessment": "6/8: moved to Yellow — only Leander + Houston above the 7 mark last week; scores aren't holding yet, Brian won't know until Tuesday. Focus: confirm film-room analysis posted correctly across all 5 branches + coach low performers.",
           "superGreen": "Company-wide score 8+, all SCTX branches at 7+",
           "green": "Company-wide score 7+, all SCTX branches at 7+"
         },
         {
           "name": "Hiring + Personnel Budgets + People Analyzer",
           "critical": true,
-          "status": "green",
-          "assessment": "5/18 PM: Tonight's working session reframed the gap. Mike pushed 110-115% target (plan for attrition); Cameron's pushback: target inflation is Goodhart — every level adds buffer and the number stops meaning anything. Real fix = attrition-aware pipeline sizing behind a stable 105% net target. New disciplines locked: 3:30 PM applicant/lead cutoff doctrine (queue clears before EOD), EOD sign-off concept (BMs publicly confirm clear queues), pause Tampa + Garland sourcing (146 + 64 applicants stalled with no open seats). Bandwidth-model framework pending (combined sales + hiring capacity per role).",
+          "status": "red",
+          "assessment": "6/8: Brian moved to Red — region at 94% personnel vs the 100% target. Bright spots: Leander 98% (up from 85%), Calvin +3, Cole Clark returning to SA; feels good about the next posting. People Analyzer is the lagging piece. PRIOR (5/18): working session reframed the gap.", Mike pushed 110-115% target (plan for attrition); Cameron's pushback: target inflation is Goodhart — every level adds buffer and the number stops meaning anything. Real fix = attrition-aware pipeline sizing behind a stable 105% net target. New disciplines locked: 3:30 PM applicant/lead cutoff doctrine (queue clears before EOD), EOD sign-off concept (BMs publicly confirm clear queues), pause Tampa + Garland sourcing (146 + 64 applicants stalled with no open seats). Bandwidth-model framework pending (combined sales + hiring capacity per role).",
           "superGreen": "All CTXH branches avg 100%+ staffing, People Analyzer reviewed, C players cleared/action plans, eNPS cleared by end of May",
           "green": "All CTXH 100%+ staffing, PA reviewed, C plans, eNPS cleared by end of June"
         },
@@ -351,7 +351,7 @@ const DASHBOARD_DATA = {
           "name": "Scrum Accountability Pt 4 — Manager Certification",
           "critical": false,
           "status": "green",
-          "assessment": "Scorecard app built Q1.",
+          "assessment": "6/8: rerunning manager scores this week off the updated card; Brian self-flagged blocked on time. Wants to package it so others can run it — open lever: a COS pre-grades using the tool (ties Vera automation). Scorecard app built Q1.",
           "superGreen": "All managers certified, grading cadence live, performance tie-in, OB training module",
           "green": "All managers scored, grading cadence established, cert framework built"
         },
@@ -366,8 +366,8 @@ const DASHBOARD_DATA = {
         {
           "name": "Training Day Overhaul + Calendar Organization",
           "critical": false,
-          "status": "green",
-          "assessment": "Supports Q2 theme. Formalized TD flow with stations, quizzes, scorecards + Games integration.",
+          "status": "yellow",
+          "assessment": "6/8: Yellow — Brian's duplicating Canvas TD templates (NA/LEA/GAR) to get slides out in Mike's absence, but the station overhaul is stalled and several stations need a real rebuild. Calendar exists; overhaul lacks scope/timeline.",
           "superGreen": "Formalized TD flow with updated stations/quizzes/scorecards + TD Calendar live + Games integration",
           "green": "TD flow documented + first 3 overhauled stations live"
         },
