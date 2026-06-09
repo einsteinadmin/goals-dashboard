@@ -5,8 +5,8 @@ const DASHBOARD_DATA = {
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-06-09T09:30:00-05:00",
-    "refreshedBy": "Albert (/gm)",
+    "lastRefreshed": "2026-06-09T11:45:00-05:00",
+    "refreshedBy": "Albert (digest — Anne 1:1)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -494,7 +494,7 @@ const DASHBOARD_DATA = {
           "name": "Hire HR Generalist",
           "critical": true,
           "status": "supergreen",
-          "assessment": "✅ CLOSED 5/26. Offer letter to Jalissa accepted at $75K. Official start date June 8. ~8 yrs experience including hiring physical laborers, Philippine CORs, ATS implementation, strong cultural fit. Anne ran extended slate (4 Fri 5/22 + Saturday interview + Emery 5/25 + Misty 5/26 no-go) to land the right hire. Super Green track: hire closed BEFORE end of May — well ahead of EOQ Green threshold.",
+          "assessment": "6/9: Jalissa onboarded + started — best onboarding she's had (board set up, gift card + flowers). Ready to dive into ClearCo next week; will schedule 1:1 intros w/ all BMs + start screening. SG locked.",
           "superGreen": "Hired by end of May, fully onboarded + ramped, taking recruiting volume off Anne",
           "green": "Hired + onboarding started by EOQ"
         },
@@ -502,39 +502,41 @@ const DASHBOARD_DATA = {
           "name": "Hiring for Culture / Extended Trial Period + 100-Point Behavioral System",
           "critical": true,
           "status": "green",
-          "assessment": "5/28: Trial-day elimination NOT launching 6/1 (reversed at huddle). Delayed until after peak hiring season + beta once HR Generalist (Jalissa, starts 6/8), new physical/HPE, 100-point system, and clear 'fire-in-first-2-weeks' scenarios are in place. LOCKED: no new hire enters a customer home before the background check clears (liability — eliminated as an option). FM-onboarding ownership undecided — sales targets must flex if FMs own onboarding. BM strategy meeting week of 6/1 (Brian scheduling) is where this gets worked. Open: pin down unemployment-liability day threshold. 100-Point still parked for Cameron's in-person intro w/ Anne. Earlier 5/18: trial reduced to 1 day, HPE materials in build.",
+          "assessment": "6/9: Trial-period verbiage drafted. Blocker: Concentra drug-screen pricing ($114 via ClearCo vs prior $38 — Anne negotiating). Phase 1 end ≥6/22, gated on Anne's return + Mike. Concentra Addison ready 6/15 for McKinney/N. Dallas.",
           "superGreen": "100-point system live across all branches, interview process updated to hire for culture, extended trial in beta one region, Rippling Performance Module live",
           "green": "Interview process updated to hire for culture + Rippling Performance Module live"
         },
         {
           "name": "ClearCo Hiring Funnel Visualization",
           "critical": false,
-          "status": "green",
-          "assessment": "5/18 PM: Tension flag — Brian/Mike want BMs to screen directly (R&O&S as support, not gatekeeper); Anne's read is that loose screening creates downstream HR problems with people who shouldn't have made it through. Both positions valid. Cameron talks to Anne Tue 5/19 to land a new policy. Also: combined sales + hiring bandwidth model in early design — Anne owns the funnel-conversion + attrition data we need to size pipelines properly. ClearCo API access still pending Anne — biggest unlock for funnel visualization.",
+          "status": "supergreen",
+          "assessment": "6/9: Tracking Super Green. DoD = connect w/ Matisen on ClearCo API/webhooks status, then build visualization + clean up the (currently messy) funnel data w/ Jalissa.",
           "superGreen": "Full funnel dashboard (cost per hire, time to fill, stage % per branch) + all hired candidates have scorecards",
           "green": "Funnel visualized with cost per hire + time to fill + stage %"
         },
         {
           "name": "Mover Promotion Guidance Metrics",
           "critical": false,
-          "status": "green",
+          "status": "yellow",
           "superGreen": "Promotion metrics tied to Einstein Games KPIs, first cohort promoted under new framework, pay docs updated",
-          "green": "Promotion metrics framework built"
+          "green": "Promotion metrics framework built",
+          "assessment": "6/9: STALLED (blocked on time) — nothing on the board this week, won't move until after SHRM (Orlando 6/15–19). Needs comp philosophy locked to enable promotion decisions, then sprint w/ Anne + Paul."
         },
         {
           "name": "Einstein Onboarding Experience (CHOICES + Comp/Benefits + Performance Mgmt)",
           "critical": false,
           "status": "green",
-          "assessment": "5/18: Offer letter expiration cut from 7 days to 48 hours this week. Physical + drug screen language added to offer letter, ClearCo e-passport 48-hr request going out. COBRA filing reference removing from new handbook. Copilot → Lead in Training cleanup across ClearCo + handbook + offer letters in progress.",
+          "assessment": "6/9: Will upload the CHOICES culture video once Cameron sends the cleaned link. Target = 75% completion in first 30 days (accepted). Comp/benefits modules wait until comp philosophy locks.",
           "superGreen": "CHOICES + Comp/Benefits + Performance Mgmt modules integrated into onboarding via Rippling, ≥90% completion in first 30 days",
           "green": "CHOICES live in onboarding, ≥75% completion in first 30 days"
         },
         {
           "name": "Ideal Team Player Reading (Bonus)",
           "critical": false,
-          "status": "green",
+          "status": "supergreen",
           "superGreen": "Read by EOQ + 1-page reflection on personal H/H/S gaps",
-          "green": "Read by 5/30"
+          "green": "Read by 5/30",
+          "assessment": "6/9: Book read; writing a 1-page summary by EOW (6/14). Tracking Super Green."
         }
       ]
     },
