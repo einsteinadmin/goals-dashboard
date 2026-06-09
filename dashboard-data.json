@@ -5,8 +5,8 @@
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-06-09T15:10:00-05:00",
-    "refreshedBy": "Albert (digest — Matisen 1:1)",
+    "lastRefreshed": "2026-06-09T20:30:00-05:00",
+    "refreshedBy": "Albert (meeting-prep — Austin L 1:1)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -647,7 +647,7 @@
           "name": "YouTube Training Course — 16+ Videos",
           "critical": true,
           "status": "green",
-          "assessment": "Red Q1 carry — summer push.",
+          "assessment": "6/9: Red Q1 carry, summer push. Catalog building — 7 new packing topics added, contract scripts Mike-approved 6/9. DoD = huddle w/ Mike (back this wk) to confirm list + lock upload count vs 16 (G)/25 (SG).",
           "superGreen": "25+ videos uploaded, avg 70+ views per video",
           "green": "16+ uploaded, avg 30+ views"
         },
@@ -655,7 +655,7 @@
           "name": "Price Comparison Video — Final Version",
           "critical": true,
           "status": "green",
-          "assessment": "Drafts done Q1.",
+          "assessment": "6/9: All price-comparison thumbnails DONE 6/3; KP handover compiled. Left: final cut → publish → distribute the 15/30/60/90 cuts. Close to Green.",
           "superGreen": "All finalized (15/30/60/90-sec), graphics done, published, distributed",
           "green": "Final cut approved + published + distributed"
         },
@@ -663,7 +663,7 @@
           "name": "Einstein Games S4 Content",
           "critical": false,
           "status": "green",
-          "assessment": "Theme-tied. Brian dependency on Games S4 launch.",
+          "assessment": "Theme-tied; S4 = DFWT/Mike-gated and S3 still live. Park heavy lift, pre-build promo + matchup templates for one-click launch.",
           "superGreen": "Full promo campaign + matchup graphics + celebration content + weekly drops + highlights",
           "green": "Launch promo + matchup graphics + 4+ in-season drops"
         },
@@ -671,7 +671,7 @@
           "name": "Client Testimonials",
           "critical": false,
           "status": "green",
-          "assessment": "Red Q1 carry.",
+          "assessment": "6/9: Red Q1 carry. Warm leads Shawna Hickman + Jeffrey Mallon pending. Target = schedule 1 shoot in next 2 wks (= Green).",
           "superGreen": "3+ filmed + published, avg 200+ views",
           "green": "2 filmed + published"
         },
@@ -679,7 +679,7 @@
           "name": "Short Form / Social Media",
           "critical": false,
           "status": "green",
-          "assessment": "Maintenance rock.",
+          "assessment": "Maintenance. DoD = first short scripted/storyboarded; mover-highlights photos (due 6/10) can feed it.",
           "superGreen": "Bi-weekly short form, 35+ likes avg on Instagram",
           "green": "1 monthly short form, 10-35 likes avg"
         }
