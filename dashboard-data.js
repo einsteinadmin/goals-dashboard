@@ -5,7 +5,7 @@ const DASHBOARD_DATA = {
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-06-09T14:55:00-05:00",
+    "lastRefreshed": "2026-06-09T15:10:00-05:00",
     "refreshedBy": "Albert (digest — Matisen 1:1)",
     "archive": {
       "quarter": "Q1 2026",
@@ -454,7 +454,7 @@ const DASHBOARD_DATA = {
           "green": "TUR Capacity tool + regular pricing cadences in place"
         },
         {
-          "name": "AI Call Grading + Claims RAG (Wedge Build #1)",
+          "name": "AI Call Grading + Claims AI Build #1 (Games review/damage automation)",
           "critical": false,
           "status": "green",
           "assessment": "6/9: ⚠️ SCOPE PIVOT — Claims RAG on hold; primary Claims AI output is now automating Einstein Games reviews + damages (reduces JC's workload). Call grading in motion (handed to Amanda's COS, dashboard built, Tet validation next wk). Goal/dashboard reframed around the pivot.",
