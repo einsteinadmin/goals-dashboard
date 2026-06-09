@@ -5,8 +5,8 @@ const DASHBOARD_DATA = {
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-06-09T11:45:00-05:00",
-    "refreshedBy": "Albert (digest — Anne 1:1)",
+    "lastRefreshed": "2026-06-09T14:55:00-05:00",
+    "refreshedBy": "Albert (digest — Matisen 1:1)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -441,15 +441,15 @@ const DASHBOARD_DATA = {
           "name": "AI Wedge Audit + MVP Scoping",
           "critical": true,
           "status": "green",
-          "assessment": "NEW 4/30. Audit validates 3 pre-selected builds (Call Grading, Claims RAG, Anne's Hiring Funnel Dashboard) + scopes MVPs + surfaces 4-6 additional wedges. Sweep covers branch ops/claims/sales/HR/marketing.",
+          "assessment": "6/9: ClearCo API connected (can submit a 'draft hire' → manager review; direct API hire not possible). Building ClearCo dashboard for handoff to Anne (minus category rankings — blocked by a 400 error on custom category objects). Call grading: Amanda's COS running the report + dashboard, validation w/ Tet next wk. EMMA API launch gated on Einstein Games data validation (API points to empty DB); Robert back 6/17, package work pre-return.",
           "superGreen": "Audit by 5/30, 3 builds validated, MVPs scoped with effort estimates, sweep surfaces 4-6 additional wedges, first build kicked off by 5/30",
           "green": "Audit by 5/30, 3 builds validated + MVP-scoped, sweep surfaces 4+ wedges, first build kicked off by EOQ"
         },
         {
           "name": "Variable Pricing Full Rollout + Weekly Review Cadence + Pricing Strategy",
           "critical": true,
-          "status": "green",
-          "assessment": "Carry from Q1. CEO audit: first-to-drop candidate.",
+          "status": "supergreen",
+          "assessment": "6/9: Updating gap analysis to pull FTE from the schedule sheet; fresh report Mon 6/15 (gated on Vlad fixing the Rippling hours import breaking OT/FTE). Spun up a Herman-Simon-style pricing-strategy consultant + building a 'team' to debate pricing strategy. Tracking Super Green.",
           "superGreen": "TUR Capacity tool + Dynamic pricing model to inform weekly cadences + skill for long-term mgmt surfacing bottlenecks earlier",
           "green": "TUR Capacity tool + regular pricing cadences in place"
         },
@@ -457,7 +457,7 @@ const DASHBOARD_DATA = {
           "name": "AI Call Grading + Claims RAG (Wedge Build #1)",
           "critical": false,
           "status": "green",
-          "assessment": "NEW 4/30. Wedge Build #1. Co-piloted by Nhel (sales coaching) + Carly (claims). Highest-leverage AI build.",
+          "assessment": "6/9: ⚠️ SCOPE PIVOT — Claims RAG on hold; primary Claims AI output is now automating Einstein Games reviews + damages (reduces JC's workload). Call grading in motion (handed to Amanda's COS, dashboard built, Tet validation next wk). Goal/dashboard reframed around the pivot.",
           "superGreen": "100% sales + claims calls auto-graded weekly, RAG live surfacing magic-moment + early-claim signals, weekly coaching loop with Nhel + Carly",
           "green": "80%+ sales calls auto-graded weekly, RAG live for claims, coaching loop established"
         },
@@ -465,7 +465,7 @@ const DASHBOARD_DATA = {
           "name": "ClearCo + Rippling API → Anne's Hiring Funnel Dashboard (Wedge Build #2)",
           "critical": false,
           "status": "green",
-          "assessment": "NEW 4/30. Replaces 'Anne asks Matisen for a pull' pattern. Pairs with Anne R1 HR Generalist hire.",
+          "assessment": "6/9: Get the ClearCo hiring-funnel dashboard live for Anne this week (by 6/12) minus category data; link ClearCo to the VP gap analysis to fold in the hiring pipeline. Categories 6/15–19. Blocker: 400 error on custom category objects, awaiting dev.",
           "superGreen": "Both APIs hooked up, Anne self-serve dashboard live with cost-per-hire/time-to-fill/stage % per branch/campaign perf, weekly auto-refresh",
           "green": "Both APIs hooked up, dashboard live with core funnel metrics, manual refresh OK"
         },
@@ -473,16 +473,17 @@ const DASHBOARD_DATA = {
           "name": "Production Line Cleanup — 8 Loose Threads",
           "critical": false,
           "status": "green",
-          "assessment": "NEW 4/30. Reframed from Critical # to non-critical. Bulletproofs existing dashboards. Threads: Sales Review, Branch KPIs, Einstein Games, Scorecards, Marketing Dashboard, Zip Zone Map, Relocation Trend Data, Documentation/Handbook.",
+          "assessment": "6/9: Sales Review dashboard live (1-wk check-in w/ Nhel). Scorecards near done (waiting Games QA). Marketing dashboard PAUSED → likely sunset for a Claude skill (TUR analysis more accurate) — on ice rest of quarter, ~done. Zip/relocation maps updated, waiting Fabian deploy. EMMA handbook deprioritized.",
           "superGreen": "All 8 shipped or formally archived by EOQ",
           "green": "5+ of 8 shipped or archived, remaining 3 have clear ship dates"
         },
         {
           "name": "Ideal Team Player Reading (Bonus)",
           "critical": false,
-          "status": "green",
+          "status": "supergreen",
           "superGreen": "Read by EOQ + 1-page reflection on personal H/H/S gaps",
-          "green": "Read by 5/30"
+          "green": "Read by 5/30",
+          "assessment": "6/9: 15 pages left in the book, then the one-pager. Tracking Super Green."
         }
       ]
     },
