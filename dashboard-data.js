@@ -5,8 +5,8 @@ const DASHBOARD_DATA = {
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-06-09T20:30:00-05:00",
-    "refreshedBy": "Albert (meeting-prep — Austin L 1:1)",
+    "lastRefreshed": "2026-06-10",
+    "refreshedBy": "Albert (digest)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -644,44 +644,52 @@ const DASHBOARD_DATA = {
       "title": "Videographer/Content",
       "goals": [
         {
-          "name": "YouTube Training Course — 16+ Videos",
+          "name": "YouTube Training Course — 15+ Videos",
           "critical": true,
           "status": "green",
-          "assessment": "6/9: Red Q1 carry, summer push. Catalog building — 7 new packing topics added, contract scripts Mike-approved 6/9. DoD = huddle w/ Mike (back this wk) to confirm list + lock upload count vs 16 (G)/25 (SG).",
-          "superGreen": "25+ videos uploaded, avg 70+ views per video",
-          "green": "16+ uploaded, avg 30+ views"
+          "assessment": "6/10 O3: On pace for Green. Packing videos planned — shoot over next few weeks (2-wk DoD: all packing shot + uploaded). ~8 by EOQ, starting w/ 4 packing. Mike back — proceed w/o his prioritization approval (order isn't critical), hold quality bar.",
+          "superGreen": "10+ uploaded, organized into playlists (5 furniture A-Z, 5 packing, 3+ categories)",
+          "green": "7-10 uploaded, organized (4 furniture A-Z, 4 packing, 2 categories)"
         },
         {
-          "name": "Price Comparison Video — Final Version",
+          "name": "Long-Form Videos — 3 Videos",
           "critical": true,
           "status": "green",
-          "assessment": "6/9: All price-comparison thumbnails DONE 6/3; KP handover compiled. Left: final cut → publish → distribute the 15/30/60/90 cuts. Close to Green.",
-          "superGreen": "All finalized (15/30/60/90-sec), graphics done, published, distributed",
-          "green": "Final cut approved + published + distributed"
+          "assessment": "6/10 O3: Price Comparison + 'What to Expect' awaiting Sam (Fiverr) edits per KP+Cam notes; 'Why Choose Einstein' script/storyboard finalizing (Cameron on-screen); interview-process video w/ Anne (coordinate before she's out 6/15-19). Bottleneck = Bangladesh editor. Price Comparison lives inside this rock (was mistracked separately).",
+          "superGreen": "4-5+ long form (Driver Safety, Interview Prep/Anne, Contract Walkthrough, Why Choose Einstein, Why Hiring Movers>DIY); Price Comparison MUST be done",
+          "green": "2-3 long form (Driver Safety, Interview Prep, Contract Walkthrough, Price Comparison MUST DO)"
         },
         {
-          "name": "Einstein Games S4 Content",
+          "name": "Crowdsource Content / Open the Bottleneck",
           "critical": false,
-          "status": "green",
-          "assessment": "Theme-tied; S4 = DFWT/Mike-gated and S3 still live. Park heavy lift, pre-build promo + matchup templates for one-click launch.",
-          "superGreen": "Full promo campaign + matchup graphics + celebration content + weekly drops + highlights",
-          "green": "Launch promo + matchup graphics + 4+ in-season drops"
+          "status": "yellow",
+          "assessment": "6/10 O3: Highest-leverage rock. Content pipeline plan started w/ Claude — needs finishing. Pressure-test the medium + how to make FM/mover capture stick.",
+          "superGreen": "Full promo campaign + matchup graphics + celebration + weekly drops + highlights; weekly content from 1-2 branches",
+          "green": "Bi-weekly content across the company (movers, FMs, managers, on-site, training days)"
         },
         {
-          "name": "Client Testimonials",
+          "name": "Complete Content Creator College + One-Pager",
           "critical": false,
           "status": "green",
-          "assessment": "6/9: Red Q1 carry. Warm leads Shawna Hickman + Jeffrey Mallon pending. Target = schedule 1 shoot in next 2 wks (= Green).",
-          "superGreen": "3+ filmed + published, avg 200+ views",
-          "green": "2 filmed + published"
+          "assessment": "6/10 O3: Nearly done — final module = scripting/storyboarding; learnings applied to 'Why Choose Einstein'. SG bump = one-pager deliverables + codify learnings into a reusable checklist on the content board. (Was MISSING from the dashboard — added 6/10.)",
+          "superGreen": "Completed the entire Content Creator College WITH full pages of deliverables",
+          "green": "Completed the entire Content Creator College w/o deliverables"
         },
         {
           "name": "Short Form / Social Media",
           "critical": false,
           "status": "green",
-          "assessment": "Maintenance. DoD = first short scripted/storyboarded; mover-highlights photos (due 6/10) can feed it.",
+          "assessment": "6/10 O3: Bouncing green/super-green depending on editor bottleneck. First short = clips from finalized Price Comparison; Interstellar-trend video planned.",
           "superGreen": "Bi-weekly short form, 35+ likes avg on Instagram",
           "green": "1 monthly short form, 10-35 likes avg"
+        },
+        {
+          "name": "Client Testimonials (Bonus)",
+          "critical": false,
+          "status": "yellow",
+          "assessment": "6/10 O3 (BONUS): moved Green->Yellow, under-attended. New approach: pull repeat customers from the calendar (w/ Calvin), film on-site during their move, incentivize w/ gift cards ($25 Uber Eats / $50 Amazon) — replaces the Google Form. Target = 3 moves to attempt in next 2 wks.",
+          "superGreen": "3+ filmed + published, avg 200+ views",
+          "green": "1-2 filmed + published"
         }
       ]
     }
