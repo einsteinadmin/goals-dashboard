@@ -430,6 +430,14 @@
           "assessment": "Mike's Replit build.",
           "superGreen": "Live in 3+ branches with dashboard visibility for BMs + RMs",
           "green": "Beta in 2 branches with feedback loop"
+        },
+        {
+          "name": "Best of Stickers on Truck (Bonus)",
+          "critical": false,
+          "status": "unknown",
+          "assessment": "Bonus goal — no formal Super Green/Green/Red defined on the cascading-goals sheet.",
+          "superGreen": "",
+          "green": ""
         }
       ]
     },
