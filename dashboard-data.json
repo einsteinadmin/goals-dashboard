@@ -5,7 +5,7 @@
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-06-11T12:05:00-05:00",
+    "lastRefreshed": "2026-06-11T15:07-05:00",
     "refreshedBy": "Albert (digest)",
     "archive": {
       "quarter": "Q1 2026",
@@ -220,7 +220,7 @@
       "name": "Oversee Website Redesign \u2014 Smart Move System Part 2",
       "critical": false,
       "status": "green",
-      "assessment": "Cameron owns since Amanda's plate is full. CMS decision LOCKED 5/11 \u2014 staying on WordPress, building new FSE block theme. PROPOSAL SIGNED 5/28 \u2014 Cameron + Paul reviewed KP's design proposal, both good to go, Cameron signed. Design process kicking off; Ben Young looped to budget the payment calendar. Albert via WP REST API as editor-AI layer. Next: KP design-system build + Smart Move copy refresh.",
+      "assessment": "6/11 KP process meeting: execution pipeline locked + endorsed \u2014 Emma refines design system (files 6/11), Cameron mocks pages (inspiration tool live w/ 22 refs + LLM lens; v2 directions next; 3 finalist full-fidelity homepages), then joint component extraction -> Emma builds Figma component library (Einstein owns). Editorial Hospitality dropped; blend origin+proof+local; LLM questions answered in first two homepage sections. Budget confirmed for custom interactive components (mover-journey candidate). Elizabeth feedback wk 6/15. Quote form = locked design foundation.",
       "superGreen": "New site live, copy updated for Smart Move System, KP design system implemented, mobile-optimized",
       "green": "Site redesign scoped, KP design system decided, copy refreshed for Smart Move narrative",
       "lastUpdated": "2026-05-28"
@@ -627,7 +627,7 @@
           "name": "Oversee Website Redesign \u2014 Smart Move Part 2",
           "critical": true,
           "status": "green",
-          "assessment": "Cameron Rock 5 \u2014 KP delivers design system. Design proposal SIGNED 5/28; KP to kick off design-system build. Cameron owns since Amanda's plate is full.",
+          "assessment": "Design-system refinement in progress (Emma, files 6/11) while Cameron runs mockup pipeline; component extraction + Figma library next; process locked at 6/11 meeting. On track.",
           "superGreen": "New site live, copy updated for Smart Move System, design system from KP implemented, mobile-optimized",
           "green": "Site redesign scoped, KP design system decided, copy refreshed for Smart Move narrative"
         },
