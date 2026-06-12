@@ -5,8 +5,8 @@
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-06-12T09:50:00-05:00",
-    "refreshedBy": "Albert (/gm)",
+    "lastRefreshed": "2026-06-12T11:15:00-05:00",
+    "refreshedBy": "Albert (digest)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -190,7 +190,7 @@
       "name": "AI Wedge Audit and QG Support",
       "critical": true,
       "status": "green",
-      "assessment": "Co-owned with Matisen R1. Cameron oversight; Matisen execution. Audit complete by 5/15 (SG) or 5/30 (G). 7+ supporting QG dependencies go Green by EOQ for SG, 5+ for G.",
+      "assessment": "Co-owned with Matisen R1. Cameron oversight; Matisen execution. Audit complete by 5/15 (SG) or 5/30 (G). 7+ supporting QG dependencies go Green by EOQ for SG, 5+ for G. 6/12: 2 of 3 wedges moving — sales-call grading pipeline live (2 calls/wk x 33 reps) + applicant-pipeline dashboard w/ cost-per-hire in data-validation phase; third wedge = damages/reviews auto-populate into EMMA.",
       "superGreen": "Audit complete by 5/15; all 10 supporting QG dependencies mapped; 7+ supporting QGs Green by EOQ; AI Wedge requirements documented + approved",
       "green": "Audit complete by 5/30; supporting QG dependencies mapped; 5+ supporting QGs Green by EOQ; requirements drafted",
       "lastUpdated": "2026-05-07"
@@ -200,7 +200,7 @@
       "name": "Variable Pricing Full Rollout + Weekly Review Cadence",
       "critical": false,
       "status": "green",
-      "assessment": "Carry from Q1. Phase 1 LIVE. Q2 = full day-of-week VP live, no regression, weekly conversion/TUR review cadence + baseline reset, VP 2.0 scoped. CEO audit flagged this as 'first to drop' — consider folding to Amanda or Website Redesign rock.",
+      "assessment": "Carry from Q1. Phase 1 LIVE. Q2 = full day-of-week VP live, no regression, weekly conversion/TUR review cadence + baseline reset, VP 2.0 scoped. CEO audit flagged this as 'first to drop' — consider folding to Amanda or Website Redesign rock. 6/12 huddle: weekly cadence LOCKED — pricing analysis runs Tuesdays (post-weekend invoice close, shifts to Monday once mobile app speeds closures). No changes now; first changes ~July 1. Hermann Simon persona wired into the analysis (caught false assumptions in first BPTUR recs). Paul directive: aggressive summer pricing.",
       "superGreen": "Full day-of-week VP live + weekly review cadence running",
       "green": "Day-of-week VP live + cadence in place",
       "lastUpdated": "2026-05-07"
