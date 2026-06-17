@@ -5,8 +5,8 @@
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-06-17T11:20:00-05:00",
-    "refreshedBy": "Albert (/gm catch-up covering 6/16)",
+    "lastRefreshed": "2026-06-17T13:35:00-05:00",
+    "refreshedBy": "Albert (digest — KP sync)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -220,10 +220,10 @@
       "name": "Oversee Website Redesign — Smart Move System Part 2",
       "critical": false,
       "status": "green",
-      "assessment": "6/11 KP process meeting: execution pipeline locked + endorsed — Emma refines design system (files 6/11), Cameron mocks pages (inspiration tool live w/ 22 refs + LLM lens; v2 directions next; 3 finalist full-fidelity homepages), then joint component extraction -> Emma builds Figma component library (Einstein owns). Editorial Hospitality dropped; blend origin+proof+local; LLM questions answered in first two homepage sections. Budget confirmed for custom interactive components (mover-journey candidate). Elizabeth feedback wk 6/15. Quote form = locked design foundation. | 6/15: mover-journey concept shown to leadership — explore Blender/AI for SVG/3D + mascots/easter eggs; weigh conversion vs distraction + mobile UX + SEO; more mockups coming.",
+      "assessment": "6/17 KP launch conversation: homepage animation DIRECTION LOCKED — full continuous 'Mover Journey' desktop design (Cameron's v1 pick), accepting reduced flexibility (components must be decided pre-build; copy edits in-house, structural changes need a dev; Einstein owns the repo). One open dev Q to Rich: can the animation split at an 'elevator seam' to insert cards / extend pages without a rebuild (preserve appeal + some flexibility). SEO/LLM covered (keep a locations component + differentiators; grounding queries = awards/reputation/insured, already on site). 🔴 GATING NEXT = Cameron reviews KP's 5-page .md feedback + locks homepage components -> unblocks Emma's next sprint. Quote funnel reconciled (Option 2; Jeff builds staging front-end). Handoff: website-workshop/launch-handoff-2026-06-17.md. | Prior 6/15: mover-journey shown to leadership.",
       "superGreen": "New site live, copy updated for Smart Move System, KP design system implemented, mobile-optimized",
       "green": "Site redesign scoped, KP design system decided, copy refreshed for Smart Move narrative",
-      "lastUpdated": "2026-05-28"
+      "lastUpdated": "2026-06-17"
     },
     {
       "number": 6,
@@ -621,7 +621,7 @@
           "name": "Marketing ROI / ROAS Measurement",
           "critical": true,
           "status": "unknown",
-          "assessment": "DEFER — Hold for Rob. Recommend move to Amanda. Rob's 2027 roadmap puts ROAS as priority.",
+          "assessment": "6/17: two parts scoped — BigQuery data integration (internal/Matisen; warning: no named owner yet) + Prosper data integration (Laura, on her return from vacation). No live dashboard yet. Prior: Rob's 2027 roadmap puts ROAS as priority; recommend move to Amanda.",
           "superGreen": "ROAS dashboard live by channel, budget reallocation decided, KP design system decided, Phase 2 Smart Move kicked off",
           "green": "First real ROAS dashboard + KP design system decision"
         },
@@ -629,7 +629,7 @@
           "name": "Oversee Website Redesign — Smart Move Part 2",
           "critical": true,
           "status": "green",
-          "assessment": "Design-system refinement in progress (Emma, files 6/11) while Cameron runs mockup pipeline; component extraction + Figma library next; process locked at 6/11 meeting. On track.",
+          "assessment": "6/17 launch conversation: homepage animation direction locked (continuous Mover Journey desktop, reduced flexibility accepted); open dev Q to Rich re: elevator-seam flexibility. Next gate = Cameron reviews KP's 5-page feedback + locks components -> unblocks Emma's next sprint. KP out ~2 wks (Laura vacation, Elizabeth/Sarah out next wk); next check-in first week of July.",
           "superGreen": "New site live, copy updated for Smart Move System, design system from KP implemented, mobile-optimized",
           "green": "Site redesign scoped, KP design system decided, copy refreshed for Smart Move narrative"
         },
@@ -637,7 +637,7 @@
           "name": "New Email Design + Copy Polish + Rollout",
           "critical": false,
           "status": "green",
-          "assessment": "Matisen dependency. KP owns design + copy.",
+          "assessment": "6/17: existing 'What to Expect' YouTube video to embed in the quote follow-up email now (swap polished version later); MGML->HTML conversion in-house; tokens pending (mockup placeholders for now). Internal team owns implementation; KP owns design + copy.",
           "superGreen": "Rolled out company-wide with measurable impact",
           "green": "Houston test complete, company-wide decision made"
         },
