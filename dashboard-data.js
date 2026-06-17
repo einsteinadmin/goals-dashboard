@@ -5,8 +5,8 @@ const DASHBOARD_DATA = {
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-06-15T14:35:00-05:00",
-    "refreshedBy": "Albert (digest)",
+    "lastRefreshed": "2026-06-17T11:20:00-05:00",
+    "refreshedBy": "Albert (/gm catch-up covering 6/16)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -229,11 +229,11 @@ const DASHBOARD_DATA = {
       "number": 6,
       "name": "Ideal Team Player Reading",
       "critical": false,
-      "status": "green",
-      "assessment": "Bonus rock. Read by 5/30 (G) or EOQ + 1-page reflection on personal Humility/Hunger/Smarts gaps (SG). 6/12: ~80% READ (big solo-night push wk of 6/8) — Green date passed but SG (finish + reflection by EOQ) comfortably in reach; Frio week closes it out.",
+      "status": "supergreen",
+      "assessment": "Bonus rock — SUPER GREEN. SG = read by EOQ + 1-page reflection on personal Humility/Hunger/Smarts gaps. COMPLETE 6/16: book finished (~6 wks ahead of the Green date), 29 annotated photos synthesized into notes + a 7-tab interactive workshop tool built (Tab 7 = the 5-section one-pager for Rob's 7/10 review session). Pulse 11752596124 marked Done.",
       "superGreen": "Read by EOQ + 1-page reflection on personal Humility/Hunger/Smarts gaps",
       "green": "Read by 5/30",
-      "lastUpdated": "2026-05-29"
+      "lastUpdated": "2026-06-17"
     }
   ],
   "leadership": [
