@@ -5,8 +5,8 @@
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-06-18T10:45:00-05:00",
-    "refreshedBy": "Albert (digest — 6/18 huddle)",
+    "lastRefreshed": "2026-06-18",
+    "refreshedBy": "Albert (/retro — deep refresh)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -18,22 +18,23 @@
     ],
     "criticalNumbersConfirmed": "Cameron Rocks #1 (Einstein Dojo + COS scaling) and #2 (AI Wedge Audit + QG Support) confirmed as Critical Numbers per 5/7.",
     "scopeNote": "Dashboard tracks Cameron's directs only. Non-direct contributors (Nhel, Tet, Fabian, LiftUp, Claims team, ROs) are kept in line on the Cascading Goals spreadsheet for visibility but cascade through their managers — Cameron doesn't meet with them regularly enough to keep dashboard status fresh.",
-    "lastRefreshNote": "6/15 group sync digest (Mission Control debut). Status moves: Mike Mover Training app → SG (functional app built); Brian + Mike + Amanda ITP behind (Mike & Amanda Red); Brian Games trending red (CTXH 6.8); Matisen VP + ITP SG. Decisions: Botpress selected; trip-fee/service-zone audit + raise to hourly; Super Mover app on Mike's platform (Cameron endorsed — flagged high-stakes); MJML vs HTML email; hire to open trucks (Paul); 4-week TUR/capacity analysis. Anne released early (SHRM travel) — her statuses carried from prep.",
+    "lastRefreshNote": "6/18 /retro deep refresh (week 6/15-6/18). Cameron Rocks: ITP #6 → COMPLETE/Super Green (workshop + one-pager done for Rob 7/10, pulse Done). COS scaling #1 accelerating — 6 of 7 COS live (Vera + CoS-MH1 bootstrapped status.json, Clark Google Docs unblocked overnight 6/18), teach-skill genericized to Amanda/Gary beta, drift-detection upgrade shipped; network block updated to 6-of-7. Website #5 — 7-critic hostile audit → 'ship v1, fix one blocker', v2 Peekaboo built, both sent to KP, awaiting Jeff scope. AI Wedge #2 — Quote Funnel locked w/ KP (data-collection-first), call grading continues under Gary. VP #3 steady (final pricing report landed, FTE-connect staged, Tuesday cadence held). Branch Visits #4 quiet (pre-travel). Leadership: Brian Games company-wide 8.8 + Mentimeter-replacement Replit app working (praised); Mike back from vacation clean catch-up + super-app chassis locked (⚠ Gerald status.json off-spec); Amanda Botpress green-lit + owns w/ Matisen; Matisen final pricing + FTE-connect + Field App handoff received + status.json now live; Anne holding (Orlando HR conf). CET sheet pulled: Claims time-to-close Q2 avg Stephanie 6.7 / Jaci 5.4 biz days (Green/SG); May $ conversions company 80.78% (below 95% Green = Red). Prior 6/15 group sync note below.",
+    "_archivedRefreshNote3": "6/15 group sync digest (Mission Control debut). Status moves: Mike Mover Training app → SG (functional app built); Brian + Mike + Amanda ITP behind (Mike & Amanda Red); Brian Games trending red (CTXH 6.8); Matisen VP + ITP SG. Decisions: Botpress selected; trip-fee/service-zone audit + raise to hourly; Super Mover app on Mike's platform (Cameron endorsed — flagged high-stakes); MJML vs HTML email; hire to open trucks (Paul); 4-week TUR/capacity analysis. Anne released early (SHRM travel) — her statuses carried from prep.",
     "_archivedRefreshNote2": "5/28 /gm sweep — Fixed two rendering bugs (status values that produced empty circles): Anne HR Generalist 'super-green' → 'supergreen' (now shows the SG dot); Rock #6 ITP 'yellow' flagged to Cameron (dashboard has no yellow state — SG/G/R only — pending his call to map green vs red). Rock #1 COS refreshed: Vera-Brian live (5 of 6 COS active, Amanda last). Rock #5 + KP + Smart Move tile: website design proposal SIGNED 5/28, Ben looped for payment calendar. Einstein Games tile: S3 launched 5/23, week 1 in flight. PRIOR (5/22 /retro): ",
     "_archivedRefreshNote": "5/22 /retro deep refresh + /wrap velocity correction — week 5/18-5/22 closed. Velocity 33 pulses / 122 LOW / 10 praise / happiness 4 (corrected at /wrap from earlier ~95 LOW estimate — Hold for Sync Up + Done 2026 dated this week combined). Roughly tied with last week's 32/121 modeler-sprint frenzy. Huddle facilitation jumped one full letter grade from last week (C/3.1 three-day → B+ this week). HOF Path B initially shipped differentiated (conditional A-player ultimatum) then REVERSED to uniform via Roundtable + 6-author consultant council, all six convergent — philosophy v2.2 added 'pay corrections are not performance ultimatums' principle. VP rates LIVE clean overnight Wed 5/20. Einstein Games S3 launches Sat 5/23, public brief page live. Lead Triage scoping approved for Fabian Phase 1 (broke 2-week stall). N. Austin onsite visit 5/19 banked (1/3 toward Branch Visits rock). Cameron's COS rollout for Brian decoupled from Anthropic Org setup (Brian first now, Tue 5/26 target — breaks 3-week slip pattern). HR Generalist hire: Saturday interview added to land by Mon PM. Performance-pay system framed as Anne + Paul Q2 Rock. Friction-remover pattern flagged — Cameron's rocks underperforming because day fills supporting everyone else."
   },
   "network": {
-    "phase": "0.5",
-    "phaseLabel": "Cameron dogfooding — pilot trio next",
-    "lastRefreshed": "2026-06-03T17:40:00-05:00",
+    "phase": "1",
+    "phaseLabel": "All 7 COS live — bootstrapping status.json",
+    "lastRefreshed": "2026-06-18",
     "matrixUrl": "https://einsteinadmin.github.io/einstein-cos-matrix-059563b8c478/",
-    "agentsReporting": 1,
-    "agentsTotal": 6,
+    "agentsReporting": 6,
+    "agentsTotal": 7,
     "adoptionPct": null,
-    "adoptionLabel": "Awaiting pilots",
+    "adoptionLabel": "6 of 7 reporting",
     "staleCount": 0,
     "pendingTotal": 0,
-    "summary": "Albert is the truth source. Pilot trio (Gerald/Clark/CoS-MH1) onboards next — then the adoption % becomes real."
+    "summary": "6 of 7 COS now publishing status.json (Albert, Clark, CoS-MH1, Vera, Gary, Linda). Gerald (Mike) is the last — rocks exist but off-spec schema; SCB fix request out (12313775018). Clark Google Docs unblocked overnight 6/18."
   },
   "companyCriticalNumbers": [
     {
@@ -59,18 +60,18 @@
       "department": "Claims",
       "numbers": [
         {
-          "name": "CX Q2 Theme + Objectives — Claims",
-          "target": "TBD — pending Amanda + Carly working session post Carly's maternity return",
-          "actual": "Placeholder. Theme decision gates Carly's CX Theme rock + maintenance plan during her leave.",
-          "status": "unknown",
-          "note": "Carly on maternity leave 80% of Q2. Amanda Rock #6 covers maintenance. Theme + objectives flesh-out is the missing piece."
+          "name": "CX Q2 Theme + Objectives — Claims (Time to Close)",
+          "target": "Avg ≤5 biz days SG / 6-8 G / ≥9 Red (outliers excluded)",
+          "actual": "6/18 /retro CET-sheet pull: Q2 avg time-to-close — Stephanie 6.7 (Green band), Jaci 5.4 (near SG). Latest week 6/8: Stephanie 5.0, Jaci 5.6 — both trending toward SG. Theme/objectives flesh-out still gates on Carly's maternity return.",
+          "status": "green",
+          "note": "Carly on maternity leave 80% of Q2. Amanda Rock #6 covers maintenance. Time-to-close holding Green; theme decision pending."
         },
         {
           "name": "Magic Moments Delivered (counter)",
           "target": "TBD — Q2 baseline pending",
-          "actual": "Placeholder — auto-pull from Carly's MM tracker spreadsheet pending. Spreadsheet ID TBD (Cameron to confirm during /gm dashboard refresh).",
+          "actual": "6/18 /retro: CET tracker has a Praise/MM-submission tab, but it logs CET-team praise submissions, not the customer-facing Magic Moments counter — most Q2 reps near 0 submissions (Nicole 11 the outlier). True company MM counter still not wired to a single source. Carly on maternity leave 80% Q2. Flagged for Cameron to confirm the canonical MM tracker.",
           "status": "unknown",
-          "note": "Cumulative counter. /gm dashboard refresh should pull MM count from Carly's tracker once URL is confirmed. Q1 carry-over momentum: MM program active company-wide."
+          "note": "Cumulative counter. CET sheet's Praise tab ≠ customer MM count. Q1 carry-over momentum: MM program active company-wide."
         }
       ]
     },
@@ -86,10 +87,10 @@
         },
         {
           "name": "Estimate Accuracy / $ Conversions",
-          "target": "54%+ accuracy G / 56%+ SG · 40%+ $ conv G / 42%+ SG",
-          "actual": "5/20 KP sync: VP form analytics show >100% submission rate on some funnel steps (users navigating back/forward triggering multiple form-submit events; 'Inestimable form submit' deprecated). Jamie + Liz reviewing this week, report 5/27. Likely explains part of the conversion-baseline weirdness. Cameron removed from ownership on the dashboard pulse — Kick Point owns the analysis.",
-          "status": "unknown",
-          "note": "Amanda Rock #1 (AI Call Grading) + Nhel R3 (30+ documented coaching incidents SG / 20+ G) + Tet R5 (focused estimate-accuracy coaching on bottom 4 performers). Pulse 11712899643."
+          "target": "54%+ accuracy G / 56%+ SG · 95%+ sales-target G / 105%+ SG (CET-sheet bands)",
+          "actual": "6/18 /retro CET-sheet pull: May sales-team $ conversion = company 80.78% of target (below 95% Green floor = Red); only Jules (118%) + Therese (131%) over target, most reps 55-90%; June pacing in progress. Estimate Accuracy tab still shows only 2025 historical quarters — no Q2 '26 companywide accuracy figure populated yet (still gated on the funnel-analytics cleanup KP owns).",
+          "status": "red",
+          "note": "Sales conversion Red on the CET sheet for May; baseline caveat — VP-form funnel analytics distortion (back/forward multi-submit) still unresolved, KP owns. Amanda Rock #1 (AI Call Grading) + Nhel R3 + Tet R5. Pulse 11712899643."
         }
       ]
     },
@@ -180,20 +181,20 @@
       "name": "Build Einstein Dojo + Scale AI COS to All Roundtable",
       "critical": true,
       "status": "green",
-      "assessment": "Cameron's personal Q2 thesis. 5 of 6 COS active (Albert, Gerald-Mike, Matisen's, Clark-Paul, Vera-Brian). 5/29: Amanda + Anne workspace repos (cos-amanda, cos-anne) created + seeded + invited — Amanda onboarding in flight, Anne queued; naming standard locked to cos-<principal>. Critical # = 6 active COS with weekly usage; Amanda is #6. Network governance maturing: repo consolidated to one private template, github-pages-publishing + stub-prompt patterns pushed via SCB and acknowledged by Gerald/Clark/Vera. Three legs: (1) MCP config generator HTML form, (2) synthesis pipelines as scheduled Claude Code Routines (shipped 4/14), (3) Dojo = renamed skills repo + /dojo recommender skill.",
+      "assessment": "Cameron's personal Q2 thesis — accelerating. 6/18: 6 of 7 COS now publishing status.json (Albert, Clark-Paul, CoS-MH1, Vera-Brian, Gary-Amanda, Linda-Anne); CoS-MH1 + Vera bootstrapped their status.json this week, Clark's Google Docs write access unblocked overnight 6/18. Gerald (Mike) is the lone holdout — rocks exist but off canonical schema (reads as stub); SCB fix request out (12313775018). /teach skill genericized to principal-agnostic → Amanda/Gary beta (Gary installs + beta-tests by teaching Amanda Matisen's Fleet & Rev dashboard). /retro Step 3.55 drift-detection upgrade shipped (cross-checks commit-date vs status to catch bootstrapped-but-broken agents). Three legs: (1) MCP config generator HTML form, (2) synthesis pipelines as scheduled Claude Code Routines (shipped 4/14), (3) Dojo = renamed skills repo + /dojo recommender skill.",
       "superGreen": "50+ Dojo skills, 2+ leaders contributing skills unprompted, 2+ nightly synthesis pipelines, AI-fluency interview question, weekly huddle AI demo 4+ weeks",
       "green": "Dojo with 40+ skills, /dojo recommender + MCP config generator built, all 6 Roundtable members have active COS, 1 nightly synthesis pipeline, skill PR template in repo",
-      "lastUpdated": "2026-05-29"
+      "lastUpdated": "2026-06-18"
     },
     {
       "number": 2,
       "name": "AI Wedge Audit and QG Support",
       "critical": true,
       "status": "green",
-      "assessment": "Co-owned with Matisen R1. Cameron oversight; Matisen execution. Audit complete by 5/15 (SG) or 5/30 (G). 7+ supporting QG dependencies go Green by EOQ for SG, 5+ for G. 6/12: 2 of 3 wedges moving — sales-call grading pipeline live (2 calls/wk x 33 reps) + applicant-pipeline dashboard w/ cost-per-hire in data-validation phase; third wedge = damages/reviews auto-populate into EMMA.",
+      "assessment": "Co-owned with Matisen R1. Cameron oversight; Matisen execution. 6/18: Quote Funnel locked w/ KP (data-collection-first — collect fields, analyze ~1,000 moves, then open up estimables; no autobooking-logic change yet); call grading continues under Gary (Amanda's COS) with live Grade Log + Pattern Tracker. Wedges moving: sales-call grading pipeline (2 calls/wk x 33 reps) + applicant-pipeline/ClearCo dashboard in data-validation; third = damages/reviews auto-populate into EMMA (reviews-into-EMMA demo this week per Matisen).",
       "superGreen": "Audit complete by 5/15; all 10 supporting QG dependencies mapped; 7+ supporting QGs Green by EOQ; AI Wedge requirements documented + approved",
       "green": "Audit complete by 5/30; supporting QG dependencies mapped; 5+ supporting QGs Green by EOQ; requirements drafted",
-      "lastUpdated": "2026-05-07"
+      "lastUpdated": "2026-06-18"
     },
     {
       "number": 3,
@@ -220,10 +221,10 @@
       "name": "Oversee Website Redesign — Smart Move System Part 2",
       "critical": false,
       "status": "green",
-      "assessment": "6/17 KP launch conversation: homepage animation DIRECTION LOCKED — full continuous 'Mover Journey' desktop design (Cameron's v1 pick), accepting reduced flexibility (components must be decided pre-build; copy edits in-house, structural changes need a dev; Einstein owns the repo). One open dev Q to Rich: can the animation split at an 'elevator seam' to insert cards / extend pages without a rebuild (preserve appeal + some flexibility). SEO/LLM covered (keep a locations component + differentiators; grounding queries = awards/reputation/insured, already on site). 🔴 GATING NEXT = Cameron reviews KP's 5-page .md feedback + locks homepage components -> unblocks Emma's next sprint. Quote funnel reconciled (Option 2; Jeff builds staging front-end). Handoff: website-workshop/launch-handoff-2026-06-17.md. | Prior 6/15: mover-journey shown to leadership.",
+      "assessment": "6/18: 7-critic hostile expert audit run (~1.08M tokens) → verdict 'SHIP v1, fix one blocker first' (mid-floor 'See my price' CTAs scroll to a 1px aria-hidden div, not /quote/ — one-line href fix). SEO concern overblown; Floor-2 de-densify the one non-debatable fix. v2 Peekaboo built (forces peekaboo at all viewports, removes mid-floor CTAs, de-densifies Floor 2); both v1 + v2 sent to KP w/ Cameron's position (v1 still the preference; v2 only if Jeff scopes v1 as too expensive). Awaiting Jeff's build estimate — v1-vs-v2 scope delta is the deciding input. 🔴 STILL GATING = Cameron reviews KP's 5-page .md feedback + locks homepage components -> unblocks Emma's next sprint. | Prior 6/17: direction locked to continuous Mover Journey desktop (Cameron's v1 pick), reduced flexibility accepted; quote funnel reconciled (Option 2; Jeff builds staging front-end).",
       "superGreen": "New site live, copy updated for Smart Move System, KP design system implemented, mobile-optimized",
       "green": "Site redesign scoped, KP design system decided, copy refreshed for Smart Move narrative",
-      "lastUpdated": "2026-06-17"
+      "lastUpdated": "2026-06-18"
     },
     {
       "number": 6,
@@ -334,8 +335,8 @@
         {
           "name": "Einstein Games Season 3 Launch (CTXH)",
           "critical": true,
-          "status": "yellow",
-          "assessment": "6/15: trending RED — CTXH region avg now 6.8 (target 7.0); N. Austin (~5.8) + San Antonio the laggards. Onsite coaching (NA, Leander → S. Austin, Houston); teaching Vera to help coach + keep pace. Contract-efficiency manual-review lag frustrating teams.",
+          "status": "green",
+          "assessment": "6/18: company-wide Einstein Games score up to 8.8; Brian also shipped a working Mentimeter-replacement Replit app (Cameron reviewed + praised) and rallied the late-week lead-clear surge. CTXH still the region to watch (6/15 region avg ~6.8, N. Austin/San Antonio laggards) — onsite coaching continuing + teaching Vera to help coach. Company number strong; CTXH-specific 7+ floor is the open item.",
           "superGreen": "Company-wide score 8+, all SCTX branches at 7+",
           "green": "Company-wide score 7+, all SCTX branches at 7+"
         },
@@ -413,7 +414,7 @@
           "name": "Mover Training Handbook / Training Video Library",
           "critical": false,
           "status": "supergreen",
-          "assessment": "6/15: → SUPER GREEN — past scaffold to a FUNCTIONAL app (role-based signature assignment + backend tracking dashboard). DoD: integrate Austin's videos + AI-formatted text, functional beta by EOW. Cameron endorsed building the Super Mover app on this platform.",
+          "assessment": "6/18: holds SUPER GREEN. Mike back from vacation w/ clean catch-up; mover-training-app debrief done and the super-app-chassis decision LOCKED (this app = the Mover Super App chassis; Mike drives, Matisen consults on identity/EMMA). Prior 6/15: past scaffold to a FUNCTIONAL app (role-based signature assignment + backend tracking dashboard); integrate Austin's videos + AI-formatted text, functional beta target.",
           "superGreen": "Full video library + digital training handbook app in beta at 3 branches + manager dashboard with completion velocity + Mover Super App structure with placeholder data",
           "green": "Full video library + digital training handbook app in beta at 1 branch"
         },
