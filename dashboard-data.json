@@ -6,7 +6,7 @@
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
     "lastRefreshed": "2026-06-23",
-    "refreshedBy": "Albert (digest — Anne 1:1)",
+    "refreshedBy": "Albert (digest — Brian 1:1)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -336,7 +336,7 @@
           "name": "Einstein Games Season 3 Launch (CTXH)",
           "critical": true,
           "status": "green",
-          "assessment": "6/18: company-wide Einstein Games score up to 8.8; Brian also shipped a working Mentimeter-replacement Replit app (Cameron reviewed + praised) and rallied the late-week lead-clear surge. CTXH still the region to watch (6/15 region avg ~6.8, N. Austin/San Antonio laggards) — onsite coaching continuing + teaching Vera to help coach. Company number strong; CTXH-specific 7+ floor is the open item.",
+          "assessment": "6/23: Moved Yellow → Green (Brian's self-read, confirmed). Recent results: S. Austin beat Dallas, San Antonio upset undefeated Fort Worth (San's first win). Leander leading their conference. N. Austin at 6.4 (laggard). Most CTXH branches near/above 7; S. Austin strong. DoD: run Vera Einstein Games skill to get full regional analysis + share output with Cameron. Matisen asked to add company-wide / region-wide baseline to the performance report. Company-wide score 8.8 (strong).",
           "superGreen": "Company-wide score 8+, all SCTX branches at 7+",
           "green": "Company-wide score 7+, all SCTX branches at 7+"
         },
@@ -344,7 +344,7 @@
           "name": "Hiring + Personnel Budgets + People Analyzer",
           "critical": true,
           "status": "red",
-          "assessment": "6/15: still Red but recovering fast — 96% through May/June, big jumps, trending toward overstaffed; strong on revenue budgets. People Analyzer still the lagging piece. Paul directive: hire to open trucks (budget not the blocker).",
+          "assessment": "6/23: Holding Red — no status change. All branches at 100%+: N. Austin 53.1% budget / 109% to goal, S. Austin 111%, Leander 100%, San Antonio 107%, Houston 101%. Holding steady last two cycles. Will need strong July to offset May misses in Leander + S. Austin. People Analyzer still the lagging piece (not discussed as progressed).",
           "superGreen": "All CTXH branches avg 100%+ staffing, People Analyzer reviewed, C players cleared/action plans, eNPS cleared by end of May",
           "green": "All CTXH 100%+ staffing, PA reviewed, C plans, eNPS cleared by end of June"
         },
@@ -352,7 +352,7 @@
           "name": "Scrum Accountability Pt 4 — Manager Certification",
           "critical": false,
           "status": "green",
-          "assessment": "6/15: running the scorecard himself; DoD = teach Vera to run it (asked whether Albert can help pre-grade). Wants to package it for others.",
+          "assessment": "6/23: Green, active. Brian ran his Vera scrum-scorecard skill yesterday — pulled all branches (Sergio, Houston, N. Austin, S. Austin). Still tweaking how it reads the boards. Built a 'best practices expectations' doc for managers from the output. DoD: get Vera running scrum scorecards in prep sync ups to automate grading. Planning to migrate to a single QG pulse per BM next quarter (instead of individual task pulses) for cleaner weekly status visibility.",
           "superGreen": "All managers certified, grading cadence live, performance tie-in, OB training module",
           "green": "All managers scored, grading cadence established, cert framework built"
         },
@@ -360,7 +360,7 @@
           "name": "Branch Visits/Audits",
           "critical": false,
           "status": "green",
-          "assessment": "6/15: San done last week; N. Austin Wed + Leander Thu → Green after this week.",
+          "assessment": "6/23: Green, tracking Super Green. 3 done. Needs S. Austin + Houston. Will likely hit S. Austin next week (short week but possible). On pace for 5 total.",
           "superGreen": "5 locations + scorecard audits + 3 circle-up + 3 huddle audits + follow-ups",
           "green": "3 locations + scorecard audits + 3 circle-up + 3 huddle audits"
         },
@@ -368,7 +368,7 @@
           "name": "Training Day Overhaul + Calendar Organization",
           "critical": false,
           "status": "yellow",
-          "assessment": "6/15: trending toward green — app posting July company-wide for general agenda; still no TD station links/slides built.",
+          "assessment": "6/23: Still Yellow — deprioritized again due to Calvin transition + schedule week. Brian estimates he can get it to Green in ~1 hr of focused time. Committed to carving out time this week (it's in 'This Week' on his board), but posting BM applications + manager schedules takes priority. Cameron coaching: appropriate triage is the goal, not 100% completion — no stress if it slips to next week.",
           "superGreen": "Formalized TD flow with updated stations/quizzes/scorecards + TD Calendar live + Games integration",
           "green": "TD flow documented + first 3 overhauled stations live"
         },
@@ -378,7 +378,7 @@
           "status": "supergreen",
           "superGreen": "Read by EOQ + 1-page reflection on personal H/H/S gaps",
           "green": "Read by 5/30",
-          "assessment": "6/15: → Super Green — done with section 3, starting section 4 this week."
+          "assessment": "6/23: Super Green — in Section 4 now (page 91), just met Ted. Steady pace."
         }
       ]
     },
