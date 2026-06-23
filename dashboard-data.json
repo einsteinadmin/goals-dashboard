@@ -6,7 +6,7 @@
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
     "lastRefreshed": "2026-06-23",
-    "refreshedBy": "Albert (digest — Mike 1:1)",
+    "refreshedBy": "Albert (digest — Anne 1:1)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -506,7 +506,7 @@
           "name": "Hire HR Generalist",
           "critical": true,
           "status": "supergreen",
-          "assessment": "6/9: Jalissa onboarded + started — best onboarding she's had (board set up, gift card + flowers). Ready to dive into ClearCo next week; will schedule 1:1 intros w/ all BMs + start screening. SG locked.",
+          "assessment": "6/23: Jalissa onboarded + taking recruiting (Anne refrains unless tagged). This week: teach her Rippling + Monday (DoD = she understands our Monday processes). Daily morning meetings in place; may delegate board automations to Linda. SG locked.",
           "superGreen": "Hired by end of May, fully onboarded + ramped, taking recruiting volume off Anne",
           "green": "Hired + onboarding started by EOQ"
         },
@@ -514,7 +514,7 @@
           "name": "Hiring for Culture / Extended Trial Period + 100-Point Behavioral System",
           "critical": true,
           "status": "green",
-          "assessment": "6/9: Trial-period verbiage drafted. Blocker: Concentra drug-screen pricing ($114 via ClearCo vs prior $38 — Anne negotiating). Phase 1 end ≥6/22, gated on Anne's return + Mike. Concentra Addison ready 6/15 for McKinney/N. Dallas.",
+          "assessment": "6/23: No work last week (SHRM). Admin setup for trial day ready; one candidate passed the new HPE physical. DoD: meeting w/ Mike to finalize gating + check-ins between the training handbook + 60-day period (day-10 vs day-12). Coordinate w/ Brian + Mike. Go-live still slipped past 6/22.",
           "superGreen": "100-point system live across all branches, interview process updated to hire for culture, extended trial in beta one region, Rippling Performance Module live",
           "green": "Interview process updated to hire for culture + Rippling Performance Module live"
         },
@@ -522,7 +522,7 @@
           "name": "ClearCo Hiring Funnel Visualization",
           "critical": false,
           "status": "supergreen",
-          "assessment": "6/9: Tracking Super Green. DoD = connect w/ Matisen on ClearCo API/webhooks status, then build visualization + clean up the (currently messy) funnel data w/ Jalissa.",
+          "assessment": "6/23: Gated on Matisen (back Thu 6/25). ClearCo has reached out multiple times for him to connect — Anne schedules the sync once he's back; needs a fallback if timing slips.",
           "superGreen": "Full funnel dashboard (cost per hire, time to fill, stage % per branch) + all hired candidates have scorecards",
           "green": "Funnel visualized with cost per hire + time to fill + stage %"
         },
@@ -532,13 +532,13 @@
           "status": "yellow",
           "superGreen": "Promotion metrics tied to Einstein Games KPIs, first cohort promoted under new framework, pay docs updated",
           "green": "Promotion metrics framework built",
-          "assessment": "6/9: STALLED (blocked on time) — nothing on the board this week, won't move until after SHRM (Orlando 6/15–19). Needs comp philosophy locked to enable promotion decisions, then sprint w/ Anne + Paul."
+          "assessment": "6/23: Still stalled. Schedule w/ Paul week of 6/29 once bandwidth opens post N. Austin office move. Needs comp philosophy locked first."
         },
         {
           "name": "Einstein Onboarding Experience (CHOICES + Comp/Benefits + Performance Mgmt)",
           "critical": false,
           "status": "green",
-          "assessment": "6/9: Will upload the CHOICES culture video once Cameron sends the cleaned link. Target = 75% completion in first 30 days (accepted). Comp/benefits modules wait until comp philosophy locks.",
+          "assessment": "6/23: Offer-letter expiration cut 7d→48h, physical/drug-screen language added. DoD: CHOICES module game-plan uploaded this week (Cameron re-sent the culture-video link). Comp/benefits recordings w/ Austin after he's back 6/25.",
           "superGreen": "CHOICES + Comp/Benefits + Performance Mgmt modules integrated into onboarding via Rippling, ≥90% completion in first 30 days",
           "green": "CHOICES live in onboarding, ≥75% completion in first 30 days"
         },
@@ -548,7 +548,7 @@
           "status": "supergreen",
           "superGreen": "Read by EOQ + 1-page reflection on personal H/H/S gaps",
           "green": "Read by 5/30",
-          "assessment": "6/9: Book read; writing a 1-page summary by EOW (6/14). Tracking Super Green."
+          "assessment": "6/23: Book read; 1-page summary still pending (supports the humble/hungry/smart interview updates). Holding Super Green."
         }
       ]
     },
