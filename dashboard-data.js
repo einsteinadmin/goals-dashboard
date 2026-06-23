@@ -5,8 +5,8 @@ const DASHBOARD_DATA = {
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-06-18",
-    "refreshedBy": "Albert (/retro — deep refresh)",
+    "lastRefreshed": "2026-06-23",
+    "refreshedBy": "Albert (digest — Mike 1:1)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -390,7 +390,7 @@ const DASHBOARD_DATA = {
           "name": "Personnel Mgmt — Manager Hiring + New Manager Development (Garland + Tampa)",
           "critical": true,
           "status": "green",
-          "assessment": "6/15: FM hired; Tabi training Wed. Dallas/Fort Worth each missed 1 goal; Tampa clean; Garland missed 4 (lead-locked — status check w/ Jack on leads); McKinney slipped below after terminations during Mike's week out — catch-up needed. On track for green.",
+          "assessment": "6/23: Green. Garland no longer lead-locked + hiring again; co-pod postings opening for Garland + Tampa (despite being ahead of goal). Most branches 101-115%. McKinney slipped after terminations — update pending from Mike. Tabi Enoh onboarded (Dallas FM). ⚠ Calvin (N. Austin BM) exiting to a flex role (GF residency relocation, ~$30K cut, 1-2 yrs) — N. Austin BM posting opens internally, Daniel favored (Chris also considered); South Austin coverage plan still needed (Calvin held that team).",
           "superGreen": "All DFWT 100%+ staffing, all 4 new-in-role managers at B+ rating by EOQ, monthly PA, 100% C-player action plans or replaced",
           "green": "DFWT 95%+ staffing, all 4 new managers at B rating by EOQ, monthly PA + check-ins documented, C-player action plans drafted"
         },
@@ -398,7 +398,7 @@ const DASHBOARD_DATA = {
           "name": "Einstein Games Season 4 Launch (DFWT)",
           "critical": true,
           "status": "green",
-          "assessment": "6/15: DFW avg 8.58; Dallas the laggard at 6.2 (Mike thinks he can get >7). Each branch submitting a game plan on its lowest metric.",
+          "assessment": "6/23: Region Green; Dallas the laggard at RED 6.4 — remediation: review low performers + manager-led corrective (Tabi extra training for high-damage). Reviews 0/13 across branches = this week's coaching focus. Week 5/8.",
           "superGreen": "DFWT branches at 8+, all DFWT above 7",
           "green": "DFWT at 7+, all DFWT above 6"
         },
@@ -406,7 +406,7 @@ const DASHBOARD_DATA = {
           "name": "Fleet Safety Pt 2 — Resolidifying Habits, Training, Reweighting, Sample Sizes",
           "critical": false,
           "status": "green",
-          "assessment": "6/15: company-wide fleet safety 88 (quarter); 10% drivers high-risk. Claims threshold raised 2,500→5,000 (fewer minor reports). Only 2-3 recent accidents would've reported under the old system.",
+          "assessment": "6/23: Green — company-wide 92 last week (Mike's Samsara mgmt lifted avg ~60→92). Gap: 5 of 13 required unsafe-driver warnings not issued — managers notified. HOU/FW Samsara equipment shipped (Sam Sarris blocker resolved). Cameron flagged Samsara = single-point-of-failure on Mike → delegation added to next-quarter backlog (Mike wary of standards drop). DoD: stay on unissued warnings + dashboard.",
           "superGreen": "95% retraining completion, Samsara reweighted with validated samples, at-risk <10%, Understanding Samsara + Common Scenario modules in place",
           "green": "90% retraining, Samsara reweighted with validated samples, at-risk <15%, Common Scenario module in place"
         },
@@ -414,7 +414,7 @@ const DASHBOARD_DATA = {
           "name": "Mover Training Handbook / Training Video Library",
           "critical": false,
           "status": "supergreen",
-          "assessment": "6/18: holds SUPER GREEN. Mike back from vacation w/ clean catch-up; mover-training-app debrief done and the super-app-chassis decision LOCKED (this app = the Mover Super App chassis; Mike drives, Matisen consults on identity/EMMA). Prior 6/15: past scaffold to a FUNCTIONAL app (role-based signature assignment + backend tracking dashboard); integrate Austin's videos + AI-formatted text, functional beta target.",
+          "assessment": "6/23: SUPER GREEN. New Prerequisites stage added (review protocols + set quarterly KPIs w/ manager); Onboarding + Onsite Eval 100% complete (cleaner UI, required debrief w/ digital signatures). MVP solid. DoD this week: add training videos + finalize Mover + Lead training modules → then beta. Anne's checkpoints integrate post-beta (Mike to get her checkpoint doc).",
           "superGreen": "Full video library + digital training handbook app in beta at 3 branches + manager dashboard with completion velocity + Mover Super App structure with placeholder data",
           "green": "Full video library + digital training handbook app in beta at 1 branch"
         },
@@ -424,21 +424,21 @@ const DASHBOARD_DATA = {
           "status": "red",
           "superGreen": "Read by EOQ + 1-page reflection on personal H/H/S gaps",
           "green": "Read by 5/30",
-          "assessment": "6/15: → Red — behind, needs to catch up (prioritized mover app first). DoD: get through section 3."
+          "assessment": "6/23: RED, stalled (other priorities). Target full read by EOQ (~7/15). Needs catch-up — agreed to protect the EOQ commitment."
         },
         {
           "name": "Fleet Damage Tracking App — Beta (Bonus)",
           "critical": false,
           "status": "unknown",
-          "assessment": "6/15: no progress (bonus).",
+          "assessment": "6/23: ON ICE for the quarter (deprioritized behind the training app).",
           "superGreen": "Live in 3+ branches with dashboard visibility for BMs + RMs",
           "green": "Beta in 2 branches with feedback loop"
         },
         {
           "name": "Best of Stickers on Truck (Bonus)",
           "critical": false,
-          "status": "unknown",
-          "assessment": "6/15: no progress; moving to Kickpoint to unblock (prep pulse w/ graphics links).",
+          "status": "yellow",
+          "assessment": "6/23: → Yellow (from Unknown). DoD: get the pulse prepped + pushed to KP.",
           "superGreen": "",
           "green": ""
         }
