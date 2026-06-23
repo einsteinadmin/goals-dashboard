@@ -6,7 +6,7 @@
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
     "lastRefreshed": "2026-06-23",
-    "refreshedBy": "Albert (digest — Brian 1:1)",
+    "refreshedBy": "Albert (digest — Amanda 1:1)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -560,7 +560,7 @@
           "name": "AI Call Grading + Regular Reporting (Conversions/Estimate Accuracy)",
           "critical": true,
           "status": "green",
-          "assessment": "6/15: call grading + report ready; first run done (~41/80+). DoD: spot-check 15 calls to calibrate. Publish to GitHub (obscure URL + no-crawl).",
+          "assessment": "6/23: Grading engine live; calibration (15-call spot-check) still pending. DoD this week: huddle w/ Nhel on the call-grading distribution plan (weekly/monthly). May company-wide $ conversions 80.78% (Red floor) = the real lever to watch.",
           "superGreen": "56%+ accuracy, $ conversions 42%+, weekly call audit cadence, BM accountability live",
           "green": "54%+ accuracy, $ conversions 40%+, weekly call audit cadence running"
         },
@@ -568,7 +568,7 @@
           "name": "Replace Leadferno with Chatbot (80% deflection)",
           "critical": true,
           "status": "green",
-          "assessment": "6/15: Botpress SELECTED (cost delta acceptable). DoD: contract → Paul → implement. Super Green if live by EOM.",
+          "assessment": "6/23: ⭐ Botpress contract SIGNED + Antonin's questions answered. Billing starts within 7 days. DoD: schedule + run the implementation meeting. Trending Super Green if rolled out by end of quarter (close). ⚠ Watch: un-disable-able Auto-Recharge = the cost-explosion risk to nail during implementation.",
           "superGreen": "Replacement chatbot live, deflecting 80%+ of Leadferno volume, Leadferno fully sunset by EOQ",
           "green": "Replacement chatbot selected, contracted, AI configuration in progress"
         },
@@ -576,7 +576,7 @@
           "name": "New Email Design + Copy Polish + Rollout (KP-owned)",
           "critical": false,
           "status": "green",
-          "assessment": "6/15: KP delivered final copy. Implement in EMMA w/ Matisen+Fabian; MJML vs HTML decision pending (Matisen researching); RFQ template first, then the rest.",
+          "assessment": "6/23: → Green (from Yellow). Copy done; gate is Matisen's token + MJML/HTML decision (~6/25 target). DoD: check in w/ KP + circle up w/ Matisen. Blocked on IT.",
           "superGreen": "Rolled out company-wide with measurable impact",
           "green": "Houston test complete, company-wide decision made"
         },
@@ -584,15 +584,15 @@
           "name": "CX Q2 Theme Rollout",
           "critical": false,
           "status": "green",
-          "assessment": "6/15: First Class Precision going great, competitive. DoD: leaderboard out by Tuesday AM.",
+          "assessment": "6/23: First Class Precision running strong; held at Green until an outcome metric (not just leaderboard activity) surfaces.",
           "superGreen": "Theme fully rolled out with measurable outcomes + weekly rhythm",
           "green": "Theme launched and adopted with defined metrics"
         },
         {
           "name": "Ideal Team Player Reading",
           "critical": false,
-          "status": "red",
-          "assessment": "6/15: Red — same as Mike; launches first, targeting EOM.",
+          "status": "yellow",
+          "assessment": "6/23: → Yellow (from Red). Chipping away; book done by end of June.",
           "superGreen": "Read by EOQ + 1-page reflection on personal H/H/S gaps",
           "green": "Read by 5/30"
         }
