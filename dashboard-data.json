@@ -5,8 +5,8 @@
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-06-23",
-    "refreshedBy": "Albert (digest — Amanda 1:1)",
+    "lastRefreshed": "2026-06-24",
+    "refreshedBy": "Albert (digest — KP sync)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -221,10 +221,10 @@
       "name": "Oversee Website Redesign — Smart Move System Part 2",
       "critical": false,
       "status": "green",
-      "assessment": "6/18: 7-critic hostile expert audit run (~1.08M tokens) → verdict 'SHIP v1, fix one blocker first' (mid-floor 'See my price' CTAs scroll to a 1px aria-hidden div, not /quote/ — one-line href fix). SEO concern overblown; Floor-2 de-densify the one non-debatable fix. v2 Peekaboo built (forces peekaboo at all viewports, removes mid-floor CTAs, de-densifies Floor 2); both v1 + v2 sent to KP w/ Cameron's position (v1 still the preference; v2 only if Jeff scopes v1 as too expensive). Awaiting Jeff's build estimate — v1-vs-v2 scope delta is the deciding input. 🔴 STILL GATING = Cameron reviews KP's 5-page .md feedback + locks homepage components -> unblocks Emma's next sprint. | Prior 6/17: direction locked to continuous Mover Journey desktop (Cameron's v1 pick), reduced flexibility accepted; quote funnel reconciled (Option 2; Jeff builds staging front-end).",
+      "assessment": "6/24 KP sync — DIRECTION PIVOT: killing the complex multi-floor homepage animation (the Mover Journey scroll). Cameron couldn't make an elevator component work + adding stairwells = more tax than benefit; Rich (KP dev) confirmed a v2 edit wouldn't reduce the rigidity much. Moving to the BRAND-STORY homepage (KP/Emma's favored mockup) — keeps the site flexible (movable components, FAQ + service-area blocks, changeable banner) with smaller animation/joy elements instead of the multi-page stroll. Content approach: fuse the moving-nightmare pain points WITH the Smart Move System answers (nightmare as the heading, the smart-X feature as the answer beneath, scannable + visuals) rather than separating them; Amanda floated a Smart Move System timeline/product visual. Next: Cameron builds out the 5 key pages (fidelity, brand-story) by ~7/6 using Emma's components; KP reviews when back (closed 6/29-7/3); Cameron out Mon-Wed next wk, back Thu/Fri. Supersedes the 6/18 ship-v1-animated-journey audit conclusion. | Prior 6/18: 7-critic audit -> ship v1, fix CTA blocker; v2 Peekaboo built.",
       "superGreen": "New site live, copy updated for Smart Move System, KP design system implemented, mobile-optimized",
       "green": "Site redesign scoped, KP design system decided, copy refreshed for Smart Move narrative",
-      "lastUpdated": "2026-06-18"
+      "lastUpdated": "2026-06-24"
     },
     {
       "number": 6,
@@ -621,8 +621,8 @@
         {
           "name": "Marketing ROI / ROAS Measurement",
           "critical": true,
-          "status": "unknown",
-          "assessment": "6/17: two parts scoped — BigQuery data integration (internal/Matisen; warning: no named owner yet) + Prosper data integration (Laura, on her return from vacation). No live dashboard yet. Prior: Rob's 2027 roadmap puts ROAS as priority; recommend move to Amanda.",
+          "status": "yellow",
+          "assessment": "6/24: Yellow — still waiting on BigQuery adjustments from Matisen (GA + ROAS dashboard + the per-branch realization-rate/revenue page that wasn't adding up). No live dashboard yet. Two parts: BigQuery (internal/Matisen) + Prosper data (Laura, on return). Prior: Rob's 2027 roadmap puts ROAS as priority; recommend move to Amanda.",
           "superGreen": "ROAS dashboard live by channel, budget reallocation decided, KP design system decided, Phase 2 Smart Move kicked off",
           "green": "First real ROAS dashboard + KP design system decision"
         },
@@ -630,7 +630,7 @@
           "name": "Oversee Website Redesign — Smart Move Part 2",
           "critical": true,
           "status": "green",
-          "assessment": "6/17 launch conversation: homepage animation direction locked (continuous Mover Journey desktop, reduced flexibility accepted); open dev Q to Rich re: elevator-seam flexibility. Next gate = Cameron reviews KP's 5-page feedback + locks components -> unblocks Emma's next sprint. KP out ~2 wks (Laura vacation, Elizabeth/Sarah out next wk); next check-in first week of July.",
+          "assessment": "6/24: PIVOT to the brand-story homepage — Cameron killed the complex multi-floor animation (couldn't make the elevator component work; Rich confirmed v2 stays rigid). Brand-story keeps the site flexible w/ lighter animation; content fuses moving-nightmare pain points with Smart Move System answers (scannable, visuals). Cameron builds the 5 key pages (brand-story fidelity) by ~7/6 on Emma's components; KP reviews when back. KP closed 6/29-7/3 (Laura back the week after, Elizabeth out next wk). No urgency — Cameron ahead of schedule.",
           "superGreen": "New site live, copy updated for Smart Move System, design system from KP implemented, mobile-optimized",
           "green": "Site redesign scoped, KP design system decided, copy refreshed for Smart Move narrative"
         },
@@ -638,15 +638,15 @@
           "name": "New Email Design + Copy Polish + Rollout",
           "critical": false,
           "status": "green",
-          "assessment": "6/17: existing 'What to Expect' YouTube video to embed in the quote follow-up email now (swap polished version later); MGML->HTML conversion in-house; tokens pending (mockup placeholders for now). Internal team owns implementation; KP owns design + copy.",
+          "assessment": "6/24: edit locked — remove the 'Ready to make the smart move' heading, lead with 'Big honking important note' (date-not-held + reply CTA beneath). Emma making the change + sharing the HTML file; Matisen owes the tokens (back 6/25). MJML-vs-plain-HTML format still an open call to confirm w/ KP. Internal team owns implementation; KP owns design + copy.",
           "superGreen": "Rolled out company-wide with measurable impact",
           "green": "Houston test complete, company-wide decision made"
         },
         {
           "name": "Branded Boxes (Bonus)",
           "critical": false,
-          "status": "green",
-          "assessment": "Bonus rock — definition pending."
+          "status": "red",
+          "assessment": "6/24: moved Green->Red — KP deprioritized it for other design work; back on their end and won't get attention for a while (Elizabeth). Bonus rock."
         }
       ]
     },
