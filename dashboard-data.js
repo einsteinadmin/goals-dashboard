@@ -5,8 +5,8 @@ const DASHBOARD_DATA = {
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-06-24",
-    "refreshedBy": "Albert (digest — KP sync)",
+    "lastRefreshed": "2026-06-29",
+    "refreshedBy": "Albert (digest — group Issues Sync 6/29)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -88,7 +88,7 @@ const DASHBOARD_DATA = {
         {
           "name": "Estimate Accuracy / $ Conversions",
           "target": "54%+ accuracy G / 56%+ SG · 95%+ sales-target G / 105%+ SG (CET-sheet bands)",
-          "actual": "6/18 /retro CET-sheet pull: May sales-team $ conversion = company 80.78% of target (below 95% Green floor = Red); only Jules (118%) + Therese (131%) over target, most reps 55-90%; June pacing in progress. Estimate Accuracy tab still shows only 2025 historical quarters — no Q2 '26 companywide accuracy figure populated yet (still gated on the funnel-analytics cleanup KP owns).",
+          "actual": "6/18 /retro CET-sheet pull: May sales-team $ conversion = company 80.78% of target (below 95% Green floor = Red); only Jules (118%) + Therese (131%) over target, most reps 55-90%; June pacing in progress. 6/29 sync: weekly pacing ~88% to target vs ~95% expected — need two strong days; July sales budgets finalizing this week. Estimate Accuracy tab still shows only 2025 historical quarters — no Q2 '26 companywide accuracy figure populated yet (still gated on the funnel-analytics cleanup KP owns).",
           "status": "red",
           "note": "Sales conversion Red on the CET sheet for May; baseline caveat — VP-form funnel analytics distortion (back/forward multi-submit) still unresolved, KP owns. Amanda Rock #1 (AI Call Grading) + Nhel R3 + Tet R5. Pulse 11712899643."
         }
@@ -414,7 +414,7 @@ const DASHBOARD_DATA = {
           "name": "Mover Training Handbook / Training Video Library",
           "critical": false,
           "status": "supergreen",
-          "assessment": "6/23: SUPER GREEN. New Prerequisites stage added (review protocols + set quarterly KPIs w/ manager); Onboarding + Onsite Eval 100% complete (cleaner UI, required debrief w/ digital signatures). MVP solid. DoD this week: add training videos + finalize Mover + Lead training modules → then beta. Anne's checkpoints integrate post-beta (Mike to get her checkpoint doc).",
+          "assessment": "6/23: SUPER GREEN. New Prerequisites stage added (review protocols + set quarterly KPIs w/ manager); Onboarding + Onsite Eval 100% complete (cleaner UI, required debrief w/ digital signatures). MVP solid. DoD this week: add training videos + finalize Mover + Lead training modules → then beta. Anne's checkpoints integrate post-beta (Mike to get her checkpoint doc). | 6/29: Full future roadmap DONE; Dallas managers starting the beta — strong momentum.",
           "superGreen": "Full video library + digital training handbook app in beta at 3 branches + manager dashboard with completion velocity + Mover Super App structure with placeholder data",
           "green": "Full video library + digital training handbook app in beta at 1 branch"
         },
@@ -514,7 +514,7 @@ const DASHBOARD_DATA = {
           "name": "Hiring for Culture / Extended Trial Period + 100-Point Behavioral System",
           "critical": true,
           "status": "green",
-          "assessment": "6/23: No work last week (SHRM). Admin setup for trial day ready; one candidate passed the new HPE physical. DoD: meeting w/ Mike to finalize gating + check-ins between the training handbook + 60-day period (day-10 vs day-12). Coordinate w/ Brian + Mike. Go-live still slipped past 6/22.",
+          "assessment": "6/23: No work last week (SHRM). Admin setup for trial day ready; one candidate passed the new HPE physical. DoD: meeting w/ Mike to finalize gating + check-ins between the training handbook + 60-day period (day-10 vs day-12). Coordinate w/ Brian + Mike. | 6/29 sync: Go-live SET for July 6 — messaging out July 1 (framed as phase-1 of a multi-phase rollout). Anne drafts mgr + mover messaging, Matisen updates onboarding checklist, Brian reviews + aligns in sync-ups.",
           "superGreen": "100-point system live across all branches, interview process updated to hire for culture, extended trial in beta one region, Rippling Performance Module live",
           "green": "Interview process updated to hire for culture + Rippling Performance Module live"
         },
