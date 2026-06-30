@@ -6,7 +6,7 @@ const DASHBOARD_DATA = {
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
     "lastRefreshed": "2026-06-30",
-    "refreshedBy": "Albert (digest — Prosper finance call 6/30)",
+    "refreshedBy": "Albert (digest — Austin L 1:1 6/30)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -658,7 +658,7 @@ const DASHBOARD_DATA = {
           "name": "YouTube Training Course — 15+ Videos",
           "critical": true,
           "status": "green",
-          "assessment": "6/10 O3: On pace for Green. Packing videos planned — shoot over next few weeks (2-wk DoD: all packing shot + uploaded). ~8 by EOQ, starting w/ 4 packing. Mike back — proceed w/o his prioritization approval (order isn't critical), hold quality bar.",
+          "assessment": "6/30 O3: Green. Pivot to a CURATED filming model (crews on-site weren't meeting Einstein standards — missing runners/jerseys): pre-select job+location, assign dependable pre-notified movers, get customer pre-permission w/ a discount (2 movers free for 1 hr). Target 5 videos by next sync (~7/14), 7-10 by EOQ.",
           "superGreen": "10+ uploaded, organized into playlists (5 furniture A-Z, 5 packing, 3+ categories)",
           "green": "7-10 uploaded, organized (4 furniture A-Z, 4 packing, 2 categories)"
         },
@@ -666,15 +666,15 @@ const DASHBOARD_DATA = {
           "name": "Long-Form Videos — 3 Videos",
           "critical": true,
           "status": "green",
-          "assessment": "6/10 O3: Price Comparison + 'What to Expect' awaiting Sam (Fiverr) edits per KP+Cam notes; 'Why Choose Einstein' script/storyboard finalizing (Cameron on-screen); interview-process video w/ Anne (coordinate before she's out 6/15-19). Bottleneck = Bangladesh editor. Price Comparison lives inside this rock (was mistracked separately).",
+          "assessment": "6/30 O3: Green. Getting last edits from the editor + evaluating alternative Fiverr editors (current editor's English caused misspellings); will make two caption versions (Cameron wants captions bottom-placed). Anne interview-prep video underway (she records internal clips, Austin adds post-production). Driver-training blocked on Mike → Cameron secured a 2-3pm meeting slot today. Price Comparison pending KP (back 7/5).",
           "superGreen": "4-5+ long form (Driver Safety, Interview Prep/Anne, Contract Walkthrough, Why Choose Einstein, Why Hiring Movers>DIY); Price Comparison MUST be done",
           "green": "2-3 long form (Driver Safety, Interview Prep, Contract Walkthrough, Price Comparison MUST DO)"
         },
         {
           "name": "Crowdsource Content / Open the Bottleneck",
           "critical": false,
-          "status": "yellow",
-          "assessment": "6/10 O3: Highest-leverage rock. Content pipeline plan started w/ Claude — needs finishing. Pressure-test the medium + how to make FM/mover capture stick.",
+          "status": "red",
+          "assessment": "6/30 O3: moved Yellow→RED. Still no working capture system. This week: define EXACTLY what good content looks like, find 2-3 social accounts as the model (\"great load-ups\"), build a list of 20 specific content asks (e.g. \"photo carrying a couch\"). Plan = focus a small dependable subset of movers, incentivize (swag/drawings), specific requests, highlight winners at training days. Highest-leverage rock + now the most at-risk.",
           "superGreen": "Full promo campaign + matchup graphics + celebration + weekly drops + highlights; weekly content from 1-2 branches",
           "green": "Bi-weekly content across the company (movers, FMs, managers, on-site, training days)"
         },
@@ -682,7 +682,7 @@ const DASHBOARD_DATA = {
           "name": "Complete Content Creator College + One-Pager",
           "critical": false,
           "status": "green",
-          "assessment": "6/10 O3: Nearly done — final module = scripting/storyboarding; learnings applied to 'Why Choose Einstein'. SG bump = one-pager deliverables + codify learnings into a reusable checklist on the content board. (Was MISSING from the dashboard — added 6/10.)",
+          "assessment": "6/30 O3: One-pager DELIVERABLE submitted + tagged Cameron same-day (the video-creation process reference for future content creators). That's the SG bump landing — verify completeness, then move to Super Green. Held Green in-tool pending Cameron's read.",
           "superGreen": "Completed the entire Content Creator College WITH full pages of deliverables",
           "green": "Completed the entire Content Creator College w/o deliverables"
         },
@@ -690,7 +690,7 @@ const DASHBOARD_DATA = {
           "name": "Short Form / Social Media",
           "critical": false,
           "status": "green",
-          "assessment": "6/10 O3: Bouncing green/super-green depending on editor bottleneck. First short = clips from finalized Price Comparison; Interstellar-trend video planned.",
+          "assessment": "6/30 O3: Green. First short = Price Comparison clips.",
           "superGreen": "Bi-weekly short form, 35+ likes avg on Instagram",
           "green": "1 monthly short form, 10-35 likes avg"
         },
@@ -698,7 +698,7 @@ const DASHBOARD_DATA = {
           "name": "Client Testimonials (Bonus)",
           "critical": false,
           "status": "yellow",
-          "assessment": "6/10 O3 (BONUS): moved Green->Yellow, under-attended. New approach: pull repeat customers from the calendar (w/ Calvin), film on-site during their move, incentivize w/ gift cards ($25 Uber Eats / $50 Amazon) — replaces the Google Form. Target = 3 moves to attempt in next 2 wks.",
+          "assessment": "6/30 O3 (BONUS): Yellow + the happiness drag this week. New plan: capture quick 30-sec testimonials DURING the curated filming sessions (vs cold on-site asks), or photos of mover teams + client holding an \"Einstein Moving\" sign; influencer content also in play. Google-form asks saw low response.",
           "superGreen": "3+ filmed + published, avg 200+ views",
           "green": "1-2 filmed + published"
         }
