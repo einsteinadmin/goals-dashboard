@@ -460,7 +460,7 @@ const DASHBOARD_DATA = {
           "name": "Variable Pricing Full Rollout + Weekly Review Cadence + Pricing Strategy",
           "critical": true,
           "status": "supergreen",
-          "assessment": "6/30: Super Green. Booked ~$3.8M this month pre-cancellations; missed contracts reconciled tomorrow. TUR FTE/personnel number was a BROKEN CALCULATOR (showed understaffed) — not real understaffing; fixed.",
+          "assessment": "6/30: Super Green. June projected ~$2.86M net after reconciliations ($3.8M booked pre-cancellations; ~$70K reconciles tomorrow). ⚠️ Audit surfaced ~$200K of moves scheduled with NO revenue attached — under investigation. TUR FTE error = the calc used the 14-day schedule headcount as the full-month projection (falsely showed understaffed); fix = link to ClearCo + Rippling active/term counts. Cameron gave pricing autonomy (run gap analysis → make price calls, tag results, no approval needed).",
           "superGreen": "TUR Capacity tool + Dynamic pricing model to inform weekly cadences + skill for long-term mgmt surfacing bottlenecks earlier",
           "green": "TUR Capacity tool + regular pricing cadences in place"
         },
