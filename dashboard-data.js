@@ -5,8 +5,8 @@ const DASHBOARD_DATA = {
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-06-29",
-    "refreshedBy": "Albert (digest — group Issues Sync 6/29)",
+    "lastRefreshed": "2026-06-30",
+    "refreshedBy": "Albert (digest — Prosper finance call 6/30)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -119,7 +119,7 @@ const DASHBOARD_DATA = {
         {
           "name": "Prosper VCFO Integration",
           "target": "Book close <5 days SG / <7 days G + flash reports + branch P&Ls",
-          "actual": "Prosper kickoff 4/10. Joselle + Mike S 30-day notice. Replacing 54% historical completion rate.",
+          "actual": "6/30 finance call: branch P&L dashboard DELIVERED (rev share / GM / NI by branch, color-ranked) — flash reports + branch P&Ls now live. Targeting 5-day preliminary P&L close; books close by 15th. Sage integration ~50% (waiting on correct API; JayLee w/ Sage; automation target end-June). May revised: rev >$2.5M, EBITDA ~$375K, NI ~$364K; YTD rev +5% YoY but ~7% below budget. ⚠ Open: ~$600K depreciation variance (report $1.5M vs schedule $650K) → Bob reconciles 2025 + pick GAAP/book; payroll-processing + office-supplies + bank-charge miscodings being cleaned. Q3 reforecast model lands ~July 20 (Paul+Cameron). Next call Thu 7/9.",
           "status": "green",
           "note": "Ben Young (Prosper VCFO) Critical Rock #1. Includes Power-of-1%, monthly board package, PE readiness."
         },
