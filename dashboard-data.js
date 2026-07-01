@@ -178,13 +178,13 @@ const DASHBOARD_DATA = {
   "cameronRocks": [
     {
       "number": 1,
-      "name": "Build Einstein Dojo + Scale AI COS to All Roundtable",
+      "name": "Scale AI COS Network + World Model",
       "critical": true,
       "status": "green",
-      "assessment": "Cameron's personal Q2 thesis — accelerating. 6/18: 6 of 7 COS now publishing status.json (Albert, Clark-Paul, CoS-MH1, Vera-Brian, Gary-Amanda, Linda-Anne); CoS-MH1 + Vera bootstrapped their status.json this week, Clark's Google Docs write access unblocked overnight 6/18. Gerald (Mike) is the lone holdout — rocks exist but off canonical schema (reads as stub); SCB fix request out (12313775018). /teach skill genericized to principal-agnostic → Amanda/Gary beta (Gary installs + beta-tests by teaching Amanda Matisen's Fleet & Rev dashboard). /retro Step 3.55 drift-detection upgrade shipped (cross-checks commit-date vs status to catch bootstrapped-but-broken agents). Three legs: (1) MCP config generator HTML form, (2) synthesis pipelines as scheduled Claude Code Routines (shipped 4/14), (3) Dojo = renamed skills repo + /dojo recommender skill.",
-      "superGreen": "50+ Dojo skills, 2+ leaders contributing skills unprompted, 2+ nightly synthesis pipelines, AI-fluency interview question, weekly huddle AI demo 4+ weeks",
-      "green": "Dojo with 40+ skills, /dojo recommender + MCP config generator built, all 6 Roundtable members have active COS, 1 nightly synthesis pipeline, skill PR template in repo",
-      "lastUpdated": "2026-06-18"
+      "assessment": "⭐ REFRAMED 6/30 (Cameron) — project shifted from 'Dojo + COS scaling' to 'COS network feeding a WORLD MODEL.' Upward push starting to work: 6 of 7 leadership COS publishing status.json + digest/meeting notes flowing up reliably. Now: (a) layer DOWN to their directs, (b) wire the QGR packet + a first EMMA feed for weekly/monthly branch scorecards (not just quarter-end). DOJO DEPRIORITIZED — team self-builds skills, Cameron keeps a large skill library + pushes ad hoc; /dojo recommender + MCP-generator no longer the focus. Gerald (Mike) = lone off-schema status.json holdout. EMMA API blocked by OpenSearch sync (LiftUp); read-only workaround in motion. Next lever = 7/1 world-model sit-down.",
+      "superGreen": "(1) Every direct's COS regularly interacted-with + reliably pushing status upward, AND the model starting to layer DOWN to their directs (Tier 2 begun); (2) QGR packet partially attached so next quarter's QGR runs faster — weekly/monthly branch scorecards emerging (not just end-of-quarter).",
+      "green": "All 7 leadership COS live + regularly feeding the world model (status.json pushes + digest/meeting notes flowing upward reliably); world-model strategy documented; QGR-packet automation scoped + first EMMA feed (API access or per-position read-only workaround) wired.",
+      "lastUpdated": "2026-06-30"
     },
     {
       "number": 2,
