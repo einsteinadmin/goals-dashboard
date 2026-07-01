@@ -5,8 +5,8 @@ const DASHBOARD_DATA = {
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-06-30",
-    "refreshedBy": "Albert (digest — Matisen 1:1 6/30)",
+    "lastRefreshed": "2026-07-01",
+    "refreshedBy": "Albert (digest — huddle 7/1)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -460,7 +460,7 @@ const DASHBOARD_DATA = {
           "name": "Variable Pricing Full Rollout + Weekly Review Cadence + Pricing Strategy",
           "critical": true,
           "status": "supergreen",
-          "assessment": "6/30: Super Green. June projected ~$2.86M net after reconciliations ($3.8M booked pre-cancellations; ~$70K reconciles tomorrow). ⚠️ Audit surfaced ~$200K of moves scheduled with NO revenue attached — under investigation. TUR FTE error = the calc used the 14-day schedule headcount as the full-month projection (falsely showed understaffed); fix = link to ClearCo + Rippling active/term counts. Cameron gave pricing autonomy (run gap analysis → make price calls, tag results, no approval needed).",
+          "assessment": "6/30: Super Green. June projected ~$2.86M net after reconciliations ($3.8M booked pre-cancellations; ~$70K reconciles tomorrow). ⚠️ Audit surfaced ~$200K of moves scheduled with NO revenue attached — under investigation. TUR FTE error = the calc used the 14-day schedule headcount as the full-month projection (falsely showed understaffed); fix = link to ClearCo + Rippling active/term counts. Cameron gave pricing autonomy (run gap analysis → make price calls, tag results, no approval needed). 7/1 huddle: root cause of the $200K no-rev moves surfaced — 5–10 contracts/day aren't closing on the iPads (sync fails / user error / legacy-app bugs), hitting revenue+payroll+reporting. Matisen built a contract-editor skill; plan = automated morning unclosed-contracts report for managers; new app captures ~95% via server-sync long-term.",
           "superGreen": "TUR Capacity tool + Dynamic pricing model to inform weekly cadences + skill for long-term mgmt surfacing bottlenecks earlier",
           "green": "TUR Capacity tool + regular pricing cadences in place"
         },
