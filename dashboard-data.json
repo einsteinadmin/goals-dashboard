@@ -5,8 +5,8 @@
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-07-02T09:20:00-05:00",
-    "refreshedBy": "Albert (/gm)",
+    "lastRefreshed": "2026-07-02T12:15:00-05:00",
+    "refreshedBy": "Albert (digest)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -344,7 +344,7 @@
           "name": "Hiring + Personnel Budgets + People Analyzer",
           "critical": true,
           "status": "red",
-          "assessment": "6/23: Holding Red — no status change. All branches at 100%+: N. Austin 53.1% budget / 109% to goal, S. Austin 111%, Leander 100%, San Antonio 107%, Houston 101%. Holding steady last two cycles. Will need strong July to offset May misses in Leander + S. Austin. People Analyzer still the lagging piece (not discussed as progressed).",
+          "assessment": "7/2 huddle: BM grading tool 'really close to workable' — Brian sharing link w/ Cameron + running it through a Fable 5 audit. Grading-rubric DB going out; aligning rocks with Mike's process. Movement on a red rock.",
           "superGreen": "All CTXH branches avg 100%+ staffing, People Analyzer reviewed, C players cleared/action plans, eNPS cleared by end of May",
           "green": "All CTXH 100%+ staffing, PA reviewed, C plans, eNPS cleared by end of June"
         },
@@ -368,7 +368,7 @@
           "name": "Training Day Overhaul + Calendar Organization",
           "critical": false,
           "status": "yellow",
-          "assessment": "6/23: Still Yellow — deprioritized again due to Calvin transition + schedule week. Brian estimates he can get it to Green in ~1 hr of focused time. Committed to carving out time this week (it's in 'This Week' on his board), but posting BM applications + manager schedules takes priority. Cameron coaching: appropriate triage is the goal, not 100% completion — no stress if it slips to next week.",
+          "assessment": "7/2 huddle: Fixing the Training Day app + DB going out so next week's Training Day is organized. Legend-of-the-Week rotation codified: branch legends on TD weeks, leadership-level legends rotate weekly across departments (Brian updating the pulse).",
           "superGreen": "Formalized TD flow with updated stations/quizzes/scorecards + TD Calendar live + Games integration",
           "green": "TD flow documented + first 3 overhauled stations live"
         },
@@ -414,7 +414,7 @@
           "name": "Mover Training Handbook / Training Video Library",
           "critical": false,
           "status": "supergreen",
-          "assessment": "6/23: SUPER GREEN. New Prerequisites stage added (review protocols + set quarterly KPIs w/ manager); Onboarding + Onsite Eval 100% complete (cleaner UI, required debrief w/ digital signatures). MVP solid. DoD this week: add training videos + finalize Mover + Lead training modules → then beta. Anne's checkpoints integrate post-beta (Mike to get her checkpoint doc). | 6/29: Full future roadmap DONE; Dallas managers starting the beta — strong momentum.",
+          "assessment": "7/2 huddle: App is IN THE WILD — Dallas teams live on it, Mike self-testing as a mover through sprint 4 with no issues. Mover + manager SOPs auto-drafted by Gerald from source code (~10-15% edits left, finishing today). If beta validates, full rollout is the leading Q3 'Back to School' theme candidate.",
           "superGreen": "Full video library + digital training handbook app in beta at 3 branches + manager dashboard with completion velocity + Mover Super App structure with placeholder data",
           "green": "Full video library + digital training handbook app in beta at 1 branch"
         },
@@ -532,13 +532,13 @@
           "status": "yellow",
           "superGreen": "Promotion metrics tied to Einstein Games KPIs, first cohort promoted under new framework, pay docs updated",
           "green": "Promotion metrics framework built",
-          "assessment": "6/23: Still stalled. Schedule w/ Paul week of 6/29 once bandwidth opens post N. Austin office move. Needs comp philosophy locked first."
+          "assessment": "7/2 huddle: Repivot underway — met Paul earlier this week, working the transcript through Claude; Jalissa handoffs starting (culture interview + draft competency interviews). 2pm working session w/ Cameron today covers mover promotion + comp philosophy + gates."
         },
         {
           "name": "Einstein Onboarding Experience (CHOICES + Comp/Benefits + Performance Mgmt)",
           "critical": false,
           "status": "green",
-          "assessment": "7/1 (Linda status.json): 60% — offer-letter expiry 7d→48h shipped. Next: CHOICES game-plan upload (7/8) + comp/benefits recordings w/ Austin (7/15). Tracking toward Super Green.",
+          "assessment": "7/2 huddle: Rippling onboarding module (culture/core values w/ embedded quiz, interactive) LIVE for all new movers from 7/1 — feedback requested from a Houston mover + managers getting the module too. Handbook DONE (~50 readable pages) — Anne PDFs + swaps it for the old one today. Tracking toward Super Green.",
           "superGreen": "CHOICES + Comp/Benefits + Performance Mgmt modules integrated into onboarding via Rippling, ≥90% completion in first 30 days",
           "green": "CHOICES live in onboarding, ≥75% completion in first 30 days"
         },
@@ -560,7 +560,7 @@
           "name": "AI Call Grading + Regular Reporting (Conversions/Estimate Accuracy)",
           "critical": true,
           "status": "green",
-          "assessment": "6/23: Grading engine live; calibration (15-call spot-check) still pending. DoD this week: huddle w/ Nhel on the call-grading distribution plan (weekly/monthly). May company-wide $ conversions 80.78% (Red floor) = the real lever to watch.",
+          "assessment": "7/2 huddle: Tet + Nhel turned loose on the coaching process (their tweaks under review). Open gates: % of REAL sales calls graded is unknown (Cameron's gate: 100% graded / 80% = green) + rubric reweighting timing; Matisen's idea to tie estimate-vs-actual variance into grading adopted as a direction. Cameron tagged Amanda on the pulse.",
           "superGreen": "56%+ accuracy, $ conversions 42%+, weekly call audit cadence, BM accountability live",
           "green": "54%+ accuracy, $ conversions 40%+, weekly call audit cadence running"
         },
