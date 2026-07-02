@@ -5,7 +5,7 @@ const DASHBOARD_DATA = {
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-07-02T09:00:00-05:00",
+    "lastRefreshed": "2026-07-02T09:20:00-05:00",
     "refreshedBy": "Albert (/gm)",
     "archive": {
       "quarter": "Q1 2026",
@@ -514,7 +514,7 @@ const DASHBOARD_DATA = {
           "name": "Hiring for Culture / Extended Trial Period + 100-Point Behavioral System",
           "critical": true,
           "status": "green",
-          "assessment": "6/23: No work last week (SHRM). Admin setup for trial day ready; one candidate passed the new HPE physical. DoD: meeting w/ Mike to finalize gating + check-ins between the training handbook + 60-day period (day-10 vs day-12). Coordinate w/ Brian + Mike. | 6/29 sync: Go-live SET for July 6 — messaging out July 1 (framed as phase-1 of a multi-phase rollout). Anne drafts mgr + mover messaging, Matisen updates onboarding checklist, Brian reviews + aligns in sync-ups.",
+          "assessment": "7/1 (Linda status.json): Go-live SET for July 6 — messaging out 7/1 (phase-1 framing). Interview process cut to 2 steps, Concentra HPE network built (ClearCompany activation pending), 60-day Extended Trial designed. Blockers: check-ins not yet in Rippling perf module; Mike meeting needed on handbook/60-day gating.",
           "superGreen": "100-point system live across all branches, interview process updated to hire for culture, extended trial in beta one region, Rippling Performance Module live",
           "green": "Interview process updated to hire for culture + Rippling Performance Module live"
         },
@@ -522,7 +522,7 @@ const DASHBOARD_DATA = {
           "name": "ClearCo Hiring Funnel Visualization",
           "critical": false,
           "status": "supergreen",
-          "assessment": "6/23: Gated on Matisen (back Thu 6/25). ClearCo has reached out multiple times for him to connect — Anne schedules the sync once he's back; needs a fallback if timing slips.",
+          "assessment": "7/1 (Linda status.json): Anne self-flags status mismatch — label says Super Green but work reads stalled/gated on Matisen (sync targeted 7/8). Clarify actual status with Anne at next 1:1.",
           "superGreen": "Full funnel dashboard (cost per hire, time to fill, stage % per branch) + all hired candidates have scorecards",
           "green": "Funnel visualized with cost per hire + time to fill + stage %"
         },
@@ -538,7 +538,7 @@ const DASHBOARD_DATA = {
           "name": "Einstein Onboarding Experience (CHOICES + Comp/Benefits + Performance Mgmt)",
           "critical": false,
           "status": "green",
-          "assessment": "6/23: Offer-letter expiration cut 7d→48h, physical/drug-screen language added. DoD: CHOICES module game-plan uploaded this week (Cameron re-sent the culture-video link). Comp/benefits recordings w/ Austin after he's back 6/25.",
+          "assessment": "7/1 (Linda status.json): 60% — offer-letter expiry 7d→48h shipped. Next: CHOICES game-plan upload (7/8) + comp/benefits recordings w/ Austin (7/15). Tracking toward Super Green.",
           "superGreen": "CHOICES + Comp/Benefits + Performance Mgmt modules integrated into onboarding via Rippling, ≥90% completion in first 30 days",
           "green": "CHOICES live in onboarding, ≥75% completion in first 30 days"
         },
@@ -548,7 +548,7 @@ const DASHBOARD_DATA = {
           "status": "supergreen",
           "superGreen": "Read by EOQ + 1-page reflection on personal H/H/S gaps",
           "green": "Read by 5/30",
-          "assessment": "6/23: Book read; 1-page summary still pending (supports the humble/hungry/smart interview updates). Holding Super Green."
+          "assessment": "7/1 (Linda status.json): COMPLETE — book read + 1-page H/H/S reflection submitted. Super Green locked."
         }
       ]
     },
