@@ -5,8 +5,8 @@ const DASHBOARD_DATA = {
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-07-03T10:00:00-05:00",
-    "refreshedBy": "Albert (/gm)",
+    "lastRefreshed": "2026-07-03T11:15:00-05:00",
+    "refreshedBy": "Albert (digest)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -43,8 +43,8 @@ const DASHBOARD_DATA = {
         {
           "name": "Einstein Games \u2014 Season 3 Scorecards",
           "target": "Company score 8+ SG / 7+ G, all branches above floor",
-          "actual": "Season 3 LAUNCHED 5/23 \u2014 week 1 in flight. 5/28: 'Coach's Corner' decision \u2014 old Driver's Ed dashboard repurposed into a weekly win/loss + strategic AAR (4 cascading-goals questions) posted per branch on each EMC Games QG pulse to force week-to-week strategy. Mike builds, Brian owns messaging, live Mon 6/1. Reviews backlog: JC on vacation left review URLs unmapped \u2192 all DFW showing zero reviews; Matisen building a money.com matching skill to clear before results finalize. 8-week structure, national champ 7/11. 6/15: DFW avg 8.58 (Dallas 6.2 laggard); CTXH region avg 6.8 trending red (NA ~5.8, SA low). Branch game-plans on lowest metric. Playoffs ~7/4.",
-          "status": "green",
+          "actual": "7/3 huddle: company composite 6.9 vs 7.0 Green floor \u2014 attendance is the drag (least manager-controllable; re-weighting tabled to Season 4). Championship starts this weekend: pending-opponent display until Tuesday score-lock; announcement going out 7/3 (Mike leads, Brian mirrors) incl. non-playoff branches keep pushing (scores feed branch scorecards). Mid-quarter transfer scores excluded this quarter if feasible (date-based attribution = future retool). Rippling connector fixed \u2192 OT report working \u2192 games reporting unblocked for next-week rollout. Season ends 7/11.",
+          "status": "yellow",
           "note": "Brian Critical Rock #1 (CTXH 8+ SG / 7+ G) + Mike Critical Rock #2 (DFWT 8+ SG / 7+ G). Per-branch scorecards live (Q1 packet shipped). Weekly games scoreboard depends on Robert's MCP + OpenSearch DB cutover (replaces Glide app)."
         },
         {
@@ -88,7 +88,7 @@ const DASHBOARD_DATA = {
         {
           "name": "Estimate Accuracy / $ Conversions",
           "target": "54%+ accuracy G / 56%+ SG \u00b7 95%+ sales-target G / 105%+ SG (CET-sheet bands)",
-          "actual": "6/18 /retro CET-sheet pull: May sales-team $ conversion = company 80.78% of target (below 95% Green floor = Red); only Jules (118%) + Therese (131%) over target, most reps 55-90%; June pacing in progress. 6/29 sync: weekly pacing ~88% to target vs ~95% expected \u2014 need two strong days; July sales budgets finalizing this week. Estimate Accuracy tab still shows only 2025 historical quarters \u2014 no Q2 '26 companywide accuracy figure populated yet (still gated on the funnel-analytics cleanup KP owns).",
+          "actual": "6/18 /retro CET-sheet pull: May sales-team $ conversion = company 80.78% of target (below 95% Green floor = Red); only Jules (118%) + Therese (131%) over target, most reps 55-90%; June pacing in progress. 6/29 sync: weekly pacing ~88% to target vs ~95% expected \u2014 need two strong days; July sales budgets finalizing this week. Estimate Accuracy tab still shows only 2025 historical quarters \u2014 no Q2 '26 companywide accuracy figure populated yet (still gated on the funnel-analytics cleanup KP owns). 7/3 huddle: June missed target by ~7% (May hit) \u2014 quarterly framing locked: July targets carry the May\u2013June dollar gap (~110% of July goal); Amanda owns comms pulse, Matisen deploying quick QTD dashboard; Mike/Brian delivering QTD numbers to managers.",
           "status": "red",
           "note": "Sales conversion Red on the CET sheet for May; baseline caveat \u2014 VP-form funnel analytics distortion (back/forward multi-submit) still unresolved, KP owns. Amanda Rock #1 (AI Call Grading) + Nhel R3 + Tet R5. Pulse 11712899643."
         }
