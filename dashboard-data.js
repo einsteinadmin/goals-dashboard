@@ -5,7 +5,7 @@ const DASHBOARD_DATA = {
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-07-09T10:15:00-05:00",
+    "lastRefreshed": "2026-07-10T12:00:00-05:00",
     "refreshedBy": "Albert (digest)",
     "archive": {
       "quarter": "Q1 2026",
@@ -345,7 +345,7 @@ const DASHBOARD_DATA = {
           "name": "Hiring + Personnel Budgets + People Analyzer",
           "critical": true,
           "status": "red",
-          "assessment": "7/9: Red but active. NA BM hiring scorecard locked at 50/50 Position-KPIs / Choices peer survey (ITP reference-only, weight toggles; Vera building). Candidates narrowing — Lukas+Frank likely cut; Nick/Daniel/Khevan need more eval + Mike/regional input. 5 pre-interview Qs for borderline. Async input → follow-up decision meeting.",
+          "assessment": "7/10: Red but moving — NA BM DECISION LANDED: Daniel selected on the new 50/50 KPIs+Choices scorecard (replaces People Analyzer; weight toggles). Rejected Lucas/Kevin/Nick/Frank get scorecard feedback + dev plans. Comms start Mon. Open: peer-review scope (directs vs all-mgrs), manager-bench depth → recruiting-pipeline rock next quarter, survey-integrity + historical-warning policy.",
           "superGreen": "All CTXH branches avg 100%+ staffing, People Analyzer reviewed, C players cleared/action plans, eNPS cleared by end of May",
           "green": "All CTXH 100%+ staffing, PA reviewed, C plans, eNPS cleared by end of June"
         },
