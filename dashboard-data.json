@@ -5,8 +5,8 @@
   "quarterEnd": "2026-07-31",
   "themeDeadline": "2026-07-19",
   "themeDeadlineLabel": "Theme Deadline: Jul 19",
-  "lastRefreshed": "2026-07-10T15:15:00-05:00",
-  "refreshedBy": "Albert (/retro — deep refresh)",
+  "lastRefreshed": "2026-07-13T14:00:00-05:00",
+  "refreshedBy": "Albert (digest — Brian 1:1)",
   "archive": {
    "quarter": "Q1 2026",
    "file": "dashboard-data-q1-2026.json",
@@ -337,16 +337,16 @@
     {
      "name": "Einstein Games Season 3 Launch (CTXH)",
      "critical": true,
-     "status": "green",
-     "assessment": "6/23: Moved Yellow → Green (Brian's self-read, confirmed). Recent results: S. Austin beat Dallas, San Antonio upset undefeated Fort Worth (San's first win). Leander leading their conference. N. Austin at 6.4 (laggard). Most CTXH branches near/above 7; S. Austin strong. DoD: run Vera Einstein Games skill to get full regional analysis + share output with Cameron. Matisen asked to add company-wide / region-wide baseline to the performance report. Company-wide score 8.8 (strong).",
+     "status": "yellow",
+     "assessment": "7/13 (Brian 1:1): Moved Green → Yellow. CTXH branches volatile QTD — N. Austin ~5.2, Houston ~6.0, San Antonio slid 7.8→6.8; two branches trending green, three below the floor. Season ends this week; championship + results land 7/21. DoD: Leander + San Antonio championship comms + follow up coaches below green (Brian's own read: his follow-up on lagging teams hasn't been aggressive). Company hit 8.8 earlier in the season.",
      "superGreen": "Company-wide score 8+, all SCTX branches at 7+",
      "green": "Company-wide score 7+, all SCTX branches at 7+"
     },
     {
      "name": "Hiring + Personnel Budgets + People Analyzer",
      "critical": true,
-     "status": "red",
-     "assessment": "7/10: Red but moving — NA BM DECISION LANDED: Daniel selected on the new 50/50 KPIs+Choices scorecard (replaces People Analyzer; weight toggles). Rejected Lucas/Kevin/Nick/Frank get scorecard feedback + dev plans. Comms start Mon. Open: peer-review scope (directs vs all-mgrs), manager-bench depth → recruiting-pipeline rock next quarter, survey-integrity + historical-warning policy.",
+     "status": "green",
+     "assessment": "7/13 (Brian 1:1): Brian moved Red → Green — all teams over revenue-FTE targets (NA 106% · SA 110% · Leander 95% · San Antonio 108% · Houston 108%); NA BM landed (Daniel on the new 50/50 scorecard, People Analyzer retired). ⚠ Caveat: the quarterly personnel-budget AVERAGE may still land red from the two May misses that can't be un-missed — QGR self-grade settles green-vs-red. DoD: Vera builds a hiring/personnel dashboard (R/G/SG by branch). Peer-review scope + manager-bench depth → Q3 recruiting-pipeline rock.",
      "superGreen": "All CTXH branches avg 100%+ staffing, People Analyzer reviewed, C players cleared/action plans, eNPS cleared by end of May",
      "green": "All CTXH 100%+ staffing, PA reviewed, C plans, eNPS cleared by end of June"
     },
