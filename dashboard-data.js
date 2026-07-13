@@ -45,8 +45,8 @@ const DASHBOARD_DATA = {
     {
      "name": "Einstein Games — Season 3 Scorecards",
      "target": "Company score 8+ SG / 7+ G, all branches above floor",
-     "actual": "7/3 huddle: company composite 6.9 vs 7.0 Green floor — attendance is the drag (least manager-controllable; re-weighting tabled to Season 4). Championship starts this weekend: pending-opponent display until Tuesday score-lock; announcement going out 7/3 (Mike leads, Brian mirrors) incl. non-playoff branches keep pushing (scores feed branch scorecards). Mid-quarter transfer scores excluded this quarter if feasible (date-based attribution = future retool). Rippling connector fixed → OT report working → games reporting unblocked for next-week rollout. Season ends 7/11.",
-     "status": "yellow",
+     "actual": "7/3 huddle: company composite 6.9 vs 7.0 Green floor — attendance is the drag (least manager-controllable; re-weighting tabled to Season 4). Championship starts this weekend: pending-opponent display until Tuesday score-lock; announcement going out 7/3 (Mike leads, Brian mirrors) incl. non-playoff branches keep pushing (scores feed branch scorecards). Mid-quarter transfer scores excluded this quarter if feasible (date-based attribution = future retool). Rippling connector fixed → OT report working → games reporting unblocked for next-week rollout. Season ends 7/11. 7/13 (Brian 1:1): company-wide holding GREEN (~7+); the drag is regional (Brian's CTXH branches volatile — see his rock), not the company number.",
+     "status": "green",
      "note": "Brian Critical Rock #1 (CTXH 8+ SG / 7+ G) + Mike Critical Rock #2 (DFWT 8+ SG / 7+ G). Per-branch scorecards live (Q1 packet shipped). Weekly games scoreboard depends on Robert's MCP + OpenSearch DB cutover (replaces Glide app)."
     },
     {
@@ -338,7 +338,7 @@ const DASHBOARD_DATA = {
      "name": "Einstein Games Season 3 Launch (CTXH)",
      "critical": true,
      "status": "yellow",
-     "assessment": "7/13 (Brian 1:1): Moved Green → Yellow. CTXH branches volatile QTD — N. Austin ~5.2, Houston ~6.0, San Antonio slid 7.8→6.8; two branches trending green, three below the floor. Season ends this week; championship + results land 7/21. DoD: Leander + San Antonio championship comms + follow up coaches below green (Brian's own read: his follow-up on lagging teams hasn't been aggressive). Company hit 8.8 earlier in the season.",
+     "assessment": "7/13 (Brian 1:1): Company-wide Games stays GREEN (~7+) — this Yellow is Brian's CTXH REGIONAL read only. Moved Green → Yellow: CTXH branches volatile QTD — N. Austin ~5.2, Houston ~6.0, San Antonio slid 7.8→6.8; two branches trending green, three below the floor. Season ends this week; championship + results land 7/21. DoD: Leander + San Antonio championship comms + follow up coaches below green (Brian's own read: his follow-up on lagging teams hasn't been aggressive). Company hit 8.8 earlier in the season.",
      "superGreen": "Company-wide score 8+, all SCTX branches at 7+",
      "green": "Company-wide score 7+, all SCTX branches at 7+"
     },
