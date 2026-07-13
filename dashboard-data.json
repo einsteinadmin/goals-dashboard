@@ -476,23 +476,23 @@
           "name": "AI Wedge Audit + MVP Scoping",
           "critical": true,
           "status": "green",
-          "assessment": "7/9: Green. EMMA read-only MCP in QA (Robert build) — sales/revenue/conversion pulling correctly; Einstein Games data not yet pulling (validating); Rippling hours done. Mobile/field app rollout targeted eve of 7/10. Packaging dashboard reports back to Robert to bake into MCP responses.",
+          "assessment": "7/13: Green, ~90% (SG track). Audit done; 3 builds validated + in build. EMMA read-only MCP pushed to Cameron 2 days early. SG gate = the additional-wedge sweep (4-6) documented/scored — or slips to Q3. Gated behind Games clearing.",
           "superGreen": "Audit by 5/30, 3 builds validated, MVPs scoped with effort estimates, sweep surfaces 4-6 additional wedges, first build kicked off by 5/30",
           "green": "Audit by 5/30, 3 builds validated + MVP-scoped, sweep surfaces 4+ wedges, first build kicked off by EOQ"
         },
         {
           "name": "Variable Pricing Full Rollout + Weekly Review Cadence + Pricing Strategy",
           "critical": true,
-          "status": "supergreen",
-          "assessment": "6/30: Super Green. June projected ~$2.86M net after reconciliations ($3.8M booked pre-cancellations; ~$70K reconciles tomorrow). ⚠️ Audit surfaced ~$200K of moves scheduled with NO revenue attached — under investigation. TUR FTE error = the calc used the 14-day schedule headcount as the full-month projection (falsely showed understaffed); fix = link to ClearCo + Rippling active/term counts. Cameron gave pricing autonomy (run gap analysis → make price calls, tag results, no approval needed). 7/1 huddle: root cause of the $200K no-rev moves surfaced — 5–10 contracts/day aren't closing on the iPads (sync fails / user error / legacy-app bugs), hitting revenue+payroll+reporting. Matisen built a contract-editor skill; plan = automated morning unclosed-contracts report for managers; new app captures ~95% via server-sync long-term.",
+          "status": "green",
+          "assessment": "7/13: Self-graded Super Green→GREEN (honest, on cusp of SG). ~75%. Weekly cadence live; 242-job hour fix corrected the TUR input. Missing SG piece = personnel-forecasting pipeline (Rippling+ClearCo+schedule → definitive hire number + turnover-adjusted). No active work this week; targeting personnel model by EOQ.",
           "superGreen": "TUR Capacity tool + Dynamic pricing model to inform weekly cadences + skill for long-term mgmt surfacing bottlenecks earlier",
           "green": "TUR Capacity tool + regular pricing cadences in place"
         },
         {
           "name": "AI Call Grading + Claims AI Build #1 (Games review/damage automation)",
           "critical": false,
-          "status": "red",
-          "assessment": "6/30: moved Green→RED. Call grading is PENDING Amanda (confirm she's grading 80-100% of calls); next step = incorporate an \"actual estimate\" into the grading (Amanda works w/ Matisen). Games automation partly working; Claims RAG database is low priority → the red. Path back to green: if Games automation lands, it REPLACES the Claims RAG and the rock goes green.",
+          "status": "yellow",
+          "assessment": "7/13: RED→YELLOW, ~50%. Call grading rolling (first report + spot-check). Reviewer-flow bottleneck on Nhel/Tet → exploring async routing + coordinating w/ Gary. Games automation substituting for Claims RAG; timeline uncertain (debugging as bugs surface). Claims RAG deprioritized — maybe a quick claims-audit app later. Next: fold call-grading into the sales scorecard + link to sales-block audit.",
           "superGreen": "100% sales + claims calls auto-graded weekly, RAG live surfacing magic-moment + early-claim signals, weekly coaching loop with Nhel + Carly",
           "green": "80%+ sales calls auto-graded weekly, RAG live for claims, coaching loop established"
         },
@@ -500,7 +500,7 @@
           "name": "ClearCo + Rippling API → Anne's Hiring Funnel Dashboard (Wedge Build #2)",
           "critical": false,
           "status": "green",
-          "assessment": "6/30: Green. (Anne's hiring-funnel dashboard still gates on this + the long-open Rippling decision — unblock + date still the watch-item; ran on a stale tab so the push didn't surface live.)",
+          "assessment": "7/13: YELLOW→GREEN. HR Command Center LIVE — all hiring funnels visualized, cat 1-4 segmentation, cost-per-hire thresholds + alerts, ~12-day avg time-to-hire, stale-applicant flags. Green not SG: not self-serve (served from GitHub page, Anne's Rippling API leg not set) + no auto-refresh. DoD this week = follow up ClearCo for the intake/hired webhook to wire draft-hire push. Data anomaly to validate (5% in-person w/o phone-interview tag).",
           "superGreen": "Both APIs hooked up, Anne self-serve dashboard live with cost-per-hire/time-to-fill/stage % per branch/campaign perf, weekly auto-refresh",
           "green": "Both APIs hooked up, dashboard live with core funnel metrics, manual refresh OK"
         },
@@ -508,17 +508,17 @@
           "name": "Production Line Cleanup — 8 Loose Threads",
           "critical": false,
           "status": "green",
-          "assessment": "6/30: Green. Robert's back reviewing bottlenecks; some Rippling obstacles; a few items to officially roll out (several = live Claude dashboards/skills over EMMA).",
+          "assessment": "7/13: Green, ~60% (SG track). Everything but Games getting its own dashboard; Maps dashboard live on EMMA (needs COS context for zone questions → billboards/mailers). Scorecards shipped 7/3.",
           "superGreen": "All 8 shipped or formally archived by EOQ",
           "green": "5+ of 8 shipped or archived, remaining 3 have clear ship dates"
         },
         {
           "name": "Ideal Team Player Reading (Bonus)",
           "critical": false,
-          "status": "green",
+          "status": "supergreen",
           "superGreen": "Read by EOQ + 1-page reflection on personal H/H/S gaps",
           "green": "Read by 5/30",
-          "assessment": "6/30: moved Super Green→GREEN. Still working through the book + one-pager (out most of last week on vacation)."
+          "assessment": "7/13: GREEN→SUPER GREEN. Restarted the book this weekend for a fresh read; finishing tonight + landing the 1-page reflection. On track for SG by EOQ."
         }
       ]
     },
