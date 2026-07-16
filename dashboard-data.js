@@ -5,8 +5,8 @@ const DASHBOARD_DATA = {
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-07-13T15:30:00-05:00",
-    "refreshedBy": "Albert (digest — Amanda 1:1)",
+    "lastRefreshed": "2026-07-15T18:15:00-05:00",
+    "refreshedBy": "Albert (digest — Rob Q3 pre-work + Einstein Games decision)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -45,8 +45,8 @@ const DASHBOARD_DATA = {
         {
           "name": "Einstein Games — Season 3 Scorecards",
           "target": "Company score 8+ SG / 7+ G, all branches above floor",
-          "actual": "7/3 huddle: company composite 6.9 vs 7.0 Green floor — attendance is the drag (least manager-controllable; re-weighting tabled to Season 4). Championship starts this weekend: pending-opponent display until Tuesday score-lock; announcement going out 7/3 (Mike leads, Brian mirrors) incl. non-playoff branches keep pushing (scores feed branch scorecards). Mid-quarter transfer scores excluded this quarter if feasible (date-based attribution = future retool). Rippling connector fixed → OT report working → games reporting unblocked for next-week rollout. Season ends 7/11. 7/13 (Brian 1:1): company-wide holding GREEN (~7+); the drag is regional (Brian's CTXH branches volatile — see his rock), not the company number.",
-          "status": "green",
+          "actual": "7/3 huddle: company composite 6.9 vs 7.0 Green floor — attendance is the drag (least manager-controllable; re-weighting tabled to Season 4). Championship starts this weekend: pending-opponent display until Tuesday score-lock; announcement going out 7/3 (Mike leads, Brian mirrors) incl. non-playoff branches keep pushing (scores feed branch scorecards). Mid-quarter transfer scores excluded this quarter if feasible (date-based attribution = future retool). Rippling connector fixed → OT report working → games reporting unblocked for next-week rollout. Season ends 7/11. 7/13 (Brian 1:1): company-wide holding GREEN (~7+); the drag is regional (Brian's CTXH branches volatile — see his rock), not the company number. ⚠ 7/15 (leadership call on the damages-scoring discrepancy): likely week-6 API/pipeline break + estimate-vs-actual reconciliation lag; no archived weekly damages snapshots, so the break point couldn't be proven. DECISION: finish the season as-is — finals hold San Antonio vs Tampa, no bracket changes (reruns showed week-6 results identical; the only week-7 shift was Leander over San Antonio, which still doesn't put Leander in the finals on quarter-adjusted numbers). Bonus payout basis reverts to damages-per-Rippling-hour for Q2 and holds through next quarter. COMPANY GREEN NOW READS AS A LIKELY MISS — roughly ±0.2-0.25/wk of movement left over 3 wks; green is mathematically alive but not likely, and the super-green ~7 bar may have been set too high for the busiest hiring quarter. Philosophy locked: the games are a COACHING tool (directionally accurate by design), not a performance grade.",
+          "status": "yellow",
           "note": "Brian Critical Rock #1 (CTXH 8+ SG / 7+ G) + Mike Critical Rock #2 (DFWT 8+ SG / 7+ G). Per-branch scorecards live (Q1 packet shipped). Weekly games scoreboard depends on Robert's MCP + OpenSearch DB cutover (replaces Glide app)."
         },
         {
@@ -90,7 +90,7 @@ const DASHBOARD_DATA = {
         {
           "name": "Estimate Accuracy / $ Conversions",
           "target": "54%+ accuracy G / 56%+ SG · 95%+ sales-target G / 105%+ SG (CET-sheet bands)",
-          "actual": "6/18 /retro CET-sheet pull: May sales-team $ conversion = company 80.78% of target (below 95% Green floor = Red); only Jules (118%) + Therese (131%) over target, most reps 55-90%; June pacing in progress. 6/29 sync: weekly pacing ~88% to target vs ~95% expected — need two strong days; July sales budgets finalizing this week. Estimate Accuracy tab still shows only 2025 historical quarters — no Q2 '26 companywide accuracy figure populated yet (still gated on the funnel-analytics cleanup KP owns). 7/3 huddle: June missed target by ~7% (May hit) — quarterly framing locked: July targets carry the May–June dollar gap (~110% of July goal); Amanda owns comms pulse, Matisen deploying quick QTD dashboard; Mike/Brian delivering QTD numbers to managers.",
+          "actual": "6/18 /retro CET-sheet pull: May sales-team $ conversion = company 80.78% of target (below 95% Green floor = Red); only Jules (118%) + Therese (131%) over target, most reps 55-90%; June pacing in progress. 6/29 sync: weekly pacing ~88% to target vs ~95% expected — need two strong days; July sales budgets finalizing this week. Estimate Accuracy tab still shows only 2025 historical quarters — no Q2 '26 companywide accuracy figure populated yet (still gated on the funnel-analytics cleanup KP owns). 7/3 huddle: June missed target by ~7% (May hit) — quarterly framing locked: July targets carry the May–June dollar gap (~110% of July goal); Amanda owns comms pulse, Matisen deploying quick QTD dashboard; Mike/Brian delivering QTD numbers to managers. ⚠ 7/15 (Rob Q3 session, Amanda): 46% within-20% accuracy vs the 80% aspiration — below the 54% Green floor, so RED stands. Live shared dashboard due from Matisen 7/18 (today it's a manual pull with no real-time view). Call-grading engine is complete; the gap is distribution + a coaching loop that actually changes behavior.",
           "status": "red",
           "note": "Sales conversion Red on the CET sheet for May; baseline caveat — VP-form funnel analytics distortion (back/forward multi-submit) still unresolved, KP owns. Amanda Rock #1 (AI Call Grading) + Nhel R3 + Tet R5. Pulse 11712899643."
         }
@@ -167,7 +167,7 @@ const DASHBOARD_DATA = {
       "target": "40%",
       "actual": null,
       "status": "unknown",
-      "note": "Baseline still broken from VP rollout — Matisen owns apples-to-apples investigation before scoring."
+      "note": "Baseline still broken from VP rollout — Matisen owns apples-to-apples investigation before scoring. 7/15 (Rob session): Cameron flagged leads up but conversion ~40%→~20%; Amanda pushed back that it's partly lead-quality mix, not pure conversion decay. Basis question still open (Q2-TD 19.9% raw / 25.6% resolved / 31.8% excl-EmmaLead after the 3/31 definition change) — settle the basis before scoring."
     },
     {
       "name": "eNPS",
@@ -233,10 +233,10 @@ const DASHBOARD_DATA = {
       "name": "Ideal Team Player Reading",
       "critical": false,
       "status": "supergreen",
-      "assessment": "Bonus rock — SUPER GREEN. SG = read by EOQ + 1-page reflection on personal Humility/Hunger/Smarts gaps. COMPLETE 6/16: book finished (~6 wks ahead of the Green date), 29 annotated photos synthesized into notes + a 7-tab interactive workshop tool built (Tab 7 = the 5-section one-pager for Rob's 7/10 review session). Pulse 11752596124 marked Done.",
+      "assessment": "Bonus rock — SUPER GREEN. SG = read by EOQ + 1-page reflection on personal Humility/Hunger/Smarts gaps. COMPLETE 6/16: book finished (~6 wks ahead of the Green date), 29 annotated photos synthesized into notes + a 7-tab interactive workshop tool built (Tab 7 = the 5-section one-pager for Rob's 7/10 review session). Pulse 11752596124 marked Done. 7/15: the 90-day plan is now LIVE — the ITP exercise ran at Rob's session; low virtue confirmed SMART; 3 commitments (ask-before-tell / poker-chip meter · anonymous 180 EQ survey, now ROB-OWNED after Anne flagged she wouldn't trust an AI-run one from Cameron · sit-in-the-seat before rolling out policy). Verbal green/yellow/red color-code check-ins at the roundtable syncs nearest ~8/15 and ~9/15 (pulse 12551946732); formal re-eval at Rob's October session. Rock stays SUPER GREEN (delivered); execution now runs on the 90-day plan.",
       "superGreen": "Read by EOQ + 1-page reflection on personal Humility/Hunger/Smarts gaps",
       "green": "Read by 5/30",
-      "lastUpdated": "2026-06-17"
+      "lastUpdated": "2026-07-15"
     }
   ],
   "leadership": [
