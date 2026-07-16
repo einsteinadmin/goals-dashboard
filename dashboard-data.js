@@ -5,8 +5,8 @@ const DASHBOARD_DATA = {
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-07-16T14:05:00-05:00",
-    "refreshedBy": "Albert (digest \u2014 Austin L sync)",
+    "lastRefreshed": "2026-07-16T16:15:00-05:00",
+    "refreshedBy": "Albert (digest \u2014 Mike 1:1)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -416,7 +416,7 @@ const DASHBOARD_DATA = {
           "name": "Personnel Mgmt \u2014 Manager Hiring + New Manager Development (Garland + Tampa)",
           "critical": true,
           "status": "green",
-          "assessment": "6/23: Green. Garland no longer lead-locked + hiring again; co-pod postings opening for Garland + Tampa (despite being ahead of goal). Most branches 101-115%. McKinney slipped after terminations \u2014 update pending from Mike. Tabi Enoh onboarded (Dallas FM). \u26a0 Calvin (N. Austin BM) exiting to a flex role (GF residency relocation, ~$30K cut, 1-2 yrs) \u2014 N. Austin BM posting opens internally, Daniel favored (Chris also considered); South Austin coverage plan still needed (Calvin held that team).",
+          "assessment": "7/16 1:1: region staffing 106-111% of quarter goal; Tampa >115%; FW intentionally holding (lead-locked). Khevan feedback convo landed well. Z conduct issue closed (resigned). 6/23: Green. Garland no longer lead-locked + hiring again; co-pod postings opening for Garland + Tampa (despite being ahead of goal). Most branches 101-115%. McKinney slipped after terminations \u2014 update pending from Mike. Tabi Enoh onboarded (Dallas FM). \u26a0 Calvin (N. Austin BM) exiting to a flex role (GF residency relocation, ~$30K cut, 1-2 yrs) \u2014 N. Austin BM posting opens internally, Daniel favored (Chris also considered); South Austin coverage plan still needed (Calvin held that team).",
           "superGreen": "All DFWT 100%+ staffing, all 4 new-in-role managers at B+ rating by EOQ, monthly PA, 100% C-player action plans or replaced",
           "green": "DFWT 95%+ staffing, all 4 new managers at B rating by EOQ, monthly PA + check-ins documented, C-player action plans drafted"
         },
@@ -424,7 +424,7 @@ const DASHBOARD_DATA = {
           "name": "Einstein Games Season 4 Launch (DFWT)",
           "critical": true,
           "status": "supergreen",
-          "assessment": "via Gerald 7/1: Week 7/8 live. Tampa Pirates #1 (4-1, 56.0), FW Meerkats #2 (4-1, 42.0), Garland Gorillas #3 (3-1-1, 38.0), MCK Geese #4 (2-2-1, 42.0), DAL Squirrels #5 (1-4, 33.0). Tampa Reviews breakthrough: 11/13 (32%!) \u2014 MCK 4/13 first points. DAL/FW/GAR still 0 on Reviews. Garland Driver 6/13 (81%), MCK Driver 5/13 (77%) \u2014 both need coaching.",
+          "assessment": "7/16 1:1: region avg 7.4 \u2014 green as a region; Dallas 5.6 dragging. Weekly AI worst-offender tracker live; quarterly\u2192weekly goal decomposition next quarter. via Gerald 7/1: Week 7/8 live. Tampa Pirates #1 (4-1, 56.0), FW Meerkats #2 (4-1, 42.0), Garland Gorillas #3 (3-1-1, 38.0), MCK Geese #4 (2-2-1, 42.0), DAL Squirrels #5 (1-4, 33.0). Tampa Reviews breakthrough: 11/13 (32%!) \u2014 MCK 4/13 first points. DAL/FW/GAR still 0 on Reviews. Garland Driver 6/13 (81%), MCK Driver 5/13 (77%) \u2014 both need coaching.",
           "superGreen": "All 5 DFWT branches engaged, 3+ branches in top 5 company-wide, reviews metric above 50% company avg at season end",
           "green": "All 5 branches active and tracking stats weekly through Week 8",
           "sourceUpdated": "2026-07-01",
@@ -433,8 +433,8 @@ const DASHBOARD_DATA = {
         {
           "name": "Fleet Safety Pt 2 \u2014 Resolidifying Habits, Training, Reweighting, Sample Sizes",
           "critical": false,
-          "status": "green",
-          "assessment": "7/16: common-mistakes module is the last build item \u2014 completing it = super green on the build side (numbers side separate). 6/23: Green \u2014 company-wide 92 last week (Mike's Samsara mgmt lifted avg ~60\u219292). Gap: 5 of 13 required unsafe-driver warnings not issued \u2014 managers notified. HOU/FW Samsara equipment shipped (Sam Sarris blocker resolved). Cameron flagged Samsara = single-point-of-failure on Mike \u2192 delegation added to next-quarter backlog (Mike wary of standards drop). DoD: stay on unissued warnings + dashboard.",
+          "status": "red",
+          "assessment": "7/16 1:1: HONEST FLIP TO RED \u2014 QTD company 89 vs 90 (weekly 92-94 masked it; status push was reading the weekly number). Recoverable: Dallas 93/Garland 100/Houston 99 last week; McKinney ~70s = the drag. Chase list on unissued warnings. 7/16: common-mistakes module is the last build item \u2014 completing it = super green on the build side (numbers side separate). 6/23: Green \u2014 company-wide 92 last week (Mike's Samsara mgmt lifted avg ~60\u219292). Gap: 5 of 13 required unsafe-driver warnings not issued \u2014 managers notified. HOU/FW Samsara equipment shipped (Sam Sarris blocker resolved). Cameron flagged Samsara = single-point-of-failure on Mike \u2192 delegation added to next-quarter backlog (Mike wary of standards drop). DoD: stay on unissued warnings + dashboard.",
           "superGreen": "95% retraining completion, Samsara reweighted with validated samples, at-risk <10%, Understanding Samsara + Common Scenario modules in place",
           "green": "90% retraining, Samsara reweighted with validated samples, at-risk <15%, Common Scenario module in place"
         },
@@ -442,17 +442,17 @@ const DASHBOARD_DATA = {
           "name": "Mover Training Handbook / Training Video Library",
           "critical": false,
           "status": "supergreen",
-          "assessment": "7/16: onboarding tests being built into the app (90 Qs \u2192 4 staged sections) + interactive train-the-trainer manager sim replacing the 13-pg SOP. 7/2 huddle: App is IN THE WILD \u2014 Dallas teams live on it, Mike self-testing as a mover through sprint 4 with no issues. Mover + manager SOPs auto-drafted by Gerald from source code (~10-15% edits left, finishing today). If beta validates, full rollout is the leading Q3 'Back to School' theme candidate.",
+          "assessment": "7/16 1:1: open to ALL of DFWT, 3 wks, zero bugs. Train-the-trainer sim in build. Roadmap adds: repeated contract gates, estimate-this-job feature (Mike designed live \u2014 feeds estimate-accuracy theme), trainer-identification. 7/16: onboarding tests being built into the app (90 Qs \u2192 4 staged sections) + interactive train-the-trainer manager sim replacing the 13-pg SOP. 7/2 huddle: App is IN THE WILD \u2014 Dallas teams live on it, Mike self-testing as a mover through sprint 4 with no issues. Mover + manager SOPs auto-drafted by Gerald from source code (~10-15% edits left, finishing today). If beta validates, full rollout is the leading Q3 'Back to School' theme candidate.",
           "superGreen": "Full video library + digital training handbook app in beta at 3 branches + manager dashboard with completion velocity + Mover Super App structure with placeholder data",
           "green": "Full video library + digital training handbook app in beta at 1 branch"
         },
         {
           "name": "Ideal Team Player Reading",
           "critical": false,
-          "status": "red",
+          "status": "supergreen",
           "superGreen": "Read by EOQ + 1-page reflection on personal H/H/S gaps",
           "green": "Read by 5/30",
-          "assessment": "6/23: RED, stalled (other priorities). Target full read by EOQ (~7/15). Needs catch-up \u2014 agreed to protect the EOQ commitment."
+          "assessment": "7/16 1:1: Red \u2192 SUPER GREEN \u2014 book finished + one-pager + team survey run (4.0/4.5/4.85). Genuine vulnerability moment about hating the read then owning Gerald's write-up. 6/23: RED, stalled (other priorities). Target full read by EOQ (~7/15). Needs catch-up \u2014 agreed to protect the EOQ commitment."
         },
         {
           "name": "Fleet Damage Tracking App \u2014 Beta (Bonus)",
