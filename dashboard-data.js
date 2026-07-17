@@ -5,8 +5,8 @@ const DASHBOARD_DATA = {
     "quarterEnd": "2026-07-31",
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
-    "lastRefreshed": "2026-07-17T11:00:00-05:00",
-    "refreshedBy": "Albert (/gm)",
+    "lastRefreshed": "2026-07-17T11:30:00-05:00",
+    "refreshedBy": "Albert (digest)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -172,9 +172,9 @@ const DASHBOARD_DATA = {
     {
       "name": "eNPS",
       "target": "45+",
-      "actual": null,
-      "status": "unknown",
-      "note": "Q1 mover survey closed mid-April. Q2 results pending. Carry-target."
+      "actual": "81 (manager+CET survey, 7/17)",
+      "status": "supergreen",
+      "note": "7/17: manager/CET engagement survey — eNPS 81 (up from 80 Jan), avg 9.3, 52 responses, 1 detractor, 87% praised in last 40 days. DFW = follow-up zone. LAST mandatory survey — voluntary going forward, participation rate becomes its own signal."
     }
   ],
   "cameronRocks": [
