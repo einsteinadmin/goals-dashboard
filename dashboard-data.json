@@ -6,7 +6,7 @@
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
     "lastRefreshed": "2026-07-22",
-    "refreshedBy": "Albert (KP Q2 finals)",
+    "refreshedBy": "Albert (Matisen CallGrading R\u2192G)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -497,7 +497,7 @@
         {
           "name": "AI Call Grading + Claims AI Build #1 (Games review/damage automation)",
           "critical": false,
-          "status": "yellow",
+          "status": "green",
           "assessment": "7/13: RED\u2192YELLOW, ~50%. Call grading rolling (first report + spot-check). Reviewer-flow bottleneck on Nhel/Tet \u2192 exploring async routing + coordinating w/ Gary. Games automation substituting for Claims RAG; timeline uncertain (debugging as bugs surface). Claims RAG deprioritized \u2014 maybe a quick claims-audit app later. Next: fold call-grading into the sales scorecard + link to sales-block audit.",
           "superGreen": "100% sales + claims calls auto-graded weekly, RAG live surfacing magic-moment + early-claim signals, weekly coaching loop with Nhel + Carly",
           "green": "80%+ sales calls auto-graded weekly, RAG live for claims, coaching loop established"
