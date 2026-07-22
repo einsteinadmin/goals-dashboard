@@ -6,7 +6,7 @@
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
     "lastRefreshed": "2026-07-22",
-    "refreshedBy": "Albert (Matisen CallGrading R\u2192G)",
+    "refreshedBy": "Albert (Amanda/Nhel CX data)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -64,15 +64,15 @@
         {
           "name": "CX Q2 Theme + Objectives \u2014 Claims (Time to Close)",
           "target": "Avg \u22645 biz days SG / 6-8 G / \u22659 Red (outliers excluded)",
-          "actual": "6/18 /retro CET-sheet pull: Q2 avg time-to-close \u2014 Stephanie 6.7 (Green band), Jaci 5.4 (near SG). Latest week 6/8: Stephanie 5.0, Jaci 5.6 \u2014 both trending toward SG. Theme/objectives flesh-out still gates on Carly's maternity return.",
+          "actual": "Q2: Stephanie 6.1 / Jaci 6.4 / Maria 6.9 avg business days \u2014 all Green (SG=5, G=6-8). Claims accuracy 100/99/99% = Super Green.",
           "status": "green",
           "note": "Carly on maternity leave 80% of Q2. Amanda Rock #6 covers maintenance. Time-to-close holding Green; theme decision pending."
         },
         {
           "name": "Magic Moments Delivered (counter)",
           "target": "TBD \u2014 Q2 baseline pending",
-          "actual": "6/18 /retro: CET tracker has a Praise/MM-submission tab, but it logs CET-team praise submissions, not the customer-facing Magic Moments counter \u2014 most Q2 reps near 0 submissions (Nicole 11 the outlier). True company MM counter still not wired to a single source. Carly on maternity leave 80% Q2. Flagged for Cameron to confirm the canonical MM tracker.",
-          "status": "unknown",
+          "actual": "Q2: 36 delivered vs 35 goal \u2014 GOAL HIT (Green). Held steady across CET/branches with Carly out the full quarter.",
+          "status": "green",
           "note": "Cumulative counter. CET sheet's Praise tab \u2260 customer MM count. Q1 carry-over momentum: MM program active company-wide."
         }
       ]
@@ -90,8 +90,8 @@
         {
           "name": "Estimate Accuracy / $ Conversions",
           "target": "54%+ accuracy G / 56%+ SG \u00b7 95%+ sales-target G / 105%+ SG (CET-sheet bands)",
-          "actual": "6/18 /retro CET-sheet pull: May sales-team $ conversion = company 80.78% of target (below 95% Green floor = Red); only Jules (118%) + Therese (131%) over target, most reps 55-90%; June pacing in progress. 6/29 sync: weekly pacing ~88% to target vs ~95% expected \u2014 need two strong days; July sales budgets finalizing this week. Estimate Accuracy tab still shows only 2025 historical quarters \u2014 no Q2 '26 companywide accuracy figure populated yet (still gated on the funnel-analytics cleanup KP owns). 7/3 huddle: June missed target by ~7% (May hit) \u2014 quarterly framing locked: July targets carry the May\u2013June dollar gap (~110% of July goal); Amanda owns comms pulse, Matisen deploying quick QTD dashboard; Mike/Brian delivering QTD numbers to managers. \u26a0 7/15 (Rob Q3 session, Amanda): 46% within-20% accuracy vs the 80% aspiration \u2014 below the 54% Green floor, so RED stands. Live shared dashboard due from Matisen 7/18 (today it's a manual pull with no real-time view). Call-grading engine is complete; the gap is distribution + a coaching loop that actually changes behavior.",
-          "status": "red",
+          "actual": "Q2: 19.97% by $ (SQL$) \u00b7 25.50% by count (SQL#).",
+          "status": "yellow",
           "note": "Sales conversion Red on the CET sheet for May; baseline caveat \u2014 VP-form funnel analytics distortion (back/forward multi-submit) still unresolved, KP owns. Amanda Rock #1 (AI Call Grading) + Nhel R3 + Tet R5. Pulse 11712899643."
         }
       ]
