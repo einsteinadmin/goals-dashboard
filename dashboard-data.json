@@ -6,7 +6,7 @@
     "themeDeadline": "2026-07-19",
     "themeDeadlineLabel": "Theme Deadline: Jul 19",
     "lastRefreshed": "2026-07-22",
-    "refreshedBy": "Albert (Anne 1:1 digest)",
+    "refreshedBy": "Albert (KP Q2 finals)",
     "archive": {
       "quarter": "Q1 2026",
       "file": "dashboard-data-q1-2026.json",
@@ -673,7 +673,7 @@
         {
           "name": "Marketing ROI / ROAS Measurement",
           "critical": true,
-          "status": "yellow",
+          "status": "green",
           "assessment": "6/24: Yellow \u2014 still waiting on BigQuery adjustments from Matisen (GA + ROAS dashboard + the per-branch realization-rate/revenue page that wasn't adding up). No live dashboard yet. Two parts: BigQuery (internal/Matisen) + Prosper data (Laura, on return). Prior: Rob's 2027 roadmap puts ROAS as priority; recommend move to Amanda.",
           "superGreen": "ROAS dashboard live by channel, budget reallocation decided, KP design system decided, Phase 2 Smart Move kicked off",
           "green": "First real ROAS dashboard + KP design system decision"
@@ -689,7 +689,7 @@
         {
           "name": "New Email Design + Copy Polish + Rollout",
           "critical": false,
-          "status": "green",
+          "status": "red",
           "assessment": "6/24: edit locked \u2014 remove the 'Ready to make the smart move' heading, lead with 'Big honking important note' (date-not-held + reply CTA beneath). Emma making the change + sharing the HTML file; Matisen owes the tokens (back 6/25). MJML-vs-plain-HTML format still an open call to confirm w/ KP. Internal team owns implementation; KP owns design + copy.",
           "superGreen": "Rolled out company-wide with measurable impact",
           "green": "Houston test complete, company-wide decision made"
@@ -699,6 +699,11 @@
           "critical": false,
           "status": "red",
           "assessment": "6/24: moved Green->Red \u2014 KP deprioritized it for other design work; back on their end and won't get attention for a while (Elizabeth). Bonus rock."
+        },
+        {
+          "name": "Continued Monitoring + Improvements to Quote Form",
+          "status": "green",
+          "critical": false
         }
       ]
     },
