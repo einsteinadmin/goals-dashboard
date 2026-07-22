@@ -90,8 +90,8 @@
         {
           "name": "Estimate Accuracy / $ Conversions",
           "target": "54%+ accuracy G / 56%+ SG \u00b7 95%+ sales-target G / 105%+ SG (CET-sheet bands)",
-          "actual": "Q2: 19.97% by $ (SQL$) \u00b7 25.50% by count (SQL#).",
-          "status": "yellow",
+          "actual": "Q2 Estimate Accuracy: 46.3% on 20%-variance = RED (target \u226550%); 82.0% Meet-or-Beat = Green. Tampa best, Fort Worth worst. The one real area needing attention (partly reporting-lag). \u00b7 $ Conversions: 19.97% by $ / 25.50% by count. Nhel FCP \u2192 build a live Estimate Accuracy view for Q3.",
+          "status": "red",
           "note": "Sales conversion Red on the CET sheet for May; baseline caveat \u2014 VP-form funnel analytics distortion (back/forward multi-submit) still unresolved, KP owns. Amanda Rock #1 (AI Call Grading) + Nhel R3 + Tet R5. Pulse 11712899643."
         }
       ]
