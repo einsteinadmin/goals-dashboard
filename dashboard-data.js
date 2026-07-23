@@ -45,7 +45,7 @@ const DASHBOARD_DATA = {
     {
      "name": "Einstein Games — Season 3 Scorecards",
      "target": "Company score 8+ SG / 7+ G, all branches above floor",
-     "actual": "FINAL 7/23 (avg-of-weekly-averages basis, RULED): Company 7.59 = GREEN (misses the >8 Super Green bar). By region: DFWT 8.12 SG, CTXH 7.07 G. Branches: Tampa 10.05 SG, Ft. Worth 9.18 SG, Leander 8.47 SG, Garland 8.30 SG, San Antonio 7.40 G, McKinney 7.10 G, Houston 6.97 R, S. Austin 6.72 R, Dallas 5.95 R, N. Austin 5.78 R. Pooled-aggregate basis (superseded) would have been company 6.5. Champion = San Antonio (bracket). Dream Team = 21 movers (>=250 Rippling hrs, top 10%).",
+     "actual": "FINAL 7/23 PM (9-WEEK season ruled — W1-W8 + Post Season Wk1, Matisen's live tool definitive): Company 7.51 = GREEN (misses the >8 Super Green bar). By region: DFWT 7.91 G, CTXH 7.12 G. Branches: Tampa 9.71 SG, Ft. Worth 8.78 SG, Leander 8.51 SG, Garland 8.44 SG, San Antonio 7.51 G, Houston 6.96 R, McKinney 6.78 R, S. Austin 6.73 R, N. Austin 5.89 R, Dallas 5.84 R. The same-day 8-week reads (company 7.59, DFWT 8.12 SG, McKinney 7.10 G) were superseded; pooled basis would have been company 6.5. Champion = San Antonio (bracket). Dream Team = 21 movers (>=250 Rippling hrs, top 10%).",
      "status": "green",
      "note": "Brian Critical Rock #1 (CTXH 8+ SG / 7+ G) + Mike Critical Rock #2 (DFWT 8+ SG / 7+ G). Per-branch scorecards live (Q1 packet shipped). Weekly games scoreboard depends on Robert's MCP + OpenSearch DB cutover (replaces Glide app)."
     },
@@ -350,7 +350,7 @@ const DASHBOARD_DATA = {
      "name": "Einstein Games Season 3 Launch (CTXH)",
      "critical": true,
      "status": "green",
-     "assessment": "7/23 RULED: Einstein Games end-of-quarter score = average of the weekly averages (not pooled aggregate). On that basis CTXH = 7.07, clearing the 7.0 Green bar. This is a RED->GREEN flip on a Critical Number vs Brian's honest self-graded R. Company 7.59 (Green, under the >8 SG bar); DFWT 8.12 (SG). Numbers cross-check to Mike's own dashboard (DFWT 8.12 vs his 8.16). Announced to the team on Sky pulse 12612647033; Matisen updating the live dashboard's Q2 Season Overview to this basis.",
+     "assessment": "7/23 RULED (amended PM: 9-WEEK season — W1-W8 + Post Season Wk1, Matisen's live tool definitive): Einstein Games end-of-quarter score = average of the weekly averages. On that basis CTXH = 7.12, clearing the 7.0 Green bar — the RED->GREEN flip on this Critical Number HOLDS vs Brian's honest self-graded R. Company 7.51 (Green, under the >8 SG bar); DFWT 7.91 (G — the same-day 8-week 8.12 SG read was superseded; Mike's games critical lands on his own self-grade G). Announced on Sky pulse 12612647033.",
      "superGreen": "Company-wide score 8+, all CTXH branches at 7+",
      "green": "Company-wide 7+ with CTXH branches at 7+",
      "sourceUpdated": "2026-07-15",
