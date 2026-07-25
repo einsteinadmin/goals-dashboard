@@ -1,4 +1,4 @@
-const DASHBOARD_DATA = {
+{
   "meta": {
     "quarter": "Q2 2026",
     "quarterStart": "2026-05-01",
@@ -188,8 +188,7 @@ const DASHBOARD_DATA = {
       "green": "All 7 leadership COS live + regularly feeding the world model (status.json pushes + digest/meeting notes flowing upward reliably); world-model strategy documented; QGR-packet automation scoped + first EMMA feed (API access or per-position read-only workaround) wired.",
       "lastUpdated": "2026-06-30",
       "gradeLocked": true,
-      "provisional": false,
-      "qgGoalId": "cameron_cos_network"
+      "provisional": false
     },
     {
       "number": 2,
@@ -201,8 +200,7 @@ const DASHBOARD_DATA = {
       "green": "Audit complete by 5/30; supporting QG dependencies mapped; 5+ supporting QGs Green by EOQ; requirements drafted",
       "lastUpdated": "2026-06-18",
       "gradeLocked": true,
-      "provisional": false,
-      "qgGoalId": "cameron_ai_wedge_qg"
+      "provisional": false
     },
     {
       "number": 3,
@@ -215,8 +213,7 @@ const DASHBOARD_DATA = {
       "lastUpdated": "2026-05-07",
       "gradeLocked": true,
       "provisional": false,
-      "gradeSource": "qg-results-2026-Q2.json",
-      "qgGoalId": "cameron_variable_pricing"
+      "gradeSource": "qg-results-2026-Q2.json"
     },
     {
       "number": 4,
@@ -229,8 +226,7 @@ const DASHBOARD_DATA = {
       "lastUpdated": "2026-05-29",
       "gradeLocked": true,
       "provisional": false,
-      "gradeSource": "qg-results-2026-Q2.json",
-      "qgGoalId": "cameron_branch_visits_o3"
+      "gradeSource": "qg-results-2026-Q2.json"
     },
     {
       "number": 5,
@@ -242,8 +238,7 @@ const DASHBOARD_DATA = {
       "green": "Site redesign scoped, KP design system decided, copy refreshed for Smart Move narrative",
       "lastUpdated": "2026-06-24",
       "gradeLocked": true,
-      "provisional": false,
-      "qgGoalId": "cameron_website_redesign"
+      "provisional": false
     },
     {
       "number": 6,
@@ -255,8 +250,7 @@ const DASHBOARD_DATA = {
       "green": "Read by 5/30",
       "lastUpdated": "2026-07-15",
       "gradeLocked": true,
-      "provisional": false,
-      "qgGoalId": "cameron_itp"
+      "provisional": false
     }
   ],
   "leadership": [
@@ -275,8 +269,7 @@ const DASHBOARD_DATA = {
           "source": "cos-feed",
           "gradeLocked": true,
           "provisional": false,
-          "gradeSource": "qg-results-2026-Q2.json",
-          "qgGoalId": "paul_mover_comp"
+          "gradeSource": "qg-results-2026-Q2.json"
         },
         {
           "name": "N. Austin Office — Move-In",
@@ -288,8 +281,7 @@ const DASHBOARD_DATA = {
           "sourceUpdated": "2026-07-16",
           "source": "cos-feed",
           "gradeLocked": true,
-          "provisional": false,
-          "qgGoalId": "paul_na_office_movein"
+          "provisional": false
         },
         {
           "name": "Branch Visits",
@@ -301,8 +293,7 @@ const DASHBOARD_DATA = {
           "sourceUpdated": "2026-07-16",
           "source": "cos-feed",
           "gradeLocked": true,
-          "provisional": false,
-          "qgGoalId": "paul_branch_visits"
+          "provisional": false
         },
         {
           "name": "Geographic Expansion Strategy — Deepen vs. Widen + Evaluate 5-7 Acquisition Opportunities",
@@ -314,8 +305,7 @@ const DASHBOARD_DATA = {
           "sourceUpdated": "2026-07-16",
           "source": "cos-feed",
           "gradeLocked": true,
-          "provisional": false,
-          "qgGoalId": "paul_geo_expansion"
+          "provisional": false
         },
         {
           "name": "Ideal Team Player Reading",
@@ -327,8 +317,7 @@ const DASHBOARD_DATA = {
           "sourceUpdated": "2026-07-16",
           "source": "cos-feed",
           "gradeLocked": true,
-          "provisional": false,
-          "qgGoalId": "paul_itp"
+          "provisional": false
         },
         {
           "name": "Easy Wins on Money Collection Process",
@@ -341,8 +330,7 @@ const DASHBOARD_DATA = {
           "source": "cos-feed",
           "gradeLocked": true,
           "provisional": false,
-          "gradeSource": "qg-results-2026-Q2.json",
-          "qgGoalId": "paul_money_collection"
+          "gradeSource": "qg-results-2026-Q2.json"
         }
       ]
     },
@@ -396,8 +384,7 @@ const DASHBOARD_DATA = {
           "sourceUpdated": "2026-07-24",
           "source": "cos-feed",
           "gradeLocked": true,
-          "provisional": false,
-          "qgGoalId": "brian_games_s3"
+          "provisional": false
         },
         {
           "name": "Hiring + Personnel Budgets + People Analyzer",
@@ -409,8 +396,7 @@ const DASHBOARD_DATA = {
           "sourceUpdated": "2026-07-15",
           "source": "cos-feed",
           "gradeLocked": true,
-          "provisional": false,
-          "qgGoalId": "brian_hiring_people_analyzer"
+          "provisional": false
         },
         {
           "name": "Scrum Accountability Pt 4 — Manager Certification",
@@ -422,8 +408,7 @@ const DASHBOARD_DATA = {
           "sourceUpdated": "2026-07-15",
           "source": "cos-feed",
           "gradeLocked": true,
-          "provisional": false,
-          "qgGoalId": "brian_scrum_pt4"
+          "provisional": false
         },
         {
           "name": "Branch Visits / Audits",
@@ -435,8 +420,7 @@ const DASHBOARD_DATA = {
           "sourceUpdated": "2026-07-15",
           "source": "cos-feed",
           "gradeLocked": true,
-          "provisional": false,
-          "qgGoalId": "brian_branch_visits"
+          "provisional": false
         },
         {
           "name": "Training Day Overhaul + Calendar Organization",
@@ -449,8 +433,7 @@ const DASHBOARD_DATA = {
           "source": "cos-feed",
           "gradeLocked": true,
           "provisional": false,
-          "gradeSource": "qg-results-2026-Q2.json",
-          "qgGoalId": "brian_training_day_overhaul"
+          "gradeSource": "qg-results-2026-Q2.json"
         },
         {
           "name": "Ideal Team Player Reading",
@@ -462,8 +445,7 @@ const DASHBOARD_DATA = {
           "sourceUpdated": "2026-07-15",
           "source": "cos-feed",
           "gradeLocked": true,
-          "provisional": false,
-          "qgGoalId": "brian_itp"
+          "provisional": false
         }
       ]
     },
@@ -480,8 +462,7 @@ const DASHBOARD_DATA = {
           "green": "DFWT 95%+ staffing, all 4 new managers at B rating by EOQ, monthly PA + check-ins documented, C-player action plans drafted",
           "gradeLocked": true,
           "provisional": false,
-          "gradeSource": "qg-results-2026-Q2.json",
-          "qgGoalId": "mike_personnel_mgmt"
+          "gradeSource": "qg-results-2026-Q2.json"
         },
         {
           "name": "Einstein Games (EMC) — DFWT",
@@ -494,8 +475,7 @@ const DASHBOARD_DATA = {
           "source": "cos-feed",
           "gradeLocked": true,
           "provisional": false,
-          "gradeSource": "qg-results-2026-Q2.json",
-          "qgGoalId": "mike_games_s4"
+          "gradeSource": "qg-results-2026-Q2.json"
         },
         {
           "name": "Fleet Safety Pt 2 — Resolidifying Habits, Training, Reweighting, Sample Sizes",
@@ -505,8 +485,7 @@ const DASHBOARD_DATA = {
           "superGreen": "95% retraining completion, Samsara reweighted with validated samples, at-risk <10%, Understanding Samsara + Common Scenario modules in place",
           "green": "90% retraining, Samsara reweighted with validated samples, at-risk <15%, Common Scenario module in place",
           "gradeLocked": true,
-          "provisional": false,
-          "qgGoalId": "mike_fleet_safety"
+          "provisional": false
         },
         {
           "name": "Mover Training Handbook / Training Video Library",
@@ -516,8 +495,7 @@ const DASHBOARD_DATA = {
           "superGreen": "Full video library + digital training handbook app in beta at 3 branches + manager dashboard with completion velocity + Mover Super App structure with placeholder data",
           "green": "Full video library + digital training handbook app in beta at 1 branch",
           "gradeLocked": true,
-          "provisional": false,
-          "qgGoalId": "mike_training_app"
+          "provisional": false
         },
         {
           "name": "Ideal Team Player Reading",
@@ -527,8 +505,7 @@ const DASHBOARD_DATA = {
           "green": "Read by 5/30",
           "assessment": "7/16 1:1: Red → SUPER GREEN — book finished + one-pager + team survey run (4.0/4.5/4.85). Genuine vulnerability moment about hating the read then owning Gerald's write-up. 6/23: RED, stalled (other priorities). Target full read by EOQ (~7/15). Needs catch-up — agreed to protect the EOQ commitment.",
           "gradeLocked": true,
-          "provisional": false,
-          "qgGoalId": "mike_itp"
+          "provisional": false
         },
         {
           "name": "Fleet Damage Tracking App — Beta (Bonus)",
@@ -560,8 +537,7 @@ const DASHBOARD_DATA = {
           "superGreen": "Audit by 5/30, 3 builds validated, MVPs scoped with effort estimates, sweep surfaces 4-6 additional wedges, first build kicked off by 5/30",
           "green": "Audit by 5/30, 3 builds validated + MVP-scoped, sweep surfaces 4+ wedges, first build kicked off by EOQ",
           "gradeLocked": true,
-          "provisional": false,
-          "qgGoalId": "matisen_ai_wedge"
+          "provisional": false
         },
         {
           "name": "Variable Pricing Full Rollout + Weekly Review Cadence and Overall Pricing Strategy",
@@ -574,8 +550,7 @@ const DASHBOARD_DATA = {
           "source": "cos-feed",
           "gradeLocked": true,
           "provisional": false,
-          "gradeSource": "qg-results-2026-Q2.json",
-          "qgGoalId": "matisen_variable_pricing"
+          "gradeSource": "qg-results-2026-Q2.json"
         },
         {
           "name": "AI Call Grading + Claims AI Build #1 (Games review/damage automation)",
@@ -585,8 +560,7 @@ const DASHBOARD_DATA = {
           "superGreen": "100% sales + claims calls auto-graded weekly, RAG live surfacing magic-moment + early-claim signals, weekly coaching loop with Nhel + Carly",
           "green": "80%+ sales calls auto-graded weekly, RAG live for claims, coaching loop established",
           "gradeLocked": true,
-          "provisional": false,
-          "qgGoalId": "matisen_call_grading_rag"
+          "provisional": false
         },
         {
           "name": "ClearCo + Rippling API → Anne's Hiring Funnel Dashboard (Wedge Build #2)",
@@ -596,8 +570,7 @@ const DASHBOARD_DATA = {
           "superGreen": "Both APIs hooked up, Anne self-serve dashboard live with cost-per-hire/time-to-fill/stage % per branch/campaign perf, weekly auto-refresh",
           "green": "Both APIs hooked up, dashboard live with core funnel metrics, manual refresh OK",
           "gradeLocked": true,
-          "provisional": false,
-          "qgGoalId": "matisen_hr_dashboard"
+          "provisional": false
         },
         {
           "name": "Production Line Cleanup — 8 Loose Threads",
@@ -608,8 +581,7 @@ const DASHBOARD_DATA = {
           "green": "5+ of 8 shipped or archived, remaining 3 have clear ship dates",
           "gradeLocked": true,
           "provisional": false,
-          "gradeSource": "qg-results-2026-Q2.json",
-          "qgGoalId": "matisen_production_line"
+          "gradeSource": "qg-results-2026-Q2.json"
         },
         {
           "name": "Ideal Team Player Reading (Bonus)",
@@ -619,8 +591,7 @@ const DASHBOARD_DATA = {
           "green": "Read by 5/30",
           "assessment": "7/13: GREEN→SUPER GREEN. Restarted the book this weekend for a fresh read; finishing tonight + landing the 1-page reflection. On track for SG by EOQ.",
           "gradeLocked": true,
-          "provisional": false,
-          "qgGoalId": "matisen_itp"
+          "provisional": false
         }
       ]
     },
@@ -638,8 +609,7 @@ const DASHBOARD_DATA = {
           "sourceUpdated": "2026-07-21",
           "source": "cos-feed",
           "gradeLocked": true,
-          "provisional": false,
-          "qgGoalId": "anne_hire_hr_generalist"
+          "provisional": false
         },
         {
           "name": "Hiring for Culture / Extended Trial Period + 100-Point Behavioral System",
@@ -652,8 +622,7 @@ const DASHBOARD_DATA = {
           "source": "cos-feed",
           "gradeLocked": true,
           "provisional": false,
-          "gradeSource": "qg-results-2026-Q2.json",
-          "qgGoalId": "anne_hiring_for_culture"
+          "gradeSource": "qg-results-2026-Q2.json"
         },
         {
           "name": "ClearCo Hiring Funnel Visualization",
@@ -665,8 +634,7 @@ const DASHBOARD_DATA = {
           "sourceUpdated": "2026-07-21",
           "source": "cos-feed",
           "gradeLocked": true,
-          "provisional": false,
-          "qgGoalId": "anne_clearco_funnel"
+          "provisional": false
         },
         {
           "name": "Mover Promotion Guidance Metrics",
@@ -679,8 +647,7 @@ const DASHBOARD_DATA = {
           "source": "cos-feed",
           "gradeLocked": true,
           "provisional": false,
-          "gradeSource": "qg-results-2026-Q2.json",
-          "qgGoalId": "anne_mover_promotion_metrics"
+          "gradeSource": "qg-results-2026-Q2.json"
         },
         {
           "name": "Einstein Onboarding Experience (CHOICES + Comp/Benefits + Performance Mgmt)",
@@ -692,8 +659,7 @@ const DASHBOARD_DATA = {
           "sourceUpdated": "2026-07-22",
           "source": "cos-feed",
           "gradeLocked": true,
-          "provisional": false,
-          "qgGoalId": "anne_onboarding_experience"
+          "provisional": false
         },
         {
           "name": "Ideal Team Player Reading (Bonus)",
@@ -705,8 +671,7 @@ const DASHBOARD_DATA = {
           "sourceUpdated": "2026-07-21",
           "source": "cos-feed",
           "gradeLocked": true,
-          "provisional": false,
-          "qgGoalId": "anne_itp"
+          "provisional": false
         }
       ]
     },
@@ -725,8 +690,7 @@ const DASHBOARD_DATA = {
           "source": "cos-feed",
           "gradeLocked": true,
           "provisional": false,
-          "gradeSource": "qg-results-2026-Q2.json",
-          "qgGoalId": "amanda_call_grading"
+          "gradeSource": "qg-results-2026-Q2.json"
         },
         {
           "name": "Replace Leadferno with Chatbot (80% deflection)",
@@ -738,8 +702,7 @@ const DASHBOARD_DATA = {
           "sourceUpdated": "2026-07-13",
           "source": "cos-feed",
           "gradeLocked": true,
-          "provisional": false,
-          "qgGoalId": "amanda_chatbot"
+          "provisional": false
         },
         {
           "name": "New Email Design + Copy Polish + Rollout (KP-owned)",
@@ -751,8 +714,7 @@ const DASHBOARD_DATA = {
           "sourceUpdated": "2026-07-13",
           "source": "cos-feed",
           "gradeLocked": true,
-          "provisional": false,
-          "qgGoalId": "amanda_new_emails"
+          "provisional": false
         },
         {
           "name": "CX Q2 Theme Rollout",
@@ -765,8 +727,7 @@ const DASHBOARD_DATA = {
           "source": "cos-feed",
           "gradeLocked": true,
           "provisional": false,
-          "gradeSource": "qg-results-2026-Q2.json",
-          "qgGoalId": "amanda_cx_theme"
+          "gradeSource": "qg-results-2026-Q2.json"
         },
         {
           "name": "Ideal Team Player Reading",
@@ -779,8 +740,7 @@ const DASHBOARD_DATA = {
           "source": "cos-feed",
           "gradeLocked": true,
           "provisional": false,
-          "gradeSource": "qg-results-2026-Q2.json",
-          "qgGoalId": "amanda_itp"
+          "gradeSource": "qg-results-2026-Q2.json"
         }
       ]
     },
@@ -896,4 +856,4 @@ const DASHBOARD_DATA = {
       ]
     }
   ]
-};
+}
