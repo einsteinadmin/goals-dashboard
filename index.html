@@ -578,6 +578,22 @@
     letter-spacing: 0.5px;
   }
 
+  /* A graded goal whose grade is the leader's own self-grade, not a ruling. The QGR sets finals —
+     without this the dashboard reads as settled when half of it is still the leader's own read. */
+  .prov-flag {
+    color: var(--text-muted);
+    font-weight: 600;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: 1px solid var(--divider);
+    border-radius: 3px;
+    padding: 1px 5px;
+    margin-left: 6px;
+    white-space: nowrap;
+    vertical-align: middle;
+  }
+
   .leader-goal-assessment {
     display: none;
     font-size: 12px;
@@ -888,6 +904,7 @@
       html += '      <span class="rock-number">' + rock.number + '</span>';
       html += '      <span class="rock-name">' + rock.name + '</span>';
       if (rock.critical) html += '      <span class="critical-badge">Critical #</span>';
+      if (rock.provisional) html += '      <span class="prov-flag" title="Self-grade — the QGR sets the final grade">provisional</span>';
       html += '    </div>';
       html += '    ' + statusLabel(rock.status);
       html += '  </div>';
@@ -957,6 +974,7 @@
         html += '  <div class="leader-goal-name">';
         html += goal.name;
         if (goal.critical) html += ' <span class="critical-flag">Critical #</span>';
+        if (goal.provisional) html += ' <span class="prov-flag" title="Leader self-grade — the QGR sets the final grade">provisional</span>';
         html += '    <div class="leader-goal-assessment">' + (goal.assessment || '<em style="color:var(--text-muted);">No assessment yet.</em>');
         if (goal.superGreen || goal.green) {
           html += '<div style="margin-top:8px;padding-top:8px;border-top:1px solid var(--divider);">';
