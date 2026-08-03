@@ -5,8 +5,8 @@ const DASHBOARD_DATA = {
   "quarterEnd": "2026-10-31",
   "themeDeadline": "2026-10-19",
   "themeDeadlineLabel": "Training Camp — Theme Deadline: Oct 19",
-  "lastRefreshed": "2026-07-31T18:30:00-05:00",
-  "refreshedBy": "Albert (/retro — Q3 reseed)",
+  "lastRefreshed": "2026-08-03T09:00:00-05:00",
+  "refreshedBy": "Albert (KPI re-baseline)",
   "archive": {
    "quarter": "Q2 2026",
    "file": "dashboard-data-q2-2026.json",
@@ -164,17 +164,17 @@ const DASHBOARD_DATA = {
   },
   {
    "name": "Conversion Rate $",
-   "target": "40%",
+   "target": "20%",
    "actual": null,
    "status": "unknown",
-   "note": "Baseline still broken from VP rollout — Matisen owns apples-to-apples investigation before scoring. 7/15 (Rob session): Cameron flagged leads up but conversion ~40%→~20%; Amanda pushed back that it's partly lead-quality mix, not pure conversion decay. Basis question still open (Q2-TD 19.9% raw / 25.6% resolved / 31.8% excl-EmmaLead after the 3/31 definition change) — settle the basis before scoring. | Q3 reseed 7/31: actual cleared, awaiting Q3 data."
+   "note": "⭐ RE-BASELINED to 20% by Cameron 8/3/26 — this settles the open basis question. History: the old 40% standard predates the Variable Pricing rollout and the 3/31 definition change. At the 7/15 Rob session Cameron flagged leads up but conversion ~40%→~20%; Amanda pushed back that it's partly lead-quality mix, not pure conversion decay. Q2-TD read was 19.9% raw / 25.6% resolved / 31.8% excl-EmmaLead. 20% is the new baseline to measure against, not a target cut — the old number was measuring a different thing. Awaiting Q3 actuals."
   },
   {
-   "name": "eNPS",
-   "target": "45+",
+   "name": "Customer NPS",
+   "target": "90+",
    "actual": null,
    "status": "unknown",
-   "note": "7/17: manager/CET engagement survey — eNPS 81 (up from 80 Jan), avg 9.3, 52 responses, 1 detractor, 87% praised in last 40 days. DFW = follow-up zone. LAST mandatory survey — voluntary going forward, participation rate becomes its own signal. | Q3 reseed 7/31: actual cleared, awaiting Q3 data."
+   "note": "⭐ REPLACED eNPS on Cameron's KPI slate 8/3/26 — customer NPS, target 90+. Consistent with the 7/27 scorecard ruling that pulled mover eNPS out of the branch composite into a side metric: eNPS is now a culture signal, not a headline KPI. Branch-scorecard NPS bands for reference: SG ≥91 · G 88–90.9 · W 86–87.9 · R <86, so 90+ sits at the top of Green. Prior eNPS state (archived, dashboard-data-q2-2026.json): manager/CET survey 7/17 scored 81, avg 9.3, 52 responses, 1 detractor. eNPS also went voluntary going forward, so participation rate becomes its own signal."
   }
  ],
  "cameronRocks": [
