@@ -5,8 +5,8 @@ const DASHBOARD_DATA = {
     "quarterEnd": "2026-10-31",
     "themeDeadline": "2026-10-19",
     "themeDeadlineLabel": "Training Camp — Theme Deadline: Oct 19",
-    "lastRefreshed": "2026-08-03T13:12:10-05:00",
-    "refreshedBy": "Albert (digest — Austin L 8/3 sync: Q3 goals ratified)",
+    "lastRefreshed": "2026-08-17T14:05:00-05:00",
+    "refreshedBy": "Albert (/gm 8/17 — Q3 rollover clean: leadership goals reset to the cascading chart, Q2 leftovers dropped; Matisen 8/17 + Mike 8/10 + Brian 8/14 feeds overlaid)",
     "archive": {
       "quarter": "Q2 2026",
       "file": "dashboard-data-q2-2026.json",
@@ -239,10 +239,10 @@ const DASHBOARD_DATA = {
           "critical": true,
           "status": "unknown",
           "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "Green criteria met by 9/15 (mid-quarter)",
-          "green": "Pay structure + Promotion Paths documented and communicated to the team by end of quarter; data tracking process streamlined to a recurring review cadence.",
+          "superGreen": "Green criteria met by 9/15 (mid-quarter).",
+          "green": "Pay structure + promotion paths documented and communicated to the team by end of quarter; data tracking process streamlined to a recurring review cadence.",
           "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
+          "source": "cascading-chart-q3",
           "pulse": "11752733644"
         },
         {
@@ -251,9 +251,9 @@ const DASHBOARD_DATA = {
           "status": "unknown",
           "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
           "superGreen": "BMs presenting proactively, owning the narrative on margin drivers and scorecard KPIs without RM/Paul prompting.",
-          "green": "Monthly BM performance review cadence launched, single meeting combining margin review + branch scorecard KPIs (interconnected), run by RMs, with BMs presenting both.",
+          "green": "Monthly BM performance review cadence launched — single meeting combining margin review + branch scorecard KPIs, run by RMs, with BMs presenting both.",
           "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
+          "source": "cascading-chart-q3",
           "pulse": "11728394236"
         },
         {
@@ -262,9 +262,9 @@ const DASHBOARD_DATA = {
           "status": "unknown",
           "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
           "superGreen": "Attorney-vs-collections-service question resolved and implemented. Escalation runs against the tracker with no manual gaps.",
-          "green": "Unpaid-bill workflow documented end-to-end (customer comms + timing standardized, escalation path defined) and team trained on it; tracker (separate spreadsheet, not Sage-native yet) covers all outstanding invoices.",
+          "green": "Unpaid-bill workflow documented end-to-end (customer comms + timing standardized, escalation path defined) and team trained; tracker covers all outstanding invoices.",
           "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
+          "source": "cascading-chart-q3",
           "pulse": "11728362120"
         },
         {
@@ -273,9 +273,9 @@ const DASHBOARD_DATA = {
           "status": "unknown",
           "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
           "superGreen": "5 opportunities evaluated.",
-          "green": "Houston organic-vs-acquisition case study complete (using the marketplace's Houston lead as the comparable); 3 acquisition opportunities evaluated, at least 1 of 3 current/live (not all historical/practice)",
+          "green": "Houston organic-vs-acquisition case study complete; 3 acquisition opportunities evaluated, at least 1 of 3 current/live.",
           "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
+          "source": "cascading-chart-q3",
           "pulse": "11728336219"
         },
         {
@@ -286,170 +286,77 @@ const DASHBOARD_DATA = {
           "superGreen": "3 visits",
           "green": "2 visits",
           "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3"
-        },
-        {
-          "name": "N. Austin Office — Move-In",
-          "critical": true,
-          "status": "supergreen",
-          "assessment": "via Clark 7/16: 7/16: No movement — already Super Green, moved in 6/15. Hit Super Green. Moved in on June 15 and we're good to go.",
-          "superGreen": "Moved in by June 15",
-          "green": "Moved in by end of June",
-          "sourceUpdated": "2026-07-16",
-          "source": "cos-feed"
-        },
-        {
-          "name": "Geographic Expansion Strategy — Deepen vs. Widen + Evaluate 5-7 Acquisition Opportunities",
-          "critical": false,
-          "status": "red",
-          "assessment": "via Clark 7/16: 7/16: Moving this to Red. No structured evaluation work has started; the 7/10 kickoff milestone has passed with no movement. With 2 weeks left in Q2, neither Green (5 evaluated) nor Super Green (7 evaluated) is reachable. Calling this Red for the quarter.",
-          "superGreen": "7 acquisition opportunities evaluated, clear deepen vs. widen stance documented",
-          "green": "5 acquisition opportunities evaluated, deepen vs. widen stance defined, Houston organic vs. acquisition case study complete",
-          "sourceUpdated": "2026-07-16",
-          "source": "cos-feed"
-        },
-        {
-          "name": "Ideal Team Player Reading",
-          "critical": false,
-          "status": "green",
-          "assessment": "via Clark 7/16: 7/16: Green confirmed — book finished (7/13) and the 1-page reflection on personal Humility/Hunger/Smarts gaps is also done. Goal complete ahead of EOQ. Super Green's 5/30 target was missed, so this lands at Green, not Super Green.",
-          "superGreen": "Read by 5/30",
-          "green": "Read by EOQ + 1-page reflection on personal Humility/Hunger/Smarts gaps",
-          "sourceUpdated": "2026-07-16",
-          "source": "cos-feed"
-        },
-        {
-          "name": "Easy Wins on Money Collection Process",
-          "critical": false,
-          "status": "yellow",
-          "assessment": "via Clark 7/16: 7/16: Yellow. Work has started on the three improvements, but progress is behind pace — may not finish before end of quarter.",
-          "superGreen": "Monthly branch rankings, monthly/live swipe % rankings, coaching process documented",
-          "green": "Cost quantified and shared for manual vs. swipe, automated swipe % reporting, automation to create a Monday pulse when an invoice-late email hits the inbox",
-          "sourceUpdated": "2026-07-16",
-          "source": "cos-feed"
+          "source": "cascading-chart-q3"
         }
-      ]
+      ],
+      "period": "Q3 2026",
+      "goalsSource": "Q3 Roundtable Rocks and Targets (cascading goals chart, ratified 7/30) — chart is source of truth; extras on a leader’s board are not graded"
     },
     {
       "name": "Brian Herzig",
       "title": "CTXH Regional Mgr",
       "goals": [
         {
-          "name": "Connection Cadence — quarterly regional outing + mover-manager roundtables (bundles the 5 eNPS asks)",
+          "name": "Connection Cadence — quarterly regional outing + mover-manager roundtables",
           "critical": false,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "1 event scheduled per region (include all local managers across local departments), Redesign agenda for BM round tables for more engagement. 3 BM round table meetings scheduled, agenda built, conducted (1 per month) with specific manager feedback/action items to take away",
-          "green": "1 event scheduled per region (include all local managers across local departments), Redesign agenda for BM round tables for more engagement. 2 BM round table meetings scheduled, agenda built, conducted with specific manager feedback/action items to take away.",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
+          "status": "yellow",
+          "assessment": "08/14 via Vera (conf 2, 5%): Not yet started. Bundles the 5 eNPS asks. Green needs 1 event scheduled per region (all local managers across departments), a redesigned BM-roundtable agenda, and 2 roundtables conducted with specific manager feedback + action items.",
+          "superGreen": "Same, but 3 BM roundtable meetings (1 per month).",
+          "green": "1 event scheduled per region (all local managers across departments). Redesigned BM roundtable agenda; 2 BM roundtables scheduled, built, conducted with specific manager feedback/action items.",
+          "sourceUpdated": "2026-08-14",
+          "source": "cos-feed",
           "pulse": "12579679101"
         },
         {
           "name": "ATX Flex Manager + SA Ops Manager Development",
           "critical": false,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "NA BM, SA Ops, SA FM positions solidified — All action plans built and in review for C players in my region or team members set to (reinterview/removed or improved from C to B)",
-          "green": "NA BM, SA Ops, SA FM positions filled/solidified — Action plans built and in review for C players in my region.",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
+          "status": "green",
+          "assessment": "08/14 via Vera (conf 3, 35%): NA BM seated (Daniel B, from Q2). SA Field Manager posting went LIVE 8/10 (ClearCo application link out; apps due EOD 8/14) — SA FM fill now in motion. SA Ops Manager development in progress. Next: work the FM applicant pool + build/review action plans for C players in the region.",
+          "superGreen": "Positions solidified + all action plans built and in review for C players, or team members set to reinterview/removed or improved C to B.",
+          "green": "NA BM, SA Ops, SA FM positions filled/solidified — action plans built and in review for C players in my region.",
+          "sourceUpdated": "2026-08-14",
+          "source": "cos-feed",
           "pulse": "11728362071"
         },
         {
           "name": "CTXH Quarterly Theme Mgmt — Ensure All Managers Hit QGs",
           "critical": true,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "100% of manager sandbox training completed by 8/19 (before app rollout)\n100% of active movers enrolled by 8/20. \nAdoption floor: ≥70*% of movers enrolled by 8/20 completed through full training pipeline. (Lead Ready) by 10/19 (2 weeks prior to quarter end).(*70% to account for part time movers)\nScrum Recert Completed by 10/19",
-          "green": "100% of manager sandbox training completed by 8/19 (before app rollout)\n100% of active movers enrolled in training app by 8/20  \nAdoption floor: ≥70%* of mover enrolled by 8/20 completed through stage 4 by EOQ. (*70% to account for part time movers)",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
-          "pulse": "11728362090"
+          "status": "green",
+          "assessment": "08/14 via Vera (conf 4, 30%): Mike posted the DB instructions for the training app module — managers are working through it now, with a hard 8/19 sandbox deadline. Dustin Street and Chris Anderson have already completed it and turned in screenshot proof. Next: get the rest of the region through by 8/19, then push mover enrollment by 8/20.",
+          "superGreen": "Same + full training pipeline (Lead Ready) by 10/19 + Scrum recert complete by 10/19.",
+          "green": "100% manager sandbox training by 8/19 · 100% active movers enrolled by 8/20 · adoption floor ≥70% of enrolled movers through stage 4 by EOQ.",
+          "sourceUpdated": "2026-08-14",
+          "source": "cos-feed",
+          "pulse": "11728362090",
+          "blockers": [
+            "Hard 8/19 (manager sandbox) and 8/20 (mover enrollment) deadlines approaching"
+          ]
         },
         {
           "name": "CTXH Branch Audits — 3 of 5 Branches per Quarter",
           "critical": false,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "All 5 locations visited + Scorecard audits (4 or higher score) +3 circle ups, 3 huddles audits + redesigned dashboard for branch visit evaluation grading",
-          "green": "3 locations + scorecard audits + 3 circle-up + 3 huddle audits - redesigned dashboard for branch visit evaluation grading",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
+          "status": "yellow",
+          "assessment": "08/14 via Vera (conf 2, 0%): Not yet started. NOTE: QG meetings and TD visits do NOT count toward this goal — it requires formal branch audits (scorecard audits + circle-ups + huddle audits) plus a redesigned branch-visit evaluation dashboard. Green bar is 3 of 5 locations; super green is all 5.",
+          "superGreen": "All 5 locations visited + scorecard audits (4+) + 3 circle-ups + 3 huddle audits + redesigned dashboard.",
+          "green": "3 locations + scorecard audits + 3 circle-ups + 3 huddle audits + redesigned dashboard for branch visit evaluation grading.",
+          "sourceUpdated": "2026-08-14",
+          "source": "cos-feed",
           "pulse": "11728355560"
         },
         {
           "name": "Scrum Accountability Part 3 — Huddle Grading + Value Tracking",
           "critical": true,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "Super Green — 100% of frontline managers through the training module and all 10 boards re-certified by 10/19 + All departments (CET, EE, ATX) get re-certified.",
-          "green": "Green — 100% of frontline managers through the training module and all 10 branch boards re-certified by 10/19.",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
+          "status": "green",
+          "assessment": "08/14 via Vera (conf 3, 30%): Rollout infrastructure now built: mock board trimmed to 32 pulses and expanded with Owner + Definition of Done columns for Sky Board parity, duplicated for all 15 CTXH managers (5 BMs + 10 Ops/FM/Flex), a Board Fix-It Checklist published, and a Certifications section added to the performance dashboard to log results. Rollout announcement drafted. Next: invite managers to their boards, post the real announcement, start logging recert results as they come in.",
+          "superGreen": "Green + all departments (CET, EE, ATX) re-certified.",
+          "green": "100% of frontline managers through the training module and all 10 branch boards re-certified by 10/19.",
+          "sourceUpdated": "2026-08-14",
+          "source": "cos-feed",
           "pulse": "11728336199"
-        },
-        {
-          "name": "Einstein Games Season 3 Launch (CTXH)",
-          "critical": true,
-          "status": "green",
-          "assessment": "via Vera 7/24: FINAL (7/23): Season closed and scored. EOQ scoring basis decided as the average of the weekly averages — Company 7.59 GREEN, CTXH regional 7.07 GREEN (Matisen confirming final per-branch numbers). Under the finalized basis the region cleared the 7 bar; the earlier 6.6 reflected a pre-decision calculation. San Antonio won the CTXH championship. The mid-season damage-data discrepancy was resolved by the scoring-basis decision (even across teams).",
-          "superGreen": "Company-wide score 8+, all CTXH branches at 7+",
-          "green": "Company-wide 7+ with CTXH branches at 7+",
-          "sourceUpdated": "2026-07-24",
-          "source": "cos-feed"
-        },
-        {
-          "name": "Hiring + Personnel Budgets + People Analyzer",
-          "critical": true,
-          "status": "green",
-          "assessment": "via Vera 7/15: N. Austin BM decision made — moving forward with Daniel B (leadership aligned per Paul). Hiring-budget attainment Q2-to-date is strong: SAN 108%, SA 104%, HOU 103%, NA 102%, LEA 91.7% (only branch under 100%). eNPS follow-ups complete across all CTXH locations.",
-          "superGreen": "All branches at 100%+ staffing, eNPS cleared by May",
-          "green": "100%+ staffing with eNPS by June",
-          "sourceUpdated": "2026-07-15",
-          "source": "cos-feed"
-        },
-        {
-          "name": "Scrum Accountability Pt 4 — Manager Certification",
-          "critical": false,
-          "status": "green",
-          "assessment": "via Vera 7/15: Weekly scorecards running across all 5 CTXH BMs (4–5 evaluations each). As of last week all teams have adjusted board hygiene/organization: LEA 100%, SAN 97%, HOU 97%, NA 92%, SA 83%. This week's deliverable: stand up the training board + new-manager-training details, to beta-test with Jalissa in recruiting.",
-          "superGreen": "",
-          "green": "Scorecard audits and grading cadence establishment complete",
-          "sourceUpdated": "2026-07-15",
-          "source": "cos-feed"
-        },
-        {
-          "name": "Branch Visits / Audits",
-          "critical": false,
-          "status": "green",
-          "assessment": "via Vera 7/15: 3 of 5 CTXH branches visited this quarter with scorecard audits + huddle assessments — the green bar (3 locations) is met. No travel this week; targeting San Antonio next week to reach 4 of 5 for the quarter. SCTX Schedule Review runs biweekly.",
-          "superGreen": "",
-          "green": "3 locations with scorecard audits and huddle assessments",
-          "sourceUpdated": "2026-07-15",
-          "source": "cos-feed"
-        },
-        {
-          "name": "Training Day Overhaul + Calendar Organization",
-          "critical": false,
-          "status": "yellow",
-          "assessment": "via Vera 7/15: TD app live for July and August — agenda, giveaways/team votes, meal planning, and feedback link all in. TD feedback app developed and pushed live as part of the TD organization. Sunset Trial Days discussion still open; stations/quizzes/scorecard not yet added to the format.",
-          "superGreen": "",
-          "green": "Formalized TD flow with stations, quizzes, scorecards, and Games integration",
-          "sourceUpdated": "2026-07-15",
-          "source": "cos-feed"
-        },
-        {
-          "name": "Ideal Team Player Reading",
-          "critical": false,
-          "status": "green",
-          "assessment": "via Vera 7/15: Page 165 of 218. 2nd assessment complete. One-page CRIT/reflection sent to Rob ahead of the deadline for today's session. On track to finish the book by 7/31.",
-          "superGreen": "Green by 5/30 + EOQ reflection on personal gaps",
-          "green": "Book completed by EOQ",
-          "sourceUpdated": "2026-07-15",
-          "source": "cos-feed"
         }
-      ]
+      ],
+      "period": "Q3 2026",
+      "goalsSource": "Q3 Roundtable Rocks and Targets (cascading goals chart, ratified 7/30) — chart is source of truth; extras on a leader’s board are not graded"
     },
     {
       "name": "Mike Vandenbroader",
@@ -458,12 +365,12 @@ const DASHBOARD_DATA = {
         {
           "name": "Mover Training App — Company-Wide Rollout + Driver-Training Port + Digital Training Handbook",
           "critical": false,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "100% of manager sandbox training completed by 8/19 (before app rollout). 100% of active movers enrolled on 8/20. Adoption floor: ≥70*% of movers enrolled by 8/20 completed through FULL training pipeline. (Lead Ready) by 10/19 (2 weeks prior to quarter end).(*70% to account for part time movers). Scrum Recert Completed by 10/19",
-          "green": "100% of manager sandbox training completed by 8/19 (before app rollout). 100% of active movers enrolled in training app on 8/20. Adoption floor: ≥70%* of movers (including leads) enrolled on 8/20 completed through stage 4 by EOQ. (*70% to account for part time movers)",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
+          "status": "supergreen",
+          "assessment": "08/10 via Gerald (conf 5, 70%): App is live and was introduced to the management team at the QGR. Manager-training DB pulse (instructions) lands Friday 8/14, with all managers required complete by EOD 8/19 and all movers activated 8/20. Quarter tracking dashboard is already live to monitor engagement as the team ramps.",
+          "superGreen": "Same + full training pipeline (Lead Ready) by 10/19 + Scrum recert by 10/19.",
+          "green": "100% manager sandbox training by 8/19 · 100% active movers enrolled 8/20 · ≥70% of enrolled movers (incl. leads) through stage 4 by EOQ.",
+          "sourceUpdated": "2026-08-10",
+          "source": "cos-feed",
           "pulse": "11728355420"
         },
         {
@@ -471,95 +378,58 @@ const DASHBOARD_DATA = {
           "critical": false,
           "status": "unknown",
           "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "5 FDE field weeks executed across the 10 branches by Oct 1. 1 key issue per visit logged in the HQ and resolved or on a documented action plan by Oct 1.",
-          "green": "3 FDE field weeks executed across the 10 branches by Oct 1. 1 key issue per visit logged in the HQ and resolved or on a documented action plan by Oct 1.",
+          "superGreen": "5 FDE field weeks, same logging bar.",
+          "green": "3 FDE field weeks executed across the 10 branches by Oct 1; 1 key issue per visit logged in the HQ and resolved or on a documented action plan by Oct 1.",
           "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
+          "source": "cascading-chart-q3",
           "pulse": "12556464031"
         },
         {
           "name": "Fleet Safety Pt 3 — Carry the Red, Restructured",
           "critical": true,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "Samsara score at/above [95] by Oct 1. Warning-chase current: zero unissued-warning backlog at EOQ.",
-          "green": "Samsara score at/above [90] by Oct 1. Warning-chase current: zero unissued-warning backlog at EOQ.",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
-          "pulse": "12625952608"
+          "status": "red",
+          "assessment": "08/10 via Gerald (conf 3, 10%): Q3 week 1 company score came in at 86, with most branches carrying 1-2 high-risk drivers requiring warnings. Driver-safety dashboard was reset for Q3 today, and a quarter-long warning chase list is active to ensure managers issue the required warnings in Rippling — closing a tracking gap from last quarter.",
+          "superGreen": "Samsara score at/above 95 by Oct 1, same warning-chase bar.",
+          "green": "Samsara score at/above 90 by Oct 1. Warning-chase current: zero unissued-warning backlog at EOQ.",
+          "sourceUpdated": "2026-08-10",
+          "source": "cos-feed",
+          "pulse": "12625952608",
+          "blockers": [
+            "Week 1 company score 86, under the green threshold",
+            "Most branches carrying 1-2 high-risk drivers needing warnings"
+          ]
         },
         {
           "name": "Sell Remaining Trucks + Fund 2026 Fleet Purchases",
           "critical": false,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
+          "status": "red",
+          "assessment": "08/10 via Gerald (conf 3, 15%): One truck is spoken for and prepped for sale but needs a check-engine light resolved before it can close. The rest need photos, then they can be posted — targeting end of week. Project HQ being built this week to track the sales through to close.",
           "superGreen": "Sell 5 trucks",
           "green": "Sell 3 trucks",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
-          "pulse": "11728336223"
+          "sourceUpdated": "2026-08-10",
+          "source": "cos-feed",
+          "pulse": "11728336223",
+          "blockers": [
+            "Check-engine light on the spoken-for truck must be fixed before the sale closes",
+            "Remaining trucks need photos before they can be posted"
+          ]
         },
         {
-          "name": "Manager Training App - SOP Sandbox Training and reference",
+          "name": "Manager Training App — SOP Sandbox Training and Reference",
           "critical": true,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "7-8 core process SOP and modules built and deployed.",
-          "green": "5-6 core process SOP and modules built and deployed.",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3"
-        },
-        {
-          "name": "Fleet Safety (QT Management)",
-          "critical": false,
           "status": "red",
-          "assessment": "via Gerald 7/13: Company quarter score 89 vs green goal 90 — the 1-point gap holds it red. High-risk drivers at 10.76%, beating the 15% threshold, so risk mix is healthy; the score is the miss. Fleet Safety Part 2 (common-mistakes module) still open.",
-          "superGreen": "95+ score",
-          "green": "90 score / high-risk <=15%",
-          "sourceUpdated": "2026-07-13",
-          "source": "cos-feed"
-        },
-        {
-          "name": "Mover Training App / Super App Chassis",
-          "critical": false,
-          "status": "supergreen",
-          "assessment": "via Gerald 7/13: In beta testing with solid feedback and no major bugs so far. SOP live; Phase 2 hardening ongoing.",
-          "superGreen": "Beta live, adopted, no major bugs",
-          "green": "MVP shipped to pilot",
-          "sourceUpdated": "2026-07-13",
-          "source": "cos-feed"
-        },
-        {
-          "name": "Einstein Games (EMC) — DFWT",
-          "critical": true,
-          "status": "green",
-          "assessment": "via Gerald 7/20: DFWT quarter avg 8.16 (avg of branch weekly scores) clears 8.0 Green. Dallas 6.1, FW 9.2, Garland 8.1, McKinney 7.2, Tampa 10.2. Pooled-quarter method reads 7.60/RED — methodology fork to lock for Q3. Green on a Critical Number.",
-          "superGreen": "DFWT avg 9+",
-          "green": "DFWT avg 8+",
-          "sourceUpdated": "2026-07-20",
-          "source": "cos-feed"
-        },
-        {
-          "name": "Ideal Team Player",
-          "critical": false,
-          "status": "supergreen",
-          "assessment": "via Gerald 7/13: Book read and one-pager complete.",
-          "superGreen": "Book read + one-pager + applied",
-          "green": "Book read + one-pager",
-          "sourceUpdated": "2026-07-13",
-          "source": "cos-feed"
-        },
-        {
-          "name": "DFWT Personnel Management — Regional Hiring + New-Manager Development + PA Accountability",
-          "critical": true,
-          "status": "supergreen",
-          "assessment": "via Gerald 7/22: Hiring (the Critical Number): 107% DFWT regional average vs 100% Green, 105% SG cleared — Dallas 113%, FW 109.8%, Garland 100.9%, Tampa 120%; McKinney the lone anchor at 93%. The broader rock also covers new-manager development (Jack → Garland BM and Steven → Tampa BM ramps both holding) and People Analyzer / C-player accountability across DFWT — qualitative side on track.",
-          "superGreen": "105%+ regional hiring average",
-          "green": "100% regional hiring average",
-          "sourceUpdated": "2026-07-22",
-          "source": "cos-feed"
+          "assessment": "08/10 via Gerald (conf 3, 5%): No progress in week 1. Building the project HQ this week to set the plan of attack going into next week.",
+          "superGreen": "7–8 core process SOPs and modules built and deployed.",
+          "green": "5–6 core process SOPs and modules built and deployed.",
+          "sourceUpdated": "2026-08-10",
+          "source": "cos-feed",
+          "blockers": [
+            "Not yet started — plan of attack being built this week"
+          ]
         }
-      ]
+      ],
+      "period": "Q3 2026",
+      "goalsSource": "Q3 Roundtable Rocks and Targets (cascading goals chart, ratified 7/30) — chart is source of truth; extras on a leader’s board are not graded"
     },
     {
       "name": "Fabian Urrutia",
@@ -630,10 +500,10 @@ const DASHBOARD_DATA = {
           "critical": false,
           "status": "unknown",
           "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "Green, plus: (a) the mover-specific WC training session delivered as a Back to School module; (b) a test OSHA-formatted export successfully produced from Q3 data; (c) at least one real Q3 WC leave case showing correctly in Rippling's leave-tracking view, cross-referenced with FMLA where applicable.",
-          "green": "Custom Rippling claim-submission app live, built against the OSHA-recordable field spec you hand Matisen before the data structure locks — with a working EE-notification loop confirmed — plus the on-site incident workflow documented and trained to all 10 branch managers, by Sept 15.",
+          "superGreen": "Green + mover-specific WC training delivered as a Back to School module + a test OSHA-formatted export produced from Q3 data + one real Q3 WC leave case showing correctly in Rippling leave-tracking.",
+          "green": "Custom Rippling claim-submission app live, built against the OSHA-recordable field spec handed to Matisen before the data structure locks, with a working EE-notification loop confirmed, plus the on-site incident workflow documented and trained to all 10 BMs, by Sept 15.",
           "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
+          "source": "cascading-chart-q3",
           "pulse": "11728357310"
         },
         {
@@ -641,10 +511,10 @@ const DASHBOARD_DATA = {
           "critical": true,
           "status": "unknown",
           "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "Green, plus live scoring for one full branch, and at least 3 branch managers trained to actually use the score in a real coaching conversation, by Oct 1.",
-          "green": "Methodology fully designed — every dimension (attendance, damages, CHOICES/professionalism, driver score) mapped to point values and weights, with an explicit rule for how damages get weighted based on attribution quality (not a flat weight) — signed off by Cameron and Paul, backtested against one real branch's people by Oct 1.",
+          "superGreen": "Green + live scoring for one full branch + 3 BMs trained to use the score in a real coaching conversation, by Oct 1.",
+          "green": "Methodology fully designed — every dimension mapped to point values and weights, with an explicit rule for how damages get weighted based on attribution quality — signed off by Cameron and Paul, backtested against one real branch by Oct 1.",
           "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
+          "source": "cascading-chart-q3",
           "pulse": "11752777323"
         },
         {
@@ -652,10 +522,10 @@ const DASHBOARD_DATA = {
           "critical": true,
           "status": "unknown",
           "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "Full adoption — every executive and middle manager company-wide, one logged weekly Start/Stop/Keep conversation per direct report, at 80%+ completion — by Oct 1.",
-          "green": "Practice designed and documented (format, cadence, log structure) — adopted by all 7 Roundtable leaders with their own direct reports, and piloted with a subset of branch-level middle managers (all RMs + at least 3 BMs) — tracked via the interim weekly Monday checklist by Aug 31.",
+          "superGreen": "Full adoption — every executive and middle manager company-wide, one logged weekly conversation per direct report, at 80%+ completion, by Oct 1.",
+          "green": "Practice designed and documented (format, cadence, log structure), adopted by all 7 Roundtable leaders with their directs, piloted with all RMs + at least 3 BMs, tracked via the interim weekly Monday checklist by Aug 31.",
           "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
+          "source": "cascading-chart-q3",
           "pulse": "11728350964"
         },
         {
@@ -663,10 +533,10 @@ const DASHBOARD_DATA = {
           "critical": false,
           "status": "unknown",
           "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "Green, plus participation clears 65%+, and the baseline is clean enough to actually serve as the comparison point for the January management/CX rollout — proven methodology, not just a completed survey.",
-          "green": "Platform selected and built by end of August; survey launched to the mover population as voluntary; a first baseline eNPS score established with at least 50% participation among eligible movers by Oct 1.",
+          "superGreen": "Green + participation clears 65% + the baseline is clean enough to serve as the comparison point for the January management/CX rollout.",
+          "green": "Platform selected and built by end of August; survey launched to movers as voluntary; first baseline eNPS established with at least 50% participation among eligible movers by Oct 1.",
           "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
+          "source": "cascading-chart-q3",
           "pulse": "12626620998"
         },
         {
@@ -674,10 +544,10 @@ const DASHBOARD_DATA = {
           "critical": false,
           "status": "unknown",
           "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "Green, plus at least one real mover promoted under the locked framework by Oct 1.",
-          "green": "Framework locked — damages resolved by folding it into the 100-point score as the mechanism (not a standalone gate), cadence and remaining HQ items ratified, published to branches by Oct 1.",
+          "superGreen": "Green + at least one real mover promoted under the locked framework by Oct 1.",
+          "green": "Framework locked — damages resolved by folding into the 100-point score as the mechanism (not a standalone gate), cadence and remaining HQ items ratified, published to branches by Oct 1.",
           "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
+          "source": "cascading-chart-q3",
           "pulse": "11728362147"
         },
         {
@@ -685,72 +555,14 @@ const DASHBOARD_DATA = {
           "critical": false,
           "status": "unknown",
           "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "Green, plus a full dry-run/test enrollment completed in Rippling with any bugs caught and fixed before real employees touch it, and all 10 branch managers briefed and ready to field employee questions during the window.",
-          "green": "2027 plan-year decisions locked with Cameron and Paul (broker renewal reviewed, any plan design changes finalized), enrollment communications and employee training/education materials built and reviewed, November launch window confirmed (11/16 - 11/30 or 11/16 - 12/4), and Rippling configured for the 2027 plan year.",
+          "superGreen": "Green + a full dry-run/test enrollment completed in Rippling with bugs fixed before real employees touch it + all 10 BMs briefed.",
+          "green": "2027 plan-year decisions locked with Cameron and Paul, enrollment comms + training materials built and reviewed, November launch window confirmed, Rippling configured for the 2027 plan year.",
           "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3"
-        },
-        {
-          "name": "Hire HR Generalist",
-          "critical": true,
-          "status": "supergreen",
-          "assessment": "via Linda 7/21: 7/21 Q2 AAR: confirmed Super Green. Jalissa has completely taken recruiting off Anne's plate. Honest story: nearly stalled on analysis paralysis (strong candidate pool made Anne doubt her own pick) — team pulled her back to her original criteria during the group-interview debrief. Q3 lesson: start with video interviews, not phone, to counter her own bias toward 'yes' once she sees a face.",
-          "superGreen": "Hired by end of May, fully onboarded + ramped, taking recruiting volume off Anne",
-          "green": "Hired + onboarding started by EOQ",
-          "sourceUpdated": "2026-07-21",
-          "source": "cos-feed"
-        },
-        {
-          "name": "Hiring for Culture / Extended Trial Period + 100-Point Behavioral System",
-          "critical": true,
-          "status": "green",
-          "assessment": "via Linda 7/21: 7/21 Q2 AAR: confirmed Green. Interview process updated; performance-tracking need met via Mike's mover app (the Rippling Performance Module it was written against went void 7/13). 100-pt system not live company-wide, so Super Green isn't met. Trial-day sunset is a full company-wide launch at the start of Q3, not a beta. Q3 lesson: don't lose sight of other goals while heads-down on one — this one lost ground while Anne focused on hiring Jalissa for the first ~6 weeks of the quarter.",
-          "superGreen": "100-point system live across all branches, interview process updated to hire for culture, extended trial in beta one region, Rippling Performance Module live",
-          "green": "Interview process updated to hire for culture + Rippling Performance Module live",
-          "sourceUpdated": "2026-07-21",
-          "source": "cos-feed"
-        },
-        {
-          "name": "ClearCo Hiring Funnel Visualization",
-          "critical": false,
-          "status": "green",
-          "assessment": "via Linda 7/21: 7/21 Q2 AAR: upgraded to Green — funnel is visualized on cost-per-hire, time-to-fill, and stage % (clears the written Green bar). Full scorecard coverage and clean stage-click data are what's holding Super Green, not the visualization itself. Q3 lesson: be the squeaky wheel — this goal quietly stalled because it leaned on Matisen's already-stretched bandwidth and Anne pulled back rather than push. Jalissa taking over recruiting-admin ownership should improve data quality into Q3.",
-          "superGreen": "Full funnel dashboard (cost per hire, time to fill, stage % per branch) + all hired candidates have scorecards",
-          "green": "Funnel visualized with cost per hire + time to fill + stage %",
-          "sourceUpdated": "2026-07-21",
-          "source": "cos-feed"
-        },
-        {
-          "name": "Mover Promotion Guidance Metrics",
-          "critical": false,
-          "status": "green",
-          "assessment": "via Linda 8/1: 7/21 Q2 AAR: confirmed Green — framework built and locked (10 decisions, Option B hours floors applied 7/17), pay docs updated. No cohort promoted yet under the new framework, so Super Green isn't met. 7/30 QGR UPDATE: damages is no longer an open fight — Cameron ruled in the room that damages goes IN the promotion gate AND stays in the bonus, superseding the 7/16 direction and Anne's proposed 7/28 compromise (weighted 100-point input instead of a gate). Related ruling: the performance matrix moves to 3 buckets (messaging/timing still open). Dissent was noted in the room (re-adding damages later is harder than removing it now); the plan is to review the first promotion cohort against the gate and fine-tune if good people miss it. Q3 lesson: define the 'how' (measurement, cadence, communication) alongside the 'what,' not after.",
-          "superGreen": "Promotion metrics tied to Einstein Games KPIs, first cohort promoted under new framework, pay docs updated",
-          "green": "Promotion metrics framework built",
-          "sourceUpdated": "2026-08-01",
-          "source": "cos-feed"
-        },
-        {
-          "name": "Einstein Onboarding Experience (CHOICES + Comp/Benefits + Performance Mgmt)",
-          "critical": false,
-          "status": "green",
-          "assessment": "via Linda 7/22: 7/21 Q2 AAR: confirmed Green — CHOICES onboarding completion measured at 77% in the first 30 days, clearing the ≥75% Green bar. Comp & Benefits + Performance Mgmt video decks built and finalized 7/22 (recording + Austin edits still pending). Perf Mgmt need met via Mike's mover app rather than Rippling's module (same substitution pattern as Goal 2). Super Green needs completion to climb to ≥90% plus both videos shipping — both carry into Q3, alongside reconciling live pay-announcement mechanics with the new mover-promotion framework.",
-          "superGreen": "CHOICES + Comp/Benefits + Performance Mgmt modules integrated into onboarding via Rippling, ≥90% completion in first 30 days",
-          "green": "CHOICES live in onboarding, ≥75% completion in first 30 days",
-          "sourceUpdated": "2026-07-22",
-          "source": "cos-feed"
-        },
-        {
-          "name": "Ideal Team Player Reading (Bonus)",
-          "critical": false,
-          "status": "supergreen",
-          "assessment": "via Linda 7/21: 7/21 Q2 AAR: confirmed Super Green — book read and 1-page H/H/S reflection both done before end of May, well ahead of EOQ. Q3 lesson: nothing different — treating a stretch goal as a quick, decisive win worked.",
-          "superGreen": "Read by EOQ + 1-page reflection on personal Humility/Hunger/Smarts gaps",
-          "green": "Read by 5/30",
-          "sourceUpdated": "2026-07-21",
-          "source": "cos-feed"
+          "source": "cascading-chart-q3"
         }
-      ]
+      ],
+      "period": "Q3 2026",
+      "goalsSource": "Q3 Roundtable Rocks and Targets (cascading goals chart, ratified 7/30) — chart is source of truth; extras on a leader’s board are not graded"
     },
     {
       "name": "Jalissa",
@@ -811,10 +623,10 @@ const DASHBOARD_DATA = {
           "critical": true,
           "status": "unknown",
           "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "105% over goal.",
+          "superGreen": "105% over goal",
           "green": "Hitting 100% goal for the quarter",
           "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
+          "source": "cascading-chart-q3",
           "pulse": "11728354521"
         },
         {
@@ -822,10 +634,10 @@ const DASHBOARD_DATA = {
           "critical": false,
           "status": "unknown",
           "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "Phase 2 underway, Emma connection",
-          "green": "Chabot running consistently with bugs fixed",
+          "superGreen": "Phase 2 underway, EMMA connection",
+          "green": "Chatbot running consistently with bugs fixed",
           "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
+          "source": "cascading-chart-q3",
           "pulse": "11728336248"
         },
         {
@@ -834,20 +646,20 @@ const DASHBOARD_DATA = {
           "status": "unknown",
           "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
           "superGreen": "Email is live",
-          "green": "Email approved, in Emma updates queue for going live",
+          "green": "Email approved, in EMMA updates queue for going live",
           "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
+          "source": "cascading-chart-q3",
           "pulse": "12596528246"
         },
         {
-          "name": "Estimating improvements.",
+          "name": "Estimating Improvements",
           "critical": false,
           "status": "unknown",
           "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "Improved estimating to 48%",
+          "superGreen": "Improve estimating to 48%",
           "green": "Improve estimating to 46%",
           "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3"
+          "source": "cascading-chart-q3"
         },
         {
           "name": "Push out training certifications run by Tetet and Carly",
@@ -857,69 +669,21 @@ const DASHBOARD_DATA = {
           "superGreen": "All managers, sales team, claims are certified",
           "green": "Training complete, certification has started",
           "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3"
+          "source": "cascading-chart-q3"
         },
         {
-          "name": "Improve Sales Performance Engagment - Work with Adam",
+          "name": "Improve Sales Performance Engagement — Work with Adam (Northwood)",
           "critical": false,
           "status": "unknown",
           "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "",
-          "green": "",
+          "superGreen": "⚠ BARS NOT SET",
+          "green": "⚠ BARS NOT SET — the chart says bars land after the scoping meeting. Owner of the $54,500 Northwood engagement spend.",
           "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3"
-        },
-        {
-          "name": "AI Call Grading + Regular Reporting (Conversions/Estimate Accuracy)",
-          "critical": true,
-          "status": "green",
-          "assessment": "via Gary 7/13: Green, confidence softened — grading engine still running steady, incorporated rubric tweaks from Nhel/Tetet feedback. Rollout/expansion into a full weekly cadence is at a standstill — no bandwidth while the sales class training is running. No calibration/working session with Cameron yet. No reply yet from Matisen/CoS-MH1 on the 7/3 Emma integration ask (link call grades to quoted estimate + actual).",
-          "superGreen": "56%+ accuracy, $ conversions 42%+, weekly call audit cadence, BM accountability live",
-          "green": "54%+ accuracy, $ conversions 40%+, weekly call audit cadence running",
-          "sourceUpdated": "2026-07-13",
-          "source": "cos-feed"
-        },
-        {
-          "name": "Replace Leadferno with Chatbot (80% deflection)",
-          "critical": true,
-          "status": "green",
-          "assessment": "via Gary 7/13: Green — 7/7 API integrations meeting with Matisen landed the strategy: since Leadferno's conversation history isn't directly exportable, Matisen has Claude working through the raw conversations to extract training data. That work started today (7/13), no completion ETA yet. Target launch: first week of August 2026 still holds. Project HQ built at projects/botpress-implementation/botpress-hq.html.",
-          "superGreen": "Replacement chatbot live, deflecting 80%+ of Leadferno volume, Leadferno fully sunset by EOQ",
-          "green": "Replacement chatbot selected, contracted, AI configuration in progress",
-          "sourceUpdated": "2026-07-13",
-          "source": "cos-feed"
-        },
-        {
-          "name": "New Email Design + Copy Polish + Rollout (KP-owned)",
-          "critical": false,
-          "status": "green",
-          "assessment": "via Gary 7/13: Green, softening — fully in Matisen's hands now, out of Amanda's direct control. Last check-in: RFQ template should land before end of quarter, no hard date committed. Original 7/10 milestone slipped.",
-          "superGreen": "Rolled out company-wide with measurable impact",
-          "green": "Houston test complete, company-wide decision made",
-          "sourceUpdated": "2026-07-13",
-          "source": "cos-feed"
-        },
-        {
-          "name": "CX Q2 Theme Rollout",
-          "critical": false,
-          "status": "green",
-          "assessment": "via Gary 7/13: Green — First Class Precision running strong. Nhel owns weekly announcements + cadence. ~4 weeks of competition left.",
-          "superGreen": "Theme fully rolled out with measurable outcomes + weekly rhythm",
-          "green": "Theme launched and adopted with defined metrics",
-          "sourceUpdated": "2026-07-13",
-          "source": "cos-feed"
-        },
-        {
-          "name": "Ideal Team Player Reading",
-          "critical": false,
-          "status": "green",
-          "assessment": "via Gary 7/15: Complete — reading done (confirmed 7/2), one-page H/H/S reflection rewritten 7/15 (fresh Lencioni-persona interview, new commitments and triggers) and redesigned into a polished one-page PDF. Ready to submit — timing remains Amanda's call, due date 7/25 was the outer bound and is no longer a risk.",
-          "superGreen": "Read by EOQ + 1-page reflection on personal H/H/S gaps",
-          "green": "Read by 5/30",
-          "sourceUpdated": "2026-07-15",
-          "source": "cos-feed"
+          "source": "cascading-chart-q3"
         }
-      ]
+      ],
+      "period": "Q3 2026",
+      "goalsSource": "Q3 Roundtable Rocks and Targets (cascading goals chart, ratified 7/30) — chart is source of truth; extras on a leader’s board are not graded"
     },
     {
       "name": "Nhel",
@@ -1104,106 +868,62 @@ const DASHBOARD_DATA = {
       "title": "Dir. of IT",
       "goals": [
         {
-          "name": "QG and Support Blocks - Admin",
+          "name": "QG and Support Blocks — Admin",
           "critical": false,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "100% Goal Completion",
-          "green": "75% Goal Completion",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3"
+          "status": "green",
+          "assessment": "08/17 via CoS-MH1 (conf 3, 30%): A and C converge on one build: the weekly scorecard is being baked into hub.einsteinmoving.com rather than shipped as a separate surface. The hub stands up, stats are shipping over, the Games update lands today; scorecard migration and the AI Use Policy draft follow. C is the shared build with Cameron's Data Bus rock (pulse 12556198241): Matisen ships bus/registry infrastructure, Cameron's goal owns governance. Open item on A is rollout and access with Cameron, not scoping. B gated on Wednesday's LiftUp meeting. D moves this week — registering EMMA with Sage Intacct.",
+          "superGreen": "100% goal completion",
+          "green": "75% goal completion",
+          "sourceUpdated": "2026-08-17",
+          "source": "cos-feed",
+          "blockers": [
+            "A. Scorecard rollout/access plan pending a Cameron touch-base — build path is settled (baked into the hub), audience and cadence are not",
+            "D. Sage/EMMA still pre-integration — EMMA registers with Sage Intacct this week; spec v5 publish remains a human-run script pending the Ben/Fabian chain"
+          ]
         },
         {
-          "name": "QG and Support Blocks - Sales and Marketing",
+          "name": "QG and Support Blocks — Sales and Marketing",
           "critical": false,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "100% Green or Higher",
-          "green": "75% Green or Higher",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3"
+          "status": "green",
+          "assessment": "08/17 via CoS-MH1 (conf 3, 38%): A: targeting within MPE of the forecasting models by quarter end. B: quote accuracy shared with Nhel; call-grading automation and conversion on the sales target dashboard still to build. C: email rollout pending confirmation with Fabian — lead triage is queued ahead of it. D: chatbot in QA testing for Phase 1. Dependency: Amanda.",
+          "superGreen": "100% Green or higher",
+          "green": "75% Green or higher",
+          "sourceUpdated": "2026-08-17",
+          "source": "cos-feed",
+          "blockers": [
+            "C. Email rollout queued behind lead triage and awaiting Fabian confirmation"
+          ]
         },
         {
-          "name": "QG and Support Blocks - Performance and Employee Management",
+          "name": "QG and Support Blocks — Performance and Employee Management",
           "critical": false,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "100% Green of Higher",
-          "green": "75% Green or Higher",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3"
+          "status": "green",
+          "assessment": "08/17 via CoS-MH1 (conf 3, 41%): A: ClearCompany to Rippling webhook is live (8/10) — confirming it triggers and that the workflow automations fire when Anne is back from vacation. B: promotion ladder / 100-point transition — meeting with Anne and Paul Wednesday. C: Custom Object migration started; next is standing up and sending custom Rippling credentials to Mike for the Mover App integration. D: Mover App testing underway — card reader picked up last week to test the payment portal, QA flow, and data connections. Dependencies: Anne, Mike.",
+          "superGreen": "100% Green or higher",
+          "green": "75% Green or higher",
+          "sourceUpdated": "2026-08-17",
+          "source": "cos-feed",
+          "blockers": [
+            "A. Webhook verification gated on Anne's return from vacation",
+            "C. Rippling API token scopes — Custom Objects returns 403 and the Performance Log path lacks files + employee-documents; Matisen is granting the scopes now"
+          ]
         },
         {
           "name": "Praise Targets",
           "critical": false,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "125% - 60 Praise",
-          "green": "100% - 48 Praise",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3"
-        },
-        {
-          "name": "AI Wedge Audit + MVP Scoping (Validate Pre-Selected Builds)",
-          "critical": true,
-          "status": "green",
-          "assessment": "via CoS-MH1 6/29: Tracking Super Green. Audit done; the 3 pre-selected builds (Call Grading, Claims RAG, Anne's Hiring Funnel Dashboard) validated + in active build (call-grading first report ran + spot-checked). Remaining for SG: confirm the additional-wedge sweep (4-6) scored by effort/impact.",
-          "superGreen": "Audit complete by 5/30; 3 builds validated + MVP-scoped; sweep surfaces 4–6 additional wedges scored by effort + impact; first build kicked off by 5/30",
-          "green": "Audit complete by 5/30; 3 builds validated + MVP-scoped; sweep surfaces 4+ wedges scored by effort + impact; first build kicked off by EOQ",
-          "sourceUpdated": "2026-06-29",
-          "source": "cos-feed"
-        },
-        {
-          "name": "Variable Pricing Full Rollout + Weekly Review Cadence and Overall Pricing Strategy",
-          "critical": true,
-          "status": "green",
-          "assessment": "via CoS-MH1 7/24: On track for Super Green. Weekly pricing-analysis cadence live (Green met). 7/29-7/30: R9 revenue-model round completed and deployed — seasonal re-basing, Stage B/C reconciliation, Stage D open/closed man-hours from real crew-out data, per-branch driver decomposition page live in the hub; plan comparison retired the April adjustment (Operating Plan is now the sole reference); truck purchase-sheet rules finalized (89->87); cancel->rebook analysis (12% rebook / 88% never). 7/24: revenue-landing 4-bucket month-end tool shipped (read-only Mongo→inputs, one evergreen page); gap-v2 Rev 31 rolling-30 + Aug/Sep/Oct tracker rebuilt on the TUR v2 spine; Slack forecast-bot shipped end-to-end (menu dispatcher, Socket Mode, Pages publish, failure→pulse path). 7/21: TUR v2 skill packaged (ratified revenue→trucks→FTE→personnel chain) + heavy QGR conversion/rate analysis feeding Cameron's packet. 7/17: Q3 manager view shipped end-to-end — per-branch monthly projections with PCM folded in as THE plan, FTE-budget & staffing block (system of record: FTE Budget Tracker), TUR-at-plan, branch chart drill-downs, CSV export, published to hosted pages; July = 7/15 full-month estimate reconciled to Ben's sheet. Builds on 7/13's model build-out (155,920-row revenue spine, 10-branch PCM projections, ensemble bake-off, crew-out placeholder correction). Advances the SG 'dynamic model + surface bottlenecks earlier' bar into a live manager surface. Caveat: personnel/FTE inputs still depend on Rippling hours, unreliable since the 6/29 punch-clock outage.",
-          "superGreen": "Build out TUR Capacity tool (marketing/availability) and dynamic pricing model to inform weekly pricing-check cadences; build a skill for long-term management surfacing bottlenecks earlier",
-          "green": "Just TUR Capacity tool and regular pricing cadences in place",
-          "sourceUpdated": "2026-07-24",
-          "source": "cos-feed"
-        },
-        {
-          "name": "AI Call Grading + Claims RAG (Wedge Build #1)",
-          "critical": false,
           "status": "yellow",
-          "assessment": "via CoS-MH1 6/29: AI call grading running (first report ran + >=15-call spot-check) ~50%. Claims-team RAG still queued behind current Einstein Games work. Green needs 80%+ calls auto-graded weekly + RAG live for claims + the Nhel/Carly coaching loop.",
-          "superGreen": "100% of sales + claims calls auto-graded weekly; RAG database live surfacing magic-moment + early-claim signals; weekly coaching loop with Nhel + Carly using the data",
-          "green": "80%+ of sales calls auto-graded weekly; RAG database live for claims; coaching loop established with Nhel + Carly",
-          "sourceUpdated": "2026-06-29",
-          "source": "cos-feed"
-        },
-        {
-          "name": "ClearCo + Rippling API → Anne's Hiring Funnel Dashboard (Wedge Build #2)",
-          "critical": false,
-          "status": "yellow",
-          "assessment": "via CoS-MH1 6/29: Strong progress. HR Command Center productionized + published to hosted pages (7/6); handed over to Linda (API access) + Anne (review). ClearCompany→Rippling new-hire sync in flight: field map + vendor webhook spec PDF done 7/8, awaiting Make.com webhook URL. Green needs both APIs fully hooked + core-metrics dashboard live.",
-          "superGreen": "Both APIs hooked up; Anne self-serve dashboard live with cost-per-hire, time-to-fill, stage % per branch, campaign performance; weekly auto-refresh",
-          "green": "Both APIs hooked up; dashboard live with core funnel metrics; manual refresh acceptable",
-          "sourceUpdated": "2026-06-29",
-          "source": "cos-feed"
-        },
-        {
-          "name": "Production Line Cleanup — 8 Loose Threads",
-          "critical": false,
-          "status": "green",
-          "assessment": "via CoS-MH1 6/29: On track for Super Green. 7/9–7/13 multiple threads advanced: Branch KPIs (branch book + hosted status dashboards refreshed, per-branch projections surfaced), Sales Review (sales-targets refresh + individual manager scorecards; Klepac/Pope June verified), Einstein Games (week-7 shipped), mobile-app build (Field App workshop 7/10). 7/18–7/19 weekend sprint: Field App replica real-data puller (PII-sanitized, QA env) + field-events bridge hardened end-to-end (strict path grammar, idempotency ledger, CORS pin, reducer-parity golden tests) — 18 commits. Scorecards shipped 7/3. Remaining threads (Zip Zone Map, Relocation Trend Data, Docs/Handbook) still need firm ship dates for full SG.",
-          "superGreen": "All 8 loose threads (Sales Review, Branch KPIs, Einstein Games, Scorecards, Marketing Dashboard, Zip Zone Map, Relocation Trend Data, Documentation/Handbook) shipped or formally archived by EOQ",
-          "green": "5+ of 8 loose threads shipped or archived by EOQ; remaining 3 have clear ship dates",
-          "sourceUpdated": "2026-06-29",
-          "source": "cos-feed"
-        },
-        {
-          "name": "Ideal Team Player Reading",
-          "critical": false,
-          "status": "green",
-          "assessment": "via CoS-MH1 6/29: Nearly complete. At 170/219 pages; finishing the read + the 1-page reflection on personal Humility/Hunger/Smarts gaps (6/20 target slipped; reflection still pending). Tracking Super Green (read + reflection by EOQ).",
-          "superGreen": "Read by EOQ + 1-page reflection on personal Humility/Hunger/Smarts gaps",
-          "green": "Read by 5/30",
-          "sourceUpdated": "2026-06-29",
-          "source": "cos-feed"
+          "assessment": "08/17 via CoS-MH1 (conf 3, 0%): 0 of 48 submitted for Q3. ~25 CHOICES-anchored candidates staged since 8/10; plan is to submit 12 this week. Measured on the Praise Board or a new PL in Rippling — but the Praise Board's clear-on-status automation is dead and its count conflates intent with delivery, so the rock cannot be scored until a measurement source is owned.",
+          "superGreen": "125% — 60 praise",
+          "green": "100% — 48 praise",
+          "sourceUpdated": "2026-08-17",
+          "source": "cos-feed",
+          "blockers": [
+            "No automated praise count wired for Q3 — measurement source undecided (Praise Board vs Rippling PL); Praise Board is broken and unowned"
+          ]
         }
-      ]
+      ],
+      "period": "Q3 2026",
+      "goalsSource": "Q3 Roundtable Rocks and Targets (cascading goals chart, ratified 7/30) — chart is source of truth; extras on a leader’s board are not graded"
     },
     {
       "name": "Austin LeLievre",
