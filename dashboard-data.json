@@ -376,12 +376,12 @@
         {
           "name": "Dept-Head/Regional Split — FDE Boots-on-Ground Weeks + Dept-Head QGs as Critical Number",
           "critical": false,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
+          "status": "supergreen",
+          "assessment": "08/10 via Gerald (conf 5, 55%): Jumped ahead of the rock via a full DFWT command center — a live weekly dashboard tracking all main KPIs by manager (sales, driver safety, hiring, praise, damages, NPS, TUR, OT) into a directionally-accurate composite score with EOQ progress. Already surfacing gaps, coaching opportunities, and weak links for managers to attack this week. Project HQ being built this week; paired with on-the-ground branch visits, DFWT is set up for serious results.",
           "superGreen": "5 FDE field weeks, same logging bar.",
           "green": "3 FDE field weeks executed across the 10 branches by Oct 1; 1 key issue per visit logged in the HQ and resolved or on a documented action plan by Oct 1.",
-          "sourceUpdated": "2026-07-30",
-          "source": "cascading-chart-q3",
+          "sourceUpdated": "2026-08-10",
+          "source": "cos-feed",
           "pulse": "12556464031"
         },
         {
