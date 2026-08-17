@@ -287,46 +287,6 @@ const DASHBOARD_DATA = {
           "green": "2 visits",
           "sourceUpdated": "2026-07-30",
           "source": "cascading-chart-q3"
-        },
-        {
-          "name": "N. Austin Office — Move-In",
-          "critical": true,
-          "status": "supergreen",
-          "assessment": "via Clark 7/16: 7/16: No movement — already Super Green, moved in 6/15. Hit Super Green. Moved in on June 15 and we're good to go.",
-          "superGreen": "Moved in by June 15",
-          "green": "Moved in by end of June",
-          "sourceUpdated": "2026-07-16",
-          "source": "cos-feed"
-        },
-        {
-          "name": "Geographic Expansion Strategy — Deepen vs. Widen + Evaluate 5-7 Acquisition Opportunities",
-          "critical": false,
-          "status": "red",
-          "assessment": "via Clark 7/16: 7/16: Moving this to Red. No structured evaluation work has started; the 7/10 kickoff milestone has passed with no movement. With 2 weeks left in Q2, neither Green (5 evaluated) nor Super Green (7 evaluated) is reachable. Calling this Red for the quarter.",
-          "superGreen": "7 acquisition opportunities evaluated, clear deepen vs. widen stance documented",
-          "green": "5 acquisition opportunities evaluated, deepen vs. widen stance defined, Houston organic vs. acquisition case study complete",
-          "sourceUpdated": "2026-07-16",
-          "source": "cos-feed"
-        },
-        {
-          "name": "Ideal Team Player Reading",
-          "critical": false,
-          "status": "green",
-          "assessment": "via Clark 7/16: 7/16: Green confirmed — book finished (7/13) and the 1-page reflection on personal Humility/Hunger/Smarts gaps is also done. Goal complete ahead of EOQ. Super Green's 5/30 target was missed, so this lands at Green, not Super Green.",
-          "superGreen": "Read by 5/30",
-          "green": "Read by EOQ + 1-page reflection on personal Humility/Hunger/Smarts gaps",
-          "sourceUpdated": "2026-07-16",
-          "source": "cos-feed"
-        },
-        {
-          "name": "Easy Wins on Money Collection Process",
-          "critical": false,
-          "status": "yellow",
-          "assessment": "via Clark 7/16: 7/16: Yellow. Work has started on the three improvements, but progress is behind pace — may not finish before end of quarter.",
-          "superGreen": "Monthly branch rankings, monthly/live swipe % rankings, coaching process documented",
-          "green": "Cost quantified and shared for manual vs. swipe, automated swipe % reporting, automation to create a Monday pulse when an invoice-late email hits the inbox",
-          "sourceUpdated": "2026-07-16",
-          "source": "cos-feed"
         }
       ],
       "period": "Q3 2026",
@@ -393,16 +353,6 @@ const DASHBOARD_DATA = {
           "sourceUpdated": "2026-08-17",
           "source": "cos-feed",
           "pulse": "11728336199"
-        },
-        {
-          "name": "Praise Goal",
-          "critical": false,
-          "status": "yellow",
-          "assessment": "via Vera 8/17: 12 of 48 cards delivered this quarter. Per-manager: Dustin Street 3, Chris Anderson 2, Daniel Behseresht 2, Rance Pope 2, Lukas Konrad 1, plus 1 to a non-manager. 10 of 15 managers still at zero (Frank Williams, Sergio Buenrostro, Nick Dagel, Garrison Cobe, Joel Villatoro, Hector Zavala, Cameron Klepac, Alex Tran, Jespah Lara, Calvin Hughes). Green requires at least 1 card for every manager, so those 10 are the binding constraint, not the raw count.",
-          "superGreen": "56 praise cards delivered, at least 3 per manager in region",
-          "green": "48 praise cards delivered, at least 1 per manager in region",
-          "sourceUpdated": "2026-08-17",
-          "source": "cos-feed"
         }
       ],
       "period": "Q3 2026",
@@ -611,36 +561,6 @@ const DASHBOARD_DATA = {
           "source": "cascading-chart-q3"
         },
         {
-          "name": "Hire HR Generalist",
-          "critical": true,
-          "status": "supergreen",
-          "assessment": "via Linda 7/21: 7/21 Q2 AAR: confirmed Super Green. Jalissa has completely taken recruiting off Anne's plate. Honest story: nearly stalled on analysis paralysis (strong candidate pool made Anne doubt her own pick) — team pulled her back to her original criteria during the group-interview debrief. Q3 lesson: start with video interviews, not phone, to counter her own bias toward 'yes' once she sees a face.",
-          "superGreen": "Hired by end of May, fully onboarded + ramped, taking recruiting volume off Anne",
-          "green": "Hired + onboarding started by EOQ",
-          "sourceUpdated": "2026-07-21",
-          "source": "cos-feed"
-        },
-        {
-          "name": "Hiring for Culture / Extended Trial Period + 100-Point Behavioral System",
-          "critical": true,
-          "status": "green",
-          "assessment": "via Linda 7/21: 7/21 Q2 AAR: confirmed Green. Interview process updated; performance-tracking need met via Mike's mover app (the Rippling Performance Module it was written against went void 7/13). 100-pt system not live company-wide, so Super Green isn't met. Trial-day sunset is a full company-wide launch at the start of Q3, not a beta. Q3 lesson: don't lose sight of other goals while heads-down on one — this one lost ground while Anne focused on hiring Jalissa for the first ~6 weeks of the quarter.",
-          "superGreen": "100-point system live across all branches, interview process updated to hire for culture, extended trial in beta one region, Rippling Performance Module live",
-          "green": "Interview process updated to hire for culture + Rippling Performance Module live",
-          "sourceUpdated": "2026-07-21",
-          "source": "cos-feed"
-        },
-        {
-          "name": "ClearCo Hiring Funnel Visualization",
-          "critical": false,
-          "status": "green",
-          "assessment": "via Linda 7/21: 7/21 Q2 AAR: upgraded to Green — funnel is visualized on cost-per-hire, time-to-fill, and stage % (clears the written Green bar). Full scorecard coverage and clean stage-click data are what's holding Super Green, not the visualization itself. Q3 lesson: be the squeaky wheel — this goal quietly stalled because it leaned on Matisen's already-stretched bandwidth and Anne pulled back rather than push. Jalissa taking over recruiting-admin ownership should improve data quality into Q3.",
-          "superGreen": "Full funnel dashboard (cost per hire, time to fill, stage % per branch) + all hired candidates have scorecards",
-          "green": "Funnel visualized with cost per hire + time to fill + stage %",
-          "sourceUpdated": "2026-07-21",
-          "source": "cos-feed"
-        },
-        {
           "name": "Mover Promotion Guidance Metrics",
           "critical": false,
           "status": "green",
@@ -648,26 +568,6 @@ const DASHBOARD_DATA = {
           "superGreen": "Promotion metrics tied to Einstein Games KPIs, first cohort promoted under new framework, pay docs updated",
           "green": "Promotion metrics framework built",
           "sourceUpdated": "2026-08-01",
-          "source": "cos-feed"
-        },
-        {
-          "name": "Einstein Onboarding Experience (CHOICES + Comp/Benefits + Performance Mgmt)",
-          "critical": false,
-          "status": "green",
-          "assessment": "via Linda 7/22: 7/21 Q2 AAR: confirmed Green — CHOICES onboarding completion measured at 77% in the first 30 days, clearing the ≥75% Green bar. Comp & Benefits + Performance Mgmt video decks built and finalized 7/22 (recording + Austin edits still pending). Perf Mgmt need met via Mike's mover app rather than Rippling's module (same substitution pattern as Goal 2). Super Green needs completion to climb to ≥90% plus both videos shipping — both carry into Q3, alongside reconciling live pay-announcement mechanics with the new mover-promotion framework.",
-          "superGreen": "CHOICES + Comp/Benefits + Performance Mgmt modules integrated into onboarding via Rippling, ≥90% completion in first 30 days",
-          "green": "CHOICES live in onboarding, ≥75% completion in first 30 days",
-          "sourceUpdated": "2026-07-22",
-          "source": "cos-feed"
-        },
-        {
-          "name": "Ideal Team Player Reading (Bonus)",
-          "critical": false,
-          "status": "supergreen",
-          "assessment": "via Linda 7/21: 7/21 Q2 AAR: confirmed Super Green — book read and 1-page H/H/S reflection both done before end of May, well ahead of EOQ. Q3 lesson: nothing different — treating a stretch goal as a quick, decisive win worked.",
-          "superGreen": "Read by EOQ + 1-page reflection on personal Humility/Hunger/Smarts gaps",
-          "green": "Read by 5/30",
-          "sourceUpdated": "2026-07-21",
           "source": "cos-feed"
         }
       ],
@@ -788,16 +688,6 @@ const DASHBOARD_DATA = {
           "assessment": "via Gary 8/17: Green — engagement is live and the first concrete workstream starts this week. Two working sessions with Jeff over the last two weeks; Einstein's operational roadblocks genuinely reset his read of the engagement. Out of those sessions we picked the two lowest-hanging pieces to start with: (1) adjusting our triages to pull intent out of the contacts we are already generating leads from — more signal from existing traffic rather than new sources; and (2) sales training for the CET. Training starts Tue 8/18 at 12:30, split into two groups by day off so everyone can attend — one group Tuesdays, one Wednesdays, running four to five weeks. Amanda owns the $54,500 engagement spend; Cameron's card is support-only at $0 per his 7/30 ruling.",
           "superGreen": "TBD — bars not set on chart",
           "green": "TBD — bars not set on chart",
-          "sourceUpdated": "2026-08-17",
-          "source": "cos-feed"
-        },
-        {
-          "name": "Call Grading at Volume — Distribution + Coaching Loop",
-          "critical": true,
-          "status": "yellow",
-          "assessment": "via Gary 8/17: Yellow — the engine works, the loop doesn't. Week 1 grading run completed 6/11 (50 calls across 32 reps; Nicole Cruz the only rep hitting all 3 differentiators, Save Your Ass 0/50 company-wide). No Week 2+ run has shipped since, so the distribution + coaching loop this goal is actually named for is not yet running. Cadence was originally stalled behind the GitHub Pages privacy question; that was decoupled 7/3 and is no longer the blocker — bandwidth is. Note: no company-wide average score has been measured yet, so there is currently no baseline to read against the 65% / 75% bars.",
-          "superGreen": "Improve the company (CET and Managers) average score to 75%",
-          "green": "Improve the company (CET and Managers) average score to 65%",
           "sourceUpdated": "2026-08-17",
           "source": "cos-feed"
         }
