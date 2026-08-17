@@ -5,7 +5,7 @@
     "quarterEnd": "2026-10-31",
     "themeDeadline": "2026-10-19",
     "themeDeadlineLabel": "Training Camp — Theme Deadline: Oct 19",
-    "lastRefreshed": "2026-08-17T18:05:00-05:00",
+    "lastRefreshed": "2026-08-17T18:15:00-05:00",
     "refreshedBy": "Albert (/wrap 8/17 — chart-clean; derive quarter guard live)",
     "archive": {
       "quarter": "Q2 2026",
@@ -622,7 +622,7 @@
           "name": "Incentivize Manager Sales — Quarterly Sales Comp (if not removed entirely)",
           "critical": true,
           "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
+          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes. | 8/17: NOT in Amanda's fresh Q3 push (Gary 14:20) — she carried 5 goals vs 6 on the chart; reconcile at the 8/18 sync (chart = source of truth).",
           "superGreen": "105% over goal",
           "green": "Hitting 100% goal for the quarter",
           "sourceUpdated": "2026-07-30",
@@ -633,39 +633,54 @@
           "name": "Chatbot Launch + Leadferno Sunset (carry, finish line)",
           "critical": false,
           "status": "yellow",
-          "assessment": "via Gary 8/17: Yellow — past its own target date, not blocked. Target launch was the first week of August; it is 8/17 and the bot is still in testing, so the Green bar ('running consistently with bugs fixed') is not met. Content side is fully closed out: every commitment from the 7/20 Botpress handoff is done, including the 11 lower-volume FAQ confirmations and the 16-answer sheet. Nidha (Botpress) is drafting the BotSpec; escalation routing confirmed to Slack #chatbot-notifications. Messenger token moved to Paul Morin 8/3 (Amanda lacked Meta Business Manager rights) and is no longer hers to chase.",
+          "assessment": "8/17 via Gary (conf 3, 75%): Yellow — past its own target date, not blocked. Target launch was the first week of August; it is 8/17 and the bot is still in testing, so the Green bar ('running consistently with bugs fixed') is not met. Content side is fully closed out: every commitment from the 7/20 Botpress handoff is done, including the 11 lower-volume FAQ confirmations and the 16-answer sheet. Nidha (Botpress) is drafting the BotSpec; escalation routing confirmed to Slack #chatbot-notifications. Messenger token moved to Paul Morin 8/3 (Amanda lacked Meta Business Manager rights) and is no longer hers to chase.",
           "superGreen": "Phase 2 underway, Emma connection",
           "green": "Chatbot running consistently with bugs fixed",
           "sourceUpdated": "2026-08-17",
           "source": "cos-feed",
-          "pulse": "11728336248"
+          "pulse": "11728336248",
+          "blockers": [
+            "Auto-Recharge cost ceiling cannot be disabled — needs a hard cap agreed before real traffic",
+            "Confirmation that Paul delivered the Messenger token to Nidha's team",
+            "EMMA integration timeline from Matisen (long-term: chatbot pushes leads directly into EMMA)"
+          ]
         },
         {
           "name": "Extend New Email Design System to Full Email Suite — Shorter, Video-First, Fewer Words",
           "critical": false,
           "status": "yellow",
-          "assessment": "via Gary 8/17: Yellow — real progress, not yet at the Green bar. The confirmation email redesign is built and matches the new RFQ visual system, but it is still being iterated with Amanda and has not been approved or queued in EMMA, which is what Green requires. Currently a private Artifact. Sharing it out to Kickpoint is snagged on an org-level setting: Claude's 'anyone with the link' sharing is disabled company-wide, so external delivery needs the raw-file workaround.",
+          "assessment": "8/17 via Gary (conf 3, 60%): Yellow — real progress, not yet at the Green bar. The confirmation email redesign is built and matches the new RFQ visual system, but it is still being iterated with Amanda and has not been approved or queued in EMMA, which is what Green requires. Currently a private Artifact. Sharing it out to Kickpoint is snagged on an org-level setting: Claude's 'anyone with the link' sharing is disabled company-wide, so external delivery needs the raw-file workaround.",
           "superGreen": "Email is live",
           "green": "Email approved, in Emma updates queue for going live",
           "sourceUpdated": "2026-08-17",
           "source": "cos-feed",
-          "pulse": "12596528246"
+          "pulse": "12596528246",
+          "blockers": [
+            "Redesign not yet finalized or approved — not in the EMMA updates queue",
+            "External sharing to Kickpoint blocked by org-wide Artifact link-sharing policy; needs raw-file workaround",
+            "Dependency on Matisen for EMMA-side rollout"
+          ]
         },
         {
           "name": "Estimating improvements",
           "critical": false,
           "status": "yellow",
-          "assessment": "via Gary 8/17: Yellow — early, and the main input is not in place yet. Amanda is working with Matisen to get daily call grading delivered; that feed is what makes the coaching side of this rock workable, since the plan is to coach the lower estimators off regular, transparent numbers. About 10% in at roughly 18% through the quarter. Bars confirmed 8/17 as written on the chart (46% Green / 48% Super Green) — these are the ratified Q3 targets and are not on the same basis as the 54% / 56% bars used in Q2. Worth carrying the room's own caveat: estimating is a delayed result, so work done now will not show up in accuracy numbers for two weeks to a month or more, and movement should be expected to lag the effort.",
+          "assessment": "8/17 via Gary (conf 3, 10%): Yellow — early, and the main input is not in place yet. Amanda is working with Matisen to get daily call grading delivered; that feed is what makes the coaching side of this rock workable, since the plan is to coach the lower estimators off regular, transparent numbers. About 10% in at roughly 18% through the quarter. Bars confirmed 8/17 as written on the chart (46% Green / 48% Super Green) — these are the ratified Q3 targets and are not on the same basis as the 54% / 56% bars used in Q2. Worth carrying the room's own caveat: estimating is a delayed result, so work done now will not show up in accuracy numbers for two weeks to a month or more, and movement should be expected to lag the effort.",
           "superGreen": "Improved estimating to 48%",
           "green": "Improve estimating to 46%",
           "sourceUpdated": "2026-08-17",
-          "source": "cos-feed"
+          "source": "cos-feed",
+          "blockers": [
+            "Daily call grading delivery from Matisen not yet in place — needed to coach lower estimators off regular numbers",
+            "Delayed-result metric — work done now will not register in accuracy numbers for 2-4+ weeks",
+            "No Sky Board pulse yet (chart marks this 'NO PULSE — create at fold')"
+          ]
         },
         {
           "name": "Push out training certifications run by Tetet and Carly",
           "critical": false,
           "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
+          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes. | 8/17: NOT in Amanda's fresh Q3 push (Gary 14:20) — she carried 5 goals vs 6 on the chart; reconcile at the 8/18 sync (chart = source of truth).",
           "superGreen": "All managers, sales team, claims are certified",
           "green": "Training complete, certification has started",
           "sourceUpdated": "2026-07-30",
@@ -675,15 +690,20 @@
           "name": "Improve Sales Performance Engagement — Work with Jeff (Northwood)",
           "critical": false,
           "status": "green",
-          "assessment": "via Gary 8/17: Green — engagement is live and the first concrete workstream starts this week. Two working sessions with Jeff over the last two weeks; Einstein's operational roadblocks genuinely reset his read of the engagement. Out of those sessions we picked the two lowest-hanging pieces to start with: (1) adjusting our triages to pull intent out of the contacts we are already generating leads from — more signal from existing traffic rather than new sources; and (2) sales training for the CET. Training starts Tue 8/18 at 12:30, split into two groups by day off so everyone can attend — one group Tuesdays, one Wednesdays, running four to five weeks. Amanda owns the $54,500 engagement spend; Cameron's card is support-only at $0 per his 7/30 ruling.",
+          "assessment": "8/17 via Gary (conf 4, 30%): Green — engagement is live and the first concrete workstream starts this week. Two working sessions with Jeff over the last two weeks; Einstein's operational roadblocks genuinely reset his read of the engagement. Out of those sessions we picked the two lowest-hanging pieces to start with: (1) adjusting our triages to pull intent out of the contacts we are already generating leads from — more signal from existing traffic rather than new sources; and (2) sales training for the CET. Training starts Tue 8/18 at 12:30, split into two groups by day off so everyone can attend — one group Tuesdays, one Wednesdays, running four to five weeks. Amanda owns the $54,500 engagement spend; Cameron's card is support-only at $0 per his 7/30 ruling. ⚠ Bars proposed 8/17 (mirror Jeff 14→17.5) — pending Amanda's approval 8/18.",
           "superGreen": "TBD — bars not set on chart",
           "green": "TBD — bars not set on chart",
           "sourceUpdated": "2026-08-17",
-          "source": "cos-feed"
+          "source": "cos-feed",
+          "blockers": [
+            "Super Green / Green bars still unset — were due to land after the 7/31 scoping meeting",
+            "Chart name conflict: Amanda's row and Cameron's bonus card read 'Adam (Northwood)', Nhel's row reads 'Jeff (Northwood)' for the same engagement — needs correcting on the chart"
+          ]
         }
       ],
       "period": "Q3 2026",
-      "goalsSource": "Q3 Roundtable Rocks and Targets (cascading goals chart, ratified 7/30) — chart is source of truth; extras on a leader’s board are not graded"
+      "goalsSource": "Q3 Roundtable Rocks and Targets (cascading goals chart, ratified 7/30) — chart is source of truth; extras on a leader’s board are not graded",
+      "feedNote": "8/17 Gary push carries 5 goals vs 6 on the cascading chart: dropped 'Incentivize Manager Sales' + 'training certifications', added 'Call Grading at Volume — Distribution + Coaching Loop' (critical). Reconcile 8/18."
     },
     {
       "name": "Nhel",
