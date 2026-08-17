@@ -5,8 +5,8 @@
     "quarterEnd": "2026-10-31",
     "themeDeadline": "2026-10-19",
     "themeDeadlineLabel": "Training Camp — Theme Deadline: Oct 19",
-    "lastRefreshed": "2026-08-17T15:20:00-05:00",
-    "refreshedBy": "Albert (digest — Matisen 8/17 sync)",
+    "lastRefreshed": "2026-08-17T16:40:00-05:00",
+    "refreshedBy": "Albert (digest — Northwood/Jeff 8/17)",
     "archive": {
       "quarter": "Q2 2026",
       "file": "dashboard-data-q2-2026.json",
@@ -674,12 +674,12 @@
         {
           "name": "Improve Sales Performance Engagement — Work with Adam (Northwood)",
           "critical": false,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
+          "status": "yellow",
+          "assessment": "8/17: Week 3 of 90. Jeff Johnson update w/ Cameron+Paul: pods = concept YES / structure NOT decided (Jeff develops w/ Amanda → recommendations); tier model v2 implicitly in w/ seasonal setting; grade repeat vs new split; training starts 8/18 (Tue/Wed 12:30, lunch-coverage flag from Paul); bi-weekly Thu ~10:30 catch-up from ~8/27. ⚠ This goal STILL has no Green/SG bars on the chart. Feed stale (Q2) — awaiting Amanda's push.",
           "superGreen": "⚠ BARS NOT SET",
           "green": "⚠ BARS NOT SET — the chart says bars land after the scoping meeting. Owner of the $54,500 Northwood engagement spend.",
-          "sourceUpdated": "2026-07-30",
-          "source": "cascading-chart-q3"
+          "sourceUpdated": "2026-08-17",
+          "source": "digest-northwood-8-17"
         }
       ],
       "period": "Q3 2026",
