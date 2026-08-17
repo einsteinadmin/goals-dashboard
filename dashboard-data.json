@@ -5,8 +5,8 @@
     "quarterEnd": "2026-10-31",
     "themeDeadline": "2026-10-19",
     "themeDeadlineLabel": "Training Camp — Theme Deadline: Oct 19",
-    "lastRefreshed": "2026-08-17T16:40:00-05:00",
-    "refreshedBy": "Albert (digest — Northwood/Jeff 8/17)",
+    "lastRefreshed": "2026-08-17T18:05:00-05:00",
+    "refreshedBy": "Albert (/wrap 8/17 — chart-clean; derive quarter guard live)",
     "archive": {
       "quarter": "Q2 2026",
       "file": "dashboard-data-q2-2026.json",
@@ -559,16 +559,6 @@
           "green": "2027 plan-year decisions locked with Cameron and Paul, enrollment comms + training materials built and reviewed, November launch window confirmed, Rippling configured for the 2027 plan year.",
           "sourceUpdated": "2026-07-30",
           "source": "cascading-chart-q3"
-        },
-        {
-          "name": "Mover Promotion Guidance Metrics",
-          "critical": false,
-          "status": "green",
-          "assessment": "via Linda 8/1: 7/21 Q2 AAR: confirmed Green — framework built and locked (10 decisions, Option B hours floors applied 7/17), pay docs updated. No cohort promoted yet under the new framework, so Super Green isn't met. 7/30 QGR UPDATE: damages is no longer an open fight — Cameron ruled in the room that damages goes IN the promotion gate AND stays in the bonus, superseding the 7/16 direction and Anne's proposed 7/28 compromise (weighted 100-point input instead of a gate). Related ruling: the performance matrix moves to 3 buckets (messaging/timing still open). Dissent was noted in the room (re-adding damages later is harder than removing it now); the plan is to review the first promotion cohort against the gate and fine-tune if good people miss it. Q3 lesson: define the 'how' (measurement, cadence, communication) alongside the 'what,' not after.",
-          "superGreen": "Promotion metrics tied to Einstein Games KPIs, first cohort promoted under new framework, pay docs updated",
-          "green": "Promotion metrics framework built",
-          "sourceUpdated": "2026-08-01",
-          "source": "cos-feed"
         }
       ],
       "period": "Q3 2026",
