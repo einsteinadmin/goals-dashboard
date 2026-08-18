@@ -5,7 +5,7 @@ const DASHBOARD_DATA = {
     "quarterEnd": "2026-10-31",
     "themeDeadline": "2026-10-19",
     "themeDeadlineLabel": "Training Camp \u2014 Theme Deadline: Oct 19",
-    "lastRefreshed": "2026-08-18T14:05:00-05:00",
+    "lastRefreshed": "2026-08-18T15:10:00-05:00",
     "refreshedBy": "Albert (digest \u2014 Amanda 8/18)",
     "archive": {
       "quarter": "Q2 2026",
@@ -676,10 +676,10 @@ const DASHBOARD_DATA = {
           ]
         },
         {
-          "name": "Push out training certifications run by Tetet and Carly",
+          "name": "Push out training certifications \u2014 Carly (customer resolution)",
           "critical": false,
-          "status": "unknown",
-          "assessment": "8/18 sync: Tet is NOT running certs this quarter; Carly is building customer-resolution training. \u26a0 Cameron to rule: keep this on the chart with Carly as the engine, or ratify Amanda's cut (her feed dropped it).",
+          "status": "yellow",
+          "assessment": "8/18 RULED (Cameron): Tet's certification portion is CUT this quarter (he's on the Northwood engagement); Carly's customer-resolution training STAYS and is now the whole goal. Not started as of 8/18 \u2014 she's drafting the claims email first, ~1 week in. Cascading chart updated to match. Cameron's ask riding this: package the training so it can become a vetted CX agent in Slack, not a document nobody reads.",
           "superGreen": "All managers, sales team, claims are certified",
           "green": "Training complete, certification has started",
           "sourceUpdated": "2026-08-18",
