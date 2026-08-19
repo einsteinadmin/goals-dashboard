@@ -5,8 +5,8 @@
     "quarterEnd": "2026-10-31",
     "themeDeadline": "2026-10-19",
     "themeDeadlineLabel": "Training Camp — Theme Deadline: Oct 19",
-    "lastRefreshed": "2026-08-17T18:15:00-05:00",
-    "refreshedBy": "Albert (/wrap 8/17 — chart-clean; derive quarter guard live)",
+    "lastRefreshed": "2026-08-19T08:40:00-05:00",
+    "refreshedBy": "Albert (/gm)",
     "archive": {
       "quarter": "Q2 2026",
       "file": "dashboard-data-q2-2026.json",
@@ -183,7 +183,7 @@
       "name": "Q3 Theme Stewardship — “Training Camp” (2-lane rollup)",
       "critical": false,
       "status": "unknown",
-      "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
+      "assessment": "8/19: Trinity sales class #1 ran 8/18 (class #2 today); Wimp Junction role-play trainer live on Replit v1.1, publish+share to Amanda today; ITP color-code round moved to Fri 8/21. Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
       "superGreen": "Both lanes hit their Super Green (Lane 1: fast-track-or-stage-4 by 10/19 at floor · Lane 2: >70 avg) — OR Green + Cameron ships app improvements: 2+ shipped features or quality-sprint fixes with Mike by EOQ",
       "green": "BOTH lanes hit Green — Lane 1 Training App rollout (movers/leads/managers): enrollment closed 8/20 + managers’ sandbox gate 8/19 + 70% adoption floor · Lane 2 CER call-grading (Aug level-set, trial from 9/1): >60 avg",
       "lastUpdated": "2026-07-30"
