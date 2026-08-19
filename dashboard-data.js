@@ -5,7 +5,7 @@ const DASHBOARD_DATA = {
     "quarterEnd": "2026-10-31",
     "themeDeadline": "2026-10-19",
     "themeDeadlineLabel": "Training Camp — Theme Deadline: Oct 19",
-    "lastRefreshed": "2026-08-19T16:25:00-05:00",
+    "lastRefreshed": "2026-08-19T17:10:00-05:00",
     "refreshedBy": "Albert (digest)",
     "archive": {
       "quarter": "Q2 2026",
@@ -193,7 +193,7 @@ const DASHBOARD_DATA = {
       "name": "Cameron/KP — Website Redesign Part 2: Build + LAUNCH (signed SOW)",
       "critical": false,
       "status": "unknown",
-      "assessment": "8/19 KP sync: Lianna copy rewrite DONE in 3 days (Laura sending SEO-suggestion Figma; Cameron approves 8/20); Secret Stache build STARTING now, Rich sends build/content-entry/QA timeline wk of 8/24; Emma designs on pace; dev confirmed inside SOW. Elizabeth (KP) last day — Kyra + Dana cover SEO. Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
+      "assessment": "8/19 Lianna wrap: ALL site pages copied in Figma + neighborhood copy + emails + postcard; hit list doc; KP consolidates + SEO, Lianna final pass; Cameron review 8/20 (pulse 12686892493). 8/19 KP sync: Lianna copy rewrite DONE in 3 days (Laura sending SEO-suggestion Figma; Cameron approves 8/20); Secret Stache build STARTING now, Rich sends build/content-entry/QA timeline wk of 8/24; Emma designs on pace; dev confirmed inside SOW. Elizabeth (KP) last day — Kyra + Dana cover SEO. Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
       "superGreen": "Site LAUNCHED by 10/31 (the SOW’s own week-20 schedule, held)",
       "green": "Dev phase complete per the signed SOW ($82,820, dev included, ~20 wks) — FSE block theme on staging, all pages populated, QA underway by EOQ",
       "lastUpdated": "2026-07-30"
