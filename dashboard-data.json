@@ -5,8 +5,8 @@
     "quarterEnd": "2026-10-31",
     "themeDeadline": "2026-10-19",
     "themeDeadlineLabel": "Training Camp — Theme Deadline: Oct 19",
-    "lastRefreshed": "2026-08-19T08:40:00-05:00",
-    "refreshedBy": "Albert (/gm)",
+    "lastRefreshed": "2026-08-19T11:00:00-05:00",
+    "refreshedBy": "Albert (digest)",
     "archive": {
       "quarter": "Q2 2026",
       "file": "dashboard-data-q2-2026.json",
@@ -213,7 +213,7 @@
       "name": "One Truth — Einstein Data Bus + AI/Tool Governance (registry · bus lanes · monthly Big Rocks review)",
       "critical": false,
       "status": "unknown",
-      "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
+      "assessment": "8/19 huddle: Matisen has Einstein Games fully automated → Data Hub bundle → QGR packet + branch/company scorecards targeted live by Fri 8/21 (validation pending) — first automated feed into the packet family. Hub gated to Einstein + KP vendor emails (Jeff added). Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
       "superGreen": "Green + bus lane #2 (Rippling hours) live off the CoS-MH1 handover + QA/“team-shareable” certification process adopted network-wide",
       "green": "Tool registry live as the network front door covering all 7 leaders’ tools (built on Matisen’s hosted-pages hub pattern) + bus lane #1 (EMMA sales feed) canonical and consumed by network tools + monthly Big Rocks review run all 3 months + Einstein AI Use Policy adopted (Kiingo template tailored, rolled out with Anne — lands BEFORE the Tier-3 BM pilot opens access)",
       "lastUpdated": "2026-07-30"
