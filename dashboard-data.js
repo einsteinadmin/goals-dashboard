@@ -5,8 +5,8 @@ const DASHBOARD_DATA = {
     "quarterEnd": "2026-10-31",
     "themeDeadline": "2026-10-19",
     "themeDeadlineLabel": "Training Camp — Theme Deadline: Oct 19",
-    "lastRefreshed": "2026-08-19T17:10:00-05:00",
-    "refreshedBy": "Albert (digest)",
+    "lastRefreshed": "2026-08-20T08:50:00-05:00",
+    "refreshedBy": "Albert (/gm)",
     "archive": {
       "quarter": "Q2 2026",
       "file": "dashboard-data-q2-2026.json",
