@@ -1,0 +1,416 @@
+{
+ "cameron::rock::1::Q3 Theme Stewardship \u2014 \u201cTraining Camp\u201d (2-lane rollup)": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ],
+ "cameron::rock::2::Cameron/KP \u2014 Website Redesign Part 2: Build + LAUNCH (signed SOW)": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ],
+ "cameron::rock::3::COS/World Model Part 2 \u2014 Tier 3 pilot via Claude Tags (+ power-user BM beta per ballot ruling)": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ],
+ "cameron::rock::4::One Truth \u2014 Einstein Data Bus + AI/Tool Governance (registry \u00b7 bus lanes \u00b7 monthly Big Rocks review)": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ],
+ "cameron::rock::5::Manager Ongoing Education Library (absorbs ECP cert course \u2014 one goal)": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ],
+ "cameron::kpi::Truck Utilization Rate": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ],
+ "cameron::kpi::Conversion Rate $": [
+  {
+   "status": "green",
+   "date": "2026-08-21"
+  }
+ ],
+ "cameron::kpi::Customer NPS": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Paul Morin::Annual Mover Comp Review \u2014 Pay Structure + Promotion Paths": [
+  {
+   "status": "green",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Paul Morin::Improve BM Financial Accountability Meetings \u2014 Proactive Approach": [
+  {
+   "status": "green",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Paul Morin::Improve Invoicing + AR Collections Tracking": [
+  {
+   "status": "green",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Paul Morin::Acquisition Case Study \u2014 New Branch vs. Acquisition Model": [
+  {
+   "status": "green",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Paul Morin::Branch Visits": [
+  {
+   "status": "green",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Brian Herzig::Connection Cadence \u2014 quarterly regional outing + mover-manager roundtables (bundles the 5 eNPS asks)": [
+  {
+   "status": "yellow",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Brian Herzig::ATX Flex Manager + SA Ops Manager Development": [
+  {
+   "status": "green",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Brian Herzig::CTXH Quarterly Theme Mgmt \u2014 Ensure All Managers Hit QGs": [
+  {
+   "status": "green",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Brian Herzig::CTXH Branch Audits \u2014 3 of 5 Branches per Quarter": [
+  {
+   "status": "yellow",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Brian Herzig::Scrum Accountability Part 3 \u2014 Huddle Grading + Value Tracking": [
+  {
+   "status": "green",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Mike Vandenbroader::Mover Training App \u2014 Company-Wide Rollout + Driver-Training Port + Digital Training Handbook": [
+  {
+   "status": "green",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Mike Vandenbroader::Dept-Head/Regional Split \u2014 FDE Boots-on-Ground Weeks + Dept-Head QGs as Critical Number": [
+  {
+   "status": "green",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Mike Vandenbroader::Fleet Safety Pt 3 \u2014 Carry the Red, Restructured": [
+  {
+   "status": "green",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Mike Vandenbroader::Sell Remaining Trucks + Fund 2026 Fleet Purchases": [
+  {
+   "status": "green",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Mike Vandenbroader::Manager Training App \u2014 SOP Sandbox Training and reference": [
+  {
+   "status": "red",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Fabian Urrutia::Refine Automated QA Process \u2014 AI Agent for Bug Hunting": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Fabian Urrutia::Roll Out Mobile App Update \u2014 UX Improvements + First Feature": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Fabian Urrutia::EMMA V4 Quality-of-Life Sprints \u2014 2 QOL Rounds": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Fabian Urrutia::Fabian \u2014 BigQuery Reconciliation + Data Cleanup (post mobile-app rollout)": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Fabian Urrutia::Sage Integration": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Anne Bosse::Workers Comp Process Improvements \u2014 On-Site Incident Workflow + Compliance": [
+  {
+   "status": "yellow",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Anne Bosse::100-Point Behavioral System \u2014 Q2 Rock 2 Companion": [
+  {
+   "status": "yellow",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Anne Bosse::Implement Weekly Start/Stop/Keep Conversations \u2014 Scaling Up Practice": [
+  {
+   "status": "yellow",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Anne Bosse::eNPS Voluntary Transition + Engagement Follow-Through": [
+  {
+   "status": "yellow",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Anne Bosse::Mover Promotion Framework \u2014 First Cohort Live": [
+  {
+   "status": "yellow",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Anne Bosse::2027 Open Enrollment": [
+  {
+   "status": "yellow",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Jalissa::Anne \u2014 Hiring Targets 105% (Summer Peak)": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Jalissa::ClearCo ATS Rollout + Hiring Funnel Visibility": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Jalissa::HR Compliance Audit Cadence (was: Onboarding Experience \u2014 Close It Out)": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Jalissa::Implement WHO/Culture Interviews \u2014 Improved Phone Interview + Position Scorecards": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Amanda Ware::Incentivize Manager Sales \u2014 Quarterly Sales Comp (if not removed entirely)": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Amanda Ware::Chatbot Launch + Leadferno Sunset (carry, finish line)": [
+  {
+   "status": "yellow",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Amanda Ware::Extend New Email Design System to Full Email Suite \u2014 Shorter, Video-First, Fewer Words": [
+  {
+   "status": "green",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Amanda Ware::Estimating improvements": [
+  {
+   "status": "green",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Amanda Ware::Push out training certifications run by Tetet and Carly": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Amanda Ware::Improve Sales Performance Engagement \u2014 Work with Jeff (Northwood)": [
+  {
+   "status": "green",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Nhel::Nhel \u2014 Plan CET Philippines Conference (March 2027)": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Nhel::Nhel \u2014 Manager Sales Accountability (Weekly RM Reporting)": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Nhel::Launch Sales Competitions \u2014 Small Bonus Incentives to Drive Engagement": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Nhel::Call Grading at Volume \u2014 Distribution + Coaching Loop": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Nhel::Estimate improvements.": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Tetet::Tet \u2014 Sales Class Level 2 (Advanced Objection Handling + VP Positioning)": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Tetet::Tet \u2014 Sales Training Improvements (update sales training)": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Tetet::Coordinate Jules doing training / ride-alongs with low-performer sales team members": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Tetet::New-Rep Ramp \u2014 Sales Speed-to-Competence": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Tetet::Personal sales goal": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Carly::Auto-Email for Damage Claims \u2014 Meet Our Claim Rep + Policy Info": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Carly::Carly \u2014 CX Q2 Theme Execution (Carly's Contribution)": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Carly::Launch Customer Outreach Program \u2014 Stop/Start/Keep + Case Studies": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Carly::Carly \u2014 Ramp-Back + Magic Moments Phase 2": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Carly::Customer Resolution Certification": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Matisen Harper::QG and Support Blocks \u2014 Admin": [
+  {
+   "status": "green",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Matisen Harper::QG and Support Blocks \u2014 Sales and Marketing": [
+  {
+   "status": "green",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Matisen Harper::QG and Support Blocks \u2014 Performance and Employee Management": [
+  {
+   "status": "green",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Matisen Harper::Praise Targets": [
+  {
+   "status": "yellow",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Austin LeLievre::KP Content Pipeline \u2014 short form + photos (48-hr SLA)": [
+  {
+   "status": "supergreen",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Austin LeLievre::Long Form Videos \u2014 4 from named list (shortlist w/ KP; incl. Einstein Coaching Protocol video w/ Cameron)": [
+  {
+   "status": "yellow",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Austin LeLievre::Crowdsourcing Pipeline \u2014 FMs + Movers (content-accountability machinery)": [
+  {
+   "status": "green",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Austin LeLievre::Client Testimonials": [
+  {
+   "status": "red",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Ben Young::Q3 goals \u2014 set outside the QGR fold": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ],
+ "leader::Kickpoint::Q3 goals \u2014 set outside the QGR fold": [
+  {
+   "status": "unknown",
+   "date": "2026-08-21"
+  }
+ ]
+}

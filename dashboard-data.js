@@ -17,18 +17,19 @@ const DASHBOARD_DATA = {
       "Amanda's CX Q2 Theme rock — pending decision (gates Nhel + Carly's theme rocks too, tracked off-dashboard)"
     ],
     "criticalNumbersConfirmed": "Cameron Rocks #1 (Einstein Dojo + COS scaling) and #2 (AI Wedge Audit + QG Support) confirmed as Critical Numbers per 5/7.",
-    "scopeNote": "Dashboard tracks Cameron's directs only. Non-direct contributors (Nhel, Tet, Fabian, LiftUp, Claims team, ROs) are kept in line on the Cascading Goals spreadsheet for visibility but cascade through their managers — Cameron doesn't meet with them regularly enough to keep dashboard status fresh.",
+    "scopeNote": "Dashboard tracks Cameron's DIRECTS only. Non-direct contributors (Nhel, Tet, Fabian, Jalissa, Carly, LiftUp, Claims team, ROs) cascade through their managers and live on the Cascading Goals spreadsheet. PULLED 8/21/2026 (Cameron's ruling): the 5 non-direct leaders folded in at the 7/30 QGR had no COS feed, so all 24 of their goals sat at 'unknown' for 22 days and would never have updated — a third of the dashboard reading as live data when it was frozen. Archived to leadership-archive-non-directs-2026-08-21.json; restore when the world model pushes down and managers collect their directs' status at sync-up.",
     "lastRefreshNote": "7/16 huddle digest. Sales: July trending ~+5% — the number needed to offset June's ~5% miss (hit May sales, missed May revenue); OT weekend push holding. Mike: onboarding tests going INTO mover app (90 Qs split into 4 staged sections) + interactive train-the-trainer sim module; common-mistakes fleet module = last build for build-side SG; PM schedule rebuild in Samsara off DFW hub. Brian: Daniel offer out, South Austin succession opens (Hector/Jesper/Jake Peterson); Scrum training boards + schedule-training rebuild w/ Vera. Anne: lav mic bought — benefits/comp video is the last onboarding-goal piece; BCBS EDI feeds live ~1 wk; engagement survey data cleaned+shared by Fri; eNPS redesign direction = confidential-not-anonymous + voluntary. Frank: decision stands, Brian owes documented level-set within a week. DFWT conduct issue: final warning issued, Anne closing out. No status flips this pass.",
     "_archivedRefreshNote3": "6/15 group sync digest (Mission Control debut). Status moves: Mike Mover Training app → SG (functional app built); Brian + Mike + Amanda ITP behind (Mike & Amanda Red); Brian Games trending red (CTXH 6.8); Matisen VP + ITP SG. Decisions: Botpress selected; trip-fee/service-zone audit + raise to hourly; Super Mover app on Mike's platform (Cameron endorsed — flagged high-stakes); MJML vs HTML email; hire to open trucks (Paul); 4-week TUR/capacity analysis. Anne released early (SHRM travel) — her statuses carried from prep.",
     "_archivedRefreshNote2": "5/28 /gm sweep — Fixed two rendering bugs (status values that produced empty circles): Anne HR Generalist 'super-green' → 'supergreen' (now shows the SG dot); Rock #6 ITP 'yellow' flagged to Cameron (dashboard has no yellow state — SG/G/R only — pending his call to map green vs red). Rock #1 COS refreshed: Vera-Brian live (5 of 6 COS active, Amanda last). Rock #5 + KP + Smart Move tile: website design proposal SIGNED 5/28, Ben looped for payment calendar. Einstein Games tile: S3 launched 5/23, week 1 in flight. PRIOR (5/22 /retro): ",
     "_archivedRefreshNote": "5/22 /retro deep refresh + /wrap velocity correction — week 5/18-5/22 closed. Velocity 33 pulses / 122 LOW / 10 praise / happiness 4 (corrected at /wrap from earlier ~95 LOW estimate — Hold for Sync Up + Done 2026 dated this week combined). Roughly tied with last week's 32/121 modeler-sprint frenzy. Huddle facilitation jumped one full letter grade from last week (C/3.1 three-day → B+ this week). HOF Path B initially shipped differentiated (conditional A-player ultimatum) then REVERSED to uniform via Roundtable + 6-author consultant council, all six convergent — philosophy v2.2 added 'pay corrections are not performance ultimatums' principle. VP rates LIVE clean overnight Wed 5/20. Einstein Games S3 launches Sat 5/23, public brief page live. Lead Triage scoping approved for Fabian Phase 1 (broke 2-week stall). N. Austin onsite visit 5/19 banked (1/3 toward Branch Visits rock). Cameron's COS rollout for Brian decoupled from Anthropic Org setup (Brian first now, Tue 5/26 target — breaks 3-week slip pattern). HR Generalist hire: Saturday interview added to land by Mon PM. Performance-pay system framed as Anne + Paul Q2 Rock. Friction-remover pattern flagged — Cameron's rocks underperforming because day fills supporting everyone else.",
     "_archivedRefreshNote4": "6/18 /retro deep refresh (week 6/15-6/18). Cameron Rocks: ITP #6 → COMPLETE/Super Green (workshop + one-pager done for Rob 7/10, pulse Done). COS scaling #1 accelerating — 6 of 7 COS live (Vera + CoS-MH1 bootstrapped status.json, Clark Google Docs unblocked overnight 6/18), teach-skill genericized to Amanda/Gary beta, drift-detection upgrade shipped; network block updated to 6-of-7. Website #5 — 7-critic hostile audit → 'ship v1, fix one blocker', v2 Peekaboo built, both sent to KP, awaiting Jeff scope. AI Wedge #2 — Quote Funnel locked w/ KP (data-collection-first), call grading continues under Gary. VP #3 steady (final pricing report landed, FTE-connect staged, Tuesday cadence held). Branch Visits #4 quiet (pre-travel). Leadership: Brian Games company-wide 8.8 + Mentimeter-replacement Replit app working (praised); Mike back from vacation clean catch-up + super-app chassis locked (⚠ Gerald status.json off-spec); Amanda Botpress green-lit + owns w/ Matisen; Matisen final pricing + FTE-connect + Field App handoff received + status.json now live; Anne holding (Orlando HR conf). CET sheet pulled: Claims time-to-close Q2 avg Stephanie 6.7 / Jaci 5.4 biz days (Green/SG); May $ conversions company 80.78% (below 95% Green = Red). Prior 6/15 group sync note below.",
-    "_archivedRefreshNote5_710digest": "7/9 huddle digest (first day back from Seattle). Matisen: EMMA read-only MCP in QA — sales/revenue/conversion pulling correctly, Einstein Games data NOT pulling (still validating), Rippling hours done; mobile/field app rollout targeted eve of 7/10; ClearCo webhooks set, Rippling integration mapping w/ Anne. Brian: NA BM hiring scorecard locked at 50/50 Position-KPIs/Choices (ITP reference-only, weight toggles; Vera building), candidates narrowing (Lukas+Frank likely cut). Mike: mover training app strong after Dallas/Garland feedback, common-mistakes driver module starting. Amanda: sales back on track post-holiday, exploring quarterly goals + incentive plan pre-QGR. Rob 7/15 prep clarified; team recap+links via Slack. Statuses largely held from 6/18 — no status flips this pass."
+    "_archivedRefreshNote5_710digest": "7/9 huddle digest (first day back from Seattle). Matisen: EMMA read-only MCP in QA — sales/revenue/conversion pulling correctly, Einstein Games data NOT pulling (still validating), Rippling hours done; mobile/field app rollout targeted eve of 7/10; ClearCo webhooks set, Rippling integration mapping w/ Anne. Brian: NA BM hiring scorecard locked at 50/50 Position-KPIs/Choices (ITP reference-only, weight toggles; Vera building), candidates narrowing (Lukas+Frank likely cut). Mike: mover training app strong after Dallas/Garland feedback, common-mistakes driver module starting. Amanda: sales back on track post-holiday, exploring quarterly goals + incentive plan pre-QGR. Rob 7/15 prep clarified; team recap+links via Slack. Statuses largely held from 6/18 — no status flips this pass.",
+    "statusHistoryStamped": "2026-08-21"
   },
   "network": {
     "phase": "1",
     "phaseLabel": "All 7 COS live — Q3 tracking opens",
-    "lastRefreshed": "2026-07-31",
+    "lastRefreshed": "2026-08-21",
     "matrixUrl": "https://einsteinadmin.github.io/einstein-cos-matrix-059563b8c478/",
     "agentsReporting": 7,
     "agentsTotal": 7,
@@ -36,7 +37,73 @@ const DASHBOARD_DATA = {
     "adoptionLabel": "7 of 7 live",
     "staleCount": 0,
     "pendingTotal": 0,
-    "summary": "All 7 COS publishing. 7/31 freshness: Matisen 7/31 · Mike 7/28 · Brian 7/24 · Cameron 7/23 · Anne 7/22 · Paul 7/16 · Amanda 7/15. Amanda (Gary) and Paul (Clark) both past the 9-business-day line — chase next week."
+    "summary": "All 7 COS publishing. 7/31 freshness: Matisen 7/31 · Mike 7/28 · Brian 7/24 · Cameron 7/23 · Anne 7/22 · Paul 7/16 · Amanda 7/15. Amanda (Gary) and Paul (Clark) both past the 9-business-day line — chase next week.",
+    "agents": [
+      {
+        "cos": "Albert",
+        "repo": "(host)",
+        "state": "LIVE",
+        "ageDays": 1,
+        "goals": 6,
+        "wrapStep": "(host)",
+        "principal": "Cameron Brown"
+      },
+      {
+        "cos": "Gerald",
+        "repo": "gerald-mike",
+        "state": "LIVE",
+        "ageDays": 3,
+        "goals": 5,
+        "wrapStep": "yes",
+        "principal": "Mike Vandenbroader"
+      },
+      {
+        "cos": "Clark",
+        "repo": "cos-clark",
+        "state": "LIVE",
+        "ageDays": 3,
+        "goals": 5,
+        "wrapStep": "yes",
+        "principal": "Paul Morin"
+      },
+      {
+        "cos": "CoS-MH1",
+        "repo": "matisen-cos",
+        "state": "LIVE",
+        "ageDays": 1,
+        "goals": 4,
+        "wrapStep": "yes",
+        "principal": "Matisen Harper"
+      },
+      {
+        "cos": "Vera",
+        "repo": "cos-vera",
+        "state": "LIVE",
+        "ageDays": 2,
+        "goals": 6,
+        "wrapStep": "yes",
+        "principal": "Brian Herzig"
+      },
+      {
+        "cos": "Gary",
+        "repo": "cos-amanda",
+        "state": "LIVE",
+        "ageDays": 3,
+        "goals": 5,
+        "wrapStep": "yes",
+        "principal": "Amanda Ware"
+      },
+      {
+        "cos": "Linda",
+        "repo": "cos-anne",
+        "state": "LIVE",
+        "ageDays": 2,
+        "goals": 6,
+        "wrapStep": "yes",
+        "principal": "Anne Bosse"
+      }
+    ],
+    "rosterSource": "cos-network-pull-daily (last-run.log)"
   },
   "companyCriticalNumbers": [
     {
@@ -160,21 +227,27 @@ const DASHBOARD_DATA = {
       "target": "65%",
       "actual": null,
       "status": "unknown",
-      "note": "Q2 budget target 81.08% (financial sheet). Need EMMA data. #1 gap an EMMA API endpoint would fill. | Q3 reseed 7/31: actual cleared, awaiting Q3 data."
+      "note": "Q2 budget target 81.08% (financial sheet). Need EMMA data. #1 gap an EMMA API endpoint would fill. | Q3 reseed 7/31: actual cleared, awaiting Q3 data.",
+      "statusSince": "2026-08-21",
+      "statusDays": 0
     },
     {
       "name": "Conversion Rate $",
       "target": "20%",
       "actual": "23.6% (Q3-TD, Data Hub, per Matisen 8/17)",
       "status": "green",
-      "note": "⭐ RE-BASELINED to 20% by Cameron 8/3/26 — this settles the open basis question. History: the old 40% standard predates the Variable Pricing rollout and the 3/31 definition change. At the 7/15 Rob session Cameron flagged leads up but conversion ~40%→~20%; Amanda pushed back that it's partly lead-quality mix, not pure conversion decay. Q2-TD read was 19.9% raw / 25.6% resolved / 31.8% excl-EmmaLead. 20% is the new baseline to measure against, not a target cut — the old number was measuring a different thing. Awaiting Q3 actuals. | 8/17: Matisen reports Q3-TD $-conversion 23.6% on the Data Hub vs the 20% target — green, watch the seasonal dip as no-availabilities rise."
+      "note": "⭐ RE-BASELINED to 20% by Cameron 8/3/26 — this settles the open basis question. History: the old 40% standard predates the Variable Pricing rollout and the 3/31 definition change. At the 7/15 Rob session Cameron flagged leads up but conversion ~40%→~20%; Amanda pushed back that it's partly lead-quality mix, not pure conversion decay. Q2-TD read was 19.9% raw / 25.6% resolved / 31.8% excl-EmmaLead. 20% is the new baseline to measure against, not a target cut — the old number was measuring a different thing. Awaiting Q3 actuals. | 8/17: Matisen reports Q3-TD $-conversion 23.6% on the Data Hub vs the 20% target — green, watch the seasonal dip as no-availabilities rise.",
+      "statusSince": "2026-08-21",
+      "statusDays": 0
     },
     {
       "name": "Customer NPS",
       "target": "90+",
       "actual": null,
       "status": "unknown",
-      "note": "⭐ REPLACED eNPS on Cameron's KPI slate 8/3/26 — customer NPS, target 90+. Consistent with the 7/27 scorecard ruling that pulled mover eNPS out of the branch composite into a side metric: eNPS is now a culture signal, not a headline KPI. Branch-scorecard NPS bands for reference: SG ≥91 · G 88–90.9 · W 86–87.9 · R <86, so 90+ sits at the top of Green. Prior eNPS state (archived, dashboard-data-q2-2026.json): manager/CET survey 7/17 scored 81, avg 9.3, 52 responses, 1 detractor. eNPS also went voluntary going forward, so participation rate becomes its own signal."
+      "note": "⭐ REPLACED eNPS on Cameron's KPI slate 8/3/26 — customer NPS, target 90+. Consistent with the 7/27 scorecard ruling that pulled mover eNPS out of the branch composite into a side metric: eNPS is now a culture signal, not a headline KPI. Branch-scorecard NPS bands for reference: SG ≥91 · G 88–90.9 · W 86–87.9 · R <86, so 90+ sits at the top of Green. Prior eNPS state (archived, dashboard-data-q2-2026.json): manager/CET survey 7/17 scored 81, avg 9.3, 52 responses, 1 detractor. eNPS also went voluntary going forward, so participation rate becomes its own signal.",
+      "statusSince": "2026-08-21",
+      "statusDays": 0
     }
   ],
   "cameronRocks": [
@@ -186,7 +259,9 @@ const DASHBOARD_DATA = {
       "assessment": "8/19: Trinity sales class #1 ran 8/18 (class #2 today); Wimp Junction role-play trainer live on Replit v1.1, publish+share to Amanda today; ITP color-code round moved to Fri 8/21. Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
       "superGreen": "Both lanes hit their Super Green (Lane 1: fast-track-or-stage-4 by 10/19 at floor · Lane 2: >70 avg) — OR Green + Cameron ships app improvements: 2+ shipped features or quality-sprint fixes with Mike by EOQ",
       "green": "BOTH lanes hit Green — Lane 1 Training App rollout (movers/leads/managers): enrollment closed 8/20 + managers’ sandbox gate 8/19 + 70% adoption floor · Lane 2 CER call-grading (Aug level-set, trial from 9/1): >60 avg",
-      "lastUpdated": "2026-07-30"
+      "lastUpdated": "2026-07-30",
+      "statusSince": "2026-08-21",
+      "statusDays": 0
     },
     {
       "number": 2,
@@ -196,7 +271,9 @@ const DASHBOARD_DATA = {
       "assessment": "8/19 Lianna wrap: ALL site pages copied in Figma + neighborhood copy + emails + postcard; hit list doc; KP consolidates + SEO, Lianna final pass; Cameron review 8/20 (pulse 12686892493). 8/19 KP sync: Lianna copy rewrite DONE in 3 days (Laura sending SEO-suggestion Figma; Cameron approves 8/20); Secret Stache build STARTING now, Rich sends build/content-entry/QA timeline wk of 8/24; Emma designs on pace; dev confirmed inside SOW. Elizabeth (KP) last day — Kyra + Dana cover SEO. Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
       "superGreen": "Site LAUNCHED by 10/31 (the SOW’s own week-20 schedule, held)",
       "green": "Dev phase complete per the signed SOW ($82,820, dev included, ~20 wks) — FSE block theme on staging, all pages populated, QA underway by EOQ",
-      "lastUpdated": "2026-07-30"
+      "lastUpdated": "2026-07-30",
+      "statusSince": "2026-08-21",
+      "statusDays": 0
     },
     {
       "number": 3,
@@ -206,7 +283,9 @@ const DASHBOARD_DATA = {
       "assessment": "8/19: Brian built a weekly AAR prompt for every CTXH manager's own Claude project (self-reported QG progress → Vera) — the Tier-3 shape; Cameron offered API token + Replit collab for a manager Mission Control (prep flows to Brian + world model). Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
       "superGreen": "Green + self-verification template upgrade shipped network-wide + 8/7 setup-audit findings folded into the template + each pilot user logging one concrete win per week",
       "green": "Claude Tags live in Slack for the COS network by 9/1 + the BM-COS ballot ruling EXECUTED — if yes: 3 power-user BMs onboarded with their own COS and active weekly; if no: Tier-3 pilot redirects to the secondary tier (Carly/Nhel/Jalissa)",
-      "lastUpdated": "2026-07-30"
+      "lastUpdated": "2026-07-30",
+      "statusSince": "2026-08-21",
+      "statusDays": 0
     },
     {
       "number": 4,
@@ -216,7 +295,9 @@ const DASHBOARD_DATA = {
       "assessment": "8/19 Mike 1:1: FOUR versions of one thing now exist (Mike's DFWT Command Center [live], Brian's weekly AAR prompt, Matisen's hub, Cameron's Mission Control) — Cameron curating ONE best practice (pulse 12846899618); numbers must reconcile once the hub ships. 8/19 huddle: Matisen has Einstein Games fully automated → Data Hub bundle → QGR packet + branch/company scorecards targeted live by Fri 8/21 (validation pending) — first automated feed into the packet family. Hub gated to Einstein + KP vendor emails (Jeff added). Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
       "superGreen": "Green + bus lane #2 (Rippling hours) live off the CoS-MH1 handover + QA/“team-shareable” certification process adopted network-wide",
       "green": "Tool registry live as the network front door covering all 7 leaders’ tools (built on Matisen’s hosted-pages hub pattern) + bus lane #1 (EMMA sales feed) canonical and consumed by network tools + monthly Big Rocks review run all 3 months + Einstein AI Use Policy adopted (Kiingo template tailored, rolled out with Anne — lands BEFORE the Tier-3 BM pilot opens access)",
-      "lastUpdated": "2026-07-30"
+      "lastUpdated": "2026-07-30",
+      "statusSince": "2026-08-21",
+      "statusDays": 0
     },
     {
       "number": 5,
@@ -226,7 +307,9 @@ const DASHBOARD_DATA = {
       "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
       "superGreen": "Green + financial literacy module (2024 lemonade-stand case) + conflict resolution module (movers + CERs) live, with hospitality + ITP modules spec’d as next-quarter backlog",
       "green": "ECP certification module built and piloted with at least one region’s managers",
-      "lastUpdated": "2026-07-30"
+      "lastUpdated": "2026-07-30",
+      "statusSince": "2026-08-21",
+      "statusDays": 0
     }
   ],
   "leadership": [
@@ -243,7 +326,9 @@ const DASHBOARD_DATA = {
           "green": "Pay structure + Promotion Paths documented and communicated to the team by end of quarter; data tracking process streamlined to a recurring review cadence",
           "sourceUpdated": "2026-08-17",
           "source": "cos-feed",
-          "pulse": "11752733644"
+          "pulse": "11752733644",
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         },
         {
           "name": "Improve BM Financial Accountability Meetings — Proactive Approach",
@@ -254,7 +339,9 @@ const DASHBOARD_DATA = {
           "green": "Monthly BM performance review cadence launched, single meeting combining margin review + branch scorecard KPIs (interconnected), run by RMs, with BMs presenting both",
           "sourceUpdated": "2026-08-17",
           "source": "cos-feed",
-          "pulse": "11728394236"
+          "pulse": "11728394236",
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         },
         {
           "name": "Improve Invoicing + AR Collections Tracking",
@@ -265,7 +352,9 @@ const DASHBOARD_DATA = {
           "green": "Unpaid-bill workflow documented end-to-end (customer comms + timing standardized, escalation path defined) and team trained on it; tracker (separate spreadsheet, not Sage-native yet) covers all outstanding invoices",
           "sourceUpdated": "2026-08-17",
           "source": "cos-feed",
-          "pulse": "11728362120"
+          "pulse": "11728362120",
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         },
         {
           "name": "Acquisition Case Study — New Branch vs. Acquisition Model",
@@ -276,7 +365,9 @@ const DASHBOARD_DATA = {
           "green": "Houston organic-vs-acquisition case study complete (using the marketplace's Houston lead as the comparable); 3 acquisition opportunities evaluated, at least 1 of 3 current/live (not all historical/practice)",
           "sourceUpdated": "2026-08-17",
           "source": "cos-feed",
-          "pulse": "11728336219"
+          "pulse": "11728336219",
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         },
         {
           "name": "Branch Visits",
@@ -286,7 +377,9 @@ const DASHBOARD_DATA = {
           "superGreen": "3 visits",
           "green": "2 visits",
           "sourceUpdated": "2026-08-17",
-          "source": "cos-feed"
+          "source": "cos-feed",
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         }
       ],
       "period": "Q3 2026",
@@ -305,7 +398,9 @@ const DASHBOARD_DATA = {
           "green": "1 event scheduled per region (include all local managers across local departments), redesigned BM roundtable agenda for more engagement, 2 BM roundtable meetings scheduled, agenda built, conducted with specific manager feedback/action items to take away",
           "sourceUpdated": "2026-08-17",
           "source": "cos-feed",
-          "pulse": "12579679101"
+          "pulse": "12579679101",
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         },
         {
           "name": "ATX Flex Manager + SA Ops Manager Development",
@@ -316,7 +411,9 @@ const DASHBOARD_DATA = {
           "green": "NA BM, SA Ops, SA FM positions filled/solidified — action plans built and in review for C players in my region",
           "sourceUpdated": "2026-08-17",
           "source": "cos-feed",
-          "pulse": "11728362071"
+          "pulse": "11728362071",
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         },
         {
           "name": "CTXH Quarterly Theme Mgmt — Ensure All Managers Hit QGs",
@@ -330,7 +427,9 @@ const DASHBOARD_DATA = {
           "pulse": "11728362090",
           "blockers": [
             "Hard 8/19 (manager sandbox) and 8/20 (mover enrollment) deadlines approaching"
-          ]
+          ],
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         },
         {
           "name": "CTXH Branch Audits — 3 of 5 Branches per Quarter",
@@ -341,7 +440,9 @@ const DASHBOARD_DATA = {
           "green": "3 locations + scorecard audits + 3 circle-ups + 3 huddle audits + redesigned dashboard for branch-visit evaluation grading",
           "sourceUpdated": "2026-08-17",
           "source": "cos-feed",
-          "pulse": "11728355560"
+          "pulse": "11728355560",
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         },
         {
           "name": "Scrum Accountability Part 3 — Huddle Grading + Value Tracking",
@@ -352,7 +453,9 @@ const DASHBOARD_DATA = {
           "green": "100% of frontline managers through the training module and all 10 branch boards re-certified by 10/19",
           "sourceUpdated": "2026-08-17",
           "source": "cos-feed",
-          "pulse": "11728336199"
+          "pulse": "11728336199",
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         }
       ],
       "period": "Q3 2026",
@@ -371,7 +474,9 @@ const DASHBOARD_DATA = {
           "green": "Mgr sandbox 100% by 8/19 + movers 100% enrolled 8/20 + ≥70% through stage 4 by EOQ",
           "sourceUpdated": "2026-08-17",
           "source": "cos-feed",
-          "pulse": "11728355420"
+          "pulse": "11728355420",
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         },
         {
           "name": "Dept-Head/Regional Split — FDE Boots-on-Ground Weeks + Dept-Head QGs as Critical Number",
@@ -382,7 +487,9 @@ const DASHBOARD_DATA = {
           "green": "3 FDE field weeks across the 10 branches by Oct 1 + 1 key issue/visit logged and resolved or on a documented action plan",
           "sourceUpdated": "2026-08-17",
           "source": "cos-feed",
-          "pulse": "12556464031"
+          "pulse": "12556464031",
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         },
         {
           "name": "Fleet Safety Pt 3 — Carry the Red, Restructured",
@@ -397,7 +504,9 @@ const DASHBOARD_DATA = {
           "blockers": [
             "Week 1 company score 86, under the green threshold",
             "Most branches carrying 1-2 high-risk drivers needing warnings"
-          ]
+          ],
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         },
         {
           "name": "Sell Remaining Trucks + Fund 2026 Fleet Purchases",
@@ -412,7 +521,9 @@ const DASHBOARD_DATA = {
           "blockers": [
             "Check-engine light on the spoken-for truck must be fixed before the sale closes",
             "Remaining trucks need photos before they can be posted"
-          ]
+          ],
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         },
         {
           "name": "Manager Training App — SOP Sandbox Training and reference",
@@ -425,71 +536,13 @@ const DASHBOARD_DATA = {
           "source": "cos-feed",
           "blockers": [
             "Not yet started — plan of attack being built this week"
-          ]
+          ],
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         }
       ],
       "period": "Q3 2026",
       "goalsSource": "Q3 Roundtable Rocks and Targets (cascading goals chart, ratified 7/30) — chart is source of truth; extras on a leader’s board are not graded"
-    },
-    {
-      "name": "Fabian Urrutia",
-      "title": "Sr. Developer (under Matisen)",
-      "goals": [
-        {
-          "name": "Refine Automated QA Process — AI Agent for Bug Hunting",
-          "critical": false,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "Setup and train Automatic QA Agents that create pull requests triggered by the EMMA v4 Slack Channel and does independent nightly qa",
-          "green": "Setup and train Automatic QA Agents that create pull requests triggered by the EMMA v4 Slack Channel",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
-          "pulse": "11728352511"
-        },
-        {
-          "name": "Roll Out Mobile App Update — UX Improvements + First Feature",
-          "critical": true,
-          "status": "unknown",
-          "assessment": "8/20: Clover integration = last mile; deployment HELD until back from paternity leave (Marcella due ~9/20, ~2-wk delay accepted); Lift Up coverage meeting Fri 8am; Cameron wants updated launch estimate — Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "App passes qa and is ready for roll out by October 1st with Android Version and MCP alternative identified",
-          "green": "App passes qa and is ready for roll out by October 1st",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
-          "pulse": "11728346777"
-        },
-        {
-          "name": "EMMA V4 Quality-of-Life Sprints — 2 QOL Rounds",
-          "critical": true,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "Both Quality of Life sprints completed",
-          "green": "1 of 2 QoL sprints completed",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
-          "pulse": "11728346836"
-        },
-        {
-          "name": "Fabian — BigQuery Reconciliation + Data Cleanup (post mobile-app rollout)",
-          "critical": false,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "Big Query Sync Fixed, Fulfillment Reporting Compatible with v3 without dashboard bugs, Repeat Customer Cleanup (doesn't include customer dedupe), Google Offline Conversions connected to Emma",
-          "green": "Big Query Sync Fixed, Fulfillment Reporting Compatible with v3 without dashboard bugs, Repeat Customer Cleanup (doesn't include customer dedupe)",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
-          "pulse": "12612475417"
-        },
-        {
-          "name": "Sage Integration",
-          "critical": false,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "Api endpoints implemented for Sage integration",
-          "green": "Scope out Api integration for Move Contract imports into sage",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3"
-        }
-      ]
     },
     {
       "name": "Anne Bosse",
@@ -504,7 +557,9 @@ const DASHBOARD_DATA = {
           "green": "Custom Rippling claim-submission app live, built against the OSHA-recordable field spec handed to Matisen before the data structure locks, with a working EE-notification loop confirmed, plus the on-site incident workflow documented and trained to all 10 BMs, by Sept 15.",
           "sourceUpdated": "2026-08-18",
           "source": "cos-feed",
-          "pulse": "11728357310"
+          "pulse": "11728357310",
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         },
         {
           "name": "100-Point Behavioral System — Q2 Rock 2 Companion",
@@ -515,7 +570,9 @@ const DASHBOARD_DATA = {
           "green": "Methodology fully designed — every dimension mapped to point values and weights, with damages implemented as a promotion-gate criterion per Cameron's 7/30 ruling (in the gate and the bonus, not a weighted score input) — signed off by Cameron and Paul, backtested against one real branch by Oct 1.",
           "sourceUpdated": "2026-08-18",
           "source": "cos-feed",
-          "pulse": "11752777323"
+          "pulse": "11752777323",
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         },
         {
           "name": "Implement Weekly Start/Stop/Keep Conversations — Scaling Up Practice",
@@ -526,7 +583,9 @@ const DASHBOARD_DATA = {
           "green": "Practice designed and documented (format, cadence, log structure), adopted by all 7 Roundtable leaders with their directs, piloted with all RMs + at least 3 BMs, tracked via the interim weekly Monday checklist by Aug 31.",
           "sourceUpdated": "2026-08-18",
           "source": "cos-feed",
-          "pulse": "11728350964"
+          "pulse": "11728350964",
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         },
         {
           "name": "eNPS Voluntary Transition + Engagement Follow-Through",
@@ -537,7 +596,9 @@ const DASHBOARD_DATA = {
           "green": "Platform selected and built by end of August; survey launched to movers as voluntary; first baseline eNPS established with at least 50% participation among eligible movers by Oct 1.",
           "sourceUpdated": "2026-08-18",
           "source": "cos-feed",
-          "pulse": "12626620998"
+          "pulse": "12626620998",
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         },
         {
           "name": "Mover Promotion Framework — First Cohort Live",
@@ -548,7 +609,9 @@ const DASHBOARD_DATA = {
           "green": "Framework locked — damages resolved per Cameron's 7/30 ruling (in the promotion gate AND the bonus, not folded into the 100-point score), cadence and remaining HQ items ratified, published to branches by Oct 1.",
           "sourceUpdated": "2026-08-18",
           "source": "cos-feed",
-          "pulse": "11728362147"
+          "pulse": "11728362147",
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         },
         {
           "name": "2027 Open Enrollment",
@@ -558,61 +621,13 @@ const DASHBOARD_DATA = {
           "superGreen": "Green + a full dry-run/test enrollment completed in Rippling with bugs fixed before real employees touch it + all 10 BMs briefed.",
           "green": "2027 plan-year decisions locked with Cameron and Paul, enrollment comms + training materials built and reviewed, November launch window confirmed, Rippling configured for the 2027 plan year.",
           "sourceUpdated": "2026-08-18",
-          "source": "cos-feed"
+          "source": "cos-feed",
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         }
       ],
       "period": "Q3 2026",
       "goalsSource": "Q3 Roundtable Rocks and Targets (cascading goals chart, ratified 7/30) — chart is source of truth; extras on a leader’s board are not graded"
-    },
-    {
-      "name": "Jalissa",
-      "title": "HR Generalist (under Anne)",
-      "goals": [
-        {
-          "name": "Anne — Hiring Targets 105% (Summer Peak)",
-          "critical": false,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "≥80% compliance in the recruiter lane AND ≥80% in the HM lane, tracked separately so a miss is attributable · zero silent breaches of the 10-day backstop (any crossing has a documented reason: stage dropped, expedited, or req killed) · recurring compliance report (weekly or biweekly) broken out by lane and by branch, so a chronically slow branch is visible",
-          "green": "Full SLA document published covering both swim lanes + the pipeline backstop — Recruiter (Jalissa): pre-screen within 1 business day · phone interview scheduled within 2 business days of HM greenlight · in-person scheduled within 2 business days of passing phone screen · rejected candidates notified same day as req closure. Hiring Manager: pre-screen → phone-interview go/no-go within 1 business day · in-person decision within 2 business days (3 max). Backstop: 10 business days application → HM decision, hard ceiling. Escalation: HM silence on a follow-up escalates to Anne after 2 business days. SLAs socialized with all 10 branch managers (delivered, not just written) + 2–3 weeks of real baseline compliance data captured (ClearCompany pull once creds land, or a manual export) so the first read is measured, not guessed",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
-          "pulse": "11733894186"
-        },
-        {
-          "name": "ClearCo ATS Rollout + Hiring Funnel Visibility",
-          "critical": false,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "",
-          "green": "",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
-          "pulse": "11728352496"
-        },
-        {
-          "name": "HR Compliance Audit Cadence (was: Onboarding Experience — Close It Out)",
-          "critical": false,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "Two consecutive audit cycles run on cadence (per area) with zero unresolved findings carried forward · standing audit log/tracker exists so cycles aren't reconstructed from scratch",
-          "green": "Documented audit checklist covering all 6 compliance areas, each on its assigned cadence (weekly / biweekly / ~3 days pre-month-end / monthly) · first full audit cycle completed for every area with findings logged (not just \"looked clean\") · any first-cycle findings have a remediation plan, even if not fully resolved · benefits-termination subcategory: 100% of terminations in the audit window confirmed termed in BOTH BCBS and Mutual of Omaha by end-of-month of last day worked",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
-          "pulse": "11728362110"
-        },
-        {
-          "name": "Implement WHO/Culture Interviews — Improved Phone Interview + Position Scorecards",
-          "critical": false,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "Position scorecards built for all 7 roles: Customer Experience Representative, Customer Solution Representative, Mover, Field Manager, Flex Manager, Operations Manager, Branch Manager",
-          "green": "Cultural phone interview finalized, in use, and programmed into ClearCompany · position scorecards built for Customer Experience, Mover, and Field Manager (3 of 7 roles)",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
-          "pulse": "11752750983"
-        }
-      ]
     },
     {
       "name": "Amanda Ware",
@@ -627,7 +642,9 @@ const DASHBOARD_DATA = {
           "green": "Hitting 100% goal for the quarter",
           "sourceUpdated": "2026-07-30",
           "source": "cascading-chart-q3",
-          "pulse": "11728354521"
+          "pulse": "11728354521",
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         },
         {
           "name": "Chatbot Launch + Leadferno Sunset (carry, finish line)",
@@ -643,7 +660,9 @@ const DASHBOARD_DATA = {
             "Auto-Recharge cost ceiling cannot be disabled — needs a hard cap agreed before real traffic",
             "Confirmation that Paul delivered the Messenger token to Nidha's team",
             "EMMA integration timeline from Matisen (long-term: chatbot pushes leads directly into EMMA)"
-          ]
+          ],
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         },
         {
           "name": "Extend New Email Design System to Full Email Suite — Shorter, Video-First, Fewer Words",
@@ -659,7 +678,9 @@ const DASHBOARD_DATA = {
             "Redesign not yet finalized or approved — not in the EMMA updates queue",
             "External sharing to Kickpoint blocked by org-wide Artifact link-sharing policy; needs raw-file workaround",
             "Dependency on Matisen for EMMA-side rollout"
-          ]
+          ],
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         },
         {
           "name": "Estimating improvements",
@@ -674,7 +695,9 @@ const DASHBOARD_DATA = {
             "Daily call grading delivery from Matisen not yet in place — needed to coach lower estimators off regular numbers",
             "Delayed-result metric — work done now will not register in accuracy numbers for 2-4+ weeks",
             "No Sky Board pulse yet (chart marks this 'NO PULSE — create at fold')"
-          ]
+          ],
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         },
         {
           "name": "Push out training certifications run by Tetet and Carly",
@@ -684,7 +707,9 @@ const DASHBOARD_DATA = {
           "superGreen": "All managers, sales team, claims are certified",
           "green": "Training complete, certification has started",
           "sourceUpdated": "2026-07-30",
-          "source": "cascading-chart-q3"
+          "source": "cascading-chart-q3",
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         },
         {
           "name": "Improve Sales Performance Engagement — Work with Jeff (Northwood)",
@@ -698,190 +723,14 @@ const DASHBOARD_DATA = {
           "blockers": [
             "Super Green / Green bars still unset — were due to land after the 7/31 scoping meeting",
             "Chart name conflict: Amanda's row and Cameron's bonus card read 'Adam (Northwood)', Nhel's row reads 'Jeff (Northwood)' for the same engagement — needs correcting on the chart"
-          ]
+          ],
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         }
       ],
       "period": "Q3 2026",
       "goalsSource": "Q3 Roundtable Rocks and Targets (cascading goals chart, ratified 7/30) — chart is source of truth; extras on a leader’s board are not graded",
       "feedNote": "8/17 Gary push carries 5 goals vs 6 on the cascading chart: dropped 'Incentivize Manager Sales' + 'training certifications', added 'Call Grading at Volume — Distribution + Coaching Loop' (critical). Reconcile 8/18."
-    },
-    {
-      "name": "Nhel",
-      "title": "Sales Team Lead (under Amanda)",
-      "goals": [
-        {
-          "name": "Nhel — Plan CET Philippines Conference (March 2027)",
-          "critical": true,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "Budget approved, location selected and reserved, starting to book flights",
-          "green": "Budget approved and location selected and reserved",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
-          "pulse": "11728336249"
-        },
-        {
-          "name": "Nhel — Manager Sales Accountability (Weekly RM Reporting)",
-          "critical": true,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "Weekly reports send to RMs about sales standings, estimating, and call grading, and showcasing individuals who need coaching. Confirmation coaching has been happening and documented.",
-          "green": "Weekly reports send to RMs about sales standings, estimating, and call grading, and showcasing individuals who need coaching.",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
-          "pulse": "11733924241"
-        },
-        {
-          "name": "Launch Sales Competitions — Small Bonus Incentives to Drive Engagement",
-          "critical": true,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "",
-          "green": "",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
-          "pulse": "11728354543"
-        },
-        {
-          "name": "Call Grading at Volume — Distribution + Coaching Loop",
-          "critical": true,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "Improve the company (CET and Managers) average score to 75%",
-          "green": "Improve the company (CET and Managers) average score to 65%",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
-          "pulse": "11733923810"
-        },
-        {
-          "name": "Estimate improvements.",
-          "critical": true,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "Improved estimating to 48%",
-          "green": "Improve estimating to 46%",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3"
-        }
-      ]
-    },
-    {
-      "name": "Tetet",
-      "title": "Sales Enablement Mgr (under Nhel)",
-      "goals": [
-        {
-          "name": "Tet — Sales Class Level 2 (Advanced Objection Handling + VP Positioning)",
-          "critical": true,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "Rance, Shane, Joanna, Nicole, Steven, Klepac, one additional sales team member: Level 2 training",
-          "green": "Rance, Shane, Joanna, Nicole: Level 2 training",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
-          "pulse": "11733922022"
-        },
-        {
-          "name": "Tet — Sales Training Improvements (update sales training)",
-          "critical": true,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "Plan approved and started",
-          "green": "Review the entire training program and create bullet points and a plan of what needs to be changed, updated, and who is in charge of what. Submit for approval",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
-          "pulse": "11728354506"
-        },
-        {
-          "name": "Coordinate Jules doing training / ride-alongs with low-performer sales team members",
-          "critical": true,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "Jules rides along with new hires (3) and low performers (5). Create a plan to establish a ride-along process ready to roll out this quarter",
-          "green": "Jules rides along with new hires (3) and low performers (3)- Create a plan to establish a ride-along process",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
-          "pulse": "12601585701"
-        },
-        {
-          "name": "New-Rep Ramp — Sales Speed-to-Competence",
-          "critical": false,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "Bri, Chauny and Jevic 105% sales goals",
-          "green": "Bri, Chauny and Jevic 100% sales goals",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3"
-        },
-        {
-          "name": "Personal sales goal",
-          "critical": true,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "100%",
-          "green": "105%",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3"
-        }
-      ]
-    },
-    {
-      "name": "Carly",
-      "title": "Claims Manager (under Amanda)",
-      "goals": [
-        {
-          "name": "Auto-Email for Damage Claims — Meet Our Claim Rep + Policy Info",
-          "critical": true,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "Email live",
-          "green": "Email created and approved. In the queue for going live",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
-          "pulse": "11728355487"
-        },
-        {
-          "name": "Carly — CX Q2 Theme Execution (Carly's Contribution)",
-          "critical": true,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "Lead quarterly theme for the whole department, set timing, and ensure weekly excitement and updates by Monday of each week",
-          "green": "Lead quarterly theme for the whole department, set timing, and ensure weekly excitement and updates by Tuesday each week",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
-          "pulse": "11733922589"
-        },
-        {
-          "name": "Launch Customer Outreach Program — Stop/Start/Keep + Case Studies",
-          "critical": true,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "Create a process and questions for customer outreach and speak to 30 customers",
-          "green": "Create a process and questions for customer outreach and speak to 20 customers",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3",
-          "pulse": "11728354516"
-        },
-        {
-          "name": "Carly — Ramp-Back + Magic Moments Phase 2",
-          "critical": true,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "Phase 2 of Magic Moments updated with plan and rolled out",
-          "green": "Phase 2 of Magic Moments updated with plan or rollout",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3"
-        },
-        {
-          "name": "Customer Resolution Certification",
-          "critical": true,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
-          "superGreen": "All managers, the sales team, and claims are certified",
-          "green": "Training complete; certification has started",
-          "sourceUpdated": "2026-07-30",
-          "source": "qgr-fold-q3"
-        }
-      ]
     },
     {
       "name": "Matisen Harper",
@@ -899,7 +748,9 @@ const DASHBOARD_DATA = {
           "blockers": [
             "A. Scorecard rollout/access plan pending a Cameron touch-base — build path is settled (baked into the hub), audience and cadence are not",
             "D. Sage/EMMA still pre-integration — EMMA registers with Sage Intacct this week; spec v5 publish remains a human-run script pending the Ben/Fabian chain"
-          ]
+          ],
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         },
         {
           "name": "QG and Support Blocks — Sales and Marketing",
@@ -912,7 +763,9 @@ const DASHBOARD_DATA = {
           "source": "cos-feed",
           "blockers": [
             "C. Email rollout queued behind lead triage and awaiting Fabian confirmation"
-          ]
+          ],
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         },
         {
           "name": "QG and Support Blocks — Performance and Employee Management",
@@ -926,7 +779,9 @@ const DASHBOARD_DATA = {
           "blockers": [
             "A. Webhook verification gated on Anne's return from vacation",
             "C. Rippling API token scopes — Custom Objects returns 403 and the Performance Log path lacks files + employee-documents; Matisen is granting the scopes now"
-          ]
+          ],
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         },
         {
           "name": "Praise Targets",
@@ -939,7 +794,9 @@ const DASHBOARD_DATA = {
           "source": "cos-feed",
           "blockers": [
             "No automated praise count wired for Q3 — measurement source undecided (Praise Board vs Rippling PL); Praise Board is broken and unowned"
-          ]
+          ],
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         }
       ],
       "period": "Q3 2026",
@@ -957,7 +814,9 @@ const DASHBOARD_DATA = {
           "critical": false,
           "status": "supergreen",
           "sourceUpdated": "2026-08-03",
-          "source": "ratified-2026-08-03-sync"
+          "source": "ratified-2026-08-03-sync",
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         },
         {
           "name": "Long Form Videos — 4 from named list (shortlist w/ KP; incl. Einstein Coaching Protocol video w/ Cameron)",
@@ -967,7 +826,9 @@ const DASHBOARD_DATA = {
           "critical": false,
           "status": "yellow",
           "sourceUpdated": "2026-08-03",
-          "source": "ratified-2026-08-03-sync"
+          "source": "ratified-2026-08-03-sync",
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         },
         {
           "name": "Crowdsourcing Pipeline — FMs + Movers (content-accountability machinery)",
@@ -977,7 +838,9 @@ const DASHBOARD_DATA = {
           "critical": false,
           "status": "green",
           "sourceUpdated": "2026-08-03",
-          "source": "ratified-2026-08-03-sync"
+          "source": "ratified-2026-08-03-sync",
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         },
         {
           "name": "Client Testimonials",
@@ -987,7 +850,9 @@ const DASHBOARD_DATA = {
           "critical": false,
           "status": "red",
           "sourceUpdated": "2026-08-03",
-          "source": "ratified-2026-08-03-sync"
+          "source": "ratified-2026-08-03-sync",
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         }
       ],
       "assessment": "8/19 1:1 (velocity 48, happiness 4): pre-sync self-statuses sent 20 min early; management transitions to Amanda over the next syncs. "
@@ -1004,7 +869,9 @@ const DASHBOARD_DATA = {
           "superGreen": "",
           "green": "",
           "sourceUpdated": "2026-07-31",
-          "source": "external"
+          "source": "external",
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         }
       ]
     },
@@ -1020,7 +887,9 @@ const DASHBOARD_DATA = {
           "superGreen": "",
           "green": "",
           "sourceUpdated": "2026-07-31",
-          "source": "external"
+          "source": "external",
+          "statusSince": "2026-08-21",
+          "statusDays": 0
         }
       ]
     }

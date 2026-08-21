@@ -1,0 +1,345 @@
+{
+ "archivedOn": "2026-08-21",
+ "archivedBy": "Albert (/scout walkthrough — Cameron's ruling)",
+ "why": "Non-directs with no COS feed. Their goals came in via the 7/30 QGR cascading-chart fold (source=qgr-fold-q3) and were never updated again — all 24 sat at status 'unknown' for 22 days, because nobody collects status from them. Cameron 8/21: 'They probably don't deserve to be on my dashboard until we push the model down.' This also restores the dashboard's OWN stated scope, which already named Nhel, Tet and Fabian as cascade-through-their-manager.",
+ "reactivationTrigger": "Restore when the world model expands past Cameron's directs — i.e. when Amanda, Brian and Mike collect status from THEIR directs at sync-up and feed it upward. At that point these rows come back sourced from their manager's feed, not from a chart fold.",
+ "note": "Goals remain live on the Cascading Goals chart — that is still the source of truth. Nothing is lost here.",
+ "leadership": [
+  {
+   "name": "Fabian Urrutia",
+   "title": "Sr. Developer (under Matisen)",
+   "goals": [
+    {
+     "name": "Refine Automated QA Process — AI Agent for Bug Hunting",
+     "critical": false,
+     "status": "unknown",
+     "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
+     "superGreen": "Setup and train Automatic QA Agents that create pull requests triggered by the EMMA v4 Slack Channel and does independent nightly qa",
+     "green": "Setup and train Automatic QA Agents that create pull requests triggered by the EMMA v4 Slack Channel",
+     "sourceUpdated": "2026-07-30",
+     "source": "qgr-fold-q3",
+     "pulse": "11728352511",
+     "statusSince": "2026-08-21",
+     "statusDays": 0
+    },
+    {
+     "name": "Roll Out Mobile App Update — UX Improvements + First Feature",
+     "critical": true,
+     "status": "unknown",
+     "assessment": "8/20: Clover integration = last mile; deployment HELD until back from paternity leave (Marcella due ~9/20, ~2-wk delay accepted); Lift Up coverage meeting Fri 8am; Cameron wants updated launch estimate — Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
+     "superGreen": "App passes qa and is ready for roll out by October 1st with Android Version and MCP alternative identified",
+     "green": "App passes qa and is ready for roll out by October 1st",
+     "sourceUpdated": "2026-07-30",
+     "source": "qgr-fold-q3",
+     "pulse": "11728346777",
+     "statusSince": "2026-08-21",
+     "statusDays": 0
+    },
+    {
+     "name": "EMMA V4 Quality-of-Life Sprints — 2 QOL Rounds",
+     "critical": true,
+     "status": "unknown",
+     "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
+     "superGreen": "Both Quality of Life sprints completed",
+     "green": "1 of 2 QoL sprints completed",
+     "sourceUpdated": "2026-07-30",
+     "source": "qgr-fold-q3",
+     "pulse": "11728346836",
+     "statusSince": "2026-08-21",
+     "statusDays": 0
+    },
+    {
+     "name": "Fabian — BigQuery Reconciliation + Data Cleanup (post mobile-app rollout)",
+     "critical": false,
+     "status": "unknown",
+     "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
+     "superGreen": "Big Query Sync Fixed, Fulfillment Reporting Compatible with v3 without dashboard bugs, Repeat Customer Cleanup (doesn't include customer dedupe), Google Offline Conversions connected to Emma",
+     "green": "Big Query Sync Fixed, Fulfillment Reporting Compatible with v3 without dashboard bugs, Repeat Customer Cleanup (doesn't include customer dedupe)",
+     "sourceUpdated": "2026-07-30",
+     "source": "qgr-fold-q3",
+     "pulse": "12612475417",
+     "statusSince": "2026-08-21",
+     "statusDays": 0
+    },
+    {
+     "name": "Sage Integration",
+     "critical": false,
+     "status": "unknown",
+     "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
+     "superGreen": "Api endpoints implemented for Sage integration",
+     "green": "Scope out Api integration for Move Contract imports into sage",
+     "sourceUpdated": "2026-07-30",
+     "source": "qgr-fold-q3",
+     "statusSince": "2026-08-21",
+     "statusDays": 0
+    }
+   ]
+  },
+  {
+   "name": "Jalissa",
+   "title": "HR Generalist (under Anne)",
+   "goals": [
+    {
+     "name": "Anne — Hiring Targets 105% (Summer Peak)",
+     "critical": false,
+     "status": "unknown",
+     "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
+     "superGreen": "≥80% compliance in the recruiter lane AND ≥80% in the HM lane, tracked separately so a miss is attributable · zero silent breaches of the 10-day backstop (any crossing has a documented reason: stage dropped, expedited, or req killed) · recurring compliance report (weekly or biweekly) broken out by lane and by branch, so a chronically slow branch is visible",
+     "green": "Full SLA document published covering both swim lanes + the pipeline backstop — Recruiter (Jalissa): pre-screen within 1 business day · phone interview scheduled within 2 business days of HM greenlight · in-person scheduled within 2 business days of passing phone screen · rejected candidates notified same day as req closure. Hiring Manager: pre-screen → phone-interview go/no-go within 1 business day · in-person decision within 2 business days (3 max). Backstop: 10 business days application → HM decision, hard ceiling. Escalation: HM silence on a follow-up escalates to Anne after 2 business days. SLAs socialized with all 10 branch managers (delivered, not just written) + 2–3 weeks of real baseline compliance data captured (ClearCompany pull once creds land, or a manual export) so the first read is measured, not guessed",
+     "sourceUpdated": "2026-07-30",
+     "source": "qgr-fold-q3",
+     "pulse": "11733894186",
+     "statusSince": "2026-08-21",
+     "statusDays": 0
+    },
+    {
+     "name": "ClearCo ATS Rollout + Hiring Funnel Visibility",
+     "critical": false,
+     "status": "unknown",
+     "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
+     "superGreen": "",
+     "green": "",
+     "sourceUpdated": "2026-07-30",
+     "source": "qgr-fold-q3",
+     "pulse": "11728352496",
+     "statusSince": "2026-08-21",
+     "statusDays": 0
+    },
+    {
+     "name": "HR Compliance Audit Cadence (was: Onboarding Experience — Close It Out)",
+     "critical": false,
+     "status": "unknown",
+     "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
+     "superGreen": "Two consecutive audit cycles run on cadence (per area) with zero unresolved findings carried forward · standing audit log/tracker exists so cycles aren't reconstructed from scratch",
+     "green": "Documented audit checklist covering all 6 compliance areas, each on its assigned cadence (weekly / biweekly / ~3 days pre-month-end / monthly) · first full audit cycle completed for every area with findings logged (not just \"looked clean\") · any first-cycle findings have a remediation plan, even if not fully resolved · benefits-termination subcategory: 100% of terminations in the audit window confirmed termed in BOTH BCBS and Mutual of Omaha by end-of-month of last day worked",
+     "sourceUpdated": "2026-07-30",
+     "source": "qgr-fold-q3",
+     "pulse": "11728362110",
+     "statusSince": "2026-08-21",
+     "statusDays": 0
+    },
+    {
+     "name": "Implement WHO/Culture Interviews — Improved Phone Interview + Position Scorecards",
+     "critical": false,
+     "status": "unknown",
+     "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
+     "superGreen": "Position scorecards built for all 7 roles: Customer Experience Representative, Customer Solution Representative, Mover, Field Manager, Flex Manager, Operations Manager, Branch Manager",
+     "green": "Cultural phone interview finalized, in use, and programmed into ClearCompany · position scorecards built for Customer Experience, Mover, and Field Manager (3 of 7 roles)",
+     "sourceUpdated": "2026-07-30",
+     "source": "qgr-fold-q3",
+     "pulse": "11752750983",
+     "statusSince": "2026-08-21",
+     "statusDays": 0
+    }
+   ]
+  },
+  {
+   "name": "Nhel",
+   "title": "Sales Team Lead (under Amanda)",
+   "goals": [
+    {
+     "name": "Nhel — Plan CET Philippines Conference (March 2027)",
+     "critical": true,
+     "status": "unknown",
+     "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
+     "superGreen": "Budget approved, location selected and reserved, starting to book flights",
+     "green": "Budget approved and location selected and reserved",
+     "sourceUpdated": "2026-07-30",
+     "source": "qgr-fold-q3",
+     "pulse": "11728336249",
+     "statusSince": "2026-08-21",
+     "statusDays": 0
+    },
+    {
+     "name": "Nhel — Manager Sales Accountability (Weekly RM Reporting)",
+     "critical": true,
+     "status": "unknown",
+     "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
+     "superGreen": "Weekly reports send to RMs about sales standings, estimating, and call grading, and showcasing individuals who need coaching. Confirmation coaching has been happening and documented.",
+     "green": "Weekly reports send to RMs about sales standings, estimating, and call grading, and showcasing individuals who need coaching.",
+     "sourceUpdated": "2026-07-30",
+     "source": "qgr-fold-q3",
+     "pulse": "11733924241",
+     "statusSince": "2026-08-21",
+     "statusDays": 0
+    },
+    {
+     "name": "Launch Sales Competitions — Small Bonus Incentives to Drive Engagement",
+     "critical": true,
+     "status": "unknown",
+     "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
+     "superGreen": "",
+     "green": "",
+     "sourceUpdated": "2026-07-30",
+     "source": "qgr-fold-q3",
+     "pulse": "11728354543",
+     "statusSince": "2026-08-21",
+     "statusDays": 0
+    },
+    {
+     "name": "Call Grading at Volume — Distribution + Coaching Loop",
+     "critical": true,
+     "status": "unknown",
+     "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
+     "superGreen": "Improve the company (CET and Managers) average score to 75%",
+     "green": "Improve the company (CET and Managers) average score to 65%",
+     "sourceUpdated": "2026-07-30",
+     "source": "qgr-fold-q3",
+     "pulse": "11733923810",
+     "statusSince": "2026-08-21",
+     "statusDays": 0
+    },
+    {
+     "name": "Estimate improvements.",
+     "critical": true,
+     "status": "unknown",
+     "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
+     "superGreen": "Improved estimating to 48%",
+     "green": "Improve estimating to 46%",
+     "sourceUpdated": "2026-07-30",
+     "source": "qgr-fold-q3",
+     "statusSince": "2026-08-21",
+     "statusDays": 0
+    }
+   ]
+  },
+  {
+   "name": "Tetet",
+   "title": "Sales Enablement Mgr (under Nhel)",
+   "goals": [
+    {
+     "name": "Tet — Sales Class Level 2 (Advanced Objection Handling + VP Positioning)",
+     "critical": true,
+     "status": "unknown",
+     "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
+     "superGreen": "Rance, Shane, Joanna, Nicole, Steven, Klepac, one additional sales team member: Level 2 training",
+     "green": "Rance, Shane, Joanna, Nicole: Level 2 training",
+     "sourceUpdated": "2026-07-30",
+     "source": "qgr-fold-q3",
+     "pulse": "11733922022",
+     "statusSince": "2026-08-21",
+     "statusDays": 0
+    },
+    {
+     "name": "Tet — Sales Training Improvements (update sales training)",
+     "critical": true,
+     "status": "unknown",
+     "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
+     "superGreen": "Plan approved and started",
+     "green": "Review the entire training program and create bullet points and a plan of what needs to be changed, updated, and who is in charge of what. Submit for approval",
+     "sourceUpdated": "2026-07-30",
+     "source": "qgr-fold-q3",
+     "pulse": "11728354506",
+     "statusSince": "2026-08-21",
+     "statusDays": 0
+    },
+    {
+     "name": "Coordinate Jules doing training / ride-alongs with low-performer sales team members",
+     "critical": true,
+     "status": "unknown",
+     "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
+     "superGreen": "Jules rides along with new hires (3) and low performers (5). Create a plan to establish a ride-along process ready to roll out this quarter",
+     "green": "Jules rides along with new hires (3) and low performers (3)- Create a plan to establish a ride-along process",
+     "sourceUpdated": "2026-07-30",
+     "source": "qgr-fold-q3",
+     "pulse": "12601585701",
+     "statusSince": "2026-08-21",
+     "statusDays": 0
+    },
+    {
+     "name": "New-Rep Ramp — Sales Speed-to-Competence",
+     "critical": false,
+     "status": "unknown",
+     "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
+     "superGreen": "Bri, Chauny and Jevic 105% sales goals",
+     "green": "Bri, Chauny and Jevic 100% sales goals",
+     "sourceUpdated": "2026-07-30",
+     "source": "qgr-fold-q3",
+     "statusSince": "2026-08-21",
+     "statusDays": 0
+    },
+    {
+     "name": "Personal sales goal",
+     "critical": true,
+     "status": "unknown",
+     "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
+     "superGreen": "100%",
+     "green": "105%",
+     "sourceUpdated": "2026-07-30",
+     "source": "qgr-fold-q3",
+     "statusSince": "2026-08-21",
+     "statusDays": 0
+    }
+   ]
+  },
+  {
+   "name": "Carly",
+   "title": "Claims Manager (under Amanda)",
+   "goals": [
+    {
+     "name": "Auto-Email for Damage Claims — Meet Our Claim Rep + Policy Info",
+     "critical": true,
+     "status": "unknown",
+     "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
+     "superGreen": "Email live",
+     "green": "Email created and approved. In the queue for going live",
+     "sourceUpdated": "2026-07-30",
+     "source": "qgr-fold-q3",
+     "pulse": "11728355487",
+     "statusSince": "2026-08-21",
+     "statusDays": 0
+    },
+    {
+     "name": "Carly — CX Q2 Theme Execution (Carly's Contribution)",
+     "critical": true,
+     "status": "unknown",
+     "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
+     "superGreen": "Lead quarterly theme for the whole department, set timing, and ensure weekly excitement and updates by Monday of each week",
+     "green": "Lead quarterly theme for the whole department, set timing, and ensure weekly excitement and updates by Tuesday each week",
+     "sourceUpdated": "2026-07-30",
+     "source": "qgr-fold-q3",
+     "pulse": "11733922589",
+     "statusSince": "2026-08-21",
+     "statusDays": 0
+    },
+    {
+     "name": "Launch Customer Outreach Program — Stop/Start/Keep + Case Studies",
+     "critical": true,
+     "status": "unknown",
+     "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
+     "superGreen": "Create a process and questions for customer outreach and speak to 30 customers",
+     "green": "Create a process and questions for customer outreach and speak to 20 customers",
+     "sourceUpdated": "2026-07-30",
+     "source": "qgr-fold-q3",
+     "pulse": "11728354516",
+     "statusSince": "2026-08-21",
+     "statusDays": 0
+    },
+    {
+     "name": "Carly — Ramp-Back + Magic Moments Phase 2",
+     "critical": true,
+     "status": "unknown",
+     "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
+     "superGreen": "Phase 2 of Magic Moments updated with plan and rolled out",
+     "green": "Phase 2 of Magic Moments updated with plan or rollout",
+     "sourceUpdated": "2026-07-30",
+     "source": "qgr-fold-q3",
+     "statusSince": "2026-08-21",
+     "statusDays": 0
+    },
+    {
+     "name": "Customer Resolution Certification",
+     "critical": true,
+     "status": "unknown",
+     "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes.",
+     "superGreen": "All managers, the sales team, and claims are certified",
+     "green": "Training complete; certification has started",
+     "sourceUpdated": "2026-07-30",
+     "source": "qgr-fold-q3",
+     "statusSince": "2026-08-21",
+     "statusDays": 0
+    }
+   ]
+  }
+ ]
+}

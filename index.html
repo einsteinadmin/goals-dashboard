@@ -272,6 +272,93 @@
   .status-label.yellow { background: var(--status-y-bg); color: var(--status-y-text); }
   .status-label.unknown { background: var(--status-u-bg); color: var(--text-muted); }
 
+  /* ─── Movement, tenure & freshness ───
+     A status without movement is decoration: a yellow goal climbing and a yellow goal
+     sliding rendered identically before this. `movement` = the status CHANGED (never
+     back-filled — it appears only once a change has actually been observed by
+     stamp-status-history.py). `tenure` = how long it has held. `freshness` = when the
+     source last PUSHED, which is a different fact and is never shown as tenure. */
+  .movement-chip {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    padding: 2px 6px;
+    border-radius: 4px;
+    white-space: nowrap;
+    vertical-align: middle;
+    margin-left: 6px;
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+  }
+  .movement-chip.up { background: var(--status-g-bg); color: var(--status-g-text); }
+  .movement-chip.down { background: var(--status-r-bg); color: var(--status-r-text); }
+  .movement-chip.flat { background: var(--status-u-bg); color: var(--text-muted); }
+
+  .tenure-chip {
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--text-muted);
+    margin-left: 6px;
+    white-space: nowrap;
+    vertical-align: middle;
+  }
+
+  .freshness-chip {
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--text-muted);
+    margin-left: 6px;
+    white-space: nowrap;
+    vertical-align: middle;
+  }
+  .freshness-chip.aging { color: var(--status-y-text); }
+  .freshness-chip.stale { color: var(--status-r-text); font-weight: 700; }
+
+  /* ─── Network roster (the queue behind "Stale reports: N") ─── */
+  .roster { margin-top: 14px; border-top: 1px solid var(--divider); }
+
+  .roster-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 4px 6px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+  }
+  .roster-alert { color: var(--status-r-text); }
+  .roster-clear { color: var(--text-muted); }
+  .roster-src { color: var(--text-muted); font-weight: 600; text-transform: none; letter-spacing: 0; }
+
+  .roster-row {
+    display: grid;
+    grid-template-columns: 74px 1fr 92px 44px 62px 20px;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 4px;
+    font-size: 12px;
+    border-top: 1px solid var(--divider);
+  }
+  .roster-row.bad { background: var(--status-r-bg); border-radius: 4px; }
+
+  .roster-cos { font-weight: 700; color: var(--text-primary); }
+  .roster-principal { color: var(--text-secondary); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .roster-state { font-size: 10px; font-weight: 700; letter-spacing: 0.4px; }
+  .roster-state.ok { color: var(--text-muted); }
+  .roster-state.bad { color: var(--status-r-text); }
+  .roster-age { font-weight: 600; color: var(--text-muted); text-align: right; }
+  .roster-age.aging { color: var(--status-y-text); }
+  .roster-age.stale { color: var(--status-r-text); font-weight: 700; }
+  .roster-goals { color: var(--text-muted); font-size: 11px; text-align: right; }
+  .roster-wrap { color: var(--text-muted); text-align: center; }
+
+  @media (max-width: 700px) {
+    .roster-row { grid-template-columns: 68px 1fr 60px 38px; }
+    .roster-goals, .roster-wrap { display: none; }
+  }
+
   /* ─── Cameron's KPIs ─── */
   .kpi-grid {
     display: grid;
@@ -763,9 +850,60 @@
     return '<span class="status-label ' + status + '">' + statusDot(status) + (labels[status] || 'Unknown') + '</span>';
   }
 
+  // ── Movement / tenure / freshness ──────────────────────────────────────────
+  // Rank order for deciding whether a status change was an improvement or a slide.
+  const STATUS_RANK = { unknown: 0, red: 1, yellow: 2, green: 3, supergreen: 4 };
+  const SHORT_STATUS = { supergreen: 'Super Green', green: 'Green', yellow: 'At Risk', red: 'Red', unknown: 'No Data' };
+
+  // Renders ONLY when a real change has been observed. Absent prevStatus means the
+  // ledger has one entry — nothing has moved yet — and we say nothing rather than
+  // implying stability we haven't measured.
+  function movementChip(item) {
+    if (!item || !item.prevStatus || item.prevStatus === item.status) return '';
+    const from = STATUS_RANK[item.prevStatus] ?? 0;
+    const to = STATUS_RANK[item.status] ?? 0;
+    // A move off "No Data" is new information, not an improvement — render it flat.
+    const dir = (item.prevStatus === 'unknown' || item.status === 'unknown') ? 'flat'
+              : (to > from ? 'up' : 'down');
+    const arrow = dir === 'up' ? '↑' : dir === 'down' ? '↓' : '·';
+    return '<span class="movement-chip ' + dir + '" title="Status changed from ' +
+      (SHORT_STATUS[item.prevStatus] || item.prevStatus) + '">' + arrow + ' was ' +
+      (SHORT_STATUS[item.prevStatus] || item.prevStatus) + '</span>';
+  }
+
+  // How long the CURRENT status has held. Day 0 is noise, so it stays hidden.
+  function tenureChip(item) {
+    if (!item || typeof item.statusDays !== 'number' || item.statusDays < 1) return '';
+    return '<span class="tenure-chip" title="Holding this status since ' +
+      formatDate(item.statusSince) + '">· ' + item.statusDays + 'd</span>';
+  }
+
+  function daysSince(dateStr) {
+    if (!dateStr) return null;
+    const d = new Date(dateStr + 'T00:00:00');
+    if (isNaN(d)) return null;
+    return Math.floor((new Date().setHours(0, 0, 0, 0) - d.getTime()) / 86400000);
+  }
+
+  // When the SOURCE last pushed — deliberately separate from tenure. A leader who
+  // pushes weekly with an unchanged status has fresh data and old news; conflating
+  // the two is how a stale feed reads as a settled goal.
+  function freshnessChip(dateStr) {
+    const n = daysSince(dateStr);
+    if (n === null) return '';
+    const cls = n > 21 ? 'stale' : n > 14 ? 'aging' : '';
+    const label = n === 0 ? 'heard today' : 'heard ' + n + 'd ago';
+    return '<span class="freshness-chip ' + cls + '" title="Source last pushed ' +
+      formatDate(dateStr) + '">' + label + '</span>';
+  }
+
   function formatDate(dateStr) {
     if (!dateStr) return '';
-    const d = new Date(dateStr);
+    // A bare "2026-08-21" is parsed by JS as UTC midnight, which renders as Aug 20 in
+    // US Central — every date-only field on this page was showing a day early. Pin
+    // date-only strings to local midnight; leave full timestamps alone.
+    const d = /^\d{4}-\d{2}-\d{2}$/.test(dateStr) ? new Date(dateStr + 'T00:00:00') : new Date(dateStr);
+    if (isNaN(d)) return '';
     return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
   }
 
@@ -858,6 +996,42 @@
       html += '    <div class="kpi-card"><div class="kpi-name">Stale reports</div><div class="kpi-target" style="color:' + staleColor + '">' + n.staleCount + '</div><div class="kpi-actual no-data">past 2× cadence</div></div>';
       html += '    <div class="kpi-card"><div class="kpi-name">Pending items</div><div class="kpi-target" style="color:' + pendingColor + '">' + n.pendingTotal + '</div><div class="kpi-actual no-data">patterns + acks behind</div></div>';
       html += '  </div>';
+
+      // ── The roster, not just the count ──────────────────────────────────
+      // "Stale reports: 3" tells you a problem exists; it does not tell you whose.
+      // The daily pull already knows every agent's state and age, so show the rows
+      // and lead with the ones that need a human. Written by sync-network-roster.py.
+      if (Array.isArray(n.agents) && n.agents.length) {
+        const rank = function (a) { return a.state === 'LIVE' ? 1 : 0; };
+        const roster = n.agents.slice().sort(function (a, b) {
+          return rank(a) - rank(b) || b.ageDays - a.ageDays;
+        });
+        const needing = roster.filter(function (a) { return a.state !== 'LIVE'; });
+
+        html += '  <div class="roster">';
+        html += '    <div class="roster-head">' +
+                (needing.length
+                  ? '<span class="roster-alert">' + needing.length + ' need' + (needing.length === 1 ? 's' : '') + ' a push</span>'
+                  : '<span class="roster-clear">All 7 reporting</span>') +
+                '<span class="roster-src">pull ran ' + formatDate(n.lastRefreshed) + '</span></div>';
+
+        roster.forEach(function (a) {
+          const bad = a.state !== 'LIVE';
+          // Age is only a warning sign on a healthy row; on a bad row the STATE is the story.
+          const ageCls = bad ? 'stale' : (a.ageDays > 7 ? 'aging' : '');
+          html += '<div class="roster-row' + (bad ? ' bad' : '') + '">';
+          html += '  <span class="roster-cos">' + a.cos + '</span>';
+          html += '  <span class="roster-principal">' + a.principal + '</span>';
+          html += '  <span class="roster-state ' + (bad ? 'bad' : 'ok') + '">' + a.state + '</span>';
+          html += '  <span class="roster-age ' + ageCls + '">' + a.ageDays + 'd</span>';
+          html += '  <span class="roster-goals">' + a.goals + ' goals</span>';
+          html += '  <span class="roster-wrap" title="Does its /wrap publish status.json?">' +
+                  (a.wrapStep === 'yes' ? '✓' : a.wrapStep === 'no' ? '✗' : '·') + '</span>';
+          html += '</div>';
+        });
+        html += '  </div>';
+      }
+
       if (n.summary) {
         html += '  <div style="margin-top:10px;font-size:12px;color:var(--text-muted);font-style:italic;padding:0 4px;">' + n.summary + '</div>';
       }
@@ -906,7 +1080,8 @@
       if (rock.critical) html += '      <span class="critical-badge">Critical #</span>';
       if (rock.provisional) html += '      <span class="prov-flag" title="Self-grade — the QGR sets the final grade">provisional</span>';
       html += '    </div>';
-      html += '    ' + statusLabel(rock.status);
+      html += '    <span style="display:inline-flex;align-items:center;white-space:nowrap;">' +
+              statusLabel(rock.status) + movementChip(rock) + tenureChip(rock) + '</span>';
       html += '  </div>';
       html += '  <div class="rock-assessment">' + rock.assessment + '</div>';
       html += '  <div class="rock-criteria">';
@@ -975,6 +1150,7 @@
         html += goal.name;
         if (goal.critical) html += ' <span class="critical-flag">Critical #</span>';
         if (goal.provisional) html += ' <span class="prov-flag" title="Leader self-grade — the QGR sets the final grade">provisional</span>';
+        html += movementChip(goal) + tenureChip(goal) + freshnessChip(goal.sourceUpdated);
         html += '    <div class="leader-goal-assessment">' + (goal.assessment || '<em style="color:var(--text-muted);">No assessment yet.</em>');
         if (goal.superGreen || goal.green) {
           html += '<div style="margin-top:8px;padding-top:8px;border-top:1px solid var(--divider);">';
