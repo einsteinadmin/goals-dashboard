@@ -634,15 +634,20 @@ const DASHBOARD_DATA = {
       "title": "Dir. of CX",
       "goals": [
         {
-          "name": "Incentivize Manager Sales — Quarterly Sales Comp (if not removed entirely)",
+          "name": "Call Grading at Volume — Distribution + Coaching Loop",
           "critical": true,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes. | 8/17: NOT in Amanda's fresh Q3 push (Gary 14:20) — she carried 5 goals vs 6 on the chart; reconcile at the 8/18 sync (chart = source of truth).",
-          "superGreen": "105% over goal",
-          "green": "Hitting 100% goal for the quarter",
-          "sourceUpdated": "2026-07-30",
-          "source": "cascading-chart-q3",
-          "pulse": "11728354521",
+          "status": "yellow",
+          "assessment": "Yellow — the cadence IS running; the score is not moving. Correcting an earlier read on this rock: weekly grading has run continuously, not stalled. 267 calls graded to date across runs on 6/5, 6/11, 6/15, 7/20, 7/27, 8/10 and 8/17, with the most recent run completed the morning of 8/17 (59 calls) and weekly HTML reports produced for 6/15, 7/20, 7/27, 8/10 and 8/17. Distribution infrastructure is effectively built and operating. The real gap is the outcome: company-wide average score is 45.8 cumulative and 44.7 across the last three runs, against a Green bar of 65 — a 19.2 point gap. Trend is flat to slightly down (49.6 on 6/11 to 45.3 on 8/17), so the coaching half of this rock is not yet converting grading volume into score movement. One positive signal: Save Your Ass has gone from 0/50 in week 1 to 19/267 company-wide.",
+          "superGreen": "Improve the company (CET and Managers) average score to 75%",
+          "green": "Improve the company (CET and Managers) average score to 65%",
+          "blockers": [
+            "Company average flat at ~45 for two months against a 65 Green bar — coaching loop is not yet moving the number",
+            "Per-bullet rubric weights, walkthrough-scheduler mini-rubric, and comp-tie risk pending a 60-min calibration session with Cameron + Nhel + Tetet",
+            "Emma integration ask to Matisen/CoS-MH1 outstanding since 7/3 — bumped 8/17 (SCB pulse 12442800385)"
+          ],
+          "sourceUpdated": "2026-08-17",
+          "source": "cos-feed",
+          "note": "Adopted onto Amanda's slate 8/17 and ratified on the Q3 chart 8/18, REPLACING 'Incentivize Manager Sales — Quarterly Sales Comp' (cut: pay component held 7/30, Q3 competition killed 8/3). Critical flag moved here. Mirrors Nhel #4 — Amanda owns the company-level loop.",
           "statusSince": "2026-08-21",
           "statusDays": 0
         },
@@ -700,16 +705,17 @@ const DASHBOARD_DATA = {
           "statusDays": 0
         },
         {
-          "name": "Push out training certifications run by Tetet and Carly",
+          "name": "Push out training certifications — Carly (customer resolution)",
           "critical": false,
           "status": "unknown",
           "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes. | 8/17: NOT in Amanda's fresh Q3 push (Gary 14:20) — she carried 5 goals vs 6 on the chart; reconcile at the 8/18 sync (chart = source of truth).",
           "superGreen": "All managers, sales team, claims are certified",
           "green": "Training complete, certification has started",
-          "sourceUpdated": "2026-07-30",
+          "sourceUpdated": "2026-08-18",
           "source": "cascading-chart-q3",
           "statusSince": "2026-08-21",
-          "statusDays": 0
+          "statusDays": 0,
+          "note": "EDITED 8/18 (Amanda 1:1): Tet's certification portion CUT this quarter — he is on the Northwood/Trinity engagement. Carly's customer-resolution training is the whole goal. Not started as of 8/18 (claims email first). ⚠ Green/Super Green bars still read against the original two-owner scope — narrow at the next touch if Cameron wants them matched to Carly-only."
         },
         {
           "name": "Improve Sales Performance Engagement — Work with Jeff (Northwood)",
