@@ -81,6 +81,10 @@
   {
    "status": "yellow",
    "date": "2026-08-21"
+  },
+  {
+   "status": "green",
+   "date": "2026-08-24"
   }
  ],
  "leader::Brian Herzig::ATX Flex Manager + SA Ops Manager Development": [
@@ -129,6 +133,10 @@
   {
    "status": "green",
    "date": "2026-08-21"
+  },
+  {
+   "status": "red",
+   "date": "2026-08-24"
   }
  ],
  "leader::Mike Vandenbroader::Manager Training App \u2014 SOP Sandbox Training and reference": [
@@ -375,6 +383,10 @@
   {
    "status": "yellow",
    "date": "2026-08-21"
+  },
+  {
+   "status": "red",
+   "date": "2026-08-24"
   }
  ],
  "leader::Austin LeLievre::KP Content Pipeline \u2014 short form + photos (48-hr SLA)": [
