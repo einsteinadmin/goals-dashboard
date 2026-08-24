@@ -5,8 +5,8 @@ const DASHBOARD_DATA = {
   "quarterEnd": "2026-10-31",
   "themeDeadline": "2026-10-19",
   "themeDeadlineLabel": "Training Camp — Theme Deadline: Oct 19",
-  "lastRefreshed": "2026-08-21T13:05:00-05:00",
-  "refreshedBy": "Albert (digest)",
+  "lastRefreshed": "2026-08-24T14:30:00-05:00",
+  "refreshedBy": "Albert (digest — 8/24 Roundtable group sync)",
   "archive": {
    "quarter": "Q2 2026",
    "file": "dashboard-data-q2-2026.json",
@@ -110,18 +110,18 @@ const DASHBOARD_DATA = {
    "department": "Movers / Frontline Managers",
    "numbers": [
     {
-     "name": "Einstein Games — Season 3 Scorecards",
+     "name": "Einstein Games — Q3 Scorecards",
      "target": "Company score 8+ SG / 7+ G, all branches above floor",
-     "actual": "Q3 opens 8/1 — awaiting first data pull. (Q2 final archived in dashboard-data-q2-2026.json.)",
-     "status": "unknown",
-     "note": "Brian Critical Rock #1 (CTXH 8+ SG / 7+ G) + Mike Critical Rock #2 (DFWT 8+ SG / 7+ G). Per-branch scorecards live (Q1 packet shipped). Weekly games scoreboard depends on Robert's MCP + OpenSearch DB cutover (replaces Glide app)."
+     "actual": "Company score 6.8 (Matisen, 8/24). Below the 7+ Green floor.",
+     "status": "yellow",
+     "note": "8/24: reporting is now FULLY AUTOMATED apart from claims — verified with two fresh pulls. Scores self-report what's missing (rippling hours, unreconciled damages) with a per-mover note. Mon/Tue of the quarter are still light, so 6.8 reads slightly low. Old Season-3 sheet is DEPRECATED — live source is the Einstein Games Engine sheet; permanent home is the hub, then into the mover app. Brian Critical Rock (CTXH) + Mike Critical Rock (DFWT)."
     },
     {
      "name": "Personnel Budget %",
      "target": "All branches avg 100%+ staffing for quarter (G+SG threshold), eNPS cleared by end of May (SG) or end of June (G)",
-     "actual": "Q3 opens 8/1 — awaiting first data pull. (Q2 final archived in dashboard-data-q2-2026.json.)",
-     "status": "unknown",
-     "note": "Brian Critical Rock #2 (CTXH) + Mike Critical Rock #1 (DFWT) + Anne Critical Rock #1 (HR Generalist unlocks bandwidth). All BMs also carry Hiring Targets in their branch rocks. Cascade is fully wired."
+     "actual": "All branches above 100% (8/24). DFWT avg 110%; CTXH branches 135–142% of budget on Matisen's recalculated numbers.",
+     "status": "green",
+     "note": "8/24: staffing is not the constraint. Leander is the one branch behind, and it's a BOOKINGS problem (no trucks running, not booking out), not a personnel-budget problem — its % looks high for that reason. ⚠ Brian flagged his FTE tracker was not updated. Personnel budget % is not yet reaching Cameron daily; Matisen can map it into the HR hub/dashboard."
     }
    ]
   },
@@ -513,7 +513,7 @@ const DASHBOARD_DATA = {
      "name": "Sell Remaining Trucks + Fund 2026 Fleet Purchases",
      "critical": false,
      "status": "red",
-     "assessment": "via Gerald 8/24: Still red, but the first-sale blocker is cleared and the rest are about to go live. Aiming to sell all 5, managing to the Green line of 3. The NWT truck — prepped and spoken for — had its check-engine light repaired end of last week and the buyer has been updated; the hope is to close that first sale this week. Photos for the remaining trucks came in last week and get posted to Facebook Marketplace early this week to gauge engagement and offers. It stays red until a truck actually sells, but nothing structural is in the way now. No buyer-side deadline — Oct 31 (EOQ) is the only clock. This rock funds the 2026 fleet purchases.",
+     "assessment": "8/24 (live): RED, zero trucks sold this quarter. Newton is repaired and Cody updated; remaining trucks are posted. Expects some movement this week but nothing closed yet.",
      "superGreen": "Sell 5 trucks",
      "green": "Sell 3 trucks",
      "sourceUpdated": "2026-08-24",
@@ -531,7 +531,7 @@ const DASHBOARD_DATA = {
      "name": "Manager Training App — SOP Sandbox Training and reference",
      "critical": false,
      "status": "red",
-     "assessment": "via Gerald 8/24: The one that's slipping — flagging it early. No progress last week: the first module (Samsara Management) did not advance. The foundation is in place — project HQ built, the module list and build order set — but the one-module-every-two-weeks cadence needed to reach Green (5-6 modules built and deployed) or Super Green (7-8) by Oct 31 is already under pressure in week one. Mike's honest read: holding that pace will be hard with the company-wide training rollout push and the FDE field weeks competing for the same time, and it's genuinely an open question whether this goal lands given everything else on his plate this quarter. Calling it now rather than letting it surprise anyone late.",
+     "assessment": "8/24 (live, Mike's words): RED and deprioritized by his own ranking — \"that's going to be the hardest for me to deliver on... it's a massive time commitment to build all those individual trainings, and I might have bit off more than I could chew. If I'm ranking my goals, that's my least priority.\" Will get to as many as he can this quarter. At real risk of not landing.",
      "superGreen": "7-8 core process SOP and modules built and deployed",
      "green": "5-6 core process SOP and modules built and deployed",
      "sourceUpdated": "2026-08-24",
