@@ -704,36 +704,42 @@
           "name": "Marketing ROI / ROAS Measurement",
           "critical": true,
           "status": "green",
-          "assessment": "6/24: Yellow — still waiting on BigQuery adjustments from Matisen (GA + ROAS dashboard + the per-branch realization-rate/revenue page that wasn't adding up). No live dashboard yet. Two parts: BigQuery (internal/Matisen) + Prosper data (Laura, on return). Prior: Rob's 2027 roadmap puts ROAS as priority; recommend move to Amanda.",
+          "assessment": "⭐ Q2 FINAL: GREEN — ratified in the 8/26 close-out sync (Cameron's call: 'we got the core baseline we needed' — manual ROAS dashboard + org/channel cost-per-lead). Windsor automation redirected behind the Data Hub connection; blocker = Facebook perma-blocked Matisen's new accounts (needs an aged account). | Prior: 6/24: Yellow — still waiting on BigQuery adjustments from Matisen (GA + ROAS dashboard + the per-branch realization-rate/revenue page that wasn't adding up). No live dashboard yet. Two parts: BigQuery (internal/Matisen) + Prosper data (Laura, on return). Prior: Rob's 2027 roadmap puts ROAS as priority; recommend move to Amanda.",
           "superGreen": "ROAS dashboard live by channel, budget reallocation decided, KP design system decided, Phase 2 Smart Move kicked off",
-          "green": "First real ROAS dashboard + KP design system decision"
+          "green": "First real ROAS dashboard + KP design system decision",
+          "finalizedAt": "2026-08-26"
         },
         {
           "name": "Oversee Website Redesign — Smart Move Part 2",
           "critical": true,
           "status": "green",
-          "assessment": "6/24: DIRECTION = HYBRID (brand-story + Mover Journey elements, no complex scroll) — Cameron dropped the heavy scroll animation but re-ran /consultants and kept the journey's spirit + lighter animation. Content fuses moving-nightmare pain points with Smart Move System answers (scannable, visuals). Cameron builds the 5 key pages (hybrid fidelity) by ~7/6 on Emma's components; KP reviews when back. KP closed 6/29-7/3 (Laura back the week after, Elizabeth out next wk). No urgency — Cameron ahead of schedule.",
+          "assessment": "⭐ Q2 FINAL: GREEN — ratified 8/26. Secret Stache build underway at close-out; copy in Cameron's review. | Prior: 6/24: DIRECTION = HYBRID (brand-story + Mover Journey elements, no complex scroll) — Cameron dropped the heavy scroll animation but re-ran /consultants and kept the journey's spirit + lighter animation. Content fuses moving-nightmare pain points with Smart Move System answers (scannable, visuals). Cameron builds the 5 key pages (hybrid fidelity) by ~7/6 on Emma's components; KP reviews when back. KP closed 6/29-7/3 (Laura back the week after, Elizabeth out next wk). No urgency — Cameron ahead of schedule.",
           "superGreen": "New site live, copy updated for Smart Move System, design system from KP implemented, mobile-optimized",
-          "green": "Site redesign scoped, KP design system decided, copy refreshed for Smart Move narrative"
+          "green": "Site redesign scoped, KP design system decided, copy refreshed for Smart Move narrative",
+          "finalizedAt": "2026-08-26"
         },
         {
           "name": "New Email Design + Copy Polish + Rollout",
           "critical": false,
           "status": "red",
-          "assessment": "6/24: edit locked — remove the 'Ready to make the smart move' heading, lead with 'Big honking important note' (date-not-held + reply CTA beneath). Emma making the change + sharing the HTML file; Matisen owes the tokens (back 6/25). MJML-vs-plain-HTML format still an open call to confirm w/ KP. Internal team owns implementation; KP owns design + copy.",
+          "assessment": "⭐ Q2 FINAL: RED — ratified 8/26. KP delivered their side; launch bottleneck was Einstein IT/dev alignment (deliberate hold). Graded straight, no caveats — QG lesson: flag which blockers depend on US at goal-setting. | Prior: 6/24: edit locked — remove the 'Ready to make the smart move' heading, lead with 'Big honking important note' (date-not-held + reply CTA beneath). Emma making the change + sharing the HTML file; Matisen owes the tokens (back 6/25). MJML-vs-plain-HTML format still an open call to confirm w/ KP. Internal team owns implementation; KP owns design + copy.",
           "superGreen": "Rolled out company-wide with measurable impact",
-          "green": "Houston test complete, company-wide decision made"
+          "green": "Houston test complete, company-wide decision made",
+          "finalizedAt": "2026-08-26"
         },
         {
           "name": "Branded Boxes (Bonus)",
           "critical": false,
           "status": "red",
-          "assessment": "6/24: moved Green->Red — KP deprioritized it for other design work; back on their end and won't get attention for a while (Elizabeth). Bonus rock."
+          "assessment": "⭐ Q2 FINAL: RED — ratified 8/26. Deferred early, then Paul pilloried the design at the finish line. Restart path: set cost-per-box target + 2-color limit, design backwards. | Prior: 6/24: moved Green->Red — KP deprioritized it for other design work; back on their end and won't get attention for a while (Elizabeth). Bonus rock.",
+          "finalizedAt": "2026-08-26"
         },
         {
           "name": "Continued Monitoring + Improvements to Quote Form",
           "status": "green",
-          "critical": false
+          "critical": false,
+          "assessment": "⭐ Q2 FINAL: GREEN — ratified 8/26. Matisen argued Super Green (Einstein was the blocker, not KP); Cameron ruled no-caveat grading → Green. Major UX change implemented but not rolled out (launch ~wk of 9/21). | Prior: ",
+          "finalizedAt": "2026-08-26"
         }
       ]
     },

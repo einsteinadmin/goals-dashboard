@@ -5,7 +5,7 @@
     "quarterEnd": "2026-10-31",
     "themeDeadline": "2026-10-19",
     "themeDeadlineLabel": "Training Camp — Theme Deadline: Oct 19",
-    "lastRefreshed": "2026-08-26T13:05:00-05:00",
+    "lastRefreshed": "2026-08-26T12:05:00-05:00",
     "refreshedBy": "Albert (digest)",
     "archive": {
       "quarter": "Q2 2026",
@@ -893,10 +893,10 @@
           "name": "Q3 goals — set outside the QGR fold",
           "critical": false,
           "status": "unknown",
-          "assessment": "⚠ External partner — not in the 7/30 Q3 fold (that fold covers Einstein goal-owners only). Kickpoint's Q3 scope is set through the engagement, not the cascading sheet. Q2 entries archived in dashboard-data-q2-2026.json.",
+          "assessment": "8/26 KP sync (Q2 close-out + Q3 setup): Q2 FINAL ratified in-room — 3G/2R (ROAS G · Website oversight G · Quote Form G · New Emails R [KP delivered; our IT was the blocker] · Branded Boxes R [deferred; Paul's late design veto]) — finals stamped in dashboard-data-q2-2026.json. Q3: Laura's draft exists in the chart (mislabeled Q2 — website launch · quote form · Austin L/content); she finalizes + tags Cameron by FRI 8/28 → on approval, real Q3 rows land here + chart + pulses.",
           "superGreen": "",
           "green": "",
-          "sourceUpdated": "2026-07-31",
+          "sourceUpdated": "2026-08-26",
           "source": "external",
           "statusSince": "2026-08-21",
           "statusDays": 4
