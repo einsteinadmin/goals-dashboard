@@ -471,24 +471,25 @@ const DASHBOARD_DATA = {
     {
      "name": "Mover Training App — Company-Wide Rollout + Driver-Training Port + Digital Training Handbook",
      "critical": true,
-     "status": "green",
-     "assessment": "via Gerald 8/24: Both hard gates cleared; now driving adoption. 100% of managers completed sandbox certification by the 8/19 deadline — every branch through, no stragglers. All active movers went live in the app on 8/20 as planned; Gerald mass-activated the roster through the in-app browser to avoid manual one-by-one adds. We're now in the adoption phase and the honest early read after the first weekend is a slow start — enrollment is live but usage isn't ramping on its own yet. Mike's push this week: (1) morning-huddle itinerary updated to drive the team on it every single day, (2) a weekly-1 manager update in draft to set the expectation cadence, (3) a QA pass across every sign-off that came in over the weekend to confirm managers and movers are using it correctly and that managers are holding the standard on photos and praise submissions. Still Green and working toward Super Green (≥70% of enrolled movers through the full pipeline / Lead-Ready by 10/19); too early in the rollout to call how fast the train moves. Scrum recert is tracked under the managers' own Scrum goal, not here.",
+     "status": "yellow",
+     "assessment": "via Gerald 8/31: Both hard gates are cleared and enrollment is complete, but adoption is genuinely slow and we can now prove it instead of guessing. Mike rebuilt the training dashboard this week: it went from a single overall-progress number to per-mover progress, days-worked tracking, and a color-coded velocity read that separates who is on pace from who has gone stale. First honest company read across 288 enrolled movers is 42 on track, 18 at risk, 217 behind, 11 not started. That is 15% on pace, and it is the number that matters, because the remaining gate is 70% of enrolled movers through the pipeline by EOQ. All three of this week's pushes landed: the morning-huddle itinerary now drives the app every day, the weekly-1 manager update went out to set the cadence expectation, and the QA pass on weekend sign-offs confirmed managers and movers are using it correctly, with the photo standard and praise submissions holding. So the mechanics are right and the tooling now lets us coach by name instead of by branch. The problem is pace, not correctness. Worst gaps are North Austin (44 behind) and South Austin (39 behind); Dallas is the strongest large branch at 12 on track and Fort Worth the thinnest at 1. Calling this Yellow this week, not because anything failed but because 15% on-pace one month in does not honestly support a Green read on the last gate until the behind column starts shrinking. What moves it back is managers working their behind list daily, which is exactly what the new velocity view was built to make impossible to avoid.",
      "superGreen": "Mgr sandbox 100% by 8/19 + movers 100% enrolled 8/20 + ≥70% through full pipeline (Lead-Ready) by 10/19 + Scrum recert by 10/19",
      "green": "Mgr sandbox 100% by 8/19 + movers 100% enrolled 8/20 + ≥70% through stage 4 by EOQ",
-     "sourceUpdated": "2026-08-24",
+     "sourceUpdated": "2026-08-31",
      "source": "cos-feed",
      "pulse": "11728355420",
-     "statusSince": "2026-08-21",
-     "statusDays": 10
+     "statusSince": "2026-08-31",
+     "statusDays": 0,
+     "prevStatus": "green"
     },
     {
      "name": "Dept-Head/Regional Split — FDE Boots-on-Ground Weeks + Dept-Head QGs as Critical Number",
      "critical": true,
      "status": "green",
-     "assessment": "via Gerald 8/24: On track to Super Green with the field weeks starting now. All 5 FDE field weeks are locked and the plan is built and committed. First week is North Dallas, starting 8/25 — Mike will be on-site in Dallas all week (Monday skipped for the Roundtable sync plus getting the driver-safety dashboard and training-progress updates out). The command center feeds a weekly KPI review with the branches that sets each visit's focus and lets priorities shift mid-quarter if the data moves. This week's Dallas deep dive is overtime and schedule management: Dallas runs high on OT relative to the other branches, with the same repeat offenders showing up week over week — which points at either managers approving shift swaps too freely or the biweekly schedule not being adhered to and adjusted through the week to head off OT. Key issues from each visit get logged and tracked in the Road-to-A+ HQ. Green is 3 field weeks across the 10 branches by Oct 1 (each with a key issue logged and resolved or on an action plan); Mike is managing to the Super Green 5. The one real risk is competing non-goal workload pulling him out of the field weeks.",
+     "assessment": "via Gerald 8/31: First field week is in the bank. Mike spent Aug 25-28 on-site in North Dallas, the full week as planned. The approach was observe first, prescribe never: he spent the first few days watching how the team actually handled damages, overtime, and schedule management, asking probing questions and taking notes rather than correcting in the moment. Then he ran a working meeting where he put the issues in front of the group and had them generate the fixes themselves. They came back with solid, workable ideas, which is the better outcome, because ownership now sits with the branch instead of with him. Remaining work on this visit is follow-through: confirming those solutions actually get put in place, and writing the key issue plus the action plan into the Road-to-A+ HQ. That write-up is the one open loop from the week and is not done yet. Next up is Tampa, Sep 7-11. One of five weeks complete; Green is 3 across the 10 branches by Oct 1 and Mike is managing to the Super Green 5. The risk is unchanged: competing non-goal workload is the only thing that pulls him out of the field.",
      "superGreen": "5 FDE field weeks across the 10 branches by Oct 1 + 1 key issue/visit logged and resolved or on a documented action plan",
      "green": "3 FDE field weeks across the 10 branches by Oct 1 + 1 key issue/visit logged and resolved or on a documented action plan",
-     "sourceUpdated": "2026-08-24",
+     "sourceUpdated": "2026-08-31",
      "source": "cos-feed",
      "pulse": "12556464031",
      "statusSince": "2026-08-21",
@@ -498,10 +499,10 @@ const DASHBOARD_DATA = {
      "name": "Fleet Safety Pt 3 — Carry the Red, Restructured",
      "critical": false,
      "status": "green",
-     "assessment": "via Gerald 8/24: Turned the corner from red to green. The company quarter Samsara score is 92, and each of the last two weeks came in at 94 — a clear reversal from the mid-80s start. Zero branches sit under an 80 for the quarter, with McKinney the lowest at 82. That clears the Green bar (≥90 by Oct 1) and puts Super Green (≥95) within reach. The open piece is warning-chase discipline: a few managers dropped the ball on issuing their required warnings, so Mike has put follow-up pulses on those managers' boards to close them out, and is auditing Rippling this week to confirm the warnings actually issued line up with what the chase list says should have gone out. Getting to zero unissued-warning backlog is the last gap to fully lock Green and press toward SG. Worth noting the tailwind is gone — Einstein Games isn't live this quarter, so this score is holding without the engagement lever the team had last quarter, which makes the turnaround more meaningful.",
+     "assessment": "via Gerald 8/31: Green is holding and the last structural gap is closed. The Rippling audit ran and came back clean: zero unissued-warning backlog, so the warning-chase discipline problem from the last two weeks is resolved. Company QTD Samsara sits at 91, and last week's company weekly also came in at 91. That is a step down from the 94 weeks in mid-August, so the trend flattened rather than kept climbing. Worth watching, but still clearly over the Green bar of 90. The floor came up as well: zero branches under 80 for the quarter and McKinney, the lowest, improved from 82 to 85. Top end is genuinely strong with Fort Worth 99, Tampa 97, Houston 96, Leander 94, South Austin 94. What is holding the company off 95 is a soft middle that is mostly Mike's own region: Dallas 87, Garland 86, McKinney 85, plus North Austin 88. Super Green means pulling that bottom group up roughly 8 points in two months while weeklies are printing 91, so SG is a real stretch rather than a coin flip. Also worth noting the tailwind is still gone: Einstein Games is not live this quarter, so every point here is coming from discipline and coaching, not engagement incentives.",
      "superGreen": "Samsara score at/above 95 by Oct 1 + zero unissued-warning backlog at EOQ",
      "green": "Samsara score at/above 90 by Oct 1 + zero unissued-warning backlog at EOQ",
-     "sourceUpdated": "2026-08-24",
+     "sourceUpdated": "2026-08-31",
      "source": "cos-feed",
      "pulse": "12625952608",
      "blockers": [
@@ -514,29 +515,29 @@ const DASHBOARD_DATA = {
     {
      "name": "Sell Remaining Trucks + Fund 2026 Fleet Purchases",
      "critical": false,
-     "status": "red",
-     "assessment": "8/26 (huddle): MOVEMENT on the red — Newton is being sold TODAY (paperwork prepped for buyer Cody in the morning huddle). Status stays Red until proceeds land, but the first truck is moving. | via Gerald 8/24: Still red, but the first-sale blocker is cleared and the rest are about to go live. Aiming to sell all 5, managing to the Green line of 3. The NWT truck — prepped and spoken for — had its check-engine light repaired end of last week and the buyer has been updated; the hope is to close that first sale this week. Photos for the remaining trucks came in last week and get posted to Facebook Marketplace early this week to gauge engagement and offers. It stays red until a truck actually sells, but nothing structural is in the way now. No buyer-side deadline — Oct 31 (EOQ) is the only clock. This rock funds the 2026 fleet purchases.",
+     "status": "yellow",
+     "assessment": "via Gerald 8/31: First sale closed, so this rock is off zero. The NWT truck sold for $40,000 after the check-engine repair and the buyer followed through. That is 1 of the 3 needed for Green and 1 of 5 for Super Green, with two months left and no buyer-side deadline other than Oct 31. The remaining trucks were photographed and posted to Facebook Marketplace as planned, and engagement so far is zero: no inquiries, no offers. The real gap now is cadence, not readiness. Those listings need a weekly worked pass (bump, reprice, widen the channel) and Mike has not done this week's yet. Moving off Red to Yellow because money is actually in and the pipeline is live, but it stays Yellow until a second truck sells, since one sale in a month against a dead-quiet Marketplace is not a pace that reaches 3. If engagement is still flat after the next two weekly passes, the honest move is to widen beyond Marketplace to dealer, wholesale, or auction rather than keep waiting on organic interest. This rock funds the 2026 fleet purchases, so the money matters downstream.",
      "superGreen": "Sell 5 trucks",
      "green": "Sell 3 trucks",
-     "sourceUpdated": "2026-08-24",
+     "sourceUpdated": "2026-08-31",
      "source": "cos-feed",
      "pulse": "11728336223",
      "blockers": [
       "Check-engine light on the spoken-for truck must be fixed before the sale closes",
       "Remaining trucks need photos before they can be posted"
      ],
-     "statusSince": "2026-08-24",
-     "statusDays": 7,
-     "prevStatus": "green"
+     "statusSince": "2026-08-31",
+     "statusDays": 0,
+     "prevStatus": "red"
     },
     {
      "name": "Manager Training App — SOP Sandbox Training and reference",
      "critical": false,
      "status": "red",
-     "assessment": "via Gerald 8/24: The one that's slipping — flagging it early. No progress last week: the first module (Samsara Management) did not advance. The foundation is in place — project HQ built, the module list and build order set — but the one-module-every-two-weeks cadence needed to reach Green (5-6 modules built and deployed) or Super Green (7-8) by Oct 31 is already under pressure in week one. Mike's honest read: holding that pace will be hard with the company-wide training rollout push and the FDE field weeks competing for the same time, and it's genuinely an open question whether this goal lands given everything else on his plate this quarter. Calling it now rather than letting it surprise anyone late.",
+     "assessment": "via Gerald 8/31: Second straight flat week, and this one is going to miss unless something structural changes. Module 1 (Samsara Management) still has not started. The foundation is done and unchanged, with the project HQ built and the ranked module list and build order set, but the one-module-every-two-weeks cadence that Green (5-6 modules) and Super Green (7-8) both depend on has now burned the first month of the quarter with zero modules produced. August is gone and nothing has been built, and the Sep 1 first-module milestone will miss. Mike's read is unchanged and blunt: with the company-wide mover training rollout in its adoption push and five FDE field weeks running through the quarter, this rock competes for exactly the same build time and loses every week. Dropping confidence to 1 to reflect that. The realistic paths are (a) carve a protected build block into the weeks between field visits, (b) scope Green down to fewer modules and share the build ownership rather than carrying it alone, or (c) call it Red now and reallocate the time to the two critical rocks. What is not happening is quietly letting this ride to October and surprising anyone at the QGR.",
      "superGreen": "7-8 core process SOP and modules built and deployed",
      "green": "5-6 core process SOP and modules built and deployed",
-     "sourceUpdated": "2026-08-24",
+     "sourceUpdated": "2026-08-31",
      "source": "cos-feed",
      "blockers": [
       "Not yet started — plan of attack being built this week"
@@ -712,27 +713,29 @@ const DASHBOARD_DATA = {
     {
      "name": "Push out training certifications — Carly (customer resolution)",
      "critical": false,
-     "status": "yellow",
-     "assessment": "8/31 1:1 RULING: moved to BONUS GOAL — stays live and gradeable, out of the 6-goal denominator (Carly-executed; wasn't in Amanda's status feed). Real movement: Carly + JC met (JC's customer-resolution training = the seed), outline due 9/4, training starts wk of 9/7. Honest color: yellow — Green bar is training COMPLETE + certification started; at ~33% of quarter we're at outline stage, so behind even-burn but now moving with dates. Gary to carry it in the status push.",
+     "status": "unknown",
+     "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes. | 8/17: NOT in Amanda's fresh Q3 push (Gary 14:20) — she carried 5 goals vs 6 on the chart; reconcile at the 8/18 sync (chart = source of truth).",
      "superGreen": "All managers, sales team, claims are certified",
      "green": "Training complete, certification has started",
      "sourceUpdated": "2026-08-18",
      "source": "cascading-chart-q3",
      "statusSince": "2026-08-21",
      "statusDays": 10,
-     "note": "🎁 BONUS GOAL as of 8/31 (ruled in the 1:1). Was EDITED 8/18: Tet's portion cut (Northwood); Carly-only scope. ⚠ Bars still read two-owner scope — narrow at next touch if wanted."
+     "note": "EDITED 8/18 (Amanda 1:1): Tet's certification portion CUT this quarter — he is on the Northwood/Trinity engagement. Carly's customer-resolution training is the whole goal. Not started as of 8/18 (claims email first). ⚠ Green/Super Green bars still read against the original two-owner scope — narrow at the next touch if Cameron wants them matched to Carly-only."
     },
     {
      "name": "Improve Sales Performance Engagement — Work with Jeff (Northwood)",
      "critical": false,
      "status": "green",
      "assessment": "via Gary 8/31: Green — real training output is now live, not just scoped. Trinity Session 1 (Jeff Johnson/Northwood, \"Set the Agenda — Not Yours\") was built and published org-wide 8/21, and its script directly seeded a new coaching check: a narrow, daily-cadence CET agenda-opener call-grading pass, with a measured day-1 baseline (15.9/100 avg, 39% of named concerns getting real follow-up). Session 2 (Sales Leadership Sales Training) ran 8/27 with Jeff, Cameron, Nhel and Therese Ablang. Training starts Tue 8/18 at 12:30, split into two groups by day off so everyone can attend — one group Tuesdays, one Wednesdays, running four to five weeks. Amanda owns the $54,500 engagement spend; Cameron's card is support-only at $0 per his 7/30 ruling.",
-     "superGreen": "Green + new-customer (non-repeat/referral) close rate up ≥3.5 pts off the frozen 8/5 baseline (14% → 17.5%)",
-     "green": "Sales playbook rewritten (why-they-buy / emotional, not estimate-delivery) + call-grading rubric updated to match — AND new-customer close rate up ≥2 pts off the frozen 8/5 baseline (14% → 16%) by EOQ. Pods NOT included.",
+     "superGreen": "TBD — bars not set on chart",
+     "green": "TBD — bars not set on chart",
      "sourceUpdated": "2026-08-31",
      "source": "cos-feed",
-     "blockers": [],
-     "note": "Bars CONFIRMED on the Q3 cascading chart + propagated 8/31 (chart Status: FINAL — approved by Amanda at the 8/18 sync; PODS REMOVED — too ambitious for the 90-day window; baseline frozen from the 8/5 pull, repeat-vs-new split first). Chart name conflict FIXED 8/31: Amanda's row now reads Jeff (was Adam).",
+     "blockers": [
+      "Super Green / Green bars still unset — were due to land after the 7/31 scoping meeting",
+      "Chart name conflict: Amanda's row and Cameron's bonus card read 'Adam (Northwood)', Nhel's row reads 'Jeff (Northwood)' for the same engagement — needs correcting on the chart"
+     ],
      "statusSince": "2026-08-21",
      "statusDays": 10
     }
