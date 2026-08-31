@@ -731,10 +731,8 @@ const DASHBOARD_DATA = {
      "green": "Sales playbook rewritten (why-they-buy / emotional, not estimate-delivery) + call-grading rubric updated to match — AND new-customer close rate up ≥2 pts off the frozen 8/5 baseline (14% → 16%) by EOQ. Pods NOT included.",
      "sourceUpdated": "2026-08-31",
      "source": "cos-feed",
-     "blockers": [
-      "Chart name conflict: Amanda's chart row still reads 'Adam (Northwood)' — engagement lead is Jeff Johnson; fix on the chart"
-     ],
-     "note": "Bars CONFIRMED on the Q3 cascading chart + propagated 8/31 (chart Status: FINAL — approved by Amanda at the 8/18 sync; PODS REMOVED — too ambitious for the 90-day window; baseline frozen from the 8/5 pull, repeat-vs-new split first).",
+     "blockers": [],
+     "note": "Bars CONFIRMED on the Q3 cascading chart + propagated 8/31 (chart Status: FINAL — approved by Amanda at the 8/18 sync; PODS REMOVED — too ambitious for the 90-day window; baseline frozen from the 8/5 pull, repeat-vs-new split first). Chart name conflict FIXED 8/31: Amanda's row now reads Jeff (was Adam).",
      "statusSince": "2026-08-21",
      "statusDays": 10
     }
