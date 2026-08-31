@@ -712,15 +712,15 @@ const DASHBOARD_DATA = {
     {
      "name": "Push out training certifications — Carly (customer resolution)",
      "critical": false,
-     "status": "unknown",
-     "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes. | 8/17: NOT in Amanda's fresh Q3 push (Gary 14:20) — she carried 5 goals vs 6 on the chart; reconcile at the 8/18 sync (chart = source of truth). | 8/31 chart check: goal IS live — chart EDITED 8/18 (Carly-only scope); still absent from Gary's feed — feed ask out.",
+     "status": "yellow",
+     "assessment": "8/31 1:1 RULING: moved to BONUS GOAL — stays live and gradeable, out of the 6-goal denominator (Carly-executed; wasn't in Amanda's status feed). Real movement: Carly + JC met (JC's customer-resolution training = the seed), outline due 9/4, training starts wk of 9/7. Honest color: yellow — Green bar is training COMPLETE + certification started; at ~33% of quarter we're at outline stage, so behind even-burn but now moving with dates. Gary to carry it in the status push.",
      "superGreen": "All managers, sales team, claims are certified",
      "green": "Training complete, certification has started",
      "sourceUpdated": "2026-08-18",
      "source": "cascading-chart-q3",
      "statusSince": "2026-08-21",
      "statusDays": 10,
-     "note": "EDITED 8/18 (Amanda 1:1): Tet's certification portion CUT this quarter — he is on the Northwood/Trinity engagement. Carly's customer-resolution training is the whole goal. Not started as of 8/18 (claims email first). ⚠ Green/Super Green bars still read against the original two-owner scope — narrow at the next touch if Cameron wants them matched to Carly-only."
+     "note": "🎁 BONUS GOAL as of 8/31 (ruled in the 1:1). Was EDITED 8/18: Tet's portion cut (Northwood); Carly-only scope. ⚠ Bars still read two-owner scope — narrow at next touch if wanted."
     },
     {
      "name": "Improve Sales Performance Engagement — Work with Jeff (Northwood)",
