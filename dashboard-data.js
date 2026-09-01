@@ -5,7 +5,7 @@ const DASHBOARD_DATA = {
     "quarterEnd": "2026-10-31",
     "themeDeadline": "2026-10-19",
     "themeDeadlineLabel": "Training Camp \u2014 Theme Deadline: Oct 19",
-    "lastRefreshed": "2026-09-01T14:20:00-05:00",
+    "lastRefreshed": "2026-09-01T15:05:00-05:00",
     "refreshedBy": "Albert (digest)",
     "archive": {
       "quarter": "Q2 2026",
@@ -797,7 +797,7 @@ const DASHBOARD_DATA = {
           "name": "Praise Targets",
           "critical": true,
           "status": "red",
-          "assessment": "9/1 sync: still RED 0/48 but a plan landed \u2014 16 queued for a praise working block TODAY, DoD = wired + regular cadence (surfacing now works via /gm, wraps, meeting digests). \u26a0 The measurement-source decision (Praise Board vs Rippling PL) was NOT ruled in the sync \u2014 still open.",
+          "assessment": "9/1 sync: still RED 0/48 but the plan landed \u2014 16 queued for a praise working block TODAY, DoD = praise pipeline wired + regular cadence (surfacing already works via /gm, wraps, meeting digests). He knows the measurement path; wiring it up IS the DoD.",
           "superGreen": "125% \u2014 60 praise",
           "green": "100% \u2014 48 praise",
           "sourceUpdated": "2026-09-01",
