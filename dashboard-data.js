@@ -5,7 +5,7 @@ const DASHBOARD_DATA = {
   "quarterEnd": "2026-10-31",
   "themeDeadline": "2026-10-19",
   "themeDeadlineLabel": "Training Camp — Theme Deadline: Oct 19",
-  "lastRefreshed": "2026-09-02T17:35:00-05:00",
+  "lastRefreshed": "2026-09-02T18:05:00-05:00",
   "refreshedBy": "Albert (digest)",
   "archive": {
    "quarter": "Q2 2026",
@@ -535,8 +535,8 @@ const DASHBOARD_DATA = {
      "critical": false,
      "status": "red",
      "assessment": "9/2 O3: RE-SCOPED in-room — Green = 1–2 SOPs (Samsara Mgmt first, ~2-hr Gerald lab slot), SG = 3–4; stays ON the table (Mike explicit); delegation path = Gerald drafts 2–5 if #1 goes smooth. Still red until the first lab slot lands. || via Gerald 8/31: Second straight flat week, and this one is going to miss unless something structural changes. Module 1 (Samsara Management) still has not started. The foundation is done and unchanged, with the project HQ built and the ranked module list and build order set, but the one-module-every-two-weeks cadence that Green (5-6 modules) and Super Green (7-8) both depend on has now burned the first month of the quarter with zero modules produced. August is gone and nothing has been built, and the Sep 1 first-module milestone will miss. Mike's read is unchanged and blunt: with the company-wide mover training rollout in its adoption push and five FDE field weeks running through the quarter, this rock competes for exactly the same build time and loses every week. Dropping confidence to 1 to reflect that. The realistic paths are (a) carve a protected build block into the weeks between field visits, (b) scope Green down to fewer modules and share the build ownership rather than carrying it alone, or (c) call it Red now and reallocate the time to the two critical rocks. What is not happening is quietly letting this ride to October and surprising anyone at the QGR.",
-     "superGreen": "7-8 core process SOP and modules built and deployed",
-     "green": "5-6 core process SOP and modules built and deployed",
+     "superGreen": "3-4 core process SOPs and modules built and deployed (RE-SCOPED 9/2 O3; was 7-8)",
+     "green": "1-2 core process SOPs deployed — Samsara Management first, w/ quiz + wiki-ready context (RE-SCOPED 9/2 O3; was 5-6)",
      "sourceUpdated": "2026-08-31",
      "source": "cos-feed",
      "blockers": [
