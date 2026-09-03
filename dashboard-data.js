@@ -783,7 +783,7 @@ const DASHBOARD_DATA = {
      "name": "QG and Support Blocks — Performance and Employee Management",
      "critical": true,
      "status": "green",
-     "assessment": "via CoS-EMC-1 9/2: Movement resumed after a static week. B: mover promotion-ladder working sessions with Anne and Paul are in motion, including the bonus-payout date basis; the Q2 mover bonus locked 9/1 at $82,866.33 with payroll files validated and the /mover-bonus skill + quarter guard shipped. C: the Monday mover directory plus its recurring sync shipped, and the ITP pod-meeting transcript self-grading round completed; the Rippling PL migration is in flight. A: ClearCompany->Rippling webhook live (8/10), verification still gated on Anne's return. D: mobile app training rollout unchanged.",
+     "assessment": "9/3 huddle: mobile app THROUGH QA, near field-test ready (remaining bugs: payment portal + navigation). Bonus Builder = today's priority; payroll leg 3 paused behind it; RO task automation possible next week. || PRIOR: via CoS-EMC-1 9/2: Movement resumed after a static week. B: mover promotion-ladder working sessions with Anne and Paul are in motion, including the bonus-payout date basis; the Q2 mover bonus locked 9/1 at $82,866.33 with payroll files validated and the /mover-bonus skill + quarter guard shipped. C: the Monday mover directory plus its recurring sync shipped, and the ITP pod-meeting transcript self-grading round completed; the Rippling PL migration is in flight. A: ClearCompany->Rippling webhook live (8/10), verification still gated on Anne's return. D: mobile app training rollout unchanged.",
      "superGreen": "100% Green or higher (4 of 4)",
      "green": "75% Green or higher (3 of 4)",
      "sourceUpdated": "2026-09-02",
