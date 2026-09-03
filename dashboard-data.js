@@ -833,7 +833,7 @@ const DASHBOARD_DATA = {
     },
     {
      "name": "Long Form Videos — 4 from named list (shortlist w/ KP; incl. Einstein Coaching Protocol video w/ Cameron)",
-     "assessment": "8/19 1:1: re-colored Green→YELLOW — 0 of 4 published; Moving to Austin script in 6 sections, 2 by ~8/28, first draft 9/5; others after. Ratified 8/3. Shortlist deliberately NOT hard-locked — Austin works it with KP, tags Cameron with the list. Q2 context: ruled RED (1 finished from list).",
+     "assessment": "9/1 AUSTIN'S OWN READ: Yellow/Red honest downgrade — Moving to Austin 90% gathered, in assembly (rough draft due Fri 9/5, on track per his 8/28 board update); deleted-footage setback; 0 of 4 published; 2 of 4 need Cameron on camera, filming date unset. || PRIOR: 8/19 1:1: re-colored Green→YELLOW — 0 of 4 published; Moving to Austin script in 6 sections, 2 by ~8/28, first draft 9/5; others after. Ratified 8/3. Shortlist deliberately NOT hard-locked — Austin works it with KP, tags Cameron with the list. Q2 context: ruled RED (1 finished from list).",
      "superGreen": "6 finished + published (KP’s full ask)",
      "green": "4 finished + published from the named list",
      "critical": false,
@@ -857,11 +857,11 @@ const DASHBOARD_DATA = {
     },
     {
      "name": "Client Testimonials",
-     "assessment": "8/19 1:1: honest RED — none planned; Dialpad call plan → one repeat-customer shoot before Labor Day. Ratified 8/3 (softened from the counter-proposal: Green 2, not 3). Q2 was GREEN here — the process works; 1-hr two-mover allowance stands.",
+     "assessment": "9/1 AUSTIN'S OWN READ (pre-read for the 9/3 sync): Green — first testimonial shoot SCHEDULED Fri 9/5 (Allison no-answer, Amy Shortt backup), two more on the horizon. Was red 8/19 — real movement. || PRIOR: 8/19 1:1: honest RED — none planned; Dialpad call plan → one repeat-customer shoot before Labor Day. Ratified 8/3 (softened from the counter-proposal: Green 2, not 3). Q2 was GREEN here — the process works; 1-hr two-mover allowance stands.",
      "superGreen": "3 or more filmed + published",
      "green": "2 filmed + published",
      "critical": false,
-     "status": "red",
+     "status": "green",
      "sourceUpdated": "2026-08-03",
      "source": "ratified-2026-08-03-sync",
      "statusSince": "2026-08-21",
