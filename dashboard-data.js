@@ -1,985 +1,987 @@
 const DASHBOARD_DATA = {
-  "meta": {
-    "quarter": "Q3 2026",
-    "quarterStart": "2026-08-01",
-    "quarterEnd": "2026-10-31",
-    "themeDeadline": "2026-10-19",
-    "themeDeadlineLabel": "Training Camp \u2014 Theme Deadline: Oct 19",
-    "lastRefreshed": "2026-09-09T16:15:00-05:00",
-    "refreshedBy": "Albert (digest)",
-    "archive": {
-      "quarter": "Q2 2026",
-      "file": "dashboard-data-q2-2026.json",
-      "note": "Q2 final state at quarter close 7/31/26. QG success rate 80.0% (32/40 \u00b7 14 SG \u00b7 18 G \u00b7 8 R). Theme: E=MCash\u00b2. Praise: Cameron 93 given (Green 48 / Super Green 60 both cleared)."
-    },
-    "pendingFinalization": [
-      "Carly \u2014 only Maternity Transition rock confirmed (other 3 moved to Alternates per 4/14 \u2014 she's on leave 80% of Q2)",
-      "Amanda's CX Q2 Theme rock \u2014 pending decision (gates Nhel + Carly's theme rocks too, tracked off-dashboard)"
-    ],
-    "criticalNumbersConfirmed": "Cameron Rocks #1 (Einstein Dojo + COS scaling) and #2 (AI Wedge Audit + QG Support) confirmed as Critical Numbers per 5/7.",
-    "scopeNote": "Dashboard tracks Cameron's DIRECTS only. Non-direct contributors (Nhel, Tet, Fabian, Jalissa, Carly, LiftUp, Claims team, ROs) cascade through their managers and live on the Cascading Goals spreadsheet. PULLED 8/21/2026 (Cameron's ruling): the 5 non-direct leaders folded in at the 7/30 QGR had no COS feed, so all 24 of their goals sat at 'unknown' for 22 days and would never have updated \u2014 a third of the dashboard reading as live data when it was frozen. Archived to leadership-archive-non-directs-2026-08-21.json; restore when the world model pushes down and managers collect their directs' status at sync-up.",
-    "lastRefreshNote": "8/28 ROCK SWAP (Cameron): Trinity/Northwood promoted BONUS \u2192 Rock #5; Manager Ongoing Education Library demoted Rock #5 \u2192 bonus. Denominator stays 5. Library is a ~20-hour build he is deliberately holding (5 weeks, zero movement, by choice) \u2014 the swap makes the slate reflect actual time allocation rather than grading him against work he chose not to start. \u26a0 Trinity's bars carried over verbatim from the bonus slot and are stale (Green already substantially met) \u2014 refreshed bars owed. || PRIOR: 8/28 GOAL RATIFICATION PASS. (1) Cameron's Rock #2 bars amended \u2014 Secret Stache's build timeline surfaced 8/26 (Rich: start 8/31, 10-11 wks to final review, 13 wks to launch ~Nov 30), making the original 'launched by 10/31' SG unreachable; Q3 finish line reset to a build milestone, LAUNCH moves to a Q4 rock. (2) Kickpoint's 5 Q3 goals confirmed by Cameron \u2014 Laura delivered them 8/27 PM; #1 amended to Rock #2's language, #2-#5 approved as drafted. (3) Ben Young's 3 Q3 goals confirmed and now tracked as real rows (previously a placeholder 'set outside the QGR fold'). Both Ben and Kickpoint move from external-placeholder to live goal rows.",
-    "_archivedRefreshNote3": "6/15 group sync digest (Mission Control debut). Status moves: Mike Mover Training app \u2192 SG (functional app built); Brian + Mike + Amanda ITP behind (Mike & Amanda Red); Brian Games trending red (CTXH 6.8); Matisen VP + ITP SG. Decisions: Botpress selected; trip-fee/service-zone audit + raise to hourly; Super Mover app on Mike's platform (Cameron endorsed \u2014 flagged high-stakes); MJML vs HTML email; hire to open trucks (Paul); 4-week TUR/capacity analysis. Anne released early (SHRM travel) \u2014 her statuses carried from prep.",
-    "_archivedRefreshNote2": "5/28 /gm sweep \u2014 Fixed two rendering bugs (status values that produced empty circles): Anne HR Generalist 'super-green' \u2192 'supergreen' (now shows the SG dot); Rock #6 ITP 'yellow' flagged to Cameron (dashboard has no yellow state \u2014 SG/G/R only \u2014 pending his call to map green vs red). Rock #1 COS refreshed: Vera-Brian live (5 of 6 COS active, Amanda last). Rock #5 + KP + Smart Move tile: website design proposal SIGNED 5/28, Ben looped for payment calendar. Einstein Games tile: S3 launched 5/23, week 1 in flight. PRIOR (5/22 /retro): ",
-    "_archivedRefreshNote": "5/22 /retro deep refresh + /wrap velocity correction \u2014 week 5/18-5/22 closed. Velocity 33 pulses / 122 LOW / 10 praise / happiness 4 (corrected at /wrap from earlier ~95 LOW estimate \u2014 Hold for Sync Up + Done 2026 dated this week combined). Roughly tied with last week's 32/121 modeler-sprint frenzy. Huddle facilitation jumped one full letter grade from last week (C/3.1 three-day \u2192 B+ this week). HOF Path B initially shipped differentiated (conditional A-player ultimatum) then REVERSED to uniform via Roundtable + 6-author consultant council, all six convergent \u2014 philosophy v2.2 added 'pay corrections are not performance ultimatums' principle. VP rates LIVE clean overnight Wed 5/20. Einstein Games S3 launches Sat 5/23, public brief page live. Lead Triage scoping approved for Fabian Phase 1 (broke 2-week stall). N. Austin onsite visit 5/19 banked (1/3 toward Branch Visits rock). Cameron's COS rollout for Brian decoupled from Anthropic Org setup (Brian first now, Tue 5/26 target \u2014 breaks 3-week slip pattern). HR Generalist hire: Saturday interview added to land by Mon PM. Performance-pay system framed as Anne + Paul Q2 Rock. Friction-remover pattern flagged \u2014 Cameron's rocks underperforming because day fills supporting everyone else.",
-    "_archivedRefreshNote4": "6/18 /retro deep refresh (week 6/15-6/18). Cameron Rocks: ITP #6 \u2192 COMPLETE/Super Green (workshop + one-pager done for Rob 7/10, pulse Done). COS scaling #1 accelerating \u2014 6 of 7 COS live (Vera + CoS-MH1 bootstrapped status.json, Clark Google Docs unblocked overnight 6/18), teach-skill genericized to Amanda/Gary beta, drift-detection upgrade shipped; network block updated to 6-of-7. Website #5 \u2014 7-critic hostile audit \u2192 'ship v1, fix one blocker', v2 Peekaboo built, both sent to KP, awaiting Jeff scope. AI Wedge #2 \u2014 Quote Funnel locked w/ KP (data-collection-first), call grading continues under Gary. VP #3 steady (final pricing report landed, FTE-connect staged, Tuesday cadence held). Branch Visits #4 quiet (pre-travel). Leadership: Brian Games company-wide 8.8 + Mentimeter-replacement Replit app working (praised); Mike back from vacation clean catch-up + super-app chassis locked (\u26a0 Gerald status.json off-spec); Amanda Botpress green-lit + owns w/ Matisen; Matisen final pricing + FTE-connect + Field App handoff received + status.json now live; Anne holding (Orlando HR conf). CET sheet pulled: Claims time-to-close Q2 avg Stephanie 6.7 / Jaci 5.4 biz days (Green/SG); May $ conversions company 80.78% (below 95% Green = Red). Prior 6/15 group sync note below.",
-    "_archivedRefreshNote5_710digest": "7/9 huddle digest (first day back from Seattle). Matisen: EMMA read-only MCP in QA \u2014 sales/revenue/conversion pulling correctly, Einstein Games data NOT pulling (still validating), Rippling hours done; mobile/field app rollout targeted eve of 7/10; ClearCo webhooks set, Rippling integration mapping w/ Anne. Brian: NA BM hiring scorecard locked at 50/50 Position-KPIs/Choices (ITP reference-only, weight toggles; Vera building), candidates narrowing (Lukas+Frank likely cut). Mike: mover training app strong after Dallas/Garland feedback, common-mistakes driver module starting. Amanda: sales back on track post-holiday, exploring quarterly goals + incentive plan pre-QGR. Rob 7/15 prep clarified; team recap+links via Slack. Statuses largely held from 6/18 \u2014 no status flips this pass.",
-    "statusHistoryStamped": "2026-09-08"
+ "meta": {
+  "quarter": "Q3 2026",
+  "quarterStart": "2026-08-01",
+  "quarterEnd": "2026-10-31",
+  "themeDeadline": "2026-10-19",
+  "themeDeadlineLabel": "Training Camp — Theme Deadline: Oct 19",
+  "lastRefreshed": "2026-09-09T16:15:00-05:00",
+  "refreshedBy": "Albert (digest)",
+  "archive": {
+   "quarter": "Q2 2026",
+   "file": "dashboard-data-q2-2026.json",
+   "note": "Q2 final state at quarter close 7/31/26. QG success rate 80.0% (32/40 · 14 SG · 18 G · 8 R). Theme: E=MCash². Praise: Cameron 93 given (Green 48 / Super Green 60 both cleared)."
   },
-  "network": {
-    "phase": "1",
-    "phaseLabel": "All 7 COS live \u2014 Q3 tracking opens",
-    "lastRefreshed": "2026-09-08",
-    "matrixUrl": "https://einsteinadmin.github.io/einstein-cos-matrix-059563b8c478/",
-    "agentsReporting": 7,
-    "agentsTotal": 7,
-    "adoptionPct": null,
-    "adoptionLabel": "7 of 7 live",
-    "staleCount": 0,
-    "pendingTotal": 0,
-    "summary": "All 7 COS publishing. 7/31 freshness: Matisen 7/31 \u00b7 Mike 7/28 \u00b7 Brian 7/24 \u00b7 Cameron 7/23 \u00b7 Anne 7/22 \u00b7 Paul 7/16 \u00b7 Amanda 7/15. Amanda (Gary) and Paul (Clark) both past the 9-business-day line \u2014 chase next week.",
-    "agents": [
-      {
-        "cos": "Albert",
-        "repo": "(host)",
-        "state": "LIVE",
-        "ageDays": 3,
-        "goals": 6,
-        "wrapStep": "(host)",
-        "principal": "Cameron Brown"
-      },
-      {
-        "cos": "Gerald",
-        "repo": "gerald-mike",
-        "state": "LIVE",
-        "ageDays": 0,
-        "goals": 5,
-        "wrapStep": "yes",
-        "principal": "Mike Vandenbroader"
-      },
-      {
-        "cos": "Clark",
-        "repo": "cos-clark",
-        "state": "LIVE",
-        "ageDays": 0,
-        "goals": 5,
-        "wrapStep": "yes",
-        "principal": "Paul Morin"
-      },
-      {
-        "cos": "CoS-MH1",
-        "repo": "matisen-cos",
-        "state": "LIVE",
-        "ageDays": 0,
-        "goals": 4,
-        "wrapStep": "yes",
-        "principal": "Matisen Harper"
-      },
-      {
-        "cos": "Vera",
-        "repo": "cos-vera",
-        "state": "LIVE",
-        "ageDays": 0,
-        "goals": 5,
-        "wrapStep": "yes",
-        "principal": "Brian Herzig"
-      },
-      {
-        "cos": "Gary",
-        "repo": "cos-amanda",
-        "state": "LIVE",
-        "ageDays": 0,
-        "goals": 5,
-        "wrapStep": "yes",
-        "principal": "Amanda Ware"
-      },
-      {
-        "cos": "Linda",
-        "repo": "cos-anne",
-        "state": "LIVE",
-        "ageDays": 3,
-        "goals": 6,
-        "wrapStep": "yes",
-        "principal": "Anne Bosse"
-      }
-    ],
-    "rosterSource": "cos-network-pull-daily (last-run.log)"
+  "pendingFinalization": [
+   "Carly — only Maternity Transition rock confirmed (other 3 moved to Alternates per 4/14 — she's on leave 80% of Q2)",
+   "Amanda's CX Q2 Theme rock — pending decision (gates Nhel + Carly's theme rocks too, tracked off-dashboard)"
+  ],
+  "criticalNumbersConfirmed": "Cameron Rocks #1 (Einstein Dojo + COS scaling) and #2 (AI Wedge Audit + QG Support) confirmed as Critical Numbers per 5/7.",
+  "scopeNote": "Dashboard tracks Cameron's DIRECTS only. Non-direct contributors (Nhel, Tet, Fabian, Jalissa, Carly, LiftUp, Claims team, ROs) cascade through their managers and live on the Cascading Goals spreadsheet. PULLED 8/21/2026 (Cameron's ruling): the 5 non-direct leaders folded in at the 7/30 QGR had no COS feed, so all 24 of their goals sat at 'unknown' for 22 days and would never have updated — a third of the dashboard reading as live data when it was frozen. Archived to leadership-archive-non-directs-2026-08-21.json; restore when the world model pushes down and managers collect their directs' status at sync-up.",
+  "lastRefreshNote": "8/28 ROCK SWAP (Cameron): Trinity/Northwood promoted BONUS → Rock #5; Manager Ongoing Education Library demoted Rock #5 → bonus. Denominator stays 5. Library is a ~20-hour build he is deliberately holding (5 weeks, zero movement, by choice) — the swap makes the slate reflect actual time allocation rather than grading him against work he chose not to start. ⚠ Trinity's bars carried over verbatim from the bonus slot and are stale (Green already substantially met) — refreshed bars owed. || PRIOR: 8/28 GOAL RATIFICATION PASS. (1) Cameron's Rock #2 bars amended — Secret Stache's build timeline surfaced 8/26 (Rich: start 8/31, 10-11 wks to final review, 13 wks to launch ~Nov 30), making the original 'launched by 10/31' SG unreachable; Q3 finish line reset to a build milestone, LAUNCH moves to a Q4 rock. (2) Kickpoint's 5 Q3 goals confirmed by Cameron — Laura delivered them 8/27 PM; #1 amended to Rock #2's language, #2-#5 approved as drafted. (3) Ben Young's 3 Q3 goals confirmed and now tracked as real rows (previously a placeholder 'set outside the QGR fold'). Both Ben and Kickpoint move from external-placeholder to live goal rows.",
+  "_archivedRefreshNote3": "6/15 group sync digest (Mission Control debut). Status moves: Mike Mover Training app → SG (functional app built); Brian + Mike + Amanda ITP behind (Mike & Amanda Red); Brian Games trending red (CTXH 6.8); Matisen VP + ITP SG. Decisions: Botpress selected; trip-fee/service-zone audit + raise to hourly; Super Mover app on Mike's platform (Cameron endorsed — flagged high-stakes); MJML vs HTML email; hire to open trucks (Paul); 4-week TUR/capacity analysis. Anne released early (SHRM travel) — her statuses carried from prep.",
+  "_archivedRefreshNote2": "5/28 /gm sweep — Fixed two rendering bugs (status values that produced empty circles): Anne HR Generalist 'super-green' → 'supergreen' (now shows the SG dot); Rock #6 ITP 'yellow' flagged to Cameron (dashboard has no yellow state — SG/G/R only — pending his call to map green vs red). Rock #1 COS refreshed: Vera-Brian live (5 of 6 COS active, Amanda last). Rock #5 + KP + Smart Move tile: website design proposal SIGNED 5/28, Ben looped for payment calendar. Einstein Games tile: S3 launched 5/23, week 1 in flight. PRIOR (5/22 /retro): ",
+  "_archivedRefreshNote": "5/22 /retro deep refresh + /wrap velocity correction — week 5/18-5/22 closed. Velocity 33 pulses / 122 LOW / 10 praise / happiness 4 (corrected at /wrap from earlier ~95 LOW estimate — Hold for Sync Up + Done 2026 dated this week combined). Roughly tied with last week's 32/121 modeler-sprint frenzy. Huddle facilitation jumped one full letter grade from last week (C/3.1 three-day → B+ this week). HOF Path B initially shipped differentiated (conditional A-player ultimatum) then REVERSED to uniform via Roundtable + 6-author consultant council, all six convergent — philosophy v2.2 added 'pay corrections are not performance ultimatums' principle. VP rates LIVE clean overnight Wed 5/20. Einstein Games S3 launches Sat 5/23, public brief page live. Lead Triage scoping approved for Fabian Phase 1 (broke 2-week stall). N. Austin onsite visit 5/19 banked (1/3 toward Branch Visits rock). Cameron's COS rollout for Brian decoupled from Anthropic Org setup (Brian first now, Tue 5/26 target — breaks 3-week slip pattern). HR Generalist hire: Saturday interview added to land by Mon PM. Performance-pay system framed as Anne + Paul Q2 Rock. Friction-remover pattern flagged — Cameron's rocks underperforming because day fills supporting everyone else.",
+  "_archivedRefreshNote4": "6/18 /retro deep refresh (week 6/15-6/18). Cameron Rocks: ITP #6 → COMPLETE/Super Green (workshop + one-pager done for Rob 7/10, pulse Done). COS scaling #1 accelerating — 6 of 7 COS live (Vera + CoS-MH1 bootstrapped status.json, Clark Google Docs unblocked overnight 6/18), teach-skill genericized to Amanda/Gary beta, drift-detection upgrade shipped; network block updated to 6-of-7. Website #5 — 7-critic hostile audit → 'ship v1, fix one blocker', v2 Peekaboo built, both sent to KP, awaiting Jeff scope. AI Wedge #2 — Quote Funnel locked w/ KP (data-collection-first), call grading continues under Gary. VP #3 steady (final pricing report landed, FTE-connect staged, Tuesday cadence held). Branch Visits #4 quiet (pre-travel). Leadership: Brian Games company-wide 8.8 + Mentimeter-replacement Replit app working (praised); Mike back from vacation clean catch-up + super-app chassis locked (⚠ Gerald status.json off-spec); Amanda Botpress green-lit + owns w/ Matisen; Matisen final pricing + FTE-connect + Field App handoff received + status.json now live; Anne holding (Orlando HR conf). CET sheet pulled: Claims time-to-close Q2 avg Stephanie 6.7 / Jaci 5.4 biz days (Green/SG); May $ conversions company 80.78% (below 95% Green = Red). Prior 6/15 group sync note below.",
+  "_archivedRefreshNote5_710digest": "7/9 huddle digest (first day back from Seattle). Matisen: EMMA read-only MCP in QA — sales/revenue/conversion pulling correctly, Einstein Games data NOT pulling (still validating), Rippling hours done; mobile/field app rollout targeted eve of 7/10; ClearCo webhooks set, Rippling integration mapping w/ Anne. Brian: NA BM hiring scorecard locked at 50/50 Position-KPIs/Choices (ITP reference-only, weight toggles; Vera building), candidates narrowing (Lukas+Frank likely cut). Mike: mover training app strong after Dallas/Garland feedback, common-mistakes driver module starting. Amanda: sales back on track post-holiday, exploring quarterly goals + incentive plan pre-QGR. Rob 7/15 prep clarified; team recap+links via Slack. Statuses largely held from 6/18 — no status flips this pass.",
+  "statusHistoryStamped": "2026-09-09"
+ },
+ "network": {
+  "phase": "1",
+  "phaseLabel": "All 7 COS live — Q3 tracking opens",
+  "lastRefreshed": "2026-09-09",
+  "matrixUrl": "https://einsteinadmin.github.io/einstein-cos-matrix-059563b8c478/",
+  "agentsReporting": 7,
+  "agentsTotal": 7,
+  "adoptionPct": null,
+  "adoptionLabel": "7 of 7 live",
+  "staleCount": 0,
+  "pendingTotal": 0,
+  "summary": "All 7 COS publishing. 7/31 freshness: Matisen 7/31 · Mike 7/28 · Brian 7/24 · Cameron 7/23 · Anne 7/22 · Paul 7/16 · Amanda 7/15. Amanda (Gary) and Paul (Clark) both past the 9-business-day line — chase next week.",
+  "agents": [
+   {
+    "cos": "Albert",
+    "repo": "(host)",
+    "state": "LIVE",
+    "ageDays": 1,
+    "goals": 6,
+    "wrapStep": "(host)",
+    "principal": "Cameron Brown"
+   },
+   {
+    "cos": "Gerald",
+    "repo": "gerald-mike",
+    "state": "LIVE",
+    "ageDays": 1,
+    "goals": 5,
+    "wrapStep": "yes",
+    "principal": "Mike Vandenbroader"
+   },
+   {
+    "cos": "Clark",
+    "repo": "cos-clark",
+    "state": "LIVE",
+    "ageDays": 1,
+    "goals": 5,
+    "wrapStep": "yes",
+    "principal": "Paul Morin"
+   },
+   {
+    "cos": "CoS-MH1",
+    "repo": "matisen-cos",
+    "state": "LIVE",
+    "ageDays": 1,
+    "goals": 4,
+    "wrapStep": "yes",
+    "principal": "Matisen Harper"
+   },
+   {
+    "cos": "Vera",
+    "repo": "cos-vera",
+    "state": "LIVE",
+    "ageDays": 1,
+    "goals": 5,
+    "wrapStep": "yes",
+    "principal": "Brian Herzig"
+   },
+   {
+    "cos": "Gary",
+    "repo": "cos-amanda",
+    "state": "LIVE",
+    "ageDays": 1,
+    "goals": 5,
+    "wrapStep": "yes",
+    "principal": "Amanda Ware"
+   },
+   {
+    "cos": "Linda",
+    "repo": "cos-anne",
+    "state": "LIVE",
+    "ageDays": 0,
+    "goals": 6,
+    "wrapStep": "yes",
+    "principal": "Anne Bosse"
+   }
+  ],
+  "rosterSource": "cos-network-pull-daily (last-run.log)"
+ },
+ "companyCriticalNumbers": [
+  {
+   "department": "Movers / Frontline Managers",
+   "numbers": [
+    {
+     "name": "Einstein Games — Q3 Scorecards",
+     "target": "Company score 8+ SG / 7+ G, all branches above floor",
+     "actual": "Company score 6.8 (Matisen, 8/24). Below the 7+ Green floor.",
+     "status": "yellow",
+     "note": "8/24: reporting is now FULLY AUTOMATED apart from claims — verified with two fresh pulls. Scores self-report what's missing (rippling hours, unreconciled damages) with a per-mover note. Mon/Tue of the quarter are still light, so 6.8 reads slightly low. Old Season-3 sheet is DEPRECATED — live source is the Einstein Games Engine sheet; permanent home is the hub, then into the mover app. Brian Critical Rock (CTXH) + Mike Critical Rock (DFWT)."
+    },
+    {
+     "name": "Personnel Budget %",
+     "target": "All branches avg 100%+ staffing for quarter (G+SG threshold), eNPS cleared by end of May (SG) or end of June (G)",
+     "actual": "All branches above 100% (8/24). DFWT avg 110%; CTXH branches 135–142% of budget on Matisen's recalculated numbers.",
+     "status": "green",
+     "note": "8/24: staffing is not the constraint. Leander is the one branch behind, and it's a BOOKINGS problem (no trucks running, not booking out), not a personnel-budget problem — its % looks high for that reason. ⚠ Brian flagged his FTE tracker was not updated. Personnel budget % is not yet reaching Cameron daily; Matisen can map it into the HR hub/dashboard."
+    }
+   ]
   },
-  "companyCriticalNumbers": [
+  {
+   "department": "Claims",
+   "numbers": [
     {
-      "department": "Movers / Frontline Managers",
-      "numbers": [
-        {
-          "name": "Einstein Games \u2014 Q3 Scorecards",
-          "target": "Company score 8+ SG / 7+ G, all branches above floor",
-          "actual": "Company score 6.8 (Matisen, 8/24). Below the 7+ Green floor.",
-          "status": "yellow",
-          "note": "8/24: reporting is now FULLY AUTOMATED apart from claims \u2014 verified with two fresh pulls. Scores self-report what's missing (rippling hours, unreconciled damages) with a per-mover note. Mon/Tue of the quarter are still light, so 6.8 reads slightly low. Old Season-3 sheet is DEPRECATED \u2014 live source is the Einstein Games Engine sheet; permanent home is the hub, then into the mover app. Brian Critical Rock (CTXH) + Mike Critical Rock (DFWT)."
-        },
-        {
-          "name": "Personnel Budget %",
-          "target": "All branches avg 100%+ staffing for quarter (G+SG threshold), eNPS cleared by end of May (SG) or end of June (G)",
-          "actual": "All branches above 100% (8/24). DFWT avg 110%; CTXH branches 135\u2013142% of budget on Matisen's recalculated numbers.",
-          "status": "green",
-          "note": "8/24: staffing is not the constraint. Leander is the one branch behind, and it's a BOOKINGS problem (no trucks running, not booking out), not a personnel-budget problem \u2014 its % looks high for that reason. \u26a0 Brian flagged his FTE tracker was not updated. Personnel budget % is not yet reaching Cameron daily; Matisen can map it into the HR hub/dashboard."
-        }
-      ]
+     "name": "CX Q2 Theme + Objectives — Claims (Time to Close)",
+     "target": "Avg ≤5 biz days SG / 6-8 G / ≥9 Red (outliers excluded)",
+     "actual": "Q3 opens 8/1 — awaiting first data pull. (Q2 final archived in dashboard-data-q2-2026.json.)",
+     "status": "unknown",
+     "note": "Carly on maternity leave 80% of Q2. Amanda Rock #6 covers maintenance. Time-to-close holding Green; theme decision pending."
     },
     {
-      "department": "Claims",
-      "numbers": [
-        {
-          "name": "CX Q2 Theme + Objectives \u2014 Claims (Time to Close)",
-          "target": "Avg \u22645 biz days SG / 6-8 G / \u22659 Red (outliers excluded)",
-          "actual": "Q3 opens 8/1 \u2014 awaiting first data pull. (Q2 final archived in dashboard-data-q2-2026.json.)",
-          "status": "unknown",
-          "note": "Carly on maternity leave 80% of Q2. Amanda Rock #6 covers maintenance. Time-to-close holding Green; theme decision pending."
-        },
-        {
-          "name": "Magic Moments Delivered (counter)",
-          "target": "TBD \u2014 Q2 baseline pending",
-          "actual": "Q3 opens 8/1 \u2014 awaiting first data pull. (Q2 final archived in dashboard-data-q2-2026.json.)",
-          "status": "unknown",
-          "note": "Cumulative counter. CET sheet's Praise tab \u2260 customer MM count. Q1 carry-over momentum: MM program active company-wide."
-        }
-      ]
-    },
-    {
-      "department": "Sales",
-      "numbers": [
-        {
-          "name": "CX Q2 Theme + Objectives \u2014 Sales",
-          "target": "TBD \u2014 pending Amanda + Nhel working session",
-          "actual": "Q3 opens 8/1 \u2014 awaiting first data pull. (Q2 final archived in dashboard-data-q2-2026.json.)",
-          "status": "unknown",
-          "note": "CX Q2 theme is the unifying frame for sales + claims + reviews. Decision pending. Tracked off-dashboard until locked, then tile populates with theme metrics."
-        },
-        {
-          "name": "Estimate Accuracy / $ Conversions",
-          "target": "54%+ accuracy G / 56%+ SG \u00b7 95%+ sales-target G / 105%+ SG (CET-sheet bands)",
-          "actual": "Q3 opens 8/1 \u2014 awaiting first data pull. (Q2 final archived in dashboard-data-q2-2026.json.)",
-          "status": "unknown",
-          "note": "Sales conversion Red on the CET sheet for May; baseline caveat \u2014 VP-form funnel analytics distortion (back/forward multi-submit) still unresolved, KP owns. Amanda Rock #1 (AI Call Grading) + Nhel R3 + Tet R5. Pulse 11712899643."
-        }
-      ]
-    },
-    {
-      "department": "Marketing/IT",
-      "numbers": [
-        {
-          "name": "Smart Move System Phase 2 / Website Redesign",
-          "target": "New site live, copy refreshed for Smart Move + VP, KP design system implemented",
-          "actual": "Q3 opens 8/1 \u2014 awaiting first data pull. (Q2 final archived in dashboard-data-q2-2026.json.)",
-          "status": "unknown",
-          "note": "Phase 1 (VP) shipped Q1. Q2 = freshen the site to sell Smart Move + VP. Kickpoint dependency on design system proposal."
-        },
-        {
-          "name": "Marketing ROAS Measurement",
-          "target": "ROAS dashboard live by channel, budget reallocation decisions",
-          "actual": "Q3 opens 8/1 \u2014 awaiting first data pull. (Q2 final archived in dashboard-data-q2-2026.json.)",
-          "status": "unknown",
-          "note": "Rob Lynch input dependency. Recommend move to Amanda (per sheet note). Rob's 2027 roadmap puts ROAS as priority \u2014 Q2 may stay scoping-only."
-        }
-      ]
-    },
-    {
-      "department": "Accounting/Finance",
-      "numbers": [
-        {
-          "name": "Prosper VCFO Integration",
-          "target": "Book close <5 days SG / <7 days G + flash reports + branch P&Ls",
-          "actual": "Q3 opens 8/1 \u2014 awaiting first data pull. (Q2 final archived in dashboard-data-q2-2026.json.)",
-          "status": "unknown",
-          "note": "Ben Young (Prosper VCFO) Critical Rock #1. Includes Power-of-1%, monthly board package, PE readiness."
-        },
-        {
-          "name": "Capital Plan / Growth Financing",
-          "target": "3-5 year capital plan to 150 trucks, debt capacity, reinvestment model",
-          "actual": "Q3 opens 8/1 \u2014 awaiting first data pull. (Q2 final archived in dashboard-data-q2-2026.json.)",
-          "status": "unknown",
-          "note": "Ben Young Critical Rock #2. Rob Lynch framework dependency. PE readiness included."
-        }
-      ]
-    },
-    {
-      "department": "IT / AI Wedge",
-      "numbers": [
-        {
-          "name": "AI Wedge Builds (Call Grading + Claims RAG + Hiring Funnel)",
-          "target": "First build kicked off by 5/30 (SG) or EOQ (G), 3 MVPs scoped",
-          "actual": "Q3 opens 8/1 \u2014 awaiting first data pull. (Q2 final archived in dashboard-data-q2-2026.json.)",
-          "status": "unknown",
-          "note": "Matisen Critical # Rock 1 (audit) + Rock 3 (Build #1 = Call Grading + Claims RAG, paired with Nhel/Carly). Cameron Rock #2 oversees + audits 7+ supporting QGs go Green."
-        },
-        {
-          "name": "EMMA v3 \u2192 v4 Unification + Mobile App",
-          "target": "Automailer/Mobile/Cron migrated to v4, mobile app launched within timeline budget",
-          "actual": "Q3 opens 8/1 \u2014 awaiting first data pull. (Q2 final archived in dashboard-data-q2-2026.json.)",
-          "status": "unknown",
-          "note": "Required for Database + EMMA upgrades. Mobile app launch identified by 5/2."
-        }
-      ]
+     "name": "Magic Moments Delivered (counter)",
+     "target": "TBD — Q2 baseline pending",
+     "actual": "Q3 opens 8/1 — awaiting first data pull. (Q2 final archived in dashboard-data-q2-2026.json.)",
+     "status": "unknown",
+     "note": "Cumulative counter. CET sheet's Praise tab ≠ customer MM count. Q1 carry-over momentum: MM program active company-wide."
     }
-  ],
-  "cameronKPIs": [
+   ]
+  },
+  {
+   "department": "Sales",
+   "numbers": [
     {
-      "name": "Truck Utilization Rate",
-      "target": "66%",
-      "actual": "9/9 hub: running-truck 35.7% (Sep MTD, pulled 9/9) \u00b7 trailing-active 82.4% (Q3, pulled 9/9). Ruler mismatch w/ Matisen still open \u2014 not graded vs 66%.",
-      "status": "unknown",
-      "note": "Q2 budget target 81.08% (financial sheet). Need EMMA data. #1 gap an EMMA API endpoint would fill. | Q3 reseed 7/31: actual cleared, awaiting Q3 data. | 8/25 RULED (Cameron): show BOTH rulers, primary = running-truck base. Q3 target corrected 65%\u219266% off the Cascading Goals chart (Position KPIs tab); 66% was set as a year-average-style number. \u26a0 Ruler mismatch unresolved: hub running-truck Aug = 42.3%, which is clearly a different ruler than the one the 66% was written against \u2014 do NOT grade 42.3 vs 66. Settle at the Matisen O3 (Thu 8/27) via the hub Definitions page; status stays unknown until then.",
-      "statusSince": "2026-08-21",
-      "statusDays": 18
+     "name": "CX Q2 Theme + Objectives — Sales",
+     "target": "TBD — pending Amanda + Nhel working session",
+     "actual": "Q3 opens 8/1 — awaiting first data pull. (Q2 final archived in dashboard-data-q2-2026.json.)",
+     "status": "unknown",
+     "note": "CX Q2 theme is the unifying frame for sales + claims + reviews. Decision pending. Tracked off-dashboard until locked, then tile populates with theme metrics."
     },
     {
-      "name": "Conversion Rate $",
-      "target": "20%",
-      "actual": "9/9 hub: 28.7% company (Sep MTD, pulled 9/9) vs 20% target \u2014 above bar. Weighted-vs-par 25.7%.",
-      "status": "green",
-      "note": "\u2b50 RE-BASELINED to 20% by Cameron 8/3/26 \u2014 this settles the open basis question. History: the old 40% standard predates the Variable Pricing rollout and the 3/31 definition change. At the 7/15 Rob session Cameron flagged leads up but conversion ~40%\u2192~20%; Amanda pushed back that it's partly lead-quality mix, not pure conversion decay. Q2-TD read was 19.9% raw / 25.6% resolved / 31.8% excl-EmmaLead. 20% is the new baseline to measure against, not a target cut \u2014 the old number was measuring a different thing. Awaiting Q3 actuals. | 8/17: Matisen reports Q3-TD $-conversion 23.6% on the Data Hub vs the 20% target \u2014 green, watch the seasonal dip as no-availabilities rise. | 8/25 RULED (Cameron): Conversion by $ (slide-back) = the primary basis for this KPI. Auto-fills from the hub at each /gm.",
-      "statusSince": "2026-08-21",
-      "statusDays": 18
-    },
-    {
-      "name": "Customer NPS",
-      "target": "90+",
-      "actual": "9/9 hub: 86.8 (Aug monthly, GatherUp direct, pulled 9/9) vs 90+ target \u2014 below the 88 Green floor, sits in the Watch band.",
-      "status": "red",
-      "note": "\u2b50 REPLACED eNPS on Cameron's KPI slate 8/3/26 \u2014 customer NPS, target 90+. Consistent with the 7/27 scorecard ruling that pulled mover eNPS out of the branch composite into a side metric: eNPS is now a culture signal, not a headline KPI. Branch-scorecard NPS bands for reference: SG \u226591 \u00b7 G 88\u201390.9 \u00b7 W 86\u201387.9 \u00b7 R <86, so 90+ sits at the top of Green. Prior eNPS state (archived, dashboard-data-q2-2026.json): manager/CET survey 7/17 scored 81, avg 9.3, 52 responses, 1 detractor. eNPS also went voluntary going forward, so participation rate becomes its own signal. | 8/25: hub shows 86.4 Red \u2014 hub uses a binary red/green at the 90 line (Cameron: fine for now, recalibrate w/ Matisen eventually). On the scorecard bands 86.4 = Warning; on the 90+ KPI it is below target either way.",
-      "statusSince": "2026-08-27",
-      "statusDays": 12,
-      "prevStatus": "unknown"
+     "name": "Estimate Accuracy / $ Conversions",
+     "target": "54%+ accuracy G / 56%+ SG · 95%+ sales-target G / 105%+ SG (CET-sheet bands)",
+     "actual": "Q3 opens 8/1 — awaiting first data pull. (Q2 final archived in dashboard-data-q2-2026.json.)",
+     "status": "unknown",
+     "note": "Sales conversion Red on the CET sheet for May; baseline caveat — VP-form funnel analytics distortion (back/forward multi-submit) still unresolved, KP owns. Amanda Rock #1 (AI Call Grading) + Nhel R3 + Tet R5. Pulse 11712899643."
     }
-  ],
-  "cameronRocks": [
+   ]
+  },
+  {
+   "department": "Marketing/IT",
+   "numbers": [
     {
-      "number": 1,
-      "name": "Q3 Theme Stewardship \u2014 \u201cTraining Camp\u201d (2-lane rollup)",
-      "critical": false,
-      "status": "yellow",
-      "assessment": "9/9: \u26a0 HARD NUMBERS LANDED AND THEY ARE NOT GREEN. Branch on-track 9/9 (Mike's pull): Garland 36 \u00b7 Dallas 27 \u00b7 Houston 26 \u00b7 San Antonio 19 \u00b7 N. Austin 18 \u00b7 McKinney 18 \u00b7 Leander 14 \u00b7 Fort Worth 13 \u00b7 Tampa 11 \u00b7 S. Austin 11. Company 19% on track, ~40% counting at-risk (engaging but short on daily signatures). Bar is 70% through stage 4 by EOQ, ~7.5 weeks out. \u2b50 RULED 9/9 (Cameron + Brian + Mike, post-huddle): accountability starts at the MANAGER layer, not the mover \u2014 Cameron: 'it's bullshit to issue a written warning to a mover when you haven't talked to him about this once.' Sequence: set plan + benchmark + date FIRST (redirect), then if missed the BM gets the warning, then ask that BM whether THEY warned their own FM/ops manager \u2014 Cameron does not step through a level. Threshold: a branch under ~50% on-track-or-at-risk signals the management team isn't engaging. Warnings start Fri 9/18. Mike drafts one combined announcement (app changes + accountability) and runs it past Brian before push; Brian is out 9/10-9/11. Mitigations are real but unproven: sprints went free-range (all unlock in stage 4) and Mike says the app is materially easier now \u2014 the announcement deliberately pairs 'we made it easier' with 'now we hold you to it.' Honest read: yellow trending red; if 9/18 does not move the on-track number materially, Lane 1 cannot reach the 70% floor by 10/31. \u26a0 Confirm with Matisen/Mike that 'on track' (daily-signature pace) maps to the bar's basis (completed through stage 4) \u2014 they may not be the same ruler. Prior: 9/4 BM roundtable beta shipped full-cycle; ~63% movers not started entering wk 3.",
-      "superGreen": "Both lanes hit their Super Green (Lane 1: fast-track-or-stage-4 by 10/19 at floor \u00b7 Lane 2: >70 avg) \u2014 OR Green + Cameron ships app improvements: 2+ shipped features or quality-sprint fixes with Mike by EOQ",
-      "green": "BOTH lanes hit Green \u2014 Lane 1 Training App rollout (movers/leads/managers): enrollment closed 8/20 + managers\u2019 sandbox gate 8/19 + 70% adoption floor \u00b7 Lane 2 CER call-grading (Aug level-set, trial from 9/1): >60 avg",
-      "lastUpdated": "2026-09-03",
-      "statusSince": "2026-08-21",
-      "statusDays": 18
+     "name": "Smart Move System Phase 2 / Website Redesign",
+     "target": "New site live, copy refreshed for Smart Move + VP, KP design system implemented",
+     "actual": "Q3 opens 8/1 — awaiting first data pull. (Q2 final archived in dashboard-data-q2-2026.json.)",
+     "status": "unknown",
+     "note": "Phase 1 (VP) shipped Q1. Q2 = freshen the site to sell Smart Move + VP. Kickpoint dependency on design system proposal."
     },
     {
-      "number": 2,
-      "name": "Cameron/KP \u2014 Website Redesign Part 2: Build + LAUNCH (signed SOW)",
-      "critical": false,
-      "status": "green",
-      "assessment": "9/4: Copy review progressing page-by-page (Cameron mid-pass); 13-wk vendor timeline challenge armed (Matisen: true build ~1.5 wk dedicated dev) \u2014 push when Gantt lands next wk. Build on schedule, Einstein not the blocker.",
-      "superGreen": "Green, plus the build is running AHEAD of Secret Stache's schedule \u2014 QA underway on the full site AND the launch date formally locked (December vs. new-year window decided, not drifting)",
-      "green": "All Einstein-side inputs delivered and the build on schedule as of 10/31 \u2014 copy and content locked and handed to Secret Stache with no Einstein-side blockers \u00b7 FSE block theme built with pages populated on staging \u00b7 build tracking to Rich's gantt with no missed milestones",
-      "lastUpdated": "2026-08-28",
-      "statusSince": "2026-09-08",
-      "statusDays": 0,
-      "prevStatus": "unknown"
-    },
-    {
-      "number": 3,
-      "name": "COS/World Model Part 2 \u2014 Lane A: Tier 3 via Claude Tags \u00b7 Lane B: Einstein Meeting OS (bars AMENDED 9/7)",
-      "critical": true,
-      "status": "yellow",
-      "assessment": "9/9: \u2b50 LANE A BETA DECLARED DONE IN THE HUDDLE \u2014 Mike: \"I haven't seen one instance where it gave an answer that was outright wrong\"; Brian agreed. Cameron cleared opening Coach to the rest of the BMs + ops managers + FMs, so the 'all 10 BMs by EOQ' bar is now a rollout task, not a risk. Day-1 beta closed 3 write-down gaps from real BM questions. Known issue surfaced: with two owners answering, Coach can act on the older context (Brian answered before Mike, who had just changed the thing) \u2014 guardrail 2 holds but needs a multi-owner tiebreak. NEW feature request from Mike, unexercised lane 2 candidate: have Coach package the week's changes/rulings into one Friday announcement instead of telling Brian and Mike to write it. Lane B still the drag: intake unbuilt, V1 not with Mike, scope session still needs a date. Standing yellow ~60%, conf 4. Prior: 9/8: Lane A LIVE with real BMs \u2014 Coach intro posted 8:00 AM, Dustin (SA) asked 3 real questions by 8:25 and Coach closed TWO write-down gaps the same morning (verification-code loop \u00b7 the Train-the-Trainer source doc), each confirmed by Mike and committed to the KB; Mike then used the fix at 9:01. Lane A Green bar is half-met (write lane 1 from a BM \u2713 \u00b7 lane 2 feature request from a BM not yet \u00b7 4",
-      "superGreen": "Green + both: the layer below the BMs in the room, or the pattern proved on a second subject \u00b7 BM-run sync-ups actually running at a branch.",
-      "green": "BOTH lanes: Lane A \u2014 Tags trialed and proved out (live \u00b7 all 10 BMs in by EOQ \u00b7 both write lanes exercised on a question that came from a BM, not a leadership test: one gap closed into the playbook, one feature request captured to a board \u00b7 playbook growing from THEIR questions). Lane B \u2014 the Meeting OS intake built so leader pushes seed the sync instead of hand-seeding \u00b7 sync-consolidation V1 delivered to Mike \u00b7 3+ syncs run on it.",
-      "lastUpdated": "2026-09-08",
-      "statusSince": "2026-09-08",
-      "statusDays": 0
-    },
-    {
-      "number": 4,
-      "name": "One Truth \u2014 Einstein Data Bus + AI/Tool Governance (registry \u00b7 bus lanes \u00b7 monthly Big Rocks review)",
-      "critical": false,
-      "status": "unknown",
-      "assessment": "9/4: NPS feed UNFROZEN (CoS-MH1 fixed nps_pull.py off the SCB ask \u2014 Aug final 86.8); conversion basis corrected to slide-back tile (23.3% Green); emc-prosper-canon LIVE (Ben+Paul invited, freeze #1 queued on Ben's close declaration); SmartMoving teardown validates the approval-workflow build as THE EMMA net-new.",
-      "superGreen": "Green + bus lane #2 (Rippling hours) live off the CoS-MH1 handover + QA/\u201cteam-shareable\u201d certification process adopted network-wide",
-      "green": "Tool registry live as the network front door covering all 7 leaders\u2019 tools (built on Matisen\u2019s hosted-pages hub pattern) + bus lane #1 (EMMA sales feed) canonical and consumed by network tools + monthly Big Rocks review run all 3 months + Einstein AI Use Policy adopted (Kiingo template tailored, rolled out with Anne \u2014 lands BEFORE the Tier-3 BM pilot opens access)",
-      "lastUpdated": "2026-07-30",
-      "statusSince": "2026-08-21",
-      "statusDays": 18
-    },
-    {
-      "number": 5,
-      "name": "Trinity / Northwood Sales Engagement \u2014 Sales Playbook, Rubric + Cohort Rollout (Cameron sponsors; Amanda owns outcomes)",
-      "critical": false,
-      "status": "green",
-      "assessment": "9/4: Rubric locked = Jeff's 3 stages (stage 1 80-85% month one); two-numbers spec refined (conversion $ repeat/referral vs first-attempt, company+per-rep, weekly \u2014 Matisen by Tue 9/8); classes resume Tue/Wed (Cameron sits WED); Amanda's compressed-calls finding changed Jeff's plan; carrots still open.",
-      "superGreen": "Green, plus the lead-triage recommendation converted into an actionable EMMA implementation plan with Matisen",
-      "green": "Rubric BUILT and in use (Amanda owns) \u00b7 cohorts running with Jeff on the resumed schedule (CET first, 6-7 per cohort, manager present) \u00b7 weekly per-rep net-new conversion reporting live against the frozen 8/5 baseline",
-      "lastUpdated": "2026-09-03",
-      "statusSince": "2026-09-08",
-      "statusDays": 0
+     "name": "Marketing ROAS Measurement",
+     "target": "ROAS dashboard live by channel, budget reallocation decisions",
+     "actual": "Q3 opens 8/1 — awaiting first data pull. (Q2 final archived in dashboard-data-q2-2026.json.)",
+     "status": "unknown",
+     "note": "Rob Lynch input dependency. Recommend move to Amanda (per sheet note). Rob's 2027 roadmap puts ROAS as priority — Q2 may stay scoping-only."
     }
-  ],
-  "leadership": [
+   ]
+  },
+  {
+   "department": "Accounting/Finance",
+   "numbers": [
     {
-      "name": "Paul Morin",
-      "title": "CFO (Co-Owner)",
-      "goals": [
-        {
-          "name": "Annual Mover Comp Review \u2014 Pay Structure + Promotion Paths",
-          "critical": true,
-          "status": "green",
-          "assessment": "via Clark 9/7: 9/7: Matisen still hasn't been able to run the historical analysis. Green remains solid, but Super Green (9/15 milestone) is unlikely at this point. Scheduling a reset with Matisen this week.",
-          "superGreen": "Green criteria met by 9/15 (mid-quarter)",
-          "green": "Pay structure + Promotion Paths documented and communicated to the team by end of quarter; data tracking process streamlined to a recurring review cadence",
-          "sourceUpdated": "2026-09-07",
-          "source": "cos-feed",
-          "pulse": "11752733644",
-          "statusSince": "2026-08-21",
-          "statusDays": 18
-        },
-        {
-          "name": "Improve BM Financial Accountability Meetings \u2014 Proactive Approach",
-          "critical": false,
-          "status": "green",
-          "assessment": "via Clark 9/7: 9/7: Ben completed the Q3 label fix on the branch CFO dashboards. Paul checking back in with the managers and scheduling the accountability meetings this week \u2014 target is at least 5 completed by Friday 9/11.",
-          "superGreen": "BMs presenting proactively, owning the narrative on margin drivers and scorecard KPIs without RM/Paul prompting",
-          "green": "Monthly BM performance review cadence launched, single meeting combining margin review + branch scorecard KPIs (interconnected), run by RMs, with BMs presenting both",
-          "sourceUpdated": "2026-09-07",
-          "source": "cos-feed",
-          "pulse": "11728394236",
-          "statusSince": "2026-08-21",
-          "statusDays": 18
-        },
-        {
-          "name": "Improve Invoicing + AR Collections Tracking",
-          "critical": false,
-          "status": "green",
-          "assessment": "via Clark 9/7: 9/7: General SOP completed \u2014 now collecting feedback from the team on it. Matisen built a tracker that will be integrated into the process. 60% done, on target for Green.",
-          "superGreen": "Attorney-vs-collections-service question resolved and implemented. Escalation runs against the tracker with no manual gaps",
-          "green": "Unpaid-bill workflow documented end-to-end (customer comms + timing standardized, escalation path defined) and team trained on it; tracker (separate spreadsheet, not Sage-native yet) covers all outstanding invoices",
-          "sourceUpdated": "2026-09-07",
-          "source": "cos-feed",
-          "pulse": "11728362120",
-          "statusSince": "2026-08-21",
-          "statusDays": 18
-        },
-        {
-          "name": "Acquisition Case Study \u2014 New Branch vs. Acquisition Model",
-          "critical": true,
-          "status": "green",
-          "assessment": "via Clark 9/7: 9/7: Holding at 30%. Commercial moving company hasn't responded to follow-up emails. Titan Up conference (9/2-9/4) completed \u2014 gathered strong contacts who have done moving acquisitions, to follow up with for more detail.",
-          "superGreen": "5 opportunities evaluated",
-          "green": "Houston organic-vs-acquisition case study complete (using the marketplace's Houston lead as the comparable); 3 acquisition opportunities evaluated, at least 1 of 3 current/live (not all historical/practice)",
-          "sourceUpdated": "2026-09-07",
-          "source": "cos-feed",
-          "pulse": "11728336219",
-          "statusSince": "2026-08-21",
-          "statusDays": 18
-        },
-        {
-          "name": "Branch Visits",
-          "critical": false,
-          "status": "green",
-          "assessment": "via Clark 9/7: 9/7: Tampa visit completed 9/1-9/2 \u2014 1 of 2 visits toward Green, 50%. Next branch visit needs scheduling.",
-          "superGreen": "3 visits",
-          "green": "2 visits",
-          "sourceUpdated": "2026-09-07",
-          "source": "cos-feed",
-          "statusSince": "2026-08-21",
-          "statusDays": 18
-        }
-      ],
-      "period": "Q3 2026",
-      "goalsSource": "Q3 Roundtable Rocks and Targets (cascading goals chart, ratified 7/30) \u2014 chart is source of truth; extras on a leader\u2019s board are not graded"
+     "name": "Prosper VCFO Integration",
+     "target": "Book close <5 days SG / <7 days G + flash reports + branch P&Ls",
+     "actual": "Q3 opens 8/1 — awaiting first data pull. (Q2 final archived in dashboard-data-q2-2026.json.)",
+     "status": "unknown",
+     "note": "Ben Young (Prosper VCFO) Critical Rock #1. Includes Power-of-1%, monthly board package, PE readiness."
     },
     {
-      "name": "Brian Herzig",
-      "title": "CTXH Regional Mgr",
-      "goals": [
-        {
-          "name": "Connection Cadence \u2014 quarterly regional outing + mover-manager roundtables (bundles the 5 eNPS asks)",
-          "critical": false,
-          "status": "green",
-          "assessment": "9/1 sync: G \u2014 format RESHAPED to a V1 mockup (async pre-collect win/obstacle/opportunity \u2192 Brian moderates the gold, QGR-AAR pattern; small room; beta-test framing). V1 confirmed by end of Wed huddle \u2192 FIRST BETA RUN THU 9/3. Leaning: Brian + Mike each run one room, Vera+Gerald consolidate notes.",
-          "superGreen": "1 event scheduled per region (include all local managers across local departments), redesigned BM roundtable agenda for more engagement, 3 BM roundtable meetings scheduled, agenda built, conducted (1 per month) with specific manager feedback/action items to take away",
-          "green": "1 event scheduled per region (include all local managers across local departments), redesigned BM roundtable agenda for more engagement, 2 BM roundtable meetings scheduled, agenda built, conducted with specific manager feedback/action items to take away",
-          "sourceUpdated": "2026-09-01",
-          "source": "meeting-digest",
-          "pulse": "12579679101",
-          "statusSince": "2026-08-24",
-          "statusDays": 15,
-          "prevStatus": "yellow"
-        },
-        {
-          "name": "ATX Flex Manager + SA Ops Manager Development",
-          "critical": false,
-          "status": "green",
-          "assessment": "9/1 sync: G 90% \u2014 all projects in by Wed, graded by EOW, interview picks possibly Fri. Missing-category scoring deliberately PAUSED \u2014 Brian works a lean with Vera and brings it to Cameron (not ruled). Root cause of eval gaps: old onsite board deleted in the FM Super Board build (thousands of evals lost). Rance delegated the onsite-distribution plan.",
-          "superGreen": "NA BM, SA Ops, SA FM positions solidified \u2014 all action plans built and in review for C players in my region, or team members set to reinterview/removed or improved from C to B",
-          "green": "NA BM, SA Ops, SA FM positions filled/solidified \u2014 action plans built and in review for C players in my region",
-          "sourceUpdated": "2026-09-01",
-          "source": "meeting-digest",
-          "pulse": "11728362071",
-          "statusSince": "2026-08-21",
-          "statusDays": 18
-        },
-        {
-          "name": "CTXH Quarterly Theme Mgmt \u2014 Ensure All Managers Hit QGs",
-          "critical": true,
-          "status": "yellow",
-          "assessment": "9/9: \u2b07 MOVED GREEN\u2192YELLOW on hard numbers (was a 9/1 read). CTXH is the weaker region: Houston 26 \u00b7 San Antonio 19 \u00b7 N. Austin 18 \u00b7 Leander 14 \u00b7 S. Austin 11 \u2014 regional average ~18% on track vs a 70% floor by EOQ. \u2b50 RULED 9/9 (Cameron + Brian + Mike, post-huddle): accountability starts at the MANAGER layer, not the mover \u2014 Cameron: 'it's bullshit to issue a written warning to a mover when you haven't talked to him about this once.' Sequence: set plan + benchmark + date FIRST (redirect), then if missed the BM gets the warning, then ask that BM whether THEY warned their own FM/ops manager \u2014 Cameron does not step through a level. Threshold: a branch under ~50% on-track-or-at-risk signals the management team isn't engaging. Warnings start Fri 9/18. Mike drafts one combined announcement (app changes + accountability) and runs it past Brian before push; Brian is out 9/10-9/11. Brian's own framing: 'the buck stops with Dustin and Beattie and Daniel.' Mitigating context he raised: Rance has run N. Austin alone for 5 days (Nick and Daniel out), so N. Austin's 18 carries an asterisk; he named Cameron (FM), Alex and Tabby as having no such excuse. Brian OUT 9/10-9/11.",
-          "superGreen": "100% of manager sandbox training completed by 8/19 (before app rollout), 100% of active movers enrolled by 8/20, adoption floor \u226570%* of movers enrolled by 8/20 completed through the full training pipeline (Lead Ready) by 10/19, plus Scrum recert by 10/19 (*70% to account for part-time movers)",
-          "green": "100% of manager sandbox training completed by 8/19 (before app rollout), 100% of active movers enrolled in training app by 8/20, adoption floor \u226570%* of movers enrolled by 8/20 completed through stage 4 by EOQ",
-          "sourceUpdated": "2026-09-01",
-          "source": "meeting-digest",
-          "pulse": "11728362090",
-          "blockers": [
-            "Hard 8/19 (manager sandbox) and 8/20 (mover enrollment) deadlines approaching"
-          ],
-          "statusSince": "2026-08-21",
-          "statusDays": 18
-        },
-        {
-          "name": "CTXH Branch Audits \u2014 3 of 5 Branches per Quarter",
-          "critical": false,
-          "status": "yellow",
-          "assessment": "9/1 sync: Y \u2014 first visit date on the calendar by EOW; last weekend of Sept = Austin (NA or SA Friday). Tags Cameron; possible correlated visit.",
-          "superGreen": "All 5 locations visited + scorecard audits (4 or higher score) + 3 circle-ups + 3 huddle audits + redesigned dashboard for branch-visit evaluation grading",
-          "green": "3 locations + scorecard audits + 3 circle-ups + 3 huddle audits + redesigned dashboard for branch-visit evaluation grading",
-          "sourceUpdated": "2026-09-01",
-          "source": "meeting-digest",
-          "pulse": "11728355560",
-          "statusSince": "2026-08-21",
-          "statusDays": 18
-        },
-        {
-          "name": "Scrum Accountability Part 3 \u2014 Huddle Grading + Value Tracking",
-          "critical": true,
-          "status": "green",
-          "assessment": "9/1 sync: G \u2014 8 of 15 CTX managers certified (scores 87\u201397, Alex top); deadline extended to ALL 15 by EOW, then DFW boards, then claims/Jalissa/Austin. Mock-board grades wash out at certification \u2192 official weekly scorecard cadence starts clean. Zero micromanage pushback.",
-          "superGreen": "100% of frontline managers through the training module and all 10 boards re-certified by 10/19, plus all departments (CET, EE, ATX) re-certified",
-          "green": "100% of frontline managers through the training module and all 10 branch boards re-certified by 10/19",
-          "sourceUpdated": "2026-09-01",
-          "source": "meeting-digest",
-          "pulse": "11728336199",
-          "statusSince": "2026-08-21",
-          "statusDays": 18
-        }
-      ],
-      "period": "Q3 2026",
-      "goalsSource": "Q3 Roundtable Rocks and Targets (cascading goals chart, ratified 7/30) \u2014 chart is source of truth; extras on a leader\u2019s board are not graded"
-    },
-    {
-      "name": "Mike Vandenbroader",
-      "title": "DFWT Regional Mgr",
-      "goals": [
-        {
-          "name": "Mover Training App \u2014 Company-Wide Rollout + Driver-Training Port + Digital Training Handbook",
-          "critical": true,
-          "status": "yellow",
-          "assessment": "9/9: \u26a0 Branch on-track 9/9 (Mike's pull): Garland 36 \u00b7 Dallas 27 \u00b7 Houston 26 \u00b7 San Antonio 19 \u00b7 N. Austin 18 \u00b7 McKinney 18 \u00b7 Leander 14 \u00b7 Fort Worth 13 \u00b7 Tampa 11 \u00b7 S. Austin 11. Company 19% on track, ~40% counting at-risk (engaging but short on daily signatures). Bar is 70% through stage 4 by EOQ, ~7.5 weeks out. DFWT: Garland 36 \u00b7 Dallas 27 \u00b7 McKinney 18 \u00b7 Fort Worth 13 \u00b7 Tampa 11 \u2014 regional average ~21%. \u2b50 RULED 9/9 (Cameron + Brian + Mike, post-huddle): accountability starts at the MANAGER layer, not the mover \u2014 Cameron: 'it's bullshit to issue a written warning to a mover when you haven't talked to him about this once.' Sequence: set plan + benchmark + date FIRST (redirect), then if missed the BM gets the warning, then ask that BM whether THEY warned their own FM/ops manager \u2014 Cameron does not step through a level. Threshold: a branch under ~50% on-track-or-at-risk signals the management team isn't engaging. Warnings start Fri 9/18. Mike drafts one combined announcement (app changes + accountability) and runs it past Brian before push; Brian is out 9/10-9/11. Mike shipped 10 app updates off the BM roundtable + Coach channel with 4 more queued, and opened sprints to free-range, which is the lever that could move this fast. He owns the combined announcement. Honest read: yellow trending red until the 9/18 checkpoint shows movement.",
-          "superGreen": "Mgr sandbox 100% by 8/19 + movers 100% enrolled 8/20 + \u226570% through full pipeline (Lead-Ready) by 10/19 + Scrum recert by 10/19",
-          "green": "Mgr sandbox 100% by 8/19 + movers 100% enrolled 8/20 + \u226570% through stage 4 by EOQ",
-          "sourceUpdated": "2026-09-07",
-          "source": "cos-feed",
-          "pulse": "11728355420",
-          "statusSince": "2026-09-08",
-          "statusDays": 0,
-          "prevStatus": "green"
-        },
-        {
-          "name": "Dept-Head/Regional Split \u2014 FDE Boots-on-Ground Weeks + Dept-Head QGs as Critical Number",
-          "critical": true,
-          "status": "green",
-          "assessment": "via Gerald 9/7: On track to Super Green \u2014 one field week banked, second underway. North Dallas (Aug 25-28) is done: observe-first, then had the team generate their own fixes on OT, damages, and schedule management so ownership sits with the branch. The one open loop from ND is still open \u2014 the key issue + action plan is not yet written into the Road-to-A+ HQ. Mike flies to Tampa today, on-site through Thursday for visit #2 of 5. Tampa focus: get ahead of the same OT and schedule-adherence problems Dallas had (Tampa also runs OT), and watch how Steven and Shane manage \u2014 sales specifically, since it is Tampa's one red area. Green is 3 field weeks across the 10 branches by Oct 1; Mike is managing to the Super Green 5, plan built and committed. Only risk is competing non-goal workload pulling him out of the field.",
-          "superGreen": "5 FDE field weeks across the 10 branches by Oct 1 + 1 key issue/visit logged and resolved or on a documented action plan",
-          "green": "3 FDE field weeks across the 10 branches by Oct 1 + 1 key issue/visit logged and resolved or on a documented action plan",
-          "sourceUpdated": "2026-09-07",
-          "source": "cos-feed",
-          "pulse": "12556464031",
-          "statusSince": "2026-08-21",
-          "statusDays": 18
-        },
-        {
-          "name": "Fleet Safety Pt 3 \u2014 Carry the Red, Restructured",
-          "critical": false,
-          "status": "green",
-          "assessment": "via Gerald 9/7: Green holding, with the accident run as the live watch. Company QTD Samsara is 92 and last week came in at 91; this week's review is still open. The warning-chase backlog stayed clear. The real question is incident rate: six new truck accidents in roughly two weeks are pending review and will likely pull the score once graded \u2014 scores are holding on discipline while accident frequency runs hot, which is the tension to watch. Green (>=90 by Oct 1) is comfortably held; Super Green (>=95) is a stretch given the soft middle (Dallas/Garland/McKinney mid-80s) plus the accident overhang. Green for now; re-read once this week's review and the accident grading land.",
-          "superGreen": "Samsara score at/above 95 by Oct 1 + zero unissued-warning backlog at EOQ",
-          "green": "Samsara score at/above 90 by Oct 1 + zero unissued-warning backlog at EOQ",
-          "sourceUpdated": "2026-09-07",
-          "source": "cos-feed",
-          "pulse": "12625952608",
-          "blockers": [
-            "Week 1 company score 86, under the green threshold",
-            "Most branches carrying 1-2 high-risk drivers needing warnings"
-          ],
-          "statusSince": "2026-08-21",
-          "statusDays": 18
-        },
-        {
-          "name": "Sell Remaining Trucks + Fund 2026 Fleet Purchases",
-          "critical": false,
-          "status": "green",
-          "assessment": "via Gerald 9/7: Moved to Green \u2014 the sales engine is running. NWT sold (first truck closed), and the refreshed Marketplace postings pulled real demand: 8 interested buyers on the remaining 4 trucks, most scheduling to see them this week. Green is 3 trucks and Super Green is 5; with 1 already sold and 8 buyers actively looking at 4 units, the trajectory to Green is strong and Super Green (all 5) is genuinely in reach this quarter. Oct 31 is the only clock \u2014 no buyer-side deadline pressure. Funds the 2026 fleet purchases.",
-          "superGreen": "Sell 5 trucks",
-          "green": "Sell 3 trucks",
-          "sourceUpdated": "2026-09-07",
-          "source": "cos-feed",
-          "pulse": "11728336223",
-          "blockers": [
-            "Check-engine light on the spoken-for truck must be fixed before the sale closes",
-            "Remaining trucks need photos before they can be posted"
-          ],
-          "statusSince": "2026-09-08",
-          "statusDays": 0,
-          "prevStatus": "red"
-        },
-        {
-          "name": "Manager Training App \u2014 SOP Sandbox Training and reference",
-          "critical": false,
-          "status": "yellow",
-          "assessment": "9/9: \u26a0 Branch on-track 9/9 (Mike's pull): Garland 36 \u00b7 Dallas 27 \u00b7 Houston 26 \u00b7 San Antonio 19 \u00b7 N. Austin 18 \u00b7 McKinney 18 \u00b7 Leander 14 \u00b7 Fort Worth 13 \u00b7 Tampa 11 \u00b7 S. Austin 11. Company 19% on track, ~40% counting at-risk (engaging but short on daily signatures). Bar is 70% through stage 4 by EOQ, ~7.5 weeks out. DFWT: Garland 36 \u00b7 Dallas 27 \u00b7 McKinney 18 \u00b7 Fort Worth 13 \u00b7 Tampa 11 \u2014 regional average ~21%. \u2b50 RULED 9/9 (Cameron + Brian + Mike, post-huddle): accountability starts at the MANAGER layer, not the mover \u2014 Cameron: 'it's bullshit to issue a written warning to a mover when you haven't talked to him about this once.' Sequence: set plan + benchmark + date FIRST (redirect), then if missed the BM gets the warning, then ask that BM whether THEY warned their own FM/ops manager \u2014 Cameron does not step through a level. Threshold: a branch under ~50% on-track-or-at-risk signals the management team isn't engaging. Warnings start Fri 9/18. Mike drafts one combined announcement (app changes + accountability) and runs it past Brian before push; Brian is out 9/10-9/11. Mike shipped 10 app updates off the BM roundtable + Coach channel with 4 more queued, and opened sprints to free-range, which is the lever that could move this fast. He owns the combined announcement. Honest read: yellow trending red until the 9/18 checkpoint shows movement.",
-          "superGreen": "3-4 core-process SOPs built + deployed",
-          "green": "1-2 core-process SOPs built + deployed (Samsara Mgmt first; each with a quiz + wiki-ready context)",
-          "sourceUpdated": "2026-09-07",
-          "source": "cos-feed",
-          "blockers": [
-            "Not yet started \u2014 plan of attack being built this week"
-          ],
-          "statusSince": "2026-09-08",
-          "statusDays": 0,
-          "prevStatus": "red"
-        }
-      ],
-      "period": "Q3 2026",
-      "goalsSource": "Q3 Roundtable Rocks and Targets (cascading goals chart, ratified 7/30) \u2014 chart is source of truth; extras on a leader\u2019s board are not graded"
-    },
-    {
-      "name": "Anne Bosse",
-      "title": "Dir. of Employee Experience",
-      "goals": [
-        {
-          "name": "Workers Comp Process Improvements \u2014 On-Site Incident Workflow + Compliance",
-          "critical": false,
-          "status": "yellow",
-          "assessment": "via Linda 9/3: First real engagement with this goal all quarter (8/26). Anne's problem statement: injuries currently surface after the fact via the WC carrier, not proactively; a 3-day gray period where movers self-manage soreness-vs-injury at home produces zero visibility; branch managers are being migrated out of the reporting/admin chain in favor of EE owning it directly. Recommendations discussed, none decided or built yet: (1) decouple 'report the incident' (mandatory, same-day, no-penalty) from 'is it a real injury' (assessed after); (2) two structured EE touchpoints during the gray period instead of silence; (3) split who physically responds on-site (still BM/lead \u2014 unavoidable) from who owns the paperwork (fully EE); (4) a 24/7 nurse triage line (Concentra, already used for the HPE) to solve after-hours clinic-or-not calls by phone instead of a manager driving to a job site; (5) automate the old paper-packet idea as an auto-sent one-pager the moment an incident is reported; (6) sequence tooling light-to-heavy \u2014 Monday form or text line first to prove the reporting-behavior change, custom app only after that's proven. 8/31: Anne's written recommendation done, socializing with Brian + Mike. 9/3: first real design session with Brian landed a concrete two-track model \u2014 serious injuries (medical intervention needed) trigger an incident report \u2192 WC process immediately; minor injuries/close calls get a firm 3-day off-schedule window with a mandatory day-3 check-in that forces a doctor visit if unresolved (generalizes the same 3-day rule Anne is separately applying to two live cases, Mike Larson and Danny Peterson). Concrete build commitments made: Brian owns a Monday intake form for injury/near-miss reporting; Anne + Matisen own the Rippling backend to feed OSHA + Texas Mutual reporting from one source. Preauthorization (calling Concentra ahead of a visit) and close-call cost/frequency tracking (to build the safety-intervention case with BMs) discussed as build targets, not yet built. Also surfaced 9/3: a second, distinct late-reported injury (Sebastian Osuna, Houston) \u2014 unreported for ~a month, adjuster non-payment, a possible AFC/Workwell network gap \u2014 folded into this same overhaul. Trajectory: tracking yellow \u2014 real design commitments now exist with named owners (a step up from 8/26's strategy-only conversation), but the field reporting mechanism is still undecided and nothing is built yet against the 9/15 Green bar.",
-          "superGreen": "Green + mover-specific WC training delivered as a Back to School module + a test OSHA-formatted export produced from Q3 data + one real Q3 WC leave case showing correctly in Rippling leave-tracking.",
-          "green": "Custom Rippling claim-submission app live, built against the OSHA-recordable field spec handed to Matisen before the data structure locks, with a working EE-notification loop confirmed, plus the on-site incident workflow documented and trained to all 10 BMs, by Sept 15.",
-          "sourceUpdated": "2026-09-03",
-          "source": "cos-feed",
-          "pulse": "11728357310",
-          "statusSince": "2026-08-21",
-          "statusDays": 18
-        },
-        {
-          "name": "100-Point Behavioral System \u2014 Q2 Rock 2 Companion",
-          "critical": true,
-          "status": "yellow",
-          "assessment": "8/31 (sync): DoD this week = run weighting through the consultants council + Replit weight-distribution survey; mockup on pace for EOW ~9/4. | via Linda 8/27: 10 decisions locked from the 7/3 design workshop (Cameron + Anne + Paul); damages mechanism now has real clarity via Cameron's 7/30 QGR ruling (in the promotion gate AND the bonus). \u26a0\ufe0f 8/27 (Cameron 1:1): formally confirmed this is NOT a Q3 deliverable \u2014 full system launch targeted January 1, 2027, timed to a 'new year, new performance philosophy' narrative alongside the new handbook, since it's a foundational change (attendance/damages point weights, reset cadence) that needs real branch input, not a rushed Q3 ship. Q3's realistic deliverable is the weighting-input tool: Anne will first run the existing framework through the /consultants council (Cameron confirmed Linda doesn't have this skill yet \u2014 he's sharing it) to refine it, then build a Replit survey where BMs/movers distribute 100 points across weighted metrics (same pattern Cameron used for the branch scorecard at QGR), synthesize the averages, and use disagreements as the workshop agenda.",
-          "superGreen": "Green + live scoring piloted on one full branch ahead of the Jan 1, 2027 company-wide launch, with 3 BMs trained to use the score in a real coaching conversation.",
-          "green": "Weighting-input methodology refined via the /consultants council, then cascaded to BMs and movers as a point-distribution survey, averages synthesized into a locked framework, and backtested against one real branch \u2014 full system launch targeted January 1, 2027 per Cameron's 8/27 confirmation, not this quarter.",
-          "sourceUpdated": "2026-08-27",
-          "source": "cos-feed",
-          "pulse": "11752777323",
-          "statusSince": "2026-08-21",
-          "statusDays": 18
-        },
-        {
-          "name": "Implement Bi-Weekly Start/Stop/Keep Conversations \u2014 Scaling Up Practice",
-          "critical": true,
-          "status": "yellow",
-          "assessment": "8/31 (sync): DoD this week = final draft + lightweight Replit mockup. Scope ruled live: Mike may go cross-regional (movers), Amanda can call anyone; who-called-whom visibility mechanism goes to Linda (region-narrowing idea). | via Linda 8/27: \u26a0\ufe0f 8/26 correction (Cameron + Anne): the goal was misread earlier the same day \u2014 what got built and shared with the other 6 Roundtable leaders' COS agents (a manager-to-own-direct-reports weekly checklist) was NOT the actual design; retracted same day. \u2705 8/27 (huddle + Cameron 1:1): mechanism fully redesigned and locked, then refined further per the cascading-chart edit Cameron made live in the 1:1 (surfaced via network digest 8/28, confirmed real by Anne). Every 2 weeks, each of the 7 Roundtable leaders calls someone **2+ rungs below them \u2014 never a direct report** \u2014 company-wide (deliberately cross-functional/cross-geography once comfortable; own-division fine at first) for a 5-minute start/stop/keep \u2014 no scheduling coordination, just find whoever's available. No manual assignment of who-talks-to-whom. Logged via a lightweight Replit submission app (not yet built) that tracks completion (who's done, who's missing) without adding admin work for the leaders. Immediate fires (safety, harassment) get triaged same-week; broader themes are digested quarterly \u2014 data collected through end of September, synthesized in October, folded into Q4 branch-level goals. Cameron explicitly said not to assume there will be themes \u2014 full adoption + honest tracking counts as success on its own, not a themes-found metric. Renamed Weekly \u2192 Bi-Weekly by Cameron 8/27 PM \u2014 report under this name going forward.",
-          "superGreen": "All Roundtable leaders conducting bi-weekly Start/Stop/Keep calls without missing more than two check-ins total, company-wide, across a full quarter \u2014 with a clear record of trends/themes and who's been talked to (the Replit submission log).",
-          "green": "Practice designed and documented (5-minute call every 2 weeks, someone 2+ rungs below \u2014 never a direct \u2014 company-wide, logged via a lightweight submission app), adopted by all 7 Roundtable leaders, by September 15.",
-          "sourceUpdated": "2026-08-27",
-          "source": "cos-feed",
-          "pulse": "11728350964",
-          "statusSince": "2026-09-08",
-          "statusDays": 0
-        },
-        {
-          "name": "eNPS Voluntary Transition + Engagement Follow-Through",
-          "critical": false,
-          "status": "yellow",
-          "assessment": "8/31 (sync): builds with Linda this week (interview \u2192 wireframe \u2192 Replit); drip-vs-October-blast decision deferred until the tool proves out. | via Linda 8/27: Cameron approved 8/21 building a custom engagement-survey app in-house, replacing the Monday-form platform Anne had flagged administrative/UX frustrations with. Anne's ask (7/14, via Albert) surfaced the platform's history first \u2014 Monday form, no vendor, historical results in a Drive folder \u2014 then Anne proposed building her own app instead (8/20), matching what the rest of the leadership team has already done. \u2705 8/27 (Cameron 1:1): platform-selection target formally moved to September 15 (from end of August) to give Anne real room to build it herself rather than rush it. Concrete next step assigned: feed this call's transcript to Linda, get a spec sheet drafted, then build/test a prototype directly in Replit \u2014 Cameron is deliberately not building it for her so she gets hands-on experience. Anne's own estimate: the week after the 100-point weighting app (~week of 9/8).",
-          "superGreen": "Green + participation clears 65% + the baseline is clean enough to serve as the comparison point for the January management/CX rollout.",
-          "green": "Platform selected and built by September 15 (revised from end of August per Cameron 8/27); survey launched to movers as voluntary; first baseline eNPS established with at least 50% participation among eligible movers by Oct 1.",
-          "sourceUpdated": "2026-08-27",
-          "source": "cos-feed",
-          "pulse": "12626620998",
-          "statusSince": "2026-08-21",
-          "statusDays": 18
-        },
-        {
-          "name": "Mover Promotion Framework \u2014 First Cohort Live",
-          "critical": false,
-          "status": "yellow",
-          "assessment": "9/1 (Matisen sync): the gating backtest/retroactive is committed by Matisen for Wed/Thu this week \u2014 the \u26d4 ~2wk read is superseded. 8/31 (sync): \u26d4 blocked on Matisen's backtest (~2 wks waiting; Fabian's paternity leave squeezes him, Paul out this week). Anne follows up on availability; rollout = Mike/Brian buy-in \u2192 handpicked BM check \u2192 live. | via Linda 8/25: Substantial forward motion 8/19\u20138/20: Decision #16 (PTL\u2192Junior Lead threshold) resolved \u2014 400 hrs as lead or 80%+ led over 2 back-to-back pay periods, pulled from existing pay docs. Decision #18 (damages attribution) resolved \u2014 Cameron + Paul's compromise (team/job-level governs bonus + gates, individual fault stays coaching-only) with six amendments closing the design gaps. New Decision #19 locked (no grandfathering on launch). The HQ itself got a major upgrade: ladder table restructured into paired Standard/Fast Track columns and made interactively editable, two new tabs added (Decision History, How It Works \u2014 plain-language mechanics for BMs and movers), and a full visual restyle to match the mover-pay-premium page's look. Revised 8/21: Paul pushed back on Decision #18's attorney-confirm framing (no attorney gate needed \u2014 TX right-to-work, damages can stand alone as a termination reason for gross negligence or a documented pattern); Anne agreed same day. 8/25: three more rounds of direct decisions from Anne \u2014 fast-track performance bars set as provisional working numbers (9/9/10/10), Master Lead's standard bar lowered 9.5\u21929.0, Lead General's Master-Lead fast-track hours locked at 1,365, HOF decided as purely honorary (not a job title), Decision #16 fully closed out (PTL hours don't carry into Senior Lead's hour count), and a real table-structure bug found and fixed (Master Lead/Lead General row data had been swapped). Two of today's calls reverse positions Paul was explicit about on 8/20 (bar values, look-back window) \u2014 heads-up posted to the rock pulse, his reply pending.",
-          "superGreen": "Green + at least one real mover promoted under the locked framework by Oct 1.",
-          "green": "Framework locked \u2014 damages resolved per Cameron's 7/30 ruling (in the promotion gate AND the bonus, not folded into the 100-point score), cadence and remaining HQ items ratified, published to branches by Oct 1.",
-          "sourceUpdated": "2026-08-25",
-          "source": "cos-feed",
-          "pulse": "11728362147",
-          "statusSince": "2026-08-21",
-          "statusDays": 18
-        },
-        {
-          "name": "2027 Open Enrollment",
-          "critical": false,
-          "status": "green",
-          "assessment": "8/31 (sync, in-room): moved Yellow \u2192 GREEN. File-feeds check this week (BM term-status message sent). Benefits-strategy recommendation with Paul: movers as variable-hour + 12-month evaluation period (ACA reality: most movers on benefits don't qualify on hours) \u2014 Paul's read gates the rest of enrollment. | via Linda 8/21: First real working session with Cali Beeman (Gallagher) ran 8/21 \u2014 substantive, not just a handoff call. ACA variable-hour classification strategy is taking real shape (6-month measurement period emerging as the compromise with Paul, not yet decided). Two compliance gaps surfaced and are being fixed: Einstein likely has no ERISA wrap plan document (5500s were filed as separate plans, a tell-tale sign) and likely no Section 125 pre-tax plan document \u2014 both going to ETC to draft. Also found and started fixing an ACA rehire-coding bug in Rippling (reinstated employees default to exact rehire date instead of 1st-of-month, creating false coverage-gap signals). Still no 2027 plan-year decisions locked with Cameron/Paul.",
-          "superGreen": "Green + a full dry-run/test enrollment completed in Rippling with bugs fixed before real employees touch it + all 10 BMs briefed.",
-          "green": "2027 plan-year decisions locked with Cameron and Paul, enrollment comms + training materials built and reviewed, November launch window confirmed, Rippling configured for the 2027 plan year.",
-          "sourceUpdated": "2026-08-21",
-          "source": "cos-feed",
-          "statusSince": "2026-09-08",
-          "statusDays": 0,
-          "prevStatus": "yellow"
-        }
-      ],
-      "period": "Q3 2026",
-      "goalsSource": "Q3 Roundtable Rocks and Targets (cascading goals chart, ratified 7/30) \u2014 chart is source of truth; extras on a leader\u2019s board are not graded"
-    },
-    {
-      "name": "Amanda Ware",
-      "title": "Dir. of CX",
-      "goals": [
-        {
-          "name": "Call Grading at Volume \u2014 Distribution + Coaching Loop",
-          "critical": true,
-          "status": "yellow",
-          "assessment": "via Gary 9/7: Yellow \u2014 a methodology pivot, not just a delay. Grading has gone through several structural iterations over the last two weeks as leadership went through Jeff's (Northwood) training. Now restructuring around the three-stage framework Jeff walked leadership through on 9/3: every rep gets a baseline score captured before training, and the next scoring round measures them against their own baseline rather than a flat company average. Company average still sits at 45.8 cumulative against the 65 Green bar \u2014 no new score data since 8/17 \u2014 but the coaching frame is shifting to self-improvement. Phone-join plumbing and the rubric calibration session are still pending on top of this.",
-          "superGreen": "Improve the company (CET and Managers) average score to 75%",
-          "green": "Improve the company (CET and Managers) average score to 65%",
-          "blockers": [
-            "Company average flat at ~45 for two months against a 65 Green bar \u2014 coaching loop is not yet moving the number",
-            "Per-bullet rubric weights, walkthrough-scheduler mini-rubric, and comp-tie risk pending a 60-min calibration session with Cameron + Nhel + Tetet",
-            "Emma integration ask to Matisen/CoS-MH1 outstanding since 7/3 \u2014 bumped 8/17 (SCB pulse 12442800385)"
-          ],
-          "sourceUpdated": "2026-09-07",
-          "source": "cos-feed",
-          "note": "Adopted onto Amanda's slate 8/17 and ratified on the Q3 chart 8/18, REPLACING 'Incentivize Manager Sales \u2014 Quarterly Sales Comp' (cut: pay component held 7/30, Q3 competition killed 8/3). Critical flag moved here. Mirrors Nhel #4 \u2014 Amanda owns the company-level loop.",
-          "statusSince": "2026-08-21",
-          "statusDays": 18
-        },
-        {
-          "name": "Chatbot Launch + Leadferno Sunset (carry, finish line)",
-          "critical": false,
-          "status": "green",
-          "assessment": "via Gary 9/7: Green \u2014 moving again after a real-world snag. Target launch was the first week of August; that passed with the bot still in testing, and Matisen's board now shows a new target of the 2nd week of September. Matisen is working the corrections needed to hit that but got pulled into last Friday's (9/4) payroll debacle \u2014 expects to be back on track this week, along with the ESP work running alongside it. Content side is fully closed out: every commitment from the 7/20 Botpress handoff is done, including the 11 lower-volume FAQ confirmations and the 16-answer sheet, and Dialpad call audits have since backfilled the knowledge base. Nidha (Botpress) is drafting the BotSpec; escalation routing confirmed to Slack #chatbot-notifications. Messenger token moved to Paul Morin 8/3 (Amanda lacked Meta Business Manager rights) and is no longer hers to chase.",
-          "superGreen": "Phase 2 underway, Emma connection",
-          "green": "Chatbot running consistently with bugs fixed",
-          "sourceUpdated": "2026-09-07",
-          "source": "cos-feed",
-          "pulse": "11728336248",
-          "blockers": [
-            "Auto-Recharge cost ceiling cannot be disabled \u2014 needs a hard cap agreed before real traffic",
-            "Confirmation that Paul delivered the Messenger token to Nidha's team",
-            "EMMA integration timeline from Matisen (long-term: chatbot pushes leads directly into EMMA)"
-          ],
-          "statusSince": "2026-09-08",
-          "statusDays": 0,
-          "prevStatus": "yellow"
-        },
-        {
-          "name": "Extend New Email Design System to Full Email Suite \u2014 Shorter, Video-First, Fewer Words",
-          "critical": false,
-          "status": "green",
-          "assessment": "via Gary 9/7: Green \u2014 ahead of pace, and now expanded in scope. Leanna's copy rewrite covers the confirmation email plus the rest of the email suite (RFQ excluded \u2014 already done). The template + copy are now posted to Kickpoint's board and it's in their hands to build the official template, the same workshop process used for the RFQ redesign \u2014 Leanna has already signed off on it. Gary tasked (8/31 O3) with pulling Leanna's copy and building interim mockups to get ahead of Kickpoint's build, pending the Google Doc link from Amanda. Quarter context: as of 8/31 the quarter is ~33% elapsed (Aug 1 \u2013 Oct 31), so this percentage should be read against a still-early-quarter baseline.",
-          "superGreen": "Email is live",
-          "green": "Email approved, in Emma updates queue for going live",
-          "sourceUpdated": "2026-09-07",
-          "source": "cos-feed",
-          "pulse": "12596528246",
-          "blockers": [
-            "Redesign not yet finalized or approved \u2014 not in the EMMA updates queue",
-            "External sharing to Kickpoint blocked by org-wide Artifact link-sharing policy; needs raw-file workaround",
-            "Dependency on Matisen for EMMA-side rollout"
-          ],
-          "statusSince": "2026-08-21",
-          "statusDays": 18
-        },
-        {
-          "name": "Estimating improvements",
-          "critical": false,
-          "status": "yellow",
-          "assessment": "via Gary 9/7: Yellow \u2014 focus group named, but still early and unproven. Prior plan (broad reporting to everyone) hit a roadblock; new plan is concrete: focus manual review on the bottom performers, get feedback on specific over/under estimates, correct root-cause assumptions (managers run conservative on large homes, underestimate apartments \u2014 both fear of a bad big-move experience). Focus group is now named \u2014 Danah, Erik, and Jespah \u2014 on the theory that their lower sales numbers may trace back to estimating accuracy. Still a delayed-result metric \u2014 this plan won't move the accuracy number for 2-4+ weeks, and the review work with this group hasn't started yet. Bars confirmed 8/17 as written on the chart (46% Green / 48% Super Green).",
-          "superGreen": "Improved estimating to 48%",
-          "green": "Improve estimating to 46%",
-          "sourceUpdated": "2026-09-07",
-          "source": "cos-feed",
-          "blockers": [
-            "Daily call grading delivery from Matisen not yet in place \u2014 needed to coach lower estimators off regular numbers",
-            "Delayed-result metric \u2014 work done now will not register in accuracy numbers for 2-4+ weeks",
-            "No Sky Board pulse yet (chart marks this 'NO PULSE \u2014 create at fold')"
-          ],
-          "statusSince": "2026-09-08",
-          "statusDays": 0,
-          "prevStatus": "green"
-        },
-        {
-          "name": "Push out training certifications \u2014 Carly (customer resolution)",
-          "critical": false,
-          "status": "unknown",
-          "assessment": "Q3 slate ratified in the room at the 7/29\u201330 Roundtable QGR. Quarter opens 8/1 \u2014 no execution data yet; status fills in as the COS feed pushes. | 8/17: NOT in Amanda's fresh Q3 push (Gary 14:20) \u2014 she carried 5 goals vs 6 on the chart; reconcile at the 8/18 sync (chart = source of truth).",
-          "superGreen": "All managers, sales team, claims are certified",
-          "green": "Training complete, certification has started",
-          "sourceUpdated": "2026-08-18",
-          "source": "cascading-chart-q3",
-          "statusSince": "2026-08-21",
-          "statusDays": 18,
-          "note": "EDITED 8/18 (Amanda 1:1): Tet's certification portion CUT this quarter \u2014 he is on the Northwood/Trinity engagement. Carly's customer-resolution training is the whole goal. Not started as of 8/18 (claims email first). \u26a0 Green/Super Green bars still read against the original two-owner scope \u2014 narrow at the next touch if Cameron wants them matched to Carly-only."
-        },
-        {
-          "name": "Improve Sales Performance Engagement \u2014 Work with Jeff (Northwood)",
-          "critical": false,
-          "status": "green",
-          "assessment": "via Gary 9/7: Green \u2014 real training output is now live, not just scoped. Trinity Session 1 (Jeff Johnson/Northwood, \"Set the Agenda \u2014 Not Yours\") was built and published org-wide 8/21, and its script directly seeded a new coaching check: a narrow, daily-cadence CET agenda-opener call-grading pass, with a measured day-1 baseline (15.9/100 avg, 39% of named concerns getting real follow-up). Session 2 (Sales Leadership Sales Training) ran 8/27 with Jeff, Cameron, Nhel and Therese Ablang \u2014 that leadership session is also what's driving the call-grading methodology pivot (Goal 1). Rep-level training paused around the leadership session and restarts Tue 9/8, split into two groups by day off so everyone can attend \u2014 one group Tuesdays, one Wednesdays, running four to five weeks. Amanda owns the $54,500 engagement spend; Cameron's card is support-only at $0 per his 7/30 ruling.",
-          "superGreen": "TBD \u2014 bars not set on chart",
-          "green": "TBD \u2014 bars not set on chart",
-          "sourceUpdated": "2026-09-07",
-          "source": "cos-feed",
-          "blockers": [
-            "Super Green / Green bars still unset \u2014 were due to land after the 7/31 scoping meeting",
-            "Chart name conflict: Amanda's row and Cameron's bonus card read 'Adam (Northwood)', Nhel's row reads 'Jeff (Northwood)' for the same engagement \u2014 needs correcting on the chart"
-          ],
-          "statusSince": "2026-08-21",
-          "statusDays": 18
-        }
-      ],
-      "period": "Q3 2026",
-      "goalsSource": "Q3 Roundtable Rocks and Targets (cascading goals chart, ratified 7/30) \u2014 chart is source of truth; extras on a leader\u2019s board are not graded",
-      "feedNote": "8/17 Gary push carries 5 goals vs 6 on the cascading chart: dropped 'Incentivize Manager Sales' + 'training certifications', added 'Call Grading at Volume \u2014 Distribution + Coaching Loop' (critical). Reconcile 8/18."
-    },
-    {
-      "name": "Matisen Harper",
-      "title": "Dir. of IT",
-      "goals": [
-        {
-          "name": "QG and Support Blocks \u2014 Admin",
-          "critical": true,
-          "status": "green",
-          "assessment": "via Matisen 9/7: A and C converge on one build: the weekly scorecard is baked into hub.einsteinmoving.com rather than shipped as a separate surface. CORRECTION 8/24: the region scorecards are BUILD-complete (CTXH/DFWT, 17 of 25 metrics) but have NOT been delivered to the regional team \u2014 an earlier entry saying they shipped 8/21 was wrong. Real movement this week: the hub gained a status page and a stale-feed guard, and the Games engine is now automated end-to-end from its datasources (lock-authoritative render, EMMA<->Samsara truck-mapping repair + drift detection, minute-granular CE) \u2014 no more manual morning pulls or reconciliation. The open items on this rock are delivery and access, not build. Percent held at 38 rather than raised, because part of the prior figure rested on a delivery that did not occur. 9/06: Einstein OS D1 landed \u2014 12 pure-script scheduled tasks migrated to launchd units (app twins disabled, rollback ready), the Phase 0 security-debt runbook shipped with rotation-verification harnesses proven, and the Prosper Sage unblock package (JayLee reply + CSV-lane memo) is drafted and gated \u2014 reliability/infra movement under C and D. 9/7: moved the runner from Claude to a back-end server to evaluate how it would run on a dedicated machine.",
-          "superGreen": "100% goal completion (4 of 4 sub-deliverables Green or higher)",
-          "green": "75% goal completion (3 of 4 sub-deliverables Green or higher)",
-          "sourceUpdated": "2026-09-07",
-          "source": "cos-feed",
-          "blockers": [
-            "A. Scorecard rollout/access plan pending a Cameron touch-base \u2014 build path is settled (baked into the hub), audience and cadence are not",
-            "D. Sage/EMMA still pre-integration \u2014 EMMA registers with Sage Intacct this week; spec v5 publish remains a human-run script pending the Ben/Fabian chain"
-          ],
-          "statusSince": "2026-08-21",
-          "statusDays": 18
-        },
-        {
-          "name": "QG and Support Blocks \u2014 Sales and Marketing",
-          "critical": true,
-          "status": "green",
-          "assessment": "via Matisen 9/7: B advanced materially: the call-grade runner shipped 8/21 with a measured 83.9% call->contract match rate, and estimate_accuracy is pinned to the within-quoted-range basis and live on the hub (Jun 58.1 / Jul 60.0 / Aug MTD 62.9). Call grading runs nightly \u2014 no longer 'to build'. Remaining in B: conversion on the sales target dashboard. D moved this week: several Dialpad audits backfilled the Botpress knowledge-base data; a follow-up is being scheduled with Amanda along with recommended improvements to the agent. A: targeting within MPE of the forecasting models by quarter end. 9/7: emails closer to rollout \u2014 more QA later today; ESP has taken priority over call grading; Botpress circle-back comes after ESP rolls out.",
-          "superGreen": "100% Green or higher (4 of 4)",
-          "green": "75% Green or higher (3 of 4)",
-          "sourceUpdated": "2026-09-07",
-          "source": "cos-feed",
-          "blockers": [
-            "C. Email rollout queued behind lead triage and awaiting Fabian confirmation"
-          ],
-          "statusSince": "2026-08-21",
-          "statusDays": 18
-        },
-        {
-          "name": "QG and Support Blocks \u2014 Performance and Employee Management",
-          "critical": true,
-          "status": "green",
-          "assessment": "via Matisen 9/7: Movement resumed after a static week. B: mover promotion-ladder working sessions with Anne and Paul are in motion, including the bonus-payout date basis; the Q2 mover bonus locked 9/1 at $82,866.33 with payroll files validated and the /mover-bonus skill + quarter guard shipped. C: the Monday mover directory plus its recurring sync shipped, and the ITP pod-meeting transcript self-grading round completed; the Rippling PL migration is in flight. A: ClearCompany->Rippling webhook live (8/10), verification still gated on Anne's return. D: mobile app training rollout unchanged. 9/7: this is the big focus this week \u2014 promotion ladder lookback, and wrapping up wiring performance logs back into Rippling.",
-          "superGreen": "100% Green or higher (4 of 4)",
-          "green": "75% Green or higher (3 of 4)",
-          "sourceUpdated": "2026-09-07",
-          "source": "cos-feed",
-          "blockers": [
-            "A. Webhook verification gated on Anne's return from vacation",
-            "C. Rippling API token scopes \u2014 Custom Objects returns 403 and the Performance Log path lacks files + employee-documents; Matisen is granting the scopes now"
-          ],
-          "statusSince": "2026-08-21",
-          "statusDays": 18
-        },
-        {
-          "name": "Praise Targets",
-          "critical": true,
-          "status": "yellow",
-          "assessment": "via Matisen 9/7: First real movement of the quarter: 5 of 48 praise delivered verbally AND logged to the Praise Board today 9/7 (Fabian x3, Vlad, Elias \u2014 each on a distinct CHOICES value with distinct evidence), with a 6th drafted and queued pending verbal delivery (Amanda). The submission path is unblocked \u2014 entries now go to the board directly via API, so drafting-to-logged is same-day. Burn-down from here: 43 remaining over ~7.7 weeks = ~5.6/week for Green (~7.1/week Super Green) \u2014 steep but now exercised at 5-in-a-day. Red -> yellow on demonstrated throughput; the formal measurement-source decision (Praise Board vs Rippling PL) is still open and is on the sync agenda. Praise scaffolding is hooked up and surfaced during /wrap and /gm \u2014 tracking praise more often through the week starts now.",
-          "superGreen": "125% \u2014 60 praise",
-          "green": "100% \u2014 48 praise",
-          "sourceUpdated": "2026-09-07",
-          "source": "cos-feed",
-          "blockers": [
-            "No automated praise count wired for Q3 \u2014 measurement source undecided (Praise Board vs Rippling PL); Praise Board is broken and unowned"
-          ],
-          "statusSince": "2026-09-08",
-          "statusDays": 0,
-          "prevStatus": "red"
-        }
-      ],
-      "period": "Q3 2026",
-      "goalsSource": "Q3 Roundtable Rocks and Targets (cascading goals chart, ratified 7/30) \u2014 chart is source of truth; extras on a leader\u2019s board are not graded"
-    },
-    {
-      "name": "Austin LeLievre",
-      "title": "Videographer/Content",
-      "goals": [
-        {
-          "name": "KP Content Pipeline \u2014 short form + photos (48-hr SLA)",
-          "assessment": "9/9 sync: tracking SUPER GREEN. 48-hr SLA holding; 7 photos + 2 videos in the last two weeks. Next DoD: 2-4 more September photo-challenge submissions, disposable-camera trend video, frame-block transition video.",
-          "superGreen": "Same as Green, but delivery goes weekly (1 video or 2 photos per week)",
-          "green": "100% of KP requests answered within 48 hrs (content or status) AND 1 video OR 2 photos delivered every 2 weeks, every month, no skips",
-          "critical": false,
-          "status": "supergreen",
-          "sourceUpdated": "2026-08-03",
-          "source": "ratified-2026-08-03-sync",
-          "statusSince": "2026-08-21",
-          "statusDays": 18
-        },
-        {
-          "name": "Long Form Videos \u2014 4 from named list (shortlist w/ KP; incl. Einstein Coaching Protocol video w/ Cameron)",
-          "assessment": "9/9 sync: \ud83d\udd34 ZERO published, 4 needed for green, ~7 weeks left \u2014 this goal is Austin's entire exposure; everything else is green or better. Moving to Austin stalled on the Congress St footage deletion (officer demanded a film permit: $1,500 min fine + court date, or delete everything \u2014 he deleted 7.5 hrs). He has been rebuilding from B-roll and royalty-free sources, which is slower than shooting it, and admitted he is 'a little scared to go back out and film.' \u2b50 Slate re-triaged 9/9: Moving to Austin (finish) \u00b7 How to prep your home for an efficient move (PROMOTED \u2014 merges Amanda's prep tutorial, KP's set-up-your-place short form, and packing tips) \u00b7 How to pack incl. fragile (refilm the internal training version customer-facing) \u00b7 Damage claim intro (Amanda's, 30-45 sec) \u00b7 then Movers-beat-DIY / Why-Einstein / budget for green\u2192SG. Ownership split ruled: Austin crowdsources tips + drafts script and storyboard, Amanda + Cameron approve. Oct 1 = 6-hr filming day at N. Austin for the three Cameron-fronted videos; scripts drafted before the 9/21 sync. Cameron considered adjusting the bar and declined \u2014 mid-quarter goal changes belong in month one.",
-          "superGreen": "6 finished + published (KP\u2019s full ask)",
-          "green": "4 finished + published from the named list",
-          "critical": false,
-          "status": "yellow",
-          "sourceUpdated": "2026-08-03",
-          "source": "ratified-2026-08-03-sync",
-          "statusSince": "2026-08-21",
-          "statusDays": 18
-        },
-        {
-          "name": "Crowdsourcing Pipeline \u2014 FMs + Movers (content-accountability machinery)",
-          "assessment": "9/9 sync: GREEN. Water-cooler posts working \u2014 several branches added a dedicated channel for him. Alex (Houston) and Rance consistently deliver; Hector helps in S. Austin (no FM there); \u26a0 ongoing trouble getting Cameron Klepack (San Antonio) engaged. \u26a0 The 5 Ws delegation board is not getting responses \u2014 Austin posts and ends up chasing on Slack; he wants Brian to confirm he is using it correctly.",
-          "superGreen": "15+ pieces/month AND every branch contributes at least 1",
-          "green": "10+ pieces/month \u2014 at least half from branches outside N. Austin in Sept & Oct + FM how-to guide shipped by Aug 31 + weekly Monday content pulses on branch boards by mid-Sept",
-          "critical": false,
-          "status": "green",
-          "sourceUpdated": "2026-08-03",
-          "source": "ratified-2026-08-03-sync",
-          "statusSince": "2026-08-21",
-          "statusDays": 18
-        },
-        {
-          "name": "Client Testimonials",
-          "assessment": "9/9 sync: GREEN. Jorge A (repeat customer) filmed, edited and published \u2014 the primary subject went dark and he worked his backup list rather than stalling. Needs 2 for green, 3+ for SG; hunting another repeat customer next week. The two-movers-for-an-hour incentive is doing real work.",
-          "superGreen": "3 or more filmed + published",
-          "green": "2 filmed + published",
-          "critical": false,
-          "status": "red",
-          "sourceUpdated": "2026-08-03",
-          "source": "ratified-2026-08-03-sync",
-          "statusSince": "2026-08-21",
-          "statusDays": 18
-        }
-      ],
-      "assessment": "8/19 1:1 (velocity 48, happiness 4): pre-sync self-statuses sent 20 min early; management transitions to Amanda over the next syncs. "
-    },
-    {
-      "name": "Ben Young",
-      "title": "Prosper VCFO (NEW)",
-      "goals": [
-        {
-          "name": "Capital Plan / Growth Financing",
-          "critical": true,
-          "status": "green",
-          "assessment": "8/28 CONFIRMED (Cameron). Ben touched the board pulse 8/27 PM. Feeds the minority-PE lane opened in the BBM debrief and Rob's 2027 planning.",
-          "superGreen": "3-5 year capital plan (path to 150 trucks), debt capacity, reinvestment model, PE readiness",
-          "green": "Capital plan framework drafted with Rob Lynch input",
-          "sourceUpdated": "2026-08-28",
-          "source": "cascading chart (Cameron-ratified 8/28)",
-          "statusSince": "2026-09-08",
-          "statusDays": 0
-        },
-        {
-          "name": "Geographic Expansion Strategy \u2014 Deepen vs. Widen + Evaluate 5-7 Acquisitions",
-          "critical": false,
-          "status": "green",
-          "assessment": "8/28 CONFIRMED (Cameron). Board pulse touched 8/27 PM. Pairs with Paul's #4 Acquisition Case Study and Collins's bullet-firing rec from the 8/26 consultants run.",
-          "superGreen": "7 acquisition opportunities evaluated in Houston/SA markets, 2 full financial models built, LOI drafted on 1+, clear deepen-vs-widen stance documented",
-          "green": "5 acquisition opportunities evaluated that Paul collects, deepen-vs-widen stance defined, organic growth model built from historical branch trajectory for the Houston organic-vs-acquisition case study",
-          "sourceUpdated": "2026-08-28",
-          "source": "cascading chart (Cameron-ratified 8/28)",
-          "statusSince": "2026-09-08",
-          "statusDays": 0
-        },
-        {
-          "name": "Improve BM Financial Accountability Meetings \u2014 Proactive Approach",
-          "critical": false,
-          "status": "green",
-          "assessment": "8/28 CONFIRMED (Cameron). Shared verbatim with Paul's Rock #2 \u2014 same goal, two owners. Paul started BM margin sit-downs 8/27-8/28 (Cameron out by design).",
-          "superGreen": "BMs presenting proactively, owning the narrative on margin drivers and scorecard KPIs without RM/Paul prompting",
-          "green": "Monthly BM performance review cadence launched \u2014 a single meeting combining margin review + branch scorecard KPIs, run by RMs, with BMs presenting both",
-          "sourceUpdated": "2026-08-28",
-          "source": "cascading chart (Cameron-ratified 8/28)",
-          "statusSince": "2026-09-08",
-          "statusDays": 0
-        }
-      ]
-    },
-    {
-      "name": "Kickpoint",
-      "title": "Marketing Partner (External)",
-      "goals": [
-        {
-          "name": "Website",
-          "critical": false,
-          "status": "green",
-          "assessment": "8/28 CONFIRMED by Cameron, with #1 AMENDED to match his Rock #2 verbatim. Laura's draft Green ('ready to go, but waiting for new year to launch') had the right timeline instinct but no date in it. Secret Stache starts 8/31; 13-week goal = ~Nov 30 launch.",
-          "superGreen": "Green, plus the build is running AHEAD of Secret Stache's schedule \u2014 QA underway on the full site AND the launch date formally locked (December vs. new-year window decided)",
-          "green": "All inputs delivered and the build on schedule as of 10/31 \u2014 copy and content locked and handed to Secret Stache with no blockers \u00b7 FSE block theme built with pages populated on staging \u00b7 build tracking to Rich's gantt with no missed milestones",
-          "sourceUpdated": "2026-08-28",
-          "source": "cascading chart (Cameron-ratified 8/28)",
-          "statusSince": "2026-09-08",
-          "statusDays": 0
-        },
-        {
-          "name": "Quote form",
-          "critical": false,
-          "status": "green",
-          "assessment": "8/28 CONFIRMED as drafted. Launch ~wk of 9/21; Fabian on paternity leave (3 dev projects paused, QA continues). Origin/destination-for-inestimables logic tabled until post-rollout (~9/28).",
-          "superGreen": "Quote form questions pushed live AND the collected data confirmed a new UX change, with QA started on that change",
-          "green": "Quote form questions pushed live, still reviewing feedback if not enough received, plans for a new UX change if relevant",
-          "sourceUpdated": "2026-08-28",
-          "source": "cascading chart (Cameron-ratified 8/28)",
-          "statusSince": "2026-09-08",
-          "statusDays": 0
-        },
-        {
-          "name": "Austin L / Content Creation",
-          "critical": false,
-          "status": "green",
-          "assessment": "8/28 CONFIRMED as drafted. \u26a0 Austin L's own goals carry harder numbers (48-hr SLA, 10+ pieces/month, 4 long-form published) \u2014 grade him against his bars, not this one. Austin L now reports to Amanda Ware; KP keeps managing the pipeline.",
-          "superGreen": "All requests on the Content Creation Board are met",
-          "green": "2/3 of photo and video requests completed with new photos, regular video requests completed, and regular publishing on Einstein's social channels",
-          "sourceUpdated": "2026-08-28",
-          "source": "cascading chart (Cameron-ratified 8/28)",
-          "statusSince": "2026-09-08",
-          "statusDays": 0
-        },
-        {
-          "name": "Email Optimizations",
-          "critical": false,
-          "status": "green",
-          "assessment": "8/28 CONFIRMED as drafted. Overlaps Amanda Ware's Rock #3 (extend the email design system to the full suite) \u2014 Cameron ruled the two pushing on each other is fine, no owner split. Template #1 coded; MJML\u2192HTML copy-paste for the rest (Matisen).",
-          "superGreen": "Email quote is pushed out AND another email update is ready for QA",
-          "green": "Email quote pushed out, content optimizations started for the other emails",
-          "sourceUpdated": "2026-08-28",
-          "source": "cascading chart (Cameron-ratified 8/28)",
-          "statusSince": "2026-09-08",
-          "statusDays": 0
-        },
-        {
-          "name": "Billboards and mailers",
-          "critical": false,
-          "status": "green",
-          "assessment": "8/28 CONFIRMED as drafted. \u26a0 No volume or performance number in the bar \u2014 Cameron ruled it stands (five goals is already a full load for KP; this one reads close to an auto-win by design). Sarah's finals due to Lamar 8/31; extended-truck concept held for the next round.",
-          "superGreen": "A new style of billboard is booked, mailers continue with some optimizations",
-          "green": "A new style of billboard is in the works, mailers continue with no optimizations",
-          "sourceUpdated": "2026-08-28",
-          "source": "cascading chart (Cameron-ratified 8/28)",
-          "statusSince": "2026-09-08",
-          "statusDays": 0
-        }
-      ]
+     "name": "Capital Plan / Growth Financing",
+     "target": "3-5 year capital plan to 150 trucks, debt capacity, reinvestment model",
+     "actual": "Q3 opens 8/1 — awaiting first data pull. (Q2 final archived in dashboard-data-q2-2026.json.)",
+     "status": "unknown",
+     "note": "Ben Young Critical Rock #2. Rob Lynch framework dependency. PE readiness included."
     }
-  ]
+   ]
+  },
+  {
+   "department": "IT / AI Wedge",
+   "numbers": [
+    {
+     "name": "AI Wedge Builds (Call Grading + Claims RAG + Hiring Funnel)",
+     "target": "First build kicked off by 5/30 (SG) or EOQ (G), 3 MVPs scoped",
+     "actual": "Q3 opens 8/1 — awaiting first data pull. (Q2 final archived in dashboard-data-q2-2026.json.)",
+     "status": "unknown",
+     "note": "Matisen Critical # Rock 1 (audit) + Rock 3 (Build #1 = Call Grading + Claims RAG, paired with Nhel/Carly). Cameron Rock #2 oversees + audits 7+ supporting QGs go Green."
+    },
+    {
+     "name": "EMMA v3 → v4 Unification + Mobile App",
+     "target": "Automailer/Mobile/Cron migrated to v4, mobile app launched within timeline budget",
+     "actual": "Q3 opens 8/1 — awaiting first data pull. (Q2 final archived in dashboard-data-q2-2026.json.)",
+     "status": "unknown",
+     "note": "Required for Database + EMMA upgrades. Mobile app launch identified by 5/2."
+    }
+   ]
+  }
+ ],
+ "cameronKPIs": [
+  {
+   "name": "Truck Utilization Rate",
+   "target": "66%",
+   "actual": "9/9 hub: running-truck 35.7% (Sep MTD, pulled 9/9) · trailing-active 82.4% (Q3, pulled 9/9). Ruler mismatch w/ Matisen still open — not graded vs 66%.",
+   "status": "unknown",
+   "note": "Q2 budget target 81.08% (financial sheet). Need EMMA data. #1 gap an EMMA API endpoint would fill. | Q3 reseed 7/31: actual cleared, awaiting Q3 data. | 8/25 RULED (Cameron): show BOTH rulers, primary = running-truck base. Q3 target corrected 65%→66% off the Cascading Goals chart (Position KPIs tab); 66% was set as a year-average-style number. ⚠ Ruler mismatch unresolved: hub running-truck Aug = 42.3%, which is clearly a different ruler than the one the 66% was written against — do NOT grade 42.3 vs 66. Settle at the Matisen O3 (Thu 8/27) via the hub Definitions page; status stays unknown until then.",
+   "statusSince": "2026-08-21",
+   "statusDays": 19
+  },
+  {
+   "name": "Conversion Rate $",
+   "target": "20%",
+   "actual": "9/9 hub: 28.7% company (Sep MTD, pulled 9/9) vs 20% target — above bar. Weighted-vs-par 25.7%.",
+   "status": "green",
+   "note": "⭐ RE-BASELINED to 20% by Cameron 8/3/26 — this settles the open basis question. History: the old 40% standard predates the Variable Pricing rollout and the 3/31 definition change. At the 7/15 Rob session Cameron flagged leads up but conversion ~40%→~20%; Amanda pushed back that it's partly lead-quality mix, not pure conversion decay. Q2-TD read was 19.9% raw / 25.6% resolved / 31.8% excl-EmmaLead. 20% is the new baseline to measure against, not a target cut — the old number was measuring a different thing. Awaiting Q3 actuals. | 8/17: Matisen reports Q3-TD $-conversion 23.6% on the Data Hub vs the 20% target — green, watch the seasonal dip as no-availabilities rise. | 8/25 RULED (Cameron): Conversion by $ (slide-back) = the primary basis for this KPI. Auto-fills from the hub at each /gm.",
+   "statusSince": "2026-08-21",
+   "statusDays": 19
+  },
+  {
+   "name": "Customer NPS",
+   "target": "90+",
+   "actual": "9/9 hub: 86.8 (Aug monthly, GatherUp direct, pulled 9/9) vs 90+ target — below the 88 Green floor, sits in the Watch band.",
+   "status": "red",
+   "note": "⭐ REPLACED eNPS on Cameron's KPI slate 8/3/26 — customer NPS, target 90+. Consistent with the 7/27 scorecard ruling that pulled mover eNPS out of the branch composite into a side metric: eNPS is now a culture signal, not a headline KPI. Branch-scorecard NPS bands for reference: SG ≥91 · G 88–90.9 · W 86–87.9 · R <86, so 90+ sits at the top of Green. Prior eNPS state (archived, dashboard-data-q2-2026.json): manager/CET survey 7/17 scored 81, avg 9.3, 52 responses, 1 detractor. eNPS also went voluntary going forward, so participation rate becomes its own signal. | 8/25: hub shows 86.4 Red — hub uses a binary red/green at the 90 line (Cameron: fine for now, recalibrate w/ Matisen eventually). On the scorecard bands 86.4 = Warning; on the 90+ KPI it is below target either way.",
+   "statusSince": "2026-08-27",
+   "statusDays": 13,
+   "prevStatus": "unknown"
+  }
+ ],
+ "cameronRocks": [
+  {
+   "number": 1,
+   "name": "Q3 Theme Stewardship — “Training Camp” (2-lane rollup)",
+   "critical": false,
+   "status": "yellow",
+   "assessment": "9/9: ⚠ HARD NUMBERS LANDED AND THEY ARE NOT GREEN. Branch on-track 9/9 (Mike's pull): Garland 36 · Dallas 27 · Houston 26 · San Antonio 19 · N. Austin 18 · McKinney 18 · Leander 14 · Fort Worth 13 · Tampa 11 · S. Austin 11. Company 19% on track, ~40% counting at-risk (engaging but short on daily signatures). Bar is 70% through stage 4 by EOQ, ~7.5 weeks out. ⭐ RULED 9/9 (Cameron + Brian + Mike, post-huddle): accountability starts at the MANAGER layer, not the mover — Cameron: 'it's bullshit to issue a written warning to a mover when you haven't talked to him about this once.' Sequence: set plan + benchmark + date FIRST (redirect), then if missed the BM gets the warning, then ask that BM whether THEY warned their own FM/ops manager — Cameron does not step through a level. Threshold: a branch under ~50% on-track-or-at-risk signals the management team isn't engaging. Warnings start Fri 9/18. Mike drafts one combined announcement (app changes + accountability) and runs it past Brian before push; Brian is out 9/10-9/11. Mitigations are real but unproven: sprints went free-range (all unlock in stage 4) and Mike says the app is materially easier now — the announcement deliberately pairs 'we made it easier' with 'now we hold you to it.' Honest read: yellow trending red; if 9/18 does not move the on-track number materially, Lane 1 cannot reach the 70% floor by 10/31. ⚠ Confirm with Matisen/Mike that 'on track' (daily-signature pace) maps to the bar's basis (completed through stage 4) — they may not be the same ruler. Prior: 9/4 BM roundtable beta shipped full-cycle; ~63% movers not started entering wk 3.",
+   "superGreen": "Both lanes hit their Super Green (Lane 1: fast-track-or-stage-4 by 10/19 at floor · Lane 2: >70 avg) — OR Green + Cameron ships app improvements: 2+ shipped features or quality-sprint fixes with Mike by EOQ",
+   "green": "BOTH lanes hit Green — Lane 1 Training App rollout (movers/leads/managers): enrollment closed 8/20 + managers’ sandbox gate 8/19 + 70% adoption floor · Lane 2 CER call-grading (Aug level-set, trial from 9/1): >60 avg",
+   "lastUpdated": "2026-09-03",
+   "statusSince": "2026-09-09",
+   "statusDays": 0,
+   "prevStatus": "unknown"
+  },
+  {
+   "number": 2,
+   "name": "Cameron/KP — Website Redesign Part 2: Build + LAUNCH (signed SOW)",
+   "critical": false,
+   "status": "green",
+   "assessment": "9/4: Copy review progressing page-by-page (Cameron mid-pass); 13-wk vendor timeline challenge armed (Matisen: true build ~1.5 wk dedicated dev) — push when Gantt lands next wk. Build on schedule, Einstein not the blocker.",
+   "superGreen": "Green, plus the build is running AHEAD of Secret Stache's schedule — QA underway on the full site AND the launch date formally locked (December vs. new-year window decided, not drifting)",
+   "green": "All Einstein-side inputs delivered and the build on schedule as of 10/31 — copy and content locked and handed to Secret Stache with no Einstein-side blockers · FSE block theme built with pages populated on staging · build tracking to Rich's gantt with no missed milestones",
+   "lastUpdated": "2026-08-28",
+   "statusSince": "2026-09-09",
+   "statusDays": 0,
+   "prevStatus": "unknown"
+  },
+  {
+   "number": 3,
+   "name": "COS/World Model Part 2 — Lane A: Tier 3 via Claude Tags · Lane B: Einstein Meeting OS (bars AMENDED 9/7)",
+   "critical": true,
+   "status": "yellow",
+   "assessment": "9/9: ⭐ LANE A BETA DECLARED DONE IN THE HUDDLE — Mike: \"I haven't seen one instance where it gave an answer that was outright wrong\"; Brian agreed. Cameron cleared opening Coach to the rest of the BMs + ops managers + FMs, so the 'all 10 BMs by EOQ' bar is now a rollout task, not a risk. Day-1 beta closed 3 write-down gaps from real BM questions. Known issue surfaced: with two owners answering, Coach can act on the older context (Brian answered before Mike, who had just changed the thing) — guardrail 2 holds but needs a multi-owner tiebreak. NEW feature request from Mike, unexercised lane 2 candidate: have Coach package the week's changes/rulings into one Friday announcement instead of telling Brian and Mike to write it. Lane B still the drag: intake unbuilt, V1 not with Mike, scope session still needs a date. Standing yellow ~60%, conf 4. Prior: 9/8: Lane A LIVE with real BMs — Coach intro posted 8:00 AM, Dustin (SA) asked 3 real questions by 8:25 and Coach closed TWO write-down gaps the same morning (verification-code loop · the Train-the-Trainer source doc), each confirmed by Mike and committed to the KB; Mike then used the fix at 9:01. Lane A Green bar is half-met (write lane 1 from a BM ✓ · lane 2 feature request from a BM not yet · 4",
+   "superGreen": "Green + both: the layer below the BMs in the room, or the pattern proved on a second subject · BM-run sync-ups actually running at a branch.",
+   "green": "BOTH lanes: Lane A — Tags trialed and proved out (live · all 10 BMs in by EOQ · both write lanes exercised on a question that came from a BM, not a leadership test: one gap closed into the playbook, one feature request captured to a board · playbook growing from THEIR questions). Lane B — the Meeting OS intake built so leader pushes seed the sync instead of hand-seeding · sync-consolidation V1 delivered to Mike · 3+ syncs run on it.",
+   "lastUpdated": "2026-09-08",
+   "statusSince": "2026-09-09",
+   "statusDays": 0
+  },
+  {
+   "number": 4,
+   "name": "One Truth — Einstein Data Bus + AI/Tool Governance (registry · bus lanes · monthly Big Rocks review)",
+   "critical": false,
+   "status": "unknown",
+   "assessment": "9/4: NPS feed UNFROZEN (CoS-MH1 fixed nps_pull.py off the SCB ask — Aug final 86.8); conversion basis corrected to slide-back tile (23.3% Green); emc-prosper-canon LIVE (Ben+Paul invited, freeze #1 queued on Ben's close declaration); SmartMoving teardown validates the approval-workflow build as THE EMMA net-new.",
+   "superGreen": "Green + bus lane #2 (Rippling hours) live off the CoS-MH1 handover + QA/“team-shareable” certification process adopted network-wide",
+   "green": "Tool registry live as the network front door covering all 7 leaders’ tools (built on Matisen’s hosted-pages hub pattern) + bus lane #1 (EMMA sales feed) canonical and consumed by network tools + monthly Big Rocks review run all 3 months + Einstein AI Use Policy adopted (Kiingo template tailored, rolled out with Anne — lands BEFORE the Tier-3 BM pilot opens access)",
+   "lastUpdated": "2026-07-30",
+   "statusSince": "2026-08-21",
+   "statusDays": 19
+  },
+  {
+   "number": 5,
+   "name": "Trinity / Northwood Sales Engagement — Sales Playbook, Rubric + Cohort Rollout (Cameron sponsors; Amanda owns outcomes)",
+   "critical": false,
+   "status": "green",
+   "assessment": "9/4: Rubric locked = Jeff's 3 stages (stage 1 80-85% month one); two-numbers spec refined (conversion $ repeat/referral vs first-attempt, company+per-rep, weekly — Matisen by Tue 9/8); classes resume Tue/Wed (Cameron sits WED); Amanda's compressed-calls finding changed Jeff's plan; carrots still open.",
+   "superGreen": "Green, plus the lead-triage recommendation converted into an actionable EMMA implementation plan with Matisen",
+   "green": "Rubric BUILT and in use (Amanda owns) · cohorts running with Jeff on the resumed schedule (CET first, 6-7 per cohort, manager present) · weekly per-rep net-new conversion reporting live against the frozen 8/5 baseline",
+   "lastUpdated": "2026-09-03",
+   "statusSince": "2026-09-09",
+   "statusDays": 0
+  }
+ ],
+ "leadership": [
+  {
+   "name": "Paul Morin",
+   "title": "CFO (Co-Owner)",
+   "goals": [
+    {
+     "name": "Annual Mover Comp Review — Pay Structure + Promotion Paths",
+     "critical": true,
+     "status": "green",
+     "assessment": "via Clark 9/7: 9/7: Matisen still hasn't been able to run the historical analysis. Green remains solid, but Super Green (9/15 milestone) is unlikely at this point. Scheduling a reset with Matisen this week.",
+     "superGreen": "Green criteria met by 9/15 (mid-quarter)",
+     "green": "Pay structure + Promotion Paths documented and communicated to the team by end of quarter; data tracking process streamlined to a recurring review cadence",
+     "sourceUpdated": "2026-09-07",
+     "source": "cos-feed",
+     "pulse": "11752733644",
+     "statusSince": "2026-08-21",
+     "statusDays": 19
+    },
+    {
+     "name": "Improve BM Financial Accountability Meetings — Proactive Approach",
+     "critical": false,
+     "status": "green",
+     "assessment": "via Clark 9/7: 9/7: Ben completed the Q3 label fix on the branch CFO dashboards. Paul checking back in with the managers and scheduling the accountability meetings this week — target is at least 5 completed by Friday 9/11.",
+     "superGreen": "BMs presenting proactively, owning the narrative on margin drivers and scorecard KPIs without RM/Paul prompting",
+     "green": "Monthly BM performance review cadence launched, single meeting combining margin review + branch scorecard KPIs (interconnected), run by RMs, with BMs presenting both",
+     "sourceUpdated": "2026-09-07",
+     "source": "cos-feed",
+     "pulse": "11728394236",
+     "statusSince": "2026-08-21",
+     "statusDays": 19
+    },
+    {
+     "name": "Improve Invoicing + AR Collections Tracking",
+     "critical": false,
+     "status": "green",
+     "assessment": "via Clark 9/7: 9/7: General SOP completed — now collecting feedback from the team on it. Matisen built a tracker that will be integrated into the process. 60% done, on target for Green.",
+     "superGreen": "Attorney-vs-collections-service question resolved and implemented. Escalation runs against the tracker with no manual gaps",
+     "green": "Unpaid-bill workflow documented end-to-end (customer comms + timing standardized, escalation path defined) and team trained on it; tracker (separate spreadsheet, not Sage-native yet) covers all outstanding invoices",
+     "sourceUpdated": "2026-09-07",
+     "source": "cos-feed",
+     "pulse": "11728362120",
+     "statusSince": "2026-08-21",
+     "statusDays": 19
+    },
+    {
+     "name": "Acquisition Case Study — New Branch vs. Acquisition Model",
+     "critical": true,
+     "status": "green",
+     "assessment": "via Clark 9/7: 9/7: Holding at 30%. Commercial moving company hasn't responded to follow-up emails. Titan Up conference (9/2-9/4) completed — gathered strong contacts who have done moving acquisitions, to follow up with for more detail.",
+     "superGreen": "5 opportunities evaluated",
+     "green": "Houston organic-vs-acquisition case study complete (using the marketplace's Houston lead as the comparable); 3 acquisition opportunities evaluated, at least 1 of 3 current/live (not all historical/practice)",
+     "sourceUpdated": "2026-09-07",
+     "source": "cos-feed",
+     "pulse": "11728336219",
+     "statusSince": "2026-08-21",
+     "statusDays": 19
+    },
+    {
+     "name": "Branch Visits",
+     "critical": false,
+     "status": "green",
+     "assessment": "via Clark 9/7: 9/7: Tampa visit completed 9/1-9/2 — 1 of 2 visits toward Green, 50%. Next branch visit needs scheduling.",
+     "superGreen": "3 visits",
+     "green": "2 visits",
+     "sourceUpdated": "2026-09-07",
+     "source": "cos-feed",
+     "statusSince": "2026-08-21",
+     "statusDays": 19
+    }
+   ],
+   "period": "Q3 2026",
+   "goalsSource": "Q3 Roundtable Rocks and Targets (cascading goals chart, ratified 7/30) — chart is source of truth; extras on a leader’s board are not graded"
+  },
+  {
+   "name": "Brian Herzig",
+   "title": "CTXH Regional Mgr",
+   "goals": [
+    {
+     "name": "Connection Cadence — quarterly regional outing + mover-manager roundtables (bundles the 5 eNPS asks)",
+     "critical": false,
+     "status": "green",
+     "assessment": "9/1 sync: G — format RESHAPED to a V1 mockup (async pre-collect win/obstacle/opportunity → Brian moderates the gold, QGR-AAR pattern; small room; beta-test framing). V1 confirmed by end of Wed huddle → FIRST BETA RUN THU 9/3. Leaning: Brian + Mike each run one room, Vera+Gerald consolidate notes.",
+     "superGreen": "1 event scheduled per region (include all local managers across local departments), redesigned BM roundtable agenda for more engagement, 3 BM roundtable meetings scheduled, agenda built, conducted (1 per month) with specific manager feedback/action items to take away",
+     "green": "1 event scheduled per region (include all local managers across local departments), redesigned BM roundtable agenda for more engagement, 2 BM roundtable meetings scheduled, agenda built, conducted with specific manager feedback/action items to take away",
+     "sourceUpdated": "2026-09-01",
+     "source": "meeting-digest",
+     "pulse": "12579679101",
+     "statusSince": "2026-08-24",
+     "statusDays": 16,
+     "prevStatus": "yellow"
+    },
+    {
+     "name": "ATX Flex Manager + SA Ops Manager Development",
+     "critical": false,
+     "status": "green",
+     "assessment": "9/1 sync: G 90% — all projects in by Wed, graded by EOW, interview picks possibly Fri. Missing-category scoring deliberately PAUSED — Brian works a lean with Vera and brings it to Cameron (not ruled). Root cause of eval gaps: old onsite board deleted in the FM Super Board build (thousands of evals lost). Rance delegated the onsite-distribution plan.",
+     "superGreen": "NA BM, SA Ops, SA FM positions solidified — all action plans built and in review for C players in my region, or team members set to reinterview/removed or improved from C to B",
+     "green": "NA BM, SA Ops, SA FM positions filled/solidified — action plans built and in review for C players in my region",
+     "sourceUpdated": "2026-09-01",
+     "source": "meeting-digest",
+     "pulse": "11728362071",
+     "statusSince": "2026-08-21",
+     "statusDays": 19
+    },
+    {
+     "name": "CTXH Quarterly Theme Mgmt — Ensure All Managers Hit QGs",
+     "critical": true,
+     "status": "yellow",
+     "assessment": "9/9: ⬇ MOVED GREEN→YELLOW on hard numbers (was a 9/1 read). CTXH is the weaker region: Houston 26 · San Antonio 19 · N. Austin 18 · Leander 14 · S. Austin 11 — regional average ~18% on track vs a 70% floor by EOQ. ⭐ RULED 9/9 (Cameron + Brian + Mike, post-huddle): accountability starts at the MANAGER layer, not the mover — Cameron: 'it's bullshit to issue a written warning to a mover when you haven't talked to him about this once.' Sequence: set plan + benchmark + date FIRST (redirect), then if missed the BM gets the warning, then ask that BM whether THEY warned their own FM/ops manager — Cameron does not step through a level. Threshold: a branch under ~50% on-track-or-at-risk signals the management team isn't engaging. Warnings start Fri 9/18. Mike drafts one combined announcement (app changes + accountability) and runs it past Brian before push; Brian is out 9/10-9/11. Brian's own framing: 'the buck stops with Dustin and Beattie and Daniel.' Mitigating context he raised: Rance has run N. Austin alone for 5 days (Nick and Daniel out), so N. Austin's 18 carries an asterisk; he named Cameron (FM), Alex and Tabby as having no such excuse. Brian OUT 9/10-9/11.",
+     "superGreen": "100% of manager sandbox training completed by 8/19 (before app rollout), 100% of active movers enrolled by 8/20, adoption floor ≥70%* of movers enrolled by 8/20 completed through the full training pipeline (Lead Ready) by 10/19, plus Scrum recert by 10/19 (*70% to account for part-time movers)",
+     "green": "100% of manager sandbox training completed by 8/19 (before app rollout), 100% of active movers enrolled in training app by 8/20, adoption floor ≥70%* of movers enrolled by 8/20 completed through stage 4 by EOQ",
+     "sourceUpdated": "2026-09-01",
+     "source": "meeting-digest",
+     "pulse": "11728362090",
+     "blockers": [
+      "Hard 8/19 (manager sandbox) and 8/20 (mover enrollment) deadlines approaching"
+     ],
+     "statusSince": "2026-09-09",
+     "statusDays": 0,
+     "prevStatus": "green"
+    },
+    {
+     "name": "CTXH Branch Audits — 3 of 5 Branches per Quarter",
+     "critical": false,
+     "status": "yellow",
+     "assessment": "9/1 sync: Y — first visit date on the calendar by EOW; last weekend of Sept = Austin (NA or SA Friday). Tags Cameron; possible correlated visit.",
+     "superGreen": "All 5 locations visited + scorecard audits (4 or higher score) + 3 circle-ups + 3 huddle audits + redesigned dashboard for branch-visit evaluation grading",
+     "green": "3 locations + scorecard audits + 3 circle-ups + 3 huddle audits + redesigned dashboard for branch-visit evaluation grading",
+     "sourceUpdated": "2026-09-01",
+     "source": "meeting-digest",
+     "pulse": "11728355560",
+     "statusSince": "2026-08-21",
+     "statusDays": 19
+    },
+    {
+     "name": "Scrum Accountability Part 3 — Huddle Grading + Value Tracking",
+     "critical": true,
+     "status": "green",
+     "assessment": "9/1 sync: G — 8 of 15 CTX managers certified (scores 87–97, Alex top); deadline extended to ALL 15 by EOW, then DFW boards, then claims/Jalissa/Austin. Mock-board grades wash out at certification → official weekly scorecard cadence starts clean. Zero micromanage pushback.",
+     "superGreen": "100% of frontline managers through the training module and all 10 boards re-certified by 10/19, plus all departments (CET, EE, ATX) re-certified",
+     "green": "100% of frontline managers through the training module and all 10 branch boards re-certified by 10/19",
+     "sourceUpdated": "2026-09-01",
+     "source": "meeting-digest",
+     "pulse": "11728336199",
+     "statusSince": "2026-08-21",
+     "statusDays": 19
+    }
+   ],
+   "period": "Q3 2026",
+   "goalsSource": "Q3 Roundtable Rocks and Targets (cascading goals chart, ratified 7/30) — chart is source of truth; extras on a leader’s board are not graded"
+  },
+  {
+   "name": "Mike Vandenbroader",
+   "title": "DFWT Regional Mgr",
+   "goals": [
+    {
+     "name": "Mover Training App — Company-Wide Rollout + Driver-Training Port + Digital Training Handbook",
+     "critical": true,
+     "status": "yellow",
+     "assessment": "9/9: ⚠ Branch on-track 9/9 (Mike's pull): Garland 36 · Dallas 27 · Houston 26 · San Antonio 19 · N. Austin 18 · McKinney 18 · Leander 14 · Fort Worth 13 · Tampa 11 · S. Austin 11. Company 19% on track, ~40% counting at-risk (engaging but short on daily signatures). Bar is 70% through stage 4 by EOQ, ~7.5 weeks out. DFWT: Garland 36 · Dallas 27 · McKinney 18 · Fort Worth 13 · Tampa 11 — regional average ~21%. ⭐ RULED 9/9 (Cameron + Brian + Mike, post-huddle): accountability starts at the MANAGER layer, not the mover — Cameron: 'it's bullshit to issue a written warning to a mover when you haven't talked to him about this once.' Sequence: set plan + benchmark + date FIRST (redirect), then if missed the BM gets the warning, then ask that BM whether THEY warned their own FM/ops manager — Cameron does not step through a level. Threshold: a branch under ~50% on-track-or-at-risk signals the management team isn't engaging. Warnings start Fri 9/18. Mike drafts one combined announcement (app changes + accountability) and runs it past Brian before push; Brian is out 9/10-9/11. Mike shipped 10 app updates off the BM roundtable + Coach channel with 4 more queued, and opened sprints to free-range, which is the lever that could move this fast. He owns the combined announcement. Honest read: yellow trending red until the 9/18 checkpoint shows movement.",
+     "superGreen": "Mgr sandbox 100% by 8/19 + movers 100% enrolled 8/20 + ≥70% through full pipeline (Lead-Ready) by 10/19 + Scrum recert by 10/19",
+     "green": "Mgr sandbox 100% by 8/19 + movers 100% enrolled 8/20 + ≥70% through stage 4 by EOQ",
+     "sourceUpdated": "2026-09-07",
+     "source": "cos-feed",
+     "pulse": "11728355420",
+     "statusSince": "2026-09-09",
+     "statusDays": 0,
+     "prevStatus": "green"
+    },
+    {
+     "name": "Dept-Head/Regional Split — FDE Boots-on-Ground Weeks + Dept-Head QGs as Critical Number",
+     "critical": true,
+     "status": "green",
+     "assessment": "via Gerald 9/7: On track to Super Green — one field week banked, second underway. North Dallas (Aug 25-28) is done: observe-first, then had the team generate their own fixes on OT, damages, and schedule management so ownership sits with the branch. The one open loop from ND is still open — the key issue + action plan is not yet written into the Road-to-A+ HQ. Mike flies to Tampa today, on-site through Thursday for visit #2 of 5. Tampa focus: get ahead of the same OT and schedule-adherence problems Dallas had (Tampa also runs OT), and watch how Steven and Shane manage — sales specifically, since it is Tampa's one red area. Green is 3 field weeks across the 10 branches by Oct 1; Mike is managing to the Super Green 5, plan built and committed. Only risk is competing non-goal workload pulling him out of the field.",
+     "superGreen": "5 FDE field weeks across the 10 branches by Oct 1 + 1 key issue/visit logged and resolved or on a documented action plan",
+     "green": "3 FDE field weeks across the 10 branches by Oct 1 + 1 key issue/visit logged and resolved or on a documented action plan",
+     "sourceUpdated": "2026-09-07",
+     "source": "cos-feed",
+     "pulse": "12556464031",
+     "statusSince": "2026-08-21",
+     "statusDays": 19
+    },
+    {
+     "name": "Fleet Safety Pt 3 — Carry the Red, Restructured",
+     "critical": false,
+     "status": "green",
+     "assessment": "via Gerald 9/7: Green holding, with the accident run as the live watch. Company QTD Samsara is 92 and last week came in at 91; this week's review is still open. The warning-chase backlog stayed clear. The real question is incident rate: six new truck accidents in roughly two weeks are pending review and will likely pull the score once graded — scores are holding on discipline while accident frequency runs hot, which is the tension to watch. Green (>=90 by Oct 1) is comfortably held; Super Green (>=95) is a stretch given the soft middle (Dallas/Garland/McKinney mid-80s) plus the accident overhang. Green for now; re-read once this week's review and the accident grading land.",
+     "superGreen": "Samsara score at/above 95 by Oct 1 + zero unissued-warning backlog at EOQ",
+     "green": "Samsara score at/above 90 by Oct 1 + zero unissued-warning backlog at EOQ",
+     "sourceUpdated": "2026-09-07",
+     "source": "cos-feed",
+     "pulse": "12625952608",
+     "blockers": [
+      "Week 1 company score 86, under the green threshold",
+      "Most branches carrying 1-2 high-risk drivers needing warnings"
+     ],
+     "statusSince": "2026-08-21",
+     "statusDays": 19
+    },
+    {
+     "name": "Sell Remaining Trucks + Fund 2026 Fleet Purchases",
+     "critical": false,
+     "status": "green",
+     "assessment": "via Gerald 9/7: Moved to Green — the sales engine is running. NWT sold (first truck closed), and the refreshed Marketplace postings pulled real demand: 8 interested buyers on the remaining 4 trucks, most scheduling to see them this week. Green is 3 trucks and Super Green is 5; with 1 already sold and 8 buyers actively looking at 4 units, the trajectory to Green is strong and Super Green (all 5) is genuinely in reach this quarter. Oct 31 is the only clock — no buyer-side deadline pressure. Funds the 2026 fleet purchases.",
+     "superGreen": "Sell 5 trucks",
+     "green": "Sell 3 trucks",
+     "sourceUpdated": "2026-09-07",
+     "source": "cos-feed",
+     "pulse": "11728336223",
+     "blockers": [
+      "Check-engine light on the spoken-for truck must be fixed before the sale closes",
+      "Remaining trucks need photos before they can be posted"
+     ],
+     "statusSince": "2026-09-09",
+     "statusDays": 0,
+     "prevStatus": "red"
+    },
+    {
+     "name": "Manager Training App — SOP Sandbox Training and reference",
+     "critical": false,
+     "status": "yellow",
+     "assessment": "9/9: ⚠ Branch on-track 9/9 (Mike's pull): Garland 36 · Dallas 27 · Houston 26 · San Antonio 19 · N. Austin 18 · McKinney 18 · Leander 14 · Fort Worth 13 · Tampa 11 · S. Austin 11. Company 19% on track, ~40% counting at-risk (engaging but short on daily signatures). Bar is 70% through stage 4 by EOQ, ~7.5 weeks out. DFWT: Garland 36 · Dallas 27 · McKinney 18 · Fort Worth 13 · Tampa 11 — regional average ~21%. ⭐ RULED 9/9 (Cameron + Brian + Mike, post-huddle): accountability starts at the MANAGER layer, not the mover — Cameron: 'it's bullshit to issue a written warning to a mover when you haven't talked to him about this once.' Sequence: set plan + benchmark + date FIRST (redirect), then if missed the BM gets the warning, then ask that BM whether THEY warned their own FM/ops manager — Cameron does not step through a level. Threshold: a branch under ~50% on-track-or-at-risk signals the management team isn't engaging. Warnings start Fri 9/18. Mike drafts one combined announcement (app changes + accountability) and runs it past Brian before push; Brian is out 9/10-9/11. Mike shipped 10 app updates off the BM roundtable + Coach channel with 4 more queued, and opened sprints to free-range, which is the lever that could move this fast. He owns the combined announcement. Honest read: yellow trending red until the 9/18 checkpoint shows movement.",
+     "superGreen": "3-4 core-process SOPs built + deployed",
+     "green": "1-2 core-process SOPs built + deployed (Samsara Mgmt first; each with a quiz + wiki-ready context)",
+     "sourceUpdated": "2026-09-07",
+     "source": "cos-feed",
+     "blockers": [
+      "Not yet started — plan of attack being built this week"
+     ],
+     "statusSince": "2026-09-09",
+     "statusDays": 0,
+     "prevStatus": "red"
+    }
+   ],
+   "period": "Q3 2026",
+   "goalsSource": "Q3 Roundtable Rocks and Targets (cascading goals chart, ratified 7/30) — chart is source of truth; extras on a leader’s board are not graded"
+  },
+  {
+   "name": "Anne Bosse",
+   "title": "Dir. of Employee Experience",
+   "goals": [
+    {
+     "name": "Workers Comp Process Improvements — On-Site Incident Workflow + Compliance",
+     "critical": false,
+     "status": "yellow",
+     "assessment": "via Linda 9/3: First real engagement with this goal all quarter (8/26). Anne's problem statement: injuries currently surface after the fact via the WC carrier, not proactively; a 3-day gray period where movers self-manage soreness-vs-injury at home produces zero visibility; branch managers are being migrated out of the reporting/admin chain in favor of EE owning it directly. Recommendations discussed, none decided or built yet: (1) decouple 'report the incident' (mandatory, same-day, no-penalty) from 'is it a real injury' (assessed after); (2) two structured EE touchpoints during the gray period instead of silence; (3) split who physically responds on-site (still BM/lead — unavoidable) from who owns the paperwork (fully EE); (4) a 24/7 nurse triage line (Concentra, already used for the HPE) to solve after-hours clinic-or-not calls by phone instead of a manager driving to a job site; (5) automate the old paper-packet idea as an auto-sent one-pager the moment an incident is reported; (6) sequence tooling light-to-heavy — Monday form or text line first to prove the reporting-behavior change, custom app only after that's proven. 8/31: Anne's written recommendation done, socializing with Brian + Mike. 9/3: first real design session with Brian landed a concrete two-track model — serious injuries (medical intervention needed) trigger an incident report → WC process immediately; minor injuries/close calls get a firm 3-day off-schedule window with a mandatory day-3 check-in that forces a doctor visit if unresolved (generalizes the same 3-day rule Anne is separately applying to two live cases, Mike Larson and Danny Peterson). Concrete build commitments made: Brian owns a Monday intake form for injury/near-miss reporting; Anne + Matisen own the Rippling backend to feed OSHA + Texas Mutual reporting from one source. Preauthorization (calling Concentra ahead of a visit) and close-call cost/frequency tracking (to build the safety-intervention case with BMs) discussed as build targets, not yet built. Also surfaced 9/3: a second, distinct late-reported injury (Sebastian Osuna, Houston) — unreported for ~a month, adjuster non-payment, a possible AFC/Workwell network gap — folded into this same overhaul. Trajectory: tracking yellow — real design commitments now exist with named owners (a step up from 8/26's strategy-only conversation), but the field reporting mechanism is still undecided and nothing is built yet against the 9/15 Green bar.",
+     "superGreen": "Green + mover-specific WC training delivered as a Back to School module + a test OSHA-formatted export produced from Q3 data + one real Q3 WC leave case showing correctly in Rippling leave-tracking.",
+     "green": "Custom Rippling claim-submission app live, built against the OSHA-recordable field spec handed to Matisen before the data structure locks, with a working EE-notification loop confirmed, plus the on-site incident workflow documented and trained to all 10 BMs, by Sept 15.",
+     "sourceUpdated": "2026-09-03",
+     "source": "cos-feed",
+     "pulse": "11728357310",
+     "statusSince": "2026-08-21",
+     "statusDays": 19
+    },
+    {
+     "name": "100-Point Behavioral System — Q2 Rock 2 Companion",
+     "critical": true,
+     "status": "yellow",
+     "assessment": "8/31 (sync): DoD this week = run weighting through the consultants council + Replit weight-distribution survey; mockup on pace for EOW ~9/4. | via Linda 8/27: 10 decisions locked from the 7/3 design workshop (Cameron + Anne + Paul); damages mechanism now has real clarity via Cameron's 7/30 QGR ruling (in the promotion gate AND the bonus). ⚠️ 8/27 (Cameron 1:1): formally confirmed this is NOT a Q3 deliverable — full system launch targeted January 1, 2027, timed to a 'new year, new performance philosophy' narrative alongside the new handbook, since it's a foundational change (attendance/damages point weights, reset cadence) that needs real branch input, not a rushed Q3 ship. Q3's realistic deliverable is the weighting-input tool: Anne will first run the existing framework through the /consultants council (Cameron confirmed Linda doesn't have this skill yet — he's sharing it) to refine it, then build a Replit survey where BMs/movers distribute 100 points across weighted metrics (same pattern Cameron used for the branch scorecard at QGR), synthesize the averages, and use disagreements as the workshop agenda.",
+     "superGreen": "Green + live scoring piloted on one full branch ahead of the Jan 1, 2027 company-wide launch, with 3 BMs trained to use the score in a real coaching conversation.",
+     "green": "Weighting-input methodology refined via the /consultants council, then cascaded to BMs and movers as a point-distribution survey, averages synthesized into a locked framework, and backtested against one real branch — full system launch targeted January 1, 2027 per Cameron's 8/27 confirmation, not this quarter.",
+     "sourceUpdated": "2026-08-27",
+     "source": "cos-feed",
+     "pulse": "11752777323",
+     "statusSince": "2026-08-21",
+     "statusDays": 19
+    },
+    {
+     "name": "Implement Bi-Weekly Start/Stop/Keep Conversations — Scaling Up Practice",
+     "critical": true,
+     "status": "yellow",
+     "assessment": "via Linda 9/8: ⚠️ 8/26 correction (Cameron + Anne): the goal was misread earlier the same day — what got built and shared with the other 6 Roundtable leaders' COS agents (a manager-to-own-direct-reports weekly checklist) was NOT the actual design; retracted same day. ✅ 8/27 (huddle + Cameron 1:1): mechanism fully redesigned and locked, then refined further per the cascading-chart edit Cameron made live in the 1:1 (surfaced via network digest 8/28, confirmed real by Anne). Every 2 weeks, each of the 7 Roundtable leaders calls someone **2+ rungs below them — never a direct report** — company-wide (deliberately cross-functional/cross-geography once comfortable; own-division fine at first) for a 5-minute start/stop/keep — no scheduling coordination, just find whoever's available. No manual assignment of who-talks-to-whom. Logged via a lightweight Replit submission app (not yet built) that tracks completion (who's done, who's missing) without adding admin work for the leaders. Immediate fires (safety, harassment) get triaged same-week; broader themes are digested quarterly — data collected through end of September, synthesized in October, folded into Q4 branch-level goals. Cameron explicitly said not to assume there will be themes — full adoption + honest tracking counts as success on its own, not a themes-found metric. Renamed Weekly → Bi-Weekly by Cameron 8/27 PM — report under this name going forward. 8/31 (Cameron sync): real open design gap surfaced — Anne is uneasy about the call-assignment mechanism (who calls whom, visibility across the 7 leaders so nobody double-covers or leaves gaps); Cameron floated narrowing by region/branch per leader, not yet resolved. **9/8: real forward motion.** Anne reviewed the full decision history on the rock pulse and sent Cameron a direct pushback: his own ratified Green-bar language says \"random employee,\" which is the actual risk to his own adoption metric (cold calls from unscreened numbers don't get answered — it isn't scope creep, it's protecting the bar he already set), and flagged that no tracking log exists yet even though the bi-weekly cadence has already started. Also confirmed for the record (already discussed live, not an open question) that quarterly theme-aggregation over weekly was deliberate. Anne then kicked off the Replit submission-app build spec in a separate session (`start-stop-keep-app-build-spec-2026-09-08.md`) — first concrete step toward the app blocker. Trajectory: still yellow (no app live yet, adoption not started), but confidence up — this is the first session with real building motion instead of just design discussion, and Anne is actively pushing back on a bar-risk before it bites the metric instead of discovering it after adoption starts.",
+     "superGreen": "All Roundtable leaders conducting bi-weekly Start/Stop/Keep calls without missing more than two check-ins total, company-wide, across a full quarter — with a clear record of trends/themes and who's been talked to (the Replit submission log).",
+     "green": "Practice designed and documented (5-minute call every 2 weeks, someone 2+ rungs below — never a direct — company-wide, logged via a lightweight submission app), adopted by all 7 Roundtable leaders, by September 15.",
+     "sourceUpdated": "2026-09-08",
+     "source": "cos-feed",
+     "pulse": "11728350964",
+     "statusSince": "2026-09-09",
+     "statusDays": 0
+    },
+    {
+     "name": "eNPS Voluntary Transition + Engagement Follow-Through",
+     "critical": false,
+     "status": "yellow",
+     "assessment": "8/31 (sync): builds with Linda this week (interview → wireframe → Replit); drip-vs-October-blast decision deferred until the tool proves out. | via Linda 8/27: Cameron approved 8/21 building a custom engagement-survey app in-house, replacing the Monday-form platform Anne had flagged administrative/UX frustrations with. Anne's ask (7/14, via Albert) surfaced the platform's history first — Monday form, no vendor, historical results in a Drive folder — then Anne proposed building her own app instead (8/20), matching what the rest of the leadership team has already done. ✅ 8/27 (Cameron 1:1): platform-selection target formally moved to September 15 (from end of August) to give Anne real room to build it herself rather than rush it. Concrete next step assigned: feed this call's transcript to Linda, get a spec sheet drafted, then build/test a prototype directly in Replit — Cameron is deliberately not building it for her so she gets hands-on experience. Anne's own estimate: the week after the 100-point weighting app (~week of 9/8).",
+     "superGreen": "Green + participation clears 65% + the baseline is clean enough to serve as the comparison point for the January management/CX rollout.",
+     "green": "Platform selected and built by September 15 (revised from end of August per Cameron 8/27); survey launched to movers as voluntary; first baseline eNPS established with at least 50% participation among eligible movers by Oct 1.",
+     "sourceUpdated": "2026-08-27",
+     "source": "cos-feed",
+     "pulse": "12626620998",
+     "statusSince": "2026-08-21",
+     "statusDays": 19
+    },
+    {
+     "name": "Mover Promotion Framework — First Cohort Live",
+     "critical": false,
+     "status": "yellow",
+     "assessment": "9/1 (Matisen sync): the gating backtest/retroactive is committed by Matisen for Wed/Thu this week — the ⛔ ~2wk read is superseded. 8/31 (sync): ⛔ blocked on Matisen's backtest (~2 wks waiting; Fabian's paternity leave squeezes him, Paul out this week). Anne follows up on availability; rollout = Mike/Brian buy-in → handpicked BM check → live. | via Linda 8/25: Substantial forward motion 8/19–8/20: Decision #16 (PTL→Junior Lead threshold) resolved — 400 hrs as lead or 80%+ led over 2 back-to-back pay periods, pulled from existing pay docs. Decision #18 (damages attribution) resolved — Cameron + Paul's compromise (team/job-level governs bonus + gates, individual fault stays coaching-only) with six amendments closing the design gaps. New Decision #19 locked (no grandfathering on launch). The HQ itself got a major upgrade: ladder table restructured into paired Standard/Fast Track columns and made interactively editable, two new tabs added (Decision History, How It Works — plain-language mechanics for BMs and movers), and a full visual restyle to match the mover-pay-premium page's look. Revised 8/21: Paul pushed back on Decision #18's attorney-confirm framing (no attorney gate needed — TX right-to-work, damages can stand alone as a termination reason for gross negligence or a documented pattern); Anne agreed same day. 8/25: three more rounds of direct decisions from Anne — fast-track performance bars set as provisional working numbers (9/9/10/10), Master Lead's standard bar lowered 9.5→9.0, Lead General's Master-Lead fast-track hours locked at 1,365, HOF decided as purely honorary (not a job title), Decision #16 fully closed out (PTL hours don't carry into Senior Lead's hour count), and a real table-structure bug found and fixed (Master Lead/Lead General row data had been swapped). Two of today's calls reverse positions Paul was explicit about on 8/20 (bar values, look-back window) — heads-up posted to the rock pulse, his reply pending.",
+     "superGreen": "Green + at least one real mover promoted under the locked framework by Oct 1.",
+     "green": "Framework locked — damages resolved per Cameron's 7/30 ruling (in the promotion gate AND the bonus, not folded into the 100-point score), cadence and remaining HQ items ratified, published to branches by Oct 1.",
+     "sourceUpdated": "2026-08-25",
+     "source": "cos-feed",
+     "pulse": "11728362147",
+     "statusSince": "2026-08-21",
+     "statusDays": 19
+    },
+    {
+     "name": "2027 Open Enrollment",
+     "critical": false,
+     "status": "green",
+     "assessment": "8/31 (sync, in-room): moved Yellow → GREEN. File-feeds check this week (BM term-status message sent). Benefits-strategy recommendation with Paul: movers as variable-hour + 12-month evaluation period (ACA reality: most movers on benefits don't qualify on hours) — Paul's read gates the rest of enrollment. | via Linda 8/21: First real working session with Cali Beeman (Gallagher) ran 8/21 — substantive, not just a handoff call. ACA variable-hour classification strategy is taking real shape (6-month measurement period emerging as the compromise with Paul, not yet decided). Two compliance gaps surfaced and are being fixed: Einstein likely has no ERISA wrap plan document (5500s were filed as separate plans, a tell-tale sign) and likely no Section 125 pre-tax plan document — both going to ETC to draft. Also found and started fixing an ACA rehire-coding bug in Rippling (reinstated employees default to exact rehire date instead of 1st-of-month, creating false coverage-gap signals). Still no 2027 plan-year decisions locked with Cameron/Paul.",
+     "superGreen": "Green + a full dry-run/test enrollment completed in Rippling with bugs fixed before real employees touch it + all 10 BMs briefed.",
+     "green": "2027 plan-year decisions locked with Cameron and Paul, enrollment comms + training materials built and reviewed, November launch window confirmed, Rippling configured for the 2027 plan year.",
+     "sourceUpdated": "2026-08-21",
+     "source": "cos-feed",
+     "statusSince": "2026-09-09",
+     "statusDays": 0,
+     "prevStatus": "yellow"
+    }
+   ],
+   "period": "Q3 2026",
+   "goalsSource": "Q3 Roundtable Rocks and Targets (cascading goals chart, ratified 7/30) — chart is source of truth; extras on a leader’s board are not graded"
+  },
+  {
+   "name": "Amanda Ware",
+   "title": "Dir. of CX",
+   "goals": [
+    {
+     "name": "Call Grading at Volume — Distribution + Coaching Loop",
+     "critical": true,
+     "status": "yellow",
+     "assessment": "via Gary 9/7: Yellow — a methodology pivot, not just a delay. Grading has gone through several structural iterations over the last two weeks as leadership went through Jeff's (Northwood) training. Now restructuring around the three-stage framework Jeff walked leadership through on 9/3: every rep gets a baseline score captured before training, and the next scoring round measures them against their own baseline rather than a flat company average. Company average still sits at 45.8 cumulative against the 65 Green bar — no new score data since 8/17 — but the coaching frame is shifting to self-improvement. Phone-join plumbing and the rubric calibration session are still pending on top of this.",
+     "superGreen": "Improve the company (CET and Managers) average score to 75%",
+     "green": "Improve the company (CET and Managers) average score to 65%",
+     "blockers": [
+      "Company average flat at ~45 for two months against a 65 Green bar — coaching loop is not yet moving the number",
+      "Per-bullet rubric weights, walkthrough-scheduler mini-rubric, and comp-tie risk pending a 60-min calibration session with Cameron + Nhel + Tetet",
+      "Emma integration ask to Matisen/CoS-MH1 outstanding since 7/3 — bumped 8/17 (SCB pulse 12442800385)"
+     ],
+     "sourceUpdated": "2026-09-07",
+     "source": "cos-feed",
+     "note": "Adopted onto Amanda's slate 8/17 and ratified on the Q3 chart 8/18, REPLACING 'Incentivize Manager Sales — Quarterly Sales Comp' (cut: pay component held 7/30, Q3 competition killed 8/3). Critical flag moved here. Mirrors Nhel #4 — Amanda owns the company-level loop.",
+     "statusSince": "2026-08-21",
+     "statusDays": 19
+    },
+    {
+     "name": "Chatbot Launch + Leadferno Sunset (carry, finish line)",
+     "critical": false,
+     "status": "green",
+     "assessment": "via Gary 9/7: Green — moving again after a real-world snag. Target launch was the first week of August; that passed with the bot still in testing, and Matisen's board now shows a new target of the 2nd week of September. Matisen is working the corrections needed to hit that but got pulled into last Friday's (9/4) payroll debacle — expects to be back on track this week, along with the ESP work running alongside it. Content side is fully closed out: every commitment from the 7/20 Botpress handoff is done, including the 11 lower-volume FAQ confirmations and the 16-answer sheet, and Dialpad call audits have since backfilled the knowledge base. Nidha (Botpress) is drafting the BotSpec; escalation routing confirmed to Slack #chatbot-notifications. Messenger token moved to Paul Morin 8/3 (Amanda lacked Meta Business Manager rights) and is no longer hers to chase.",
+     "superGreen": "Phase 2 underway, Emma connection",
+     "green": "Chatbot running consistently with bugs fixed",
+     "sourceUpdated": "2026-09-07",
+     "source": "cos-feed",
+     "pulse": "11728336248",
+     "blockers": [
+      "Auto-Recharge cost ceiling cannot be disabled — needs a hard cap agreed before real traffic",
+      "Confirmation that Paul delivered the Messenger token to Nidha's team",
+      "EMMA integration timeline from Matisen (long-term: chatbot pushes leads directly into EMMA)"
+     ],
+     "statusSince": "2026-09-09",
+     "statusDays": 0,
+     "prevStatus": "yellow"
+    },
+    {
+     "name": "Extend New Email Design System to Full Email Suite — Shorter, Video-First, Fewer Words",
+     "critical": false,
+     "status": "green",
+     "assessment": "via Gary 9/7: Green — ahead of pace, and now expanded in scope. Leanna's copy rewrite covers the confirmation email plus the rest of the email suite (RFQ excluded — already done). The template + copy are now posted to Kickpoint's board and it's in their hands to build the official template, the same workshop process used for the RFQ redesign — Leanna has already signed off on it. Gary tasked (8/31 O3) with pulling Leanna's copy and building interim mockups to get ahead of Kickpoint's build, pending the Google Doc link from Amanda. Quarter context: as of 8/31 the quarter is ~33% elapsed (Aug 1 – Oct 31), so this percentage should be read against a still-early-quarter baseline.",
+     "superGreen": "Email is live",
+     "green": "Email approved, in Emma updates queue for going live",
+     "sourceUpdated": "2026-09-07",
+     "source": "cos-feed",
+     "pulse": "12596528246",
+     "blockers": [
+      "Redesign not yet finalized or approved — not in the EMMA updates queue",
+      "External sharing to Kickpoint blocked by org-wide Artifact link-sharing policy; needs raw-file workaround",
+      "Dependency on Matisen for EMMA-side rollout"
+     ],
+     "statusSince": "2026-08-21",
+     "statusDays": 19
+    },
+    {
+     "name": "Estimating improvements",
+     "critical": false,
+     "status": "yellow",
+     "assessment": "via Gary 9/7: Yellow — focus group named, but still early and unproven. Prior plan (broad reporting to everyone) hit a roadblock; new plan is concrete: focus manual review on the bottom performers, get feedback on specific over/under estimates, correct root-cause assumptions (managers run conservative on large homes, underestimate apartments — both fear of a bad big-move experience). Focus group is now named — Danah, Erik, and Jespah — on the theory that their lower sales numbers may trace back to estimating accuracy. Still a delayed-result metric — this plan won't move the accuracy number for 2-4+ weeks, and the review work with this group hasn't started yet. Bars confirmed 8/17 as written on the chart (46% Green / 48% Super Green).",
+     "superGreen": "Improved estimating to 48%",
+     "green": "Improve estimating to 46%",
+     "sourceUpdated": "2026-09-07",
+     "source": "cos-feed",
+     "blockers": [
+      "Daily call grading delivery from Matisen not yet in place — needed to coach lower estimators off regular numbers",
+      "Delayed-result metric — work done now will not register in accuracy numbers for 2-4+ weeks",
+      "No Sky Board pulse yet (chart marks this 'NO PULSE — create at fold')"
+     ],
+     "statusSince": "2026-09-09",
+     "statusDays": 0,
+     "prevStatus": "green"
+    },
+    {
+     "name": "Push out training certifications — Carly (customer resolution)",
+     "critical": false,
+     "status": "unknown",
+     "assessment": "Q3 slate ratified in the room at the 7/29–30 Roundtable QGR. Quarter opens 8/1 — no execution data yet; status fills in as the COS feed pushes. | 8/17: NOT in Amanda's fresh Q3 push (Gary 14:20) — she carried 5 goals vs 6 on the chart; reconcile at the 8/18 sync (chart = source of truth).",
+     "superGreen": "All managers, sales team, claims are certified",
+     "green": "Training complete, certification has started",
+     "sourceUpdated": "2026-08-18",
+     "source": "cascading-chart-q3",
+     "statusSince": "2026-08-21",
+     "statusDays": 19,
+     "note": "EDITED 8/18 (Amanda 1:1): Tet's certification portion CUT this quarter — he is on the Northwood/Trinity engagement. Carly's customer-resolution training is the whole goal. Not started as of 8/18 (claims email first). ⚠ Green/Super Green bars still read against the original two-owner scope — narrow at the next touch if Cameron wants them matched to Carly-only."
+    },
+    {
+     "name": "Improve Sales Performance Engagement — Work with Jeff (Northwood)",
+     "critical": false,
+     "status": "green",
+     "assessment": "via Gary 9/7: Green — real training output is now live, not just scoped. Trinity Session 1 (Jeff Johnson/Northwood, \"Set the Agenda — Not Yours\") was built and published org-wide 8/21, and its script directly seeded a new coaching check: a narrow, daily-cadence CET agenda-opener call-grading pass, with a measured day-1 baseline (15.9/100 avg, 39% of named concerns getting real follow-up). Session 2 (Sales Leadership Sales Training) ran 8/27 with Jeff, Cameron, Nhel and Therese Ablang — that leadership session is also what's driving the call-grading methodology pivot (Goal 1). Rep-level training paused around the leadership session and restarts Tue 9/8, split into two groups by day off so everyone can attend — one group Tuesdays, one Wednesdays, running four to five weeks. Amanda owns the $54,500 engagement spend; Cameron's card is support-only at $0 per his 7/30 ruling.",
+     "superGreen": "TBD — bars not set on chart",
+     "green": "TBD — bars not set on chart",
+     "sourceUpdated": "2026-09-07",
+     "source": "cos-feed",
+     "blockers": [
+      "Super Green / Green bars still unset — were due to land after the 7/31 scoping meeting",
+      "Chart name conflict: Amanda's row and Cameron's bonus card read 'Adam (Northwood)', Nhel's row reads 'Jeff (Northwood)' for the same engagement — needs correcting on the chart"
+     ],
+     "statusSince": "2026-08-21",
+     "statusDays": 19
+    }
+   ],
+   "period": "Q3 2026",
+   "goalsSource": "Q3 Roundtable Rocks and Targets (cascading goals chart, ratified 7/30) — chart is source of truth; extras on a leader’s board are not graded",
+   "feedNote": "8/17 Gary push carries 5 goals vs 6 on the cascading chart: dropped 'Incentivize Manager Sales' + 'training certifications', added 'Call Grading at Volume — Distribution + Coaching Loop' (critical). Reconcile 8/18."
+  },
+  {
+   "name": "Matisen Harper",
+   "title": "Dir. of IT",
+   "goals": [
+    {
+     "name": "QG and Support Blocks — Admin",
+     "critical": true,
+     "status": "green",
+     "assessment": "via CoS-EMC-1 9/7: A and C converge on one build: the weekly scorecard is baked into hub.einsteinmoving.com rather than shipped as a separate surface. CORRECTION 8/24: the region scorecards are BUILD-complete (CTXH/DFWT, 17 of 25 metrics) but have NOT been delivered to the regional team — an earlier entry saying they shipped 8/21 was wrong. Real movement this week: the hub gained a status page and a stale-feed guard, and the Games engine is now automated end-to-end from its datasources (lock-authoritative render, EMMA<->Samsara truck-mapping repair + drift detection, minute-granular CE) — no more manual morning pulls or reconciliation. The open items on this rock are delivery and access, not build. Percent held at 38 rather than raised, because part of the prior figure rested on a delivery that did not occur. 9/06: Einstein OS D1 landed — 12 pure-script scheduled tasks migrated to launchd units (app twins disabled, rollback ready), the Phase 0 security-debt runbook shipped with rotation-verification harnesses proven, and the Prosper Sage unblock package (JayLee reply + CSV-lane memo) is drafted and gated — reliability/infra movement under C and D. 9/7: moved the runner from Claude to a back-end server to evaluate how it would run on a dedicated machine.",
+     "superGreen": "100% goal completion (4 of 4 sub-deliverables Green or higher)",
+     "green": "75% goal completion (3 of 4 sub-deliverables Green or higher)",
+     "sourceUpdated": "2026-09-07",
+     "source": "cos-feed",
+     "blockers": [
+      "A. Scorecard rollout/access plan pending a Cameron touch-base — build path is settled (baked into the hub), audience and cadence are not",
+      "D. Sage/EMMA still pre-integration — EMMA registers with Sage Intacct this week; spec v5 publish remains a human-run script pending the Ben/Fabian chain"
+     ],
+     "statusSince": "2026-08-21",
+     "statusDays": 19
+    },
+    {
+     "name": "QG and Support Blocks — Sales and Marketing",
+     "critical": true,
+     "status": "green",
+     "assessment": "via CoS-EMC-1 9/7: B advanced materially: the call-grade runner shipped 8/21 with a measured 83.9% call->contract match rate, and estimate_accuracy is pinned to the within-quoted-range basis and live on the hub (Jun 58.1 / Jul 60.0 / Aug MTD 62.9). Call grading runs nightly — no longer 'to build'. Remaining in B: conversion on the sales target dashboard. D moved this week: several Dialpad audits backfilled the Botpress knowledge-base data; a follow-up is being scheduled with Amanda along with recommended improvements to the agent. A: targeting within MPE of the forecasting models by quarter end. 9/7: emails closer to rollout — more QA later today; ESP has taken priority over call grading; Botpress circle-back comes after ESP rolls out. 9/8: rep-conversion reporting shipped to the hub in three cuts — training-team split (Team 1/Team 2 vs whole-team benchmark), company roll-up (Company / Sales team / EMMA / Unassigned per bucket), and warm-vs-cold (R&R tag or email-rematch vs other, EMMA-by-branch weighting) — broadcast to Amanda + Cameron via SCB pulse 12994992755.",
+     "superGreen": "100% Green or higher (4 of 4)",
+     "green": "75% Green or higher (3 of 4)",
+     "sourceUpdated": "2026-09-07",
+     "source": "cos-feed",
+     "blockers": [
+      "C. Email rollout queued behind lead triage and awaiting Fabian confirmation"
+     ],
+     "statusSince": "2026-08-21",
+     "statusDays": 19
+    },
+    {
+     "name": "QG and Support Blocks — Performance and Employee Management",
+     "critical": true,
+     "status": "green",
+     "assessment": "via CoS-EMC-1 9/7: Movement resumed after a static week. B: mover promotion-ladder working sessions with Anne and Paul are in motion, including the bonus-payout date basis; the Q2 mover bonus locked 9/1 at $82,866.33 with payroll files validated and the /mover-bonus skill + quarter guard shipped. C: the Monday mover directory plus its recurring sync shipped, and the ITP pod-meeting transcript self-grading round completed; the Rippling PL migration is in flight. A: ClearCompany->Rippling webhook live (8/10), verification still gated on Anne's return. D: mobile app training rollout unchanged. 9/7: this is the big focus this week — promotion ladder lookback, and wrapping up wiring performance logs back into Rippling. 9/8: late-clockins daily noon pulse runner shipped with schedule state — late-arrival review now surfaces as a daily pulse instead of a manual pull.",
+     "superGreen": "100% Green or higher (4 of 4)",
+     "green": "75% Green or higher (3 of 4)",
+     "sourceUpdated": "2026-09-07",
+     "source": "cos-feed",
+     "blockers": [
+      "A. Webhook verification gated on Anne's return from vacation",
+      "C. Rippling API token scopes — Custom Objects returns 403 and the Performance Log path lacks files + employee-documents; Matisen is granting the scopes now"
+     ],
+     "statusSince": "2026-08-21",
+     "statusDays": 19
+    },
+    {
+     "name": "Praise Targets",
+     "critical": true,
+     "status": "yellow",
+     "assessment": "via CoS-EMC-1 9/7: First real movement of the quarter: 5 of 48 praise delivered verbally AND logged to the Praise Board today 9/7 (Fabian x3, Vlad, Elias — each on a distinct CHOICES value with distinct evidence), with a 6th drafted and queued pending verbal delivery (Amanda). The submission path is unblocked — entries now go to the board directly via API, so drafting-to-logged is same-day. Burn-down from here: 43 remaining over ~7.7 weeks = ~5.6/week for Green (~7.1/week Super Green) — steep but now exercised at 5-in-a-day. Red -> yellow on demonstrated throughput; the formal measurement-source decision (Praise Board vs Rippling PL) is still open and is on the sync agenda. Praise scaffolding is hooked up and surfaced during /wrap and /gm — tracking praise more often through the week starts now.",
+     "superGreen": "125% — 60 praise",
+     "green": "100% — 48 praise",
+     "sourceUpdated": "2026-09-07",
+     "source": "cos-feed",
+     "blockers": [
+      "No automated praise count wired for Q3 — measurement source undecided (Praise Board vs Rippling PL); Praise Board is broken and unowned"
+     ],
+     "statusSince": "2026-09-09",
+     "statusDays": 0,
+     "prevStatus": "red"
+    }
+   ],
+   "period": "Q3 2026",
+   "goalsSource": "Q3 Roundtable Rocks and Targets (cascading goals chart, ratified 7/30) — chart is source of truth; extras on a leader’s board are not graded"
+  },
+  {
+   "name": "Austin LeLievre",
+   "title": "Videographer/Content",
+   "goals": [
+    {
+     "name": "KP Content Pipeline — short form + photos (48-hr SLA)",
+     "assessment": "9/9 sync: tracking SUPER GREEN. 48-hr SLA holding; 7 photos + 2 videos in the last two weeks. Next DoD: 2-4 more September photo-challenge submissions, disposable-camera trend video, frame-block transition video.",
+     "superGreen": "Same as Green, but delivery goes weekly (1 video or 2 photos per week)",
+     "green": "100% of KP requests answered within 48 hrs (content or status) AND 1 video OR 2 photos delivered every 2 weeks, every month, no skips",
+     "critical": false,
+     "status": "supergreen",
+     "sourceUpdated": "2026-08-03",
+     "source": "ratified-2026-08-03-sync",
+     "statusSince": "2026-08-21",
+     "statusDays": 19
+    },
+    {
+     "name": "Long Form Videos — 4 from named list (shortlist w/ KP; incl. Einstein Coaching Protocol video w/ Cameron)",
+     "assessment": "9/9 sync: 🔴 ZERO published, 4 needed for green, ~7 weeks left — this goal is Austin's entire exposure; everything else is green or better. Moving to Austin stalled on the Congress St footage deletion (officer demanded a film permit: $1,500 min fine + court date, or delete everything — he deleted 7.5 hrs). He has been rebuilding from B-roll and royalty-free sources, which is slower than shooting it, and admitted he is 'a little scared to go back out and film.' ⭐ Slate re-triaged 9/9: Moving to Austin (finish) · How to prep your home for an efficient move (PROMOTED — merges Amanda's prep tutorial, KP's set-up-your-place short form, and packing tips) · How to pack incl. fragile (refilm the internal training version customer-facing) · Damage claim intro (Amanda's, 30-45 sec) · then Movers-beat-DIY / Why-Einstein / budget for green→SG. Ownership split ruled: Austin crowdsources tips + drafts script and storyboard, Amanda + Cameron approve. Oct 1 = 6-hr filming day at N. Austin for the three Cameron-fronted videos; scripts drafted before the 9/21 sync. Cameron considered adjusting the bar and declined — mid-quarter goal changes belong in month one.",
+     "superGreen": "6 finished + published (KP’s full ask)",
+     "green": "4 finished + published from the named list",
+     "critical": false,
+     "status": "yellow",
+     "sourceUpdated": "2026-08-03",
+     "source": "ratified-2026-08-03-sync",
+     "statusSince": "2026-08-21",
+     "statusDays": 19
+    },
+    {
+     "name": "Crowdsourcing Pipeline — FMs + Movers (content-accountability machinery)",
+     "assessment": "9/9 sync: GREEN. Water-cooler posts working — several branches added a dedicated channel for him. Alex (Houston) and Rance consistently deliver; Hector helps in S. Austin (no FM there); ⚠ ongoing trouble getting Cameron Klepack (San Antonio) engaged. ⚠ The 5 Ws delegation board is not getting responses — Austin posts and ends up chasing on Slack; he wants Brian to confirm he is using it correctly.",
+     "superGreen": "15+ pieces/month AND every branch contributes at least 1",
+     "green": "10+ pieces/month — at least half from branches outside N. Austin in Sept & Oct + FM how-to guide shipped by Aug 31 + weekly Monday content pulses on branch boards by mid-Sept",
+     "critical": false,
+     "status": "green",
+     "sourceUpdated": "2026-08-03",
+     "source": "ratified-2026-08-03-sync",
+     "statusSince": "2026-08-21",
+     "statusDays": 19
+    },
+    {
+     "name": "Client Testimonials",
+     "assessment": "9/9 sync: GREEN. Jorge A (repeat customer) filmed, edited and published — the primary subject went dark and he worked his backup list rather than stalling. Needs 2 for green, 3+ for SG; hunting another repeat customer next week. The two-movers-for-an-hour incentive is doing real work.",
+     "superGreen": "3 or more filmed + published",
+     "green": "2 filmed + published",
+     "critical": false,
+     "status": "red",
+     "sourceUpdated": "2026-08-03",
+     "source": "ratified-2026-08-03-sync",
+     "statusSince": "2026-08-21",
+     "statusDays": 19
+    }
+   ],
+   "assessment": "8/19 1:1 (velocity 48, happiness 4): pre-sync self-statuses sent 20 min early; management transitions to Amanda over the next syncs. "
+  },
+  {
+   "name": "Ben Young",
+   "title": "Prosper VCFO (NEW)",
+   "goals": [
+    {
+     "name": "Capital Plan / Growth Financing",
+     "critical": true,
+     "status": "green",
+     "assessment": "8/28 CONFIRMED (Cameron). Ben touched the board pulse 8/27 PM. Feeds the minority-PE lane opened in the BBM debrief and Rob's 2027 planning.",
+     "superGreen": "3-5 year capital plan (path to 150 trucks), debt capacity, reinvestment model, PE readiness",
+     "green": "Capital plan framework drafted with Rob Lynch input",
+     "sourceUpdated": "2026-08-28",
+     "source": "cascading chart (Cameron-ratified 8/28)",
+     "statusSince": "2026-09-09",
+     "statusDays": 0
+    },
+    {
+     "name": "Geographic Expansion Strategy — Deepen vs. Widen + Evaluate 5-7 Acquisitions",
+     "critical": false,
+     "status": "green",
+     "assessment": "8/28 CONFIRMED (Cameron). Board pulse touched 8/27 PM. Pairs with Paul's #4 Acquisition Case Study and Collins's bullet-firing rec from the 8/26 consultants run.",
+     "superGreen": "7 acquisition opportunities evaluated in Houston/SA markets, 2 full financial models built, LOI drafted on 1+, clear deepen-vs-widen stance documented",
+     "green": "5 acquisition opportunities evaluated that Paul collects, deepen-vs-widen stance defined, organic growth model built from historical branch trajectory for the Houston organic-vs-acquisition case study",
+     "sourceUpdated": "2026-08-28",
+     "source": "cascading chart (Cameron-ratified 8/28)",
+     "statusSince": "2026-09-09",
+     "statusDays": 0
+    },
+    {
+     "name": "Improve BM Financial Accountability Meetings — Proactive Approach",
+     "critical": false,
+     "status": "green",
+     "assessment": "8/28 CONFIRMED (Cameron). Shared verbatim with Paul's Rock #2 — same goal, two owners. Paul started BM margin sit-downs 8/27-8/28 (Cameron out by design).",
+     "superGreen": "BMs presenting proactively, owning the narrative on margin drivers and scorecard KPIs without RM/Paul prompting",
+     "green": "Monthly BM performance review cadence launched — a single meeting combining margin review + branch scorecard KPIs, run by RMs, with BMs presenting both",
+     "sourceUpdated": "2026-08-28",
+     "source": "cascading chart (Cameron-ratified 8/28)",
+     "statusSince": "2026-09-09",
+     "statusDays": 0
+    }
+   ]
+  },
+  {
+   "name": "Kickpoint",
+   "title": "Marketing Partner (External)",
+   "goals": [
+    {
+     "name": "Website",
+     "critical": false,
+     "status": "green",
+     "assessment": "8/28 CONFIRMED by Cameron, with #1 AMENDED to match his Rock #2 verbatim. Laura's draft Green ('ready to go, but waiting for new year to launch') had the right timeline instinct but no date in it. Secret Stache starts 8/31; 13-week goal = ~Nov 30 launch.",
+     "superGreen": "Green, plus the build is running AHEAD of Secret Stache's schedule — QA underway on the full site AND the launch date formally locked (December vs. new-year window decided)",
+     "green": "All inputs delivered and the build on schedule as of 10/31 — copy and content locked and handed to Secret Stache with no blockers · FSE block theme built with pages populated on staging · build tracking to Rich's gantt with no missed milestones",
+     "sourceUpdated": "2026-08-28",
+     "source": "cascading chart (Cameron-ratified 8/28)",
+     "statusSince": "2026-09-09",
+     "statusDays": 0
+    },
+    {
+     "name": "Quote form",
+     "critical": false,
+     "status": "green",
+     "assessment": "8/28 CONFIRMED as drafted. Launch ~wk of 9/21; Fabian on paternity leave (3 dev projects paused, QA continues). Origin/destination-for-inestimables logic tabled until post-rollout (~9/28).",
+     "superGreen": "Quote form questions pushed live AND the collected data confirmed a new UX change, with QA started on that change",
+     "green": "Quote form questions pushed live, still reviewing feedback if not enough received, plans for a new UX change if relevant",
+     "sourceUpdated": "2026-08-28",
+     "source": "cascading chart (Cameron-ratified 8/28)",
+     "statusSince": "2026-09-09",
+     "statusDays": 0
+    },
+    {
+     "name": "Austin L / Content Creation",
+     "critical": false,
+     "status": "green",
+     "assessment": "8/28 CONFIRMED as drafted. ⚠ Austin L's own goals carry harder numbers (48-hr SLA, 10+ pieces/month, 4 long-form published) — grade him against his bars, not this one. Austin L now reports to Amanda Ware; KP keeps managing the pipeline.",
+     "superGreen": "All requests on the Content Creation Board are met",
+     "green": "2/3 of photo and video requests completed with new photos, regular video requests completed, and regular publishing on Einstein's social channels",
+     "sourceUpdated": "2026-08-28",
+     "source": "cascading chart (Cameron-ratified 8/28)",
+     "statusSince": "2026-09-09",
+     "statusDays": 0
+    },
+    {
+     "name": "Email Optimizations",
+     "critical": false,
+     "status": "green",
+     "assessment": "8/28 CONFIRMED as drafted. Overlaps Amanda Ware's Rock #3 (extend the email design system to the full suite) — Cameron ruled the two pushing on each other is fine, no owner split. Template #1 coded; MJML→HTML copy-paste for the rest (Matisen).",
+     "superGreen": "Email quote is pushed out AND another email update is ready for QA",
+     "green": "Email quote pushed out, content optimizations started for the other emails",
+     "sourceUpdated": "2026-08-28",
+     "source": "cascading chart (Cameron-ratified 8/28)",
+     "statusSince": "2026-09-09",
+     "statusDays": 0
+    },
+    {
+     "name": "Billboards and mailers",
+     "critical": false,
+     "status": "green",
+     "assessment": "8/28 CONFIRMED as drafted. ⚠ No volume or performance number in the bar — Cameron ruled it stands (five goals is already a full load for KP; this one reads close to an auto-win by design). Sarah's finals due to Lamar 8/31; extended-truck concept held for the next round.",
+     "superGreen": "A new style of billboard is booked, mailers continue with some optimizations",
+     "green": "A new style of billboard is in the works, mailers continue with no optimizations",
+     "sourceUpdated": "2026-08-28",
+     "source": "cascading chart (Cameron-ratified 8/28)",
+     "statusSince": "2026-09-09",
+     "statusDays": 0
+    }
+   ]
+  }
+ ]
 };
