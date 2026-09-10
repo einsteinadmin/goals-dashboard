@@ -5,8 +5,8 @@ const DASHBOARD_DATA = {
   "quarterEnd": "2026-10-31",
   "themeDeadline": "2026-10-19",
   "themeDeadlineLabel": "Training Camp — Theme Deadline: Oct 19",
-  "lastRefreshed": "2026-09-09T16:15:00-05:00",
-  "refreshedBy": "Albert (digest)",
+  "lastRefreshed": "2026-09-10T09:25:00-05:00",
+  "refreshedBy": "Albert (/gm)",
   "archive": {
    "quarter": "Q2 2026",
    "file": "dashboard-data-q2-2026.json",
@@ -225,7 +225,7 @@ const DASHBOARD_DATA = {
   {
    "name": "Truck Utilization Rate",
    "target": "66%",
-   "actual": "9/9 hub: running-truck 35.7% (Sep MTD, pulled 9/9) · trailing-active 82.4% (Q3, pulled 9/9). Ruler mismatch w/ Matisen still open — not graded vs 66%.",
+   "actual": "9/10 hub: running-truck 35.8% (Sep MTD, pulled 9/10) · trailing-active 82.2% (Q3, pulled 9/10). Ruler mismatch w/ Matisen still open — not graded vs 66%.",
    "status": "unknown",
    "note": "Q2 budget target 81.08% (financial sheet). Need EMMA data. #1 gap an EMMA API endpoint would fill. | Q3 reseed 7/31: actual cleared, awaiting Q3 data. | 8/25 RULED (Cameron): show BOTH rulers, primary = running-truck base. Q3 target corrected 65%→66% off the Cascading Goals chart (Position KPIs tab); 66% was set as a year-average-style number. ⚠ Ruler mismatch unresolved: hub running-truck Aug = 42.3%, which is clearly a different ruler than the one the 66% was written against — do NOT grade 42.3 vs 66. Settle at the Matisen O3 (Thu 8/27) via the hub Definitions page; status stays unknown until then.",
    "statusSince": "2026-08-21",
@@ -234,7 +234,7 @@ const DASHBOARD_DATA = {
   {
    "name": "Conversion Rate $",
    "target": "20%",
-   "actual": "9/9 hub: 28.7% company (Sep MTD, pulled 9/9) vs 20% target — above bar. Weighted-vs-par 25.7%.",
+   "actual": "9/10 hub: 27.5% company (Sep MTD, pulled 9/10) vs 20% target — above bar. Weighted-vs-par 24.6%.",
    "status": "green",
    "note": "⭐ RE-BASELINED to 20% by Cameron 8/3/26 — this settles the open basis question. History: the old 40% standard predates the Variable Pricing rollout and the 3/31 definition change. At the 7/15 Rob session Cameron flagged leads up but conversion ~40%→~20%; Amanda pushed back that it's partly lead-quality mix, not pure conversion decay. Q2-TD read was 19.9% raw / 25.6% resolved / 31.8% excl-EmmaLead. 20% is the new baseline to measure against, not a target cut — the old number was measuring a different thing. Awaiting Q3 actuals. | 8/17: Matisen reports Q3-TD $-conversion 23.6% on the Data Hub vs the 20% target — green, watch the seasonal dip as no-availabilities rise. | 8/25 RULED (Cameron): Conversion by $ (slide-back) = the primary basis for this KPI. Auto-fills from the hub at each /gm.",
    "statusSince": "2026-08-21",
@@ -243,8 +243,8 @@ const DASHBOARD_DATA = {
   {
    "name": "Customer NPS",
    "target": "90+",
-   "actual": "9/9 hub: 86.8 (Aug monthly, GatherUp direct, pulled 9/9) vs 90+ target — below the 88 Green floor, sits in the Watch band.",
-   "status": "red",
+   "actual": "9/10 hub: 90.5 (Sep MTD, GatherUp direct, pulled 9/10) — binary-90 clears.",
+   "status": "green",
    "note": "⭐ REPLACED eNPS on Cameron's KPI slate 8/3/26 — customer NPS, target 90+. Consistent with the 7/27 scorecard ruling that pulled mover eNPS out of the branch composite into a side metric: eNPS is now a culture signal, not a headline KPI. Branch-scorecard NPS bands for reference: SG ≥91 · G 88–90.9 · W 86–87.9 · R <86, so 90+ sits at the top of Green. Prior eNPS state (archived, dashboard-data-q2-2026.json): manager/CET survey 7/17 scored 81, avg 9.3, 52 responses, 1 detractor. eNPS also went voluntary going forward, so participation rate becomes its own signal. | 8/25: hub shows 86.4 Red — hub uses a binary red/green at the 90 line (Cameron: fine for now, recalibrate w/ Matisen eventually). On the scorecard bands 86.4 = Warning; on the 90+ KPI it is below target either way.",
    "statusSince": "2026-08-27",
    "statusDays": 14,
