@@ -5,7 +5,7 @@ const DASHBOARD_DATA = {
     "quarterEnd": "2026-10-31",
     "themeDeadline": "2026-10-19",
     "themeDeadlineLabel": "Training Camp — Theme Deadline: Oct 19",
-    "lastRefreshed": "2026-09-11T12:20:00-05:00",
+    "lastRefreshed": "2026-09-11T13:40:00-05:00",
     "refreshedBy": "Albert (digest)",
     "archive": {
       "quarter": "Q2 2026",
@@ -307,7 +307,7 @@ const DASHBOARD_DATA = {
       "name": "Trinity / Northwood Sales Engagement — Sales Playbook, Rubric + Cohort Rollout (Cameron sponsors; Amanda owns outcomes)",
       "critical": false,
       "status": "green",
-      "assessment": "9/10: sponsor lane stepping back by design — Cameron asked Amanda directly whether he's stepping on her toes and handed the script blend to her + Jeff. The 5-item script list walked with Jeff: story spine, proof sentence, careful-with probe and the combined who's-coming/on-time probe all LANDED; save-your-ass agreed not a differentiator; P2P line + premium tier held for Fri 9/11 Paul workshop. Damages percentage killed company-wide; 'No Worries Damage Coverage' name kept. ⚠ Bars still stale (carried from the bonus slot). || PRIOR: 9/4: Rubric locked = Jeff's 3 stages (stage 1 80-85% month one); two-numbers spec refined (conversion $ repeat/referral vs first-attempt, company+per-rep, weekly — Matisen by Tue 9/8); classes resume Tue/Wed (Cameron sits WED); Amanda's compressed-calls finding changed Jeff's plan; carrots still open.",
+      "assessment": "9/11: Jeff finally listened to 3 real calls and sent \"The 15-Minute Quote Call\" — calls average 15:50, concerns asked before intake 0 of 3, ask for the business 1 of 3; proposes a six-move 15-min call and one skill a week for six weeks. Amanda aligned and leading. Open: whether holding differentiators walks back the 9/10 brand-promise opener (Amanda confirming with Jeff) and an engagement extension — Amanda pricing it vs training managers ourselves. Grading adds a rotating human listening queue for tone. 9/10: sponsor lane stepping back by design — Cameron asked Amanda directly whether he's stepping on her toes and handed the script blend to her + Jeff. The 5-item script list walked with Jeff: story spine, proof sentence, careful-with probe and the combined who's-coming/on-time probe all LANDED; save-your-ass agreed not a differentiator; P2P line + premium tier held for Fri 9/11 Paul workshop. Damages percentage killed company-wide; 'No Worries Damage Coverage' name kept. ⚠ Bars still stale (carried from the bonus slot). || PRIOR: 9/4: Rubric locked = Jeff's 3 stages (stage 1 80-85% month one); two-numbers spec refined (conversion $ repeat/referral vs first-attempt, company+per-rep, weekly — Matisen by Tue 9/8); classes resume Tue/Wed (Cameron sits WED); Amanda's compressed-calls finding changed Jeff's plan; carrots still open.",
       "superGreen": "Green, plus the lead-triage recommendation converted into an actionable EMMA implementation plan with Matisen",
       "green": "Rubric BUILT and in use (Amanda owns) · cohorts running with Jeff on the resumed schedule (CET first, 6-7 per cohort, manager present) · weekly per-rep net-new conversion reporting live against the frozen 8/5 baseline",
       "lastUpdated": "2026-09-03",
