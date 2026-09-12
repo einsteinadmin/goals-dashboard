@@ -5,8 +5,8 @@ const DASHBOARD_DATA = {
   "quarterEnd": "2026-10-31",
   "themeDeadline": "2026-10-19",
   "themeDeadlineLabel": "Training Camp — Theme Deadline: Oct 19",
-  "lastRefreshed": "2026-09-11T15:50:00-05:00",
-  "refreshedBy": "Albert (digest)",
+  "lastRefreshed": "2026-09-11T17:05:00-05:00",
+  "refreshedBy": "Albert (/retro — deep refresh)",
   "archive": {
    "quarter": "Q2 2026",
    "file": "dashboard-data-q2-2026.json",
@@ -18,7 +18,7 @@ const DASHBOARD_DATA = {
   ],
   "criticalNumbersConfirmed": "Cameron Rocks #1 (Einstein Dojo + COS scaling) and #2 (AI Wedge Audit + QG Support) confirmed as Critical Numbers per 5/7.",
   "scopeNote": "Dashboard tracks Cameron's DIRECTS only. Non-direct contributors (Nhel, Tet, Fabian, Jalissa, Carly, LiftUp, Claims team, ROs) cascade through their managers and live on the Cascading Goals spreadsheet. PULLED 8/21/2026 (Cameron's ruling): the 5 non-direct leaders folded in at the 7/30 QGR had no COS feed, so all 24 of their goals sat at 'unknown' for 22 days and would never have updated — a third of the dashboard reading as live data when it was frozen. Archived to leadership-archive-non-directs-2026-08-21.json; restore when the world model pushes down and managers collect their directs' status at sync-up.",
-  "lastRefreshNote": "9/10 huddle digest — NO status flips. Huddle-mode meeting (Mike + Brian out, Matisen left early); no leader walked goals, so every status in the Mission Control export carried from the 9/9 prep seed and is not a fresh assessment. One material intel item: the '~2% of moves have damages' claim used in the Trinity sales script AND headed into new website copy is NOT supported — 708 customers with a damage / 5,658 moves last quarter = 12.51%. Origin was an Einstein Games target (1.5% goal), not a query. Open: per-customer vs per-damage, on-site vs all, prior-summer comparison. Do not promote to a Critical Number until the basis is settled. || PRIOR: 8/28 ROCK SWAP (Cameron): Trinity/Northwood promoted BONUS → Rock #5; Manager Ongoing Education Library demoted Rock #5 → bonus. Denominator stays 5. Library is a ~20-hour build he is deliberately holding (5 weeks, zero movement, by choice) — the swap makes the slate reflect actual time allocation rather than grading him against work he chose not to start. ⚠ Trinity's bars carried over verbatim from the bonus slot and are stale (Green already substantially met) — refreshed bars owed. || PRIOR: 8/28 GOAL RATIFICATION PASS. (1) Cameron's Rock #2 bars amended — Secret Stache's build timeline surfaced 8/26 (Rich: start 8/31, 10-11 wks to final review, 13 wks to launch ~Nov 30), making the original 'launched by 10/31' SG unreachable; Q3 finish line reset to a build milestone, LAUNCH moves to a Q4 rock. (2) Kickpoint's 5 Q3 goals confirmed by Cameron — Laura delivered them 8/27 PM; #1 amended to Rock #2's language, #2-#5 approved as drafted. (3) Ben Young's 3 Q3 goals confirmed and now tracked as real rows (previously a placeholder 'set outside the QGR fold'). Both Ben and Kickpoint move from external-placeholder to live goal rows.",
+  "lastRefreshNote": "9/11 /retro: CET quarterly tracker pulled live for the first time this quarter — 4 Claims/Sales critical numbers moved off the 'awaiting first data pull' placeholder. 6 rows still carry that placeholder and have no identified source: Marketing/IT | Smart Move System Phase 2 / Website Redesign; Marketing/IT | Marketing ROAS Measurement; Accounting/Finance | Prosper VCFO Integration; Accounting/Finance | Capital Plan / Growth Financing; IT / AI Wedge | AI Wedge Builds (Call Grading + Claims RAG + Hiring Funnel); IT / AI Wedge | EMMA v3 → v4 Unification + Mobile App",
   "_archivedRefreshNote3": "6/15 group sync digest (Mission Control debut). Status moves: Mike Mover Training app → SG (functional app built); Brian + Mike + Amanda ITP behind (Mike & Amanda Red); Brian Games trending red (CTXH 6.8); Matisen VP + ITP SG. Decisions: Botpress selected; trip-fee/service-zone audit + raise to hourly; Super Mover app on Mike's platform (Cameron endorsed — flagged high-stakes); MJML vs HTML email; hire to open trucks (Paul); 4-week TUR/capacity analysis. Anne released early (SHRM travel) — her statuses carried from prep.",
   "_archivedRefreshNote2": "5/28 /gm sweep — Fixed two rendering bugs (status values that produced empty circles): Anne HR Generalist 'super-green' → 'supergreen' (now shows the SG dot); Rock #6 ITP 'yellow' flagged to Cameron (dashboard has no yellow state — SG/G/R only — pending his call to map green vs red). Rock #1 COS refreshed: Vera-Brian live (5 of 6 COS active, Amanda last). Rock #5 + KP + Smart Move tile: website design proposal SIGNED 5/28, Ben looped for payment calendar. Einstein Games tile: S3 launched 5/23, week 1 in flight. PRIOR (5/22 /retro): ",
   "_archivedRefreshNote": "5/22 /retro deep refresh + /wrap velocity correction — week 5/18-5/22 closed. Velocity 33 pulses / 122 LOW / 10 praise / happiness 4 (corrected at /wrap from earlier ~95 LOW estimate — Hold for Sync Up + Done 2026 dated this week combined). Roughly tied with last week's 32/121 modeler-sprint frenzy. Huddle facilitation jumped one full letter grade from last week (C/3.1 three-day → B+ this week). HOF Path B initially shipped differentiated (conditional A-player ultimatum) then REVERSED to uniform via Roundtable + 6-author consultant council, all six convergent — philosophy v2.2 added 'pay corrections are not performance ultimatums' principle. VP rates LIVE clean overnight Wed 5/20. Einstein Games S3 launches Sat 5/23, public brief page live. Lead Triage scoping approved for Fabian Phase 1 (broke 2-week stall). N. Austin onsite visit 5/19 banked (1/3 toward Branch Visits rock). Cameron's COS rollout for Brian decoupled from Anthropic Org setup (Brian first now, Tue 5/26 target — breaks 3-week slip pattern). HR Generalist hire: Saturday interview added to land by Mon PM. Performance-pay system framed as Anne + Paul Q2 Rock. Friction-remover pattern flagged — Cameron's rocks underperforming because day fills supporting everyone else.",
@@ -131,15 +131,15 @@ const DASHBOARD_DATA = {
     {
      "name": "CX Q2 Theme + Objectives — Claims (Time to Close)",
      "target": "Avg ≤5 biz days SG / 6-8 G / ≥9 Red (outliers excluded)",
-     "actual": "Q3 opens 8/1 — awaiting first data pull. (Q2 final archived in dashboard-data-q2-2026.json.)",
-     "status": "unknown",
+     "actual": "9/11 (CET tracker, Q3 tab): avg business days to close through wk of 8/31 — Stephanie 5.8 · Jaci 7.7 · Maria 8.9. Bands: SG avg 5 · G 6-8 · Red 9+. Stephanie and Jaci in Green, Maria at the Red edge. Weeks of 9/7 onward not yet entered by the team.",
+     "status": "yellow",
      "note": "Carly on maternity leave 80% of Q2. Amanda Rock #6 covers maintenance. Time-to-close holding Green; theme decision pending."
     },
     {
      "name": "Magic Moments Delivered (counter)",
      "target": "TBD — Q2 baseline pending",
-     "actual": "Q3 opens 8/1 — awaiting first data pull. (Q2 final archived in dashboard-data-q2-2026.json.)",
-     "status": "unknown",
+     "actual": "9/11 (CET tracker): praise tracker as of 8/7 — Stephanie 13 · Jaci 10 · Maria 5 against a 15 SG bar (12 for Maria). CET-wide praise count 124. Magic Moments team goal is 35 completes; weekly TRUE/FALSE grid is partially filled.",
+     "status": "yellow",
      "note": "Cumulative counter. CET sheet's Praise tab ≠ customer MM count. Q1 carry-over momentum: MM program active company-wide."
     }
    ]
@@ -150,15 +150,15 @@ const DASHBOARD_DATA = {
     {
      "name": "CX Q2 Theme + Objectives — Sales",
      "target": "TBD — pending Amanda + Nhel working session",
-     "actual": "Q3 opens 8/1 — awaiting first data pull. (Q2 final archived in dashboard-data-q2-2026.json.)",
-     "status": "unknown",
+     "actual": "9/11 (CET tracker, Sales Q3 tab): August attainment 100.08% ($1,285,546 vs $1,284,500 target) = Green band (95-104.99%). September MTD 32.84% ($445,374 vs $1,356,250) — partial month, not yet gradeable.",
+     "status": "green",
      "note": "CX Q2 theme is the unifying frame for sales + claims + reviews. Decision pending. Tracked off-dashboard until locked, then tile populates with theme metrics."
     },
     {
      "name": "Estimate Accuracy / $ Conversions",
      "target": "54%+ accuracy G / 56%+ SG · 95%+ sales-target G / 105%+ SG (CET-sheet bands)",
-     "actual": "Q3 opens 8/1 — awaiting first data pull. (Q2 final archived in dashboard-data-q2-2026.json.)",
-     "status": "unknown",
+     "actual": "9/11 (CET tracker): company conversion rate 21.18% vs SG 26.18% / G above 18.18% = Green. Estimate accuracy 'meet or beat' by rep ranges 77.3%-100% (as of 8/21). Note this is the CET sheet's own conversion basis, not the hub's Conversion Rate $ KPI.",
+     "status": "green",
      "note": "Sales conversion Red on the CET sheet for May; baseline caveat — VP-form funnel analytics distortion (back/forward multi-submit) still unresolved, KP owns. Amanda Rock #1 (AI Call Grading) + Nhel R3 + Tet R5. Pulse 11712899643."
     }
    ]
