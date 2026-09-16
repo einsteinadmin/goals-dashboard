@@ -315,6 +315,18 @@
   .freshness-chip.aging { color: var(--status-y-text); }
   .freshness-chip.stale { color: var(--status-r-text); font-weight: 700; }
 
+  /* A goal Cameron ruled live in a meeting (derive-leadership.js rule 0b, 9/16/2026). Same box
+     model as .freshness-chip; amber, because it is a hold, not a fact the leader has confirmed
+     yet. Clears itself the next time that leader's status.json agrees. */
+  .ruled-chip {
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--status-y-text);
+    margin-left: 6px;
+    white-space: nowrap;
+    vertical-align: middle;
+  }
+
   /* ─── Network roster (the queue behind "Stale reports: N") ─── */
   .roster { margin-top: 14px; border-top: 1px solid var(--divider); }
 
@@ -907,6 +919,32 @@
     return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
   }
 
+  // Short "M/D" form for the ruled chip's visible label (formatDate's "Sep 16" is used in its
+  // title instead, where there is room). Same date-only pinning as formatDate.
+  function mdStamp(dateStr) {
+    if (!dateStr) return '?';
+    const d = /^\d{4}-\d{2}-\d{2}$/.test(dateStr) ? new Date(dateStr + 'T00:00:00') : new Date(dateStr);
+    if (isNaN(d)) return '?';
+    return (d.getMonth() + 1) + '/' + d.getDate();
+  }
+
+  // Renders only when the item (a leadership goal or one of Cameron's rocks) carries a live
+  // "ruled" hold written by derive-leadership.js rule 0b. It tells the reader Cameron set this
+  // in a meeting and names whose status.json still has to agree before the feed drives the tile
+  // again, the point being a meeting-set status shows up right away instead of waiting on the
+  // leader's next push.
+  function escapeAttr(s) {
+    return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
+  }
+  function ruledChip(item) {
+    if (!item || !item.ruled) return '';
+    const r = item.ruled;
+    const by = escapeAttr(r.by), awaiting = escapeAttr(r.awaiting);
+    return '<span class="ruled-chip" title="Set by ' + by + ' on ' + formatDate(r.on) +
+      '; holds until ' + awaiting + '\'s status.json agrees">ruled ' +
+      mdStamp(r.on) + ' &middot; awaiting ' + awaiting + '</span>';
+  }
+
   function formatRefreshTime(dateStr) {
     const d = new Date(dateStr);
     return d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' }) +
@@ -1081,7 +1119,7 @@
       if (rock.provisional) html += '      <span class="prov-flag" title="Self-grade — the QGR sets the final grade">provisional</span>';
       html += '    </div>';
       html += '    <span style="display:inline-flex;align-items:center;white-space:nowrap;">' +
-              statusLabel(rock.status) + movementChip(rock) + tenureChip(rock) + '</span>';
+              statusLabel(rock.status) + movementChip(rock) + tenureChip(rock) + ruledChip(rock) + '</span>';
       html += '  </div>';
       html += '  <div class="rock-assessment">' + rock.assessment + '</div>';
       html += '  <div class="rock-criteria">';
@@ -1150,7 +1188,7 @@
         html += goal.name;
         if (goal.critical) html += ' <span class="critical-flag">Critical #</span>';
         if (goal.provisional) html += ' <span class="prov-flag" title="Leader self-grade — the QGR sets the final grade">provisional</span>';
-        html += movementChip(goal) + tenureChip(goal) + freshnessChip(goal.sourceUpdated);
+        html += movementChip(goal) + tenureChip(goal) + freshnessChip(goal.sourceUpdated) + ruledChip(goal);
         html += '    <div class="leader-goal-assessment">' + (goal.assessment || '<em style="color:var(--text-muted);">No assessment yet.</em>');
         if (goal.superGreen || goal.green) {
           html += '<div style="margin-top:8px;padding-top:8px;border-top:1px solid var(--divider);">';
