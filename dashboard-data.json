@@ -5,8 +5,8 @@
     "quarterEnd": "2026-10-31",
     "themeDeadline": "2026-10-19",
     "themeDeadlineLabel": "Training Camp — Theme Deadline: Oct 19",
-    "lastRefreshed": "2026-09-17T17:15:00-05:00",
-    "refreshedBy": "Albert (digest — 9/17 BM roundtable + Mike working session)",
+    "lastRefreshed": "2026-09-17T17:40:00-05:00",
+    "refreshedBy": "Albert (digest — 9/17 Brian 1:1; two statuses ruled in-room, awaiting Vera)",
     "archive": {
       "quarter": "Q2 2026",
       "file": "dashboard-data-q2-2026.json",
@@ -396,7 +396,7 @@
         {
           "name": "Connection Cadence — quarterly regional outing + mover-manager roundtables (bundles the 5 eNPS asks)",
           "critical": false,
-          "status": "yellow",
+          "status": "green",
           "assessment": "9/17: status set from Vera's 9/15 file on Cameron's ruling (the dashboard had held the 9/1 sync read). via Vera 8/31: was green/3/40 -> yellow/3/55 at 40.7% of the quarter elapsed (37 of 91 days). The roundtable half advanced for real: the first BM strategy session RAN Thursday 9/3 in two mixed-region rooms of five (format changed from pair-first), Brian and Mike moderating simultaneously, and it produced ruled decisions plus six credited best practices. That is 1 of the 2 roundtables Green requires. Yellow is for the other half: zero regional event dates are locked across 5 regions against a 10/19 bar. This week's deliverable is pushing the manager event suggestions out and collecting event confirmation + head count. Brian's read: this goes green if events lock going into next week.",
           "superGreen": "1 event scheduled per region (include all local managers across local departments), redesigned BM roundtable agenda for more engagement, 3 BM roundtable meetings scheduled, agenda built, conducted (1 per month) with specific manager feedback/action items to take away",
           "green": "1 event scheduled per region (include all local managers across local departments), redesigned BM roundtable agenda for more engagement, 2 BM roundtable meetings scheduled, agenda built, conducted with specific manager feedback/action items to take away",
@@ -405,26 +405,34 @@
           "pulse": "12579679101",
           "statusSince": "2026-08-24",
           "statusDays": 24,
-          "prevStatus": "yellow"
+          "prevStatus": "yellow",
+          "ruled": {
+            "status": "green",
+            "on": "2026-09-17",
+            "by": "Cameron + Brian, in-room",
+            "awaiting": "Vera",
+            "record": "brian-goal-change-2026-09-17.json"
+          }
         },
         {
           "name": "ATX Flex Manager + SA Ops Manager Development",
           "critical": false,
           "status": "green",
-          "assessment": "via Vera 9/15: was green/4/92 -> green/4/94 at 49.5% of the quarter elapsed (45 of 91 days). The interview round is no longer pending, it is booked: all three finalists were invited 9/14 with Google Meet links, and Jake Petersen sits Wednesday 9/16 at 11:00 AM. Weighted standings hold at Petersen 89.5, Serrano 86.7, Rasberry 83.6, with the cut recorded on the scorecard (8 -> 7 -> 5 -> 3). Project 4 typing is recorded and deliberately left OUT of the weighted total. Scorecard is at v12 and now confirms its own saves rather than failing silently. RULED 9/15 (Brian): Rasberry's On-Site Evaluation category stays BLANK and unscored - Fort Worth has no FM, so no evals will ever be logged, and the absence is structural rather than a candidate failing. He is ranked across his three remaining categories. Note for the record: this drops his single weakest signal (a lone 41) while Petersen and Serrano both carry real on-site scores on the same 30-weight category. Remaining work is the interviews themselves.",
+          "assessment": "9/17 1:1: Jake Petersen offered (S. Austin FM) — Brian + Chris Anderson interviewed, Cameron blessed it in the room. Loop still to close with Izzy and Elijah. The remaining piece is C-player action plans: Brian has been spot-coaching informally (Lukas redirects; Garrison now 105% to goal and leading Einstein Games unprompted) but nothing is written. Ruled next week: run People Analyzer results through Vera, log actions already taken on Lukas and Garrison, action plan built and in review = GREEN. Moving a C to a B = SUPER GREEN. Brian could not find his People Analyzer access — Cameron owes him that. PRIOR — via Vera 9/15: was green/4/92 -> green/4/94 at 49.5% of the quarter elapsed (45 of 91 days). The interview round is no longer pending, it is booked: all three finalists were invited 9/14 with Google Meet links, and Jake Petersen sits Wednesday 9/16 at 11:00 AM. Weighted standings hold at Petersen 89.5, Serrano 86.7, Rasberry 83.6, with the cut recorded on the scorecard (8 -> 7 -> 5 -> 3). Project 4 typing is recorded and deliberately left OUT of the weighted total. Scorecard is at v12 and now confirms its own saves rather than failing silently. RULED 9/15 (Brian): Rasberry's On-Site Evaluation category stays BLANK and unscored - Fort Worth has no FM, so no evals will ever be logged, and the absence is structural rather than a candidate failing. He is ranked across his three remaining categories. Note for the record: this drops his single weakest signal (a lone 41) while Petersen and Serrano both carry real on-site scores on the same 30-weight category. Remaining work is the interviews themselves.",
           "superGreen": "NA BM, SA Ops, SA FM positions solidified — all action plans built and in review for C players in my region, or team members set to reinterview/removed or improved from C to B",
           "green": "NA BM, SA Ops, SA FM positions filled/solidified — action plans built and in review for C players in my region",
           "sourceUpdated": "2026-09-15",
           "source": "cos-feed",
           "pulse": "11728362071",
           "statusSince": "2026-08-21",
-          "statusDays": 27
+          "statusDays": 27,
+          "lastUpdated": "2026-09-17"
         },
         {
           "name": "CTXH Quarterly Theme Mgmt — Ensure All Managers Hit QGs",
           "critical": true,
-          "status": "red",
-          "assessment": "9/16 huddle (Cameron): biggest Training Camp movement yet; Brian pushing managers directly. 9/15 (Brian): three managers reported three numbers for the same metric, measurement fix needed before grading. via Vera 9/15: was green/4/75 -> RED/2/45 at 40.7% of the quarter elapsed (37 of 91 days), Brian's own call. Green requires >=70% of enrolled movers through stage 4 by 10/31. Actual stage-4 completion by branch against a 16% company-wide figure: Houston 40.6% (reconciled 9/15), San Antonio 19%, North Austin 13%, South Austin 13%, Leander 10% - the four non-Houston figures are the 9/7 read and have not been re-pulled. Three of five branches sit BELOW company. Against a 70% bar that is out of reach without intervention, so the color is red regardless of activity - the prior 75% percent-complete reflected the sandbox and enrollment milestones (both closed) and masked the fact that the binding milestone has barely moved. Intervention is live, not pending: updated messaging and rules go out TODAY off last week's BM session to clear the obstacles slowing signatures and speed-to-competency through stage 4, and the 9/4 retraining ruling removed Stages 2 and 3 as requirements so managers stop re-doing sign-offs with tenured movers. Brian is also working the Training Camp view to drive focus onto red team members and lift engagement region-wide. Stage 4 has been opened to everyone. 9/15 update: Brian worked the managers directly on the app and communicated expectations, and the Houston QG reads surfaced a measurement problem that has to be fixed before the number can be trusted - Sergio reported 40.6%, Alex 26% and Joel 26% for the SAME branch metric in the same week. RECONCILED 9/15 (Brian): 40.6% is the right number - Sergio had it, Alex and Joel were both reporting low. So Houston is materially further along than the 9/7 read showed (26% -> 40.6%) and is now roughly 2.5x the company figure. The rock is Red either way with roughly five weeks to the 10/19 bar.",
+          "status": "yellow",
+          "assessment": "9/17: ruled Yellow in Brian 1:1 on the Einstein Meeting OS (awaiting Vera). 9/16 huddle (Cameron): biggest Training Camp movement yet; Brian pushing managers directly. 9/15 (Brian): three managers reported three numbers for the same metric, measurement fix needed before grading. via Vera 9/15: was green/4/75 -> RED/2/45 at 40.7% of the quarter elapsed (37 of 91 days), Brian's own call. Green requires >=70% of enrolled movers through stage 4 by 10/31. Actual stage-4 completion by branch against a 16% company-wide figure: Houston 40.6% (reconciled 9/15), San Antonio 19%, North Austin 13%, South Austin 13%, Leander 10% - the four non-Houston figures are the 9/7 read and have not been re-pulled. Three of five branches sit BELOW company. Against a 70% bar that is out of reach without intervention, so the color is red regardless of activity - the prior 75% percent-complete reflected the sandbox and enrollment milestones (both closed) and masked the fact that the binding milestone has barely moved. Intervention is live, not pending: updated messaging and rules go out TODAY off last week's BM session to clear the obstacles slowing signatures and speed-to-competency through stage 4, and the 9/4 retraining ruling removed Stages 2 and 3 as requirements so managers stop re-doing sign-offs with tenured movers. Brian is also working the Training Camp view to drive focus onto red team members and lift engagement region-wide. Stage 4 has been opened to everyone. 9/15 update: Brian worked the managers directly on the app and communicated expectations, and the Houston QG reads surfaced a measurement problem that has to be fixed before the number can be trusted - Sergio reported 40.6%, Alex 26% and Joel 26% for the SAME branch metric in the same week. RECONCILED 9/15 (Brian): 40.6% is the right number - Sergio had it, Alex and Joel were both reporting low. So Houston is materially further along than the 9/7 read showed (26% -> 40.6%) and is now roughly 2.5x the company figure. The rock is Red either way with roughly five weeks to the 10/19 bar.",
           "superGreen": "100% of manager sandbox training completed by 8/19 (before app rollout), 100% of active movers enrolled by 8/20, adoption floor ≥70%* of movers enrolled by 8/20 completed through the full training pipeline (Lead Ready) by 10/19, plus Scrum recert by 10/19 (*70% to account for part-time movers)",
           "green": "100% of manager sandbox training completed by 8/19 (before app rollout), 100% of active movers enrolled in training app by 8/20, adoption floor ≥70%* of movers enrolled by 8/20 completed through stage 4 by EOQ",
           "sourceUpdated": "2026-09-15",
@@ -435,33 +443,42 @@
           ],
           "statusSince": "2026-09-17",
           "statusDays": 0,
-          "prevStatus": "green"
+          "prevStatus": "green",
+          "ruled": {
+            "status": "yellow",
+            "on": "2026-09-17",
+            "by": "Cameron + Brian, in-room",
+            "awaiting": "Vera",
+            "record": "brian-goal-change-2026-09-17.json"
+          }
         },
         {
           "name": "CTXH Branch Audits — 3 of 5 Branches per Quarter",
           "critical": false,
           "status": "green",
-          "assessment": "9/17: status set from Vera's 9/15 file on Cameron's ruling (the dashboard had held the 9/1 sync read). via Vera 8/31: was yellow/3/0 -> green/3/10 at 40.7% of the quarter elapsed (37 of 91 days). The status changed because the thing that was missing is now in place: a visit schedule. San Antonio 9/18, South Austin 9/25, North Austin 9/30, Leander tentatively 10/15, Houston still to be dated. That is three firm dates ahead of the 10/19 bar, and Green requires 3 of 5 locations - so this is tracking to clear rather than at risk. No movement this week, which is a short week (PTO Thursday and Friday), not a drift. Percent-complete stays low and honest: nothing has been conducted yet.",
+          "assessment": "9/17 1:1: still 10% with roughly six weeks left. San Antonio slipped on a miscommunication with Dustin (he is off Friday). Brian is in Austin next Friday and thinks he can clear San Antonio and South Austin next week — on-site makes the scorecard audit, circle-up and huddle audit fall out together. The 'redesigned' evaluation dashboard is actually a first design; today it is a Drive spreadsheet managers see once a quarter. RULED in the room: a branch-visit score is a COACHING tool and should NOT carry into the branch scorecard — the branch score is the byproduct of doing things the right way, so the audit just checks that you are. Brainstorm on what the score looks like by end of next week. PRIOR — 9/17: status set from Vera's 9/15 file on Cameron's ruling (the dashboard had held the 9/1 sync read). via Vera 8/31: was yellow/3/0 -> green/3/10 at 40.7% of the quarter elapsed (37 of 91 days). The status changed because the thing that was missing is now in place: a visit schedule. San Antonio 9/18, South Austin 9/25, North Austin 9/30, Leander tentatively 10/15, Houston still to be dated. That is three firm dates ahead of the 10/19 bar, and Green requires 3 of 5 locations - so this is tracking to clear rather than at risk. No movement this week, which is a short week (PTO Thursday and Friday), not a drift. Percent-complete stays low and honest: nothing has been conducted yet.",
           "superGreen": "All 5 locations visited + scorecard audits (4 or higher score) + 3 circle-ups + 3 huddle audits + redesigned dashboard for branch-visit evaluation grading",
           "green": "3 locations + scorecard audits + 3 circle-ups + 3 huddle audits + redesigned dashboard for branch-visit evaluation grading",
           "sourceUpdated": "2026-08-31",
           "source": "cos-feed",
           "pulse": "11728355560",
           "statusSince": "2026-08-21",
-          "statusDays": 27
+          "statusDays": 27,
+          "lastUpdated": "2026-09-17"
         },
         {
           "name": "Scrum Accountability Part 3 — Huddle Grading + Value Tracking",
           "critical": true,
           "status": "green",
-          "assessment": "via Vera 9/15: was green/4/80 -> green/4/82 at 49.5% of the quarter elapsed (45 of 91 days). The DFW wave has started producing certifications: Grant Hardison certified 9/15 at 54 of 60 (90%, an A) on his first attempt, off a 29 baseline - a 25-point improvement, valid through 3/15/2027. Houston also got its first LIVE main-board read (as opposed to mock): 50 of 60, a B, qualifying - Sergio 54, Alex 54, Joel 52, all three clearing. The standout there is that all 18 quarterly goal pulses across three managers were updated the same day, the strongest QG discipline on record across any board read. Green still requires all 10 branch boards re-certified by 10/19, and nine of ten DFW boards remain untouched.",
+          "assessment": "9/17 1:1: all CTXH certified. DFW out and in progress — Shane, Eric, Zach and Kevin to finish by end of week, which is the Green line. Grant Hardison 54/60 first attempt off a 29 baseline. Houston's first live main-board read 50/60 (Sergio 54, Alex 54, Joel 52), all 18 QG pulses updated the same day. Brian is confident enough to hand Scrum certification to Jake on day one. Super Green as written included the CX team — Cameron called that a stretch and said land Green first. Possible tie-in: a Scrum cert + board check built into the Meeting OS, alongside Anne/Jalissa and Amanda/Tet running the same 1:1 format. PRIOR — via Vera 9/15: was green/4/80 -> green/4/82 at 49.5% of the quarter elapsed (45 of 91 days). The DFW wave has started producing certifications: Grant Hardison certified 9/15 at 54 of 60 (90%, an A) on his first attempt, off a 29 baseline - a 25-point improvement, valid through 3/15/2027. Houston also got its first LIVE main-board read (as opposed to mock): 50 of 60, a B, qualifying - Sergio 54, Alex 54, Joel 52, all three clearing. The standout there is that all 18 quarterly goal pulses across three managers were updated the same day, the strongest QG discipline on record across any board read. Green still requires all 10 branch boards re-certified by 10/19, and nine of ten DFW boards remain untouched.",
           "superGreen": "100% of frontline managers through the training module and all 10 boards re-certified by 10/19, plus all departments (CET, EE, ATX) re-certified",
           "green": "100% of frontline managers through the training module and all 10 branch boards re-certified by 10/19",
           "sourceUpdated": "2026-09-15",
           "source": "cos-feed",
           "pulse": "11728336199",
           "statusSince": "2026-08-21",
-          "statusDays": 27
+          "statusDays": 27,
+          "lastUpdated": "2026-09-17"
         }
       ],
       "period": "Q3 2026",
