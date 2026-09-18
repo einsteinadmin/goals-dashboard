@@ -3,12 +3,20 @@
   {
    "status": "unknown",
    "date": "2026-08-21"
+  },
+  {
+   "status": "yellow",
+   "date": "2026-09-18"
   }
  ],
  "cameron::rock::2::Cameron/KP \u2014 Website Redesign Part 2: Build + LAUNCH (signed SOW)": [
   {
    "status": "unknown",
    "date": "2026-08-21"
+  },
+  {
+   "status": "green",
+   "date": "2026-09-18"
   }
  ],
  "cameron::rock::3::COS/World Model Part 2 \u2014 Tier 3 pilot via Claude Tags (+ power-user BM beta per ballot ruling)": [
@@ -21,6 +29,10 @@
   {
    "status": "unknown",
    "date": "2026-08-21"
+  },
+  {
+   "status": "green",
+   "date": "2026-09-18"
   }
  ],
  "cameron::rock::5::Manager Ongoing Education Library (absorbs ECP cert course \u2014 one goal)": [
@@ -101,12 +113,20 @@
   {
    "status": "green",
    "date": "2026-08-21"
+  },
+  {
+   "status": "yellow",
+   "date": "2026-09-18"
   }
  ],
  "leader::Brian Herzig::CTXH Branch Audits \u2014 3 of 5 Branches per Quarter": [
   {
    "status": "yellow",
    "date": "2026-08-21"
+  },
+  {
+   "status": "green",
+   "date": "2026-09-18"
   }
  ],
  "leader::Brian Herzig::Scrum Accountability Part 3 \u2014 Huddle Grading + Value Tracking": [
@@ -119,6 +139,10 @@
   {
    "status": "green",
    "date": "2026-08-21"
+  },
+  {
+   "status": "red",
+   "date": "2026-09-18"
   }
  ],
  "leader::Mike Vandenbroader::Dept-Head/Regional Split \u2014 FDE Boots-on-Ground Weeks + Dept-Head QGs as Critical Number": [
@@ -141,12 +165,20 @@
   {
    "status": "red",
    "date": "2026-08-24"
+  },
+  {
+   "status": "green",
+   "date": "2026-09-18"
   }
  ],
  "leader::Mike Vandenbroader::Manager Training App \u2014 SOP Sandbox Training and reference": [
   {
    "status": "red",
    "date": "2026-08-21"
+  },
+  {
+   "status": "yellow",
+   "date": "2026-09-18"
   }
  ],
  "leader::Fabian Urrutia::Refine Automated QA Process \u2014 AI Agent for Bug Hunting": [
@@ -183,12 +215,20 @@
   {
    "status": "yellow",
    "date": "2026-08-21"
+  },
+  {
+   "status": "green",
+   "date": "2026-09-18"
   }
  ],
  "leader::Anne Bosse::100-Point Behavioral System \u2014 Q2 Rock 2 Companion": [
   {
    "status": "yellow",
    "date": "2026-08-21"
+  },
+  {
+   "status": "green",
+   "date": "2026-09-18"
   }
  ],
  "leader::Anne Bosse::Implement Weekly Start/Stop/Keep Conversations \u2014 Scaling Up Practice": [
@@ -201,18 +241,30 @@
   {
    "status": "yellow",
    "date": "2026-08-21"
+  },
+  {
+   "status": "green",
+   "date": "2026-09-18"
   }
  ],
  "leader::Anne Bosse::Mover Promotion Framework \u2014 First Cohort Live": [
   {
    "status": "yellow",
    "date": "2026-08-21"
+  },
+  {
+   "status": "green",
+   "date": "2026-09-18"
   }
  ],
  "leader::Anne Bosse::2027 Open Enrollment": [
   {
    "status": "yellow",
    "date": "2026-08-21"
+  },
+  {
+   "status": "green",
+   "date": "2026-09-18"
   }
  ],
  "leader::Jalissa::Anne \u2014 Hiring Targets 105% (Summer Peak)": [
@@ -249,6 +301,10 @@
   {
    "status": "yellow",
    "date": "2026-08-21"
+  },
+  {
+   "status": "green",
+   "date": "2026-09-18"
   }
  ],
  "leader::Amanda Ware::Extend New Email Design System to Full Email Suite \u2014 Shorter, Video-First, Fewer Words": [
@@ -261,6 +317,10 @@
   {
    "status": "green",
    "date": "2026-08-21"
+  },
+  {
+   "status": "yellow",
+   "date": "2026-09-18"
   }
  ],
  "leader::Amanda Ware::Push out training certifications run by Tetet and Carly": [
@@ -391,6 +451,10 @@
   {
    "status": "red",
    "date": "2026-08-24"
+  },
+  {
+   "status": "yellow",
+   "date": "2026-09-18"
   }
  ],
  "leader::Austin LeLievre::KP Content Pipeline \u2014 short form + photos (48-hr SLA)": [
@@ -439,6 +503,72 @@
   {
    "status": "unknown",
    "date": "2026-08-21"
+  }
+ ],
+ "cameron::rock::3::COS/World Model Part 2 \u2014 2-lane: Tier 3 via Claude Tags (push the model down) + Einstein Meeting OS (feed the model)": [
+  {
+   "status": "yellow",
+   "date": "2026-09-18"
+  }
+ ],
+ "cameron::rock::5::Trinity / Northwood Sales Engagement \u2014 Sales Playbook, Rubric + Cohort Rollout (Cameron sponsors; Amanda owns outcomes)": [
+  {
+   "status": "green",
+   "date": "2026-09-18"
+  }
+ ],
+ "leader::Anne Bosse::Implement Bi-Weekly Start/Stop/Keep Conversations \u2014 Scaling Up Practice": [
+  {
+   "status": "yellow",
+   "date": "2026-09-18"
+  }
+ ],
+ "leader::Ben Young::Capital Plan / Growth Financing": [
+  {
+   "status": "green",
+   "date": "2026-09-18"
+  }
+ ],
+ "leader::Ben Young::Geographic Expansion Strategy \u2014 Deepen vs. Widen + Evaluate 5-7 Acquisitions": [
+  {
+   "status": "green",
+   "date": "2026-09-18"
+  }
+ ],
+ "leader::Ben Young::Improve BM Financial Accountability Meetings \u2014 Proactive Approach": [
+  {
+   "status": "green",
+   "date": "2026-09-18"
+  }
+ ],
+ "leader::Kickpoint::Website": [
+  {
+   "status": "green",
+   "date": "2026-09-18"
+  }
+ ],
+ "leader::Kickpoint::Quote form": [
+  {
+   "status": "green",
+   "date": "2026-09-18"
+  }
+ ],
+ "leader::Kickpoint::Austin L / Content Creation": [
+  {
+   "status": "green",
+   "date": "2026-09-18"
+  }
+ ],
+ "leader::Kickpoint::Email Optimizations": [
+  {
+   "status": "green",
+   "date": "2026-09-18"
+  }
+ ],
+ "leader::Kickpoint::Billboards and mailers": [
+  {
+   "status": "green",
+   "date": "2026-09-18"
   }
  ]
 }
