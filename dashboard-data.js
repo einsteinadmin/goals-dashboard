@@ -861,10 +861,10 @@ const DASHBOARD_DATA = {
      "statusDays": 31
     },
     {
-     "name": "Long Form Videos — 4 from named list (shortlist w/ KP; incl. Einstein Coaching Protocol video w/ Cameron)",
+     "name": "Long Form Videos — 4 finished + published from the named priority list",
      "assessment": "9/16 KP sync: priority list set with Amanda; scripts finishing; Oct 1 shoot for three videos; Moving-to-Austin still not shipped (his own hypercriticism). 9/9 sync: 🔴 ZERO published, 4 needed for green, ~7 weeks left — this goal is Austin's entire exposure; everything else is green or better. Moving to Austin stalled on the Congress St footage deletion (officer demanded a film permit: $1,500 min fine + court date, or delete everything — he deleted 7.5 hrs). He has been rebuilding from B-roll and royalty-free sources, which is slower than shooting it, and admitted he is 'a little scared to go back out and film.' ⭐ Slate re-triaged 9/9: Moving to Austin (finish) · How to prep your home for an efficient move (PROMOTED — merges Amanda's prep tutorial, KP's set-up-your-place short form, and packing tips) · How to pack incl. fragile (refilm the internal training version customer-facing) · Damage claim intro (Amanda's, 30-45 sec) · then Movers-beat-DIY / Why-Einstein / budget for green→SG. Ownership split ruled: Austin crowdsources tips + drafts script and storyboard, Amanda + Cameron approve. Oct 1 = 6-hr filming day at N. Austin for the three Cameron-fronted videos; scripts drafted before the 9/21 sync. Cameron considered adjusting the bar and declined — mid-quarter goal changes belong in month one.",
-     "superGreen": "6 finished + published (KP’s full ask)",
-     "green": "4 finished + published from the named list",
+     "superGreen": "6 finished + published (KP's full ask)",
+     "green": "4 finished + published from the named list, in priority order:\n1. Moving to Austin\n2. How to Prep Your Home for an Efficient Move\n3. How to Pack, Including Fragile Items (customer-facing)\n4. Amanda’s Damage-Claim Intro Video",
      "critical": false,
      "status": "yellow",
      "sourceUpdated": "2026-08-03",
