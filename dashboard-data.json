@@ -5,7 +5,7 @@
     "quarterEnd": "2026-10-31",
     "themeDeadline": "2026-10-19",
     "themeDeadlineLabel": "Training Camp — Theme Deadline: Oct 19",
-    "lastRefreshed": "2026-09-21T17:03:34-05:00",
+    "lastRefreshed": "2026-09-21T17:15:45-05:00",
     "refreshedBy": "Albert (digest)",
     "archive": {
       "quarter": "Q2 2026",
@@ -556,7 +556,7 @@
           "name": "Manager Training App — SOP Sandbox Training and reference",
           "critical": false,
           "status": "yellow",
-          "assessment": "9/16 huddle: first SOP build started today. via Gerald 9/14: Still zero modules built and it has slipped several weeks running — the honest read is this rock keeps losing to the mover-training rollout and the FDE field weeks every time. The re-scope makes it very reachable (1-2 SOPs = Green, Samsara Management first), and Mike is now committing to getting an MVP live THIS week, which by itself would move it to Green. Yellow because the target and plan are real and one deployed module clears the bar — but the pattern is slippage, so this week is the test, not a forecast. It is also his personal pulse for the week (see sync_push).",
+          "assessment": "9/16 huddle: first SOP build started today. via Gerald 9/14: Still zero modules built and it has slipped several weeks running — the honest read is this rock keeps losing to the mover-training rollout and the FDE field weeks every time. The re-scope makes it very reachable (1-2 SOPs = Green, Samsara Management first), and Mike is now committing to getting an MVP live THIS week, which by itself would move it to Green. Yellow because the target and plan are real and one deployed module clears the bar — but the pattern is slippage, so this week is the test, not a forecast. It is also his personal pulse for the week (see sync_push). | 9/21 (group sync): stays YELLOW, and the yellow is now RATIFIED rather than machine-held. Mike reported the tool refused to let him set Green ('it said something does not equal something... it was AI talking at me'). Cameron read him as tracking toward Green in the room, then confirmed after the meeting that Mike's own yellow verdict stands. MVP exists; Mike is redlining it and pushing back for another update. Separately: the blocking validation is logged as a Meeting OS defect (B11) -- a status check should advise, never hold a colour the owner and the room disagree with.",
           "superGreen": "3-4 core-process SOPs built + deployed",
           "green": "1-2 core-process SOPs built + deployed (Samsara Mgmt first; each with a quiz + wiki-ready context)",
           "sourceUpdated": "2026-09-14",
