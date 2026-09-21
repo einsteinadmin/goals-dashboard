@@ -5,7 +5,7 @@ const DASHBOARD_DATA = {
     "quarterEnd": "2026-10-31",
     "themeDeadline": "2026-10-19",
     "themeDeadlineLabel": "Training Camp — Theme Deadline: Oct 19",
-    "lastRefreshed": "2026-09-21T11:49:10-05:00",
+    "lastRefreshed": "2026-09-21T11:55:01-05:00",
     "refreshedBy": "Albert (digest)",
     "archive": {
       "quarter": "Q2 2026",
@@ -850,15 +850,15 @@ const DASHBOARD_DATA = {
       "goals": [
         {
           "name": "KP Content Pipeline — short form + photos (48-hr SLA)",
-          "assessment": "9/21 1:1 (first live run on the Meeting OS): he self-reports GREEN, dashboard carries supergreen — needs a ruling. 48-hr SLA holding; two pieces delivered to KP in the last two weeks. Commitment: put a bow on all current KP short-form requests, published and sent, by 9/30. 9/16 (Cameron+Amanda, private): office attendance 1–2 days vs 3–4; two-week flexibility then LOA discussion; filming day Oct 1. 9/9 sync: tracking SUPER GREEN. 48-hr SLA holding; 7 photos + 2 videos in the last two weeks. Next DoD: 2-4 more September photo-challenge submissions, disposable-camera trend video, frame-block transition video.",
+          "assessment": "RULE (Cameron, 9/21/2026): the last status CONFIRMED between director and leader is the source of truth. Austin set this in the 9/21 1:1 and it stood unchallenged, so the dashboard follows him. Flipped supergreen → green on that rule. 9/21 1:1 (first live run on the Meeting OS): he self-reports GREEN, dashboard carries supergreen — needs a ruling. 48-hr SLA holding; two pieces delivered to KP in the last two weeks. Commitment: put a bow on all current KP short-form requests, published and sent, by 9/30. 9/16 (Cameron+Amanda, private): office attendance 1–2 days vs 3–4; two-week flexibility then LOA discussion; filming day Oct 1. 9/9 sync: tracking SUPER GREEN. 48-hr SLA holding; 7 photos + 2 videos in the last two weeks. Next DoD: 2-4 more September photo-challenge submissions, disposable-camera trend video, frame-block transition video.",
           "superGreen": "Same as Green, but delivery goes weekly (1 video or 2 photos per week)",
           "green": "100% of KP requests answered within 48 hrs (content or status) AND 1 video OR 2 photos delivered every 2 weeks, every month, no skips",
           "critical": false,
-          "status": "supergreen",
+          "status": "green",
           "sourceUpdated": "2026-08-03",
           "source": "ratified-2026-08-03-sync",
-          "statusSince": "2026-08-21",
-          "statusDays": 31
+          "statusSince": "2026-09-21",
+          "statusDays": 0
         },
         {
           "name": "Long Form Videos — 4 finished + published from the named priority list",
@@ -886,15 +886,15 @@ const DASHBOARD_DATA = {
         },
         {
           "name": "Client Testimonials",
-          "assessment": "9/21 1:1: he self-reports GREEN, dashboard carries red — needs a ruling. One published (Jorge A); he is counting the second as scheduled rather than done, which is the 'tracking toward' reading of status. Commitment: second testimonial — client found, filmed, first draft to KP — by 10/9. 9/9 sync: GREEN. Jorge A (repeat customer) filmed, edited and published — the primary subject went dark and he worked his backup list rather than stalling. Needs 2 for green, 3+ for SG; hunting another repeat customer next week. The two-movers-for-an-hour incentive is doing real work.",
+          "assessment": "RULE (Cameron, 9/21/2026): the last status CONFIRMED between director and leader is the source of truth. Austin set this in the 9/21 1:1 and it stood unchallenged, so the dashboard follows him. Flipped red → green on that rule. 9/21 1:1: he self-reports GREEN, dashboard carries red — needs a ruling. One published (Jorge A); he is counting the second as scheduled rather than done, which is the 'tracking toward' reading of status. Commitment: second testimonial — client found, filmed, first draft to KP — by 10/9. 9/9 sync: GREEN. Jorge A (repeat customer) filmed, edited and published — the primary subject went dark and he worked his backup list rather than stalling. Needs 2 for green, 3+ for SG; hunting another repeat customer next week. The two-movers-for-an-hour incentive is doing real work.",
           "superGreen": "3 or more filmed + published",
           "green": "2 filmed + published",
           "critical": false,
-          "status": "red",
+          "status": "green",
           "sourceUpdated": "2026-08-03",
           "source": "ratified-2026-08-03-sync",
-          "statusSince": "2026-08-21",
-          "statusDays": 31
+          "statusSince": "2026-09-21",
+          "statusDays": 0
         }
       ],
       "assessment": "9/21 1:1 (Meeting OS, first live run): happiness 3 — down from three straight 4s — and no win published, his own deliberate choice. Velocity 48 against a 51 average, trending up. Rough personal week he named plainly (third car in four months, gum-disease diagnosis with $1k out of pocket, LA acting referral fell through). Variable comp DEFERRED TO Q1 2027 at his own request — he could not name three numbers and wants a full structured quarter behind him first. Four commitments agreed with definitions of done. Amanda takes over facilitation 10/5. 8/19 1:1 (velocity 48, happiness 4): pre-sync self-statuses sent 20 min early; management transitions to Amanda over the next syncs. "
