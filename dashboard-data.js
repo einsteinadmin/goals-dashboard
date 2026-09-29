@@ -630,16 +630,25 @@ const DASHBOARD_DATA = {
         {
           "name": "Mover Promotion Framework \u2014 First Cohort Live",
           "critical": false,
-          "status": "green",
-          "assessment": "via Linda 9/22: Decision brief built and published 9/22 (ballot-style, 7 items + overall; framework leads, rollout second) and sent to Cameron; Brian and Mike are the other two reviewers. Confirmed 9/22: damages measured per Rippling clock hour, and the ~200-person backtest verdicts (121 early / 46 late / 7 on time) are purely an hours question, not bar calibration. Games scorecard now mapped into the brief so a 7/8/9/10 reads as real thresholds. Anne ruled the Oct 1 Green bar holds \u2014 publishing the plan is not the same event as going live 10/31 \u2014 provided one branch-facing comms piece lands before 10/1.",
-          "superGreen": "Green + at least one real mover promoted under the locked framework by Oct 1.",
-          "green": "Framework locked \u2014 damages resolved per Cameron's 7/30 ruling (in the promotion gate AND the bonus, not folded into the 100-point score), cadence and remaining HQ items ratified, published to branches by Oct 1.",
+          "status": "yellow",
+          "assessment": "9/29: ruled Yellow in Anne 1:1 on the Einstein Meeting OS (awaiting Linda). via Linda 9/22: Decision brief built and published 9/22 (ballot-style, 7 items + overall; framework leads, rollout second) and sent to Cameron; Brian and Mike are the other two reviewers. Confirmed 9/22: damages measured per Rippling clock hour, and the ~200-person backtest verdicts (121 early / 46 late / 7 on time) are purely an hours question, not bar calibration. Games scorecard now mapped into the brief so a 7/8/9/10 reads as real thresholds. Anne ruled the Oct 1 Green bar holds \u2014 publishing the plan is not the same event as going live 10/31 \u2014 provided one branch-facing comms piece lands before 10/1.",
+          "superGreen": "Green, plus the mover-facing Mover IQ view and the branch comms piece built and reviewed by the BMs before the Q3 Roundtable QGR.",
+          "green": "Promotion framework locked and folded into the 100-Point (Mover IQ) design \u2014 promotion eligibility set by the score (bucket floors + the promotion line), ladder and hours gates kept \u2014 ratified by Cameron and Paul, with the Q4 branch education plan drafted, before the Q3 Roundtable QGR. Launches with Mover IQ on Jan 1, 2027.",
           "sourceUpdated": "2026-09-22",
           "source": "cos-feed",
           "pulse": "11728362147",
           "statusSince": "2026-09-18",
           "statusDays": 11,
-          "prevStatus": "yellow"
+          "prevStatus": "yellow",
+          "ruled": {
+            "status": "yellow",
+            "on": "2026-09-29",
+            "by": "Cameron + Anne, in-room",
+            "awaiting": "Linda",
+            "record": "anne-goal-change-2026-09-29-2.json",
+            "green": "Promotion framework locked and folded into the 100-Point (Mover IQ) design \u2014 promotion eligibility set by the score (bucket floors + the promotion line), ladder and hours gates kept \u2014 ratified by Cameron and Paul, with the Q4 branch education plan drafted, before the Q3 Roundtable QGR. Launches with Mover IQ on Jan 1, 2027.",
+            "superGreen": "Green, plus the mover-facing Mover IQ view and the branch comms piece built and reviewed by the BMs before the Q3 Roundtable QGR."
+          }
         },
         {
           "name": "2027 Open Enrollment",
