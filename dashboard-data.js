@@ -3,8 +3,8 @@ const DASHBOARD_DATA = {
   "quarter": "Q3 2026",
   "quarterStart": "2026-08-01",
   "quarterEnd": "2026-10-31",
-  "themeDeadline": "2026-10-19",
-  "themeDeadlineLabel": "Training Camp — Theme Deadline: Oct 19",
+  "themeDeadline": "2026-10-23",
+  "themeDeadlineLabel": "Training Camp — Theme Deadline: Oct 23",
   "lastRefreshed": "2026-10-05T16:20:00-05:00",
   "refreshedBy": "Albert (digest)",
   "archive": {
@@ -225,9 +225,9 @@ const DASHBOARD_DATA = {
   {
    "name": "Truck Utilization Rate",
    "target": "66%",
-   "actual": "9/22 hub: running-truck 34.2% (Sep MTD, pulled 9/22 6:20a) · trailing-active 80.7% (Q3) · trailing-fleet 65.3% (Q3) · fleet week W38 58.9%. Ruler mismatch vs the 66% target still OPEN with Matisen — do not grade running-truck against 66%.",
-   "status": "unknown",
-   "note": "Q2 budget target 81.08% (financial sheet). Need EMMA data. #1 gap an EMMA API endpoint would fill. | Q3 reseed 7/31: actual cleared, awaiting Q3 data. | 8/25 RULED (Cameron): show BOTH rulers, primary = running-truck base. Q3 target corrected 65%→66% off the Cascading Goals chart (Position KPIs tab); 66% was set as a year-average-style number. ⚠ Ruler mismatch unresolved: hub running-truck Aug = 42.3%, which is clearly a different ruler than the one the 66% was written against — do NOT grade 42.3 vs 66. Settle at the Matisen O3 (Thu 8/27) via the hub Definitions page; status stays unknown until then.",
+   "actual": "64.8% Q3-to-date on the fleet ruler (10/5 group sync) vs 66% target.",
+   "status": "yellow",
+   "note": "Q2 budget target 81.08% (financial sheet). Need EMMA data. #1 gap an EMMA API endpoint would fill. | Q3 reseed 7/31: actual cleared, awaiting Q3 data. | 8/25 RULED (Cameron): show BOTH rulers, primary = running-truck base. Q3 target corrected 65%→66% off the Cascading Goals chart (Position KPIs tab); 66% was set as a year-average-style number. ⚠ Ruler mismatch unresolved: hub running-truck Aug = 42.3%, which is clearly a different ruler than the one the 66% was written against — do NOT grade 42.3 vs 66. Settle at the Matisen O3 (Thu 8/27) via the hub Definitions page; status stays unknown until then. | 9/29 SETTLED (Matisen 1:1, Cameron confirmed): FLEET TUR (hub tur_trailing_fleet) grades against the 66% target; running-truck (~81%) is display-only.",
    "statusSince": "2026-08-21",
    "statusDays": 47
   },
@@ -293,7 +293,7 @@ const DASHBOARD_DATA = {
   },
   {
    "number": 4,
-   "name": "One Truth — Einstein Data Bus + AI/Tool Governance (registry · bus lanes · monthly Big Rocks review)",
+   "name": "One Truth — Einstein Data Bus + AI/Tool Governance (registry · bus lanes)",
    "critical": false,
    "status": "yellow",
    "assessment": "10/2: Monthly Big Rocks review CUT from Green — ratified by Paul 10/2 (Cameron's own cut, so Paul ratified under the late-bar-change rule); chart row 7 stamped. Kept: a time-and-money-by-build table at every QGR prep, first at Cam + Paul 10/19. Remaining Green items: registry + bus lane #1 (not re-verified since 9/30) and the AI Use Policy (Matisen + Anne redline due 10/9; 'adopted' reachable in Q3, 'rolled out' lands Nov 1). 9/30 (wrap): at risk on two Green items. AI Use Policy v0.1 drafted 9/30 (redline + hand to Anne 10/1). Monthly Big Rocks review CUT, pending Paul's ratification: run once 9/30 at max effort, riddled with inaccuracies and no value; its job is covered by COS network maintenance, Meeting OS and the weekly status pushes. Registry + bus lane #1 stand (not re-verified).  |  PRIOR: 9/18 (retro): goal change cascade + drift check BUILT and wired into the 7:05 task (chart vs every status.json vs dashboard vs Meeting OS); first run triaged, 95 items accepted, 1 leader with real drift (Amanda/Gary goal 6 bars). CSI ruled as the graded metric replacing NPS, brief published. Deploy registry check clean (68 active repos, 0 missing rows). Real structural movement this week.  |  PRIOR: 9/16: status set from Albert's status.json (drift check caught the dashboard reading No Data). 9/",
