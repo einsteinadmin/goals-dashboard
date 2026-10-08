@@ -228,8 +228,9 @@
    "actual": "64.8% Q3-to-date on the fleet ruler (10/5 group sync) vs 66% target.",
    "status": "yellow",
    "note": "Q2 budget target 81.08% (financial sheet). Need EMMA data. #1 gap an EMMA API endpoint would fill. | Q3 reseed 7/31: actual cleared, awaiting Q3 data. | 8/25 RULED (Cameron): show BOTH rulers, primary = running-truck base. Q3 target corrected 65%→66% off the Cascading Goals chart (Position KPIs tab); 66% was set as a year-average-style number. ⚠ Ruler mismatch unresolved: hub running-truck Aug = 42.3%, which is clearly a different ruler than the one the 66% was written against — do NOT grade 42.3 vs 66. Settle at the Matisen O3 (Thu 8/27) via the hub Definitions page; status stays unknown until then. | 9/29 SETTLED (Matisen 1:1, Cameron confirmed): FLEET TUR (hub tur_trailing_fleet) grades against the 66% target; running-truck (~81%) is display-only.",
-   "statusSince": "2026-08-21",
-   "statusDays": 47
+   "statusSince": "2026-10-07",
+   "statusDays": 0,
+   "prevStatus": "unknown"
   },
   {
    "name": "Conversion Rate $",
@@ -301,8 +302,7 @@
    "green": "Tool registry live as the network front door covering all 7 leaders’ tools (built on Matisen’s hosted-pages hub pattern) + bus lane #1 (EMMA sales feed) canonical and consumed by network tools + Einstein AI Use Policy adopted (Kiingo template tailored, rolled out with Anne — lands BEFORE the Tier-3 BM pilot opens access)",
    "lastUpdated": "2026-09-30",
    "statusSince": "2026-10-07",
-   "statusDays": 0,
-   "prevStatus": "green"
+   "statusDays": 0
   },
   {
    "number": 5,
